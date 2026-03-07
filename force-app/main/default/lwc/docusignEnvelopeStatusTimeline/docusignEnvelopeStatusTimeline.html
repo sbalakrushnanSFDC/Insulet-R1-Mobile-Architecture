@@ -1,0 +1,144 @@
+<template>
+<div class="slds-box">
+  <div class = "ds-header" >
+   <img src={docuSingLogo} class="slds-icon slds-icon_small">
+   <h2 class="ds-bold-text slds-text-heading_small" >{label.DOCUSIGNENVELOPESTATUS}</h2>
+   </div>
+
+    <template if:true={loading}>
+      <div class="ds-pad">
+        <lightning-spinner alternative-text="Loading"></lightning-spinner>
+      </div>
+    </template>
+
+    <template if:false={loading}>
+      <template if:true={hasError}>
+        <div class="slds-text-color_error slds-p-around_small">
+          {errorMessage}
+        </div>
+      </template>
+
+      <template if:false={hasError}>
+        <template if:true={hasEvents}>
+
+          <lightning-accordion allow-multiple-sections-open class="slds-p-around_small">
+
+            <template for:each={events} for:item="group">
+              <lightning-accordion-section key={group.key} name={group.key} label={group.envelopeConfigName}>
+
+                <!-- Timeline inside accordion -->
+                <ul class="slds-timeline slds-p-left_medium">
+                  <template for:each={group.statuses} for:item="e">
+                    <li key={e.id}>
+                      <div class={e.stageClass}>
+
+                        <!-- LEFT ICONS -->
+                        <div class="slds-media__figure">
+
+                          <button
+                      class="slds-button slds-button_icon slds-timeline__details-action-icon slds-button_icon-bare"
+                      title="Expand"
+                      data-id={e.id}
+                      onclick={toggleDetails}
+                    >
+                      <lightning-icon icon-name={e.accordionIcon} size="x-small"></lightning-icon>
+                    </button>
+
+                    <span class="ds-icon">
+                      <lightning-icon icon-name={e.iconName} class={e.iconContainerClass} size="medium"></lightning-icon>
+                    </span>
+                        </div>
+
+                        <!-- BODY -->
+                        <div class="slds-media__body">
+
+                          <div class="slds-grid slds-timeline__trigger slds-gutters_xx-small">
+                            <div class="slds-col slds-grow-none">
+                              <h3 title={e.title}>
+                                <strong>{e.title}</strong>
+                              </h3>
+                            </div>
+
+                            <div class="slds-col"></div>
+
+                            <div class="slds-col slds-no-flex">
+                              <div class="slds-timeline__actions slds-timeline__actions_inline">
+                                <p class="slds-timeline__date">
+                                  <lightning-relative-date-time value={e.createdDate}></lightning-relative-date-time>
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+
+                          <p class="slds-m-horizontal_xx-small">{e.subtitle}</p>
+
+                          <template if:true={e.showDetails}>
+                            <div class="slds-box slds-theme_shade">
+                              <div class="slds-grid slds-gutters slds-wrap">
+                                <!-- Sent -->
+                                <div class="slds-col slds-size_1-of-2">
+                                  <h6 class="slds-form-element__label slds-show">{label.SENT}</h6>
+                                  <p class="slds-form-element__static slds-text-body_small">
+                                    <lightning-relative-date-time value={e.sent}></lightning-relative-date-time>
+                                  </p>
+                                </div>
+
+                                <!-- Completed -->
+                                <div class="slds-col slds-size_1-of-2">
+                                  <h6 class="slds-form-element__label slds-show">{label.COMPLETED}</h6>
+                                  <p class="slds-form-element__static slds-text-body_small">
+                                    <lightning-formatted-date-time value={e.completedOn} year="numeric" month="short"
+                                      day="2-digit" hour="2-digit" minute="2-digit"></lightning-formatted-date-time>
+                                  </p>
+                                </div>
+
+                                <!-- Status -->
+                                <div class="slds-col slds-size_1-of-2">
+                                  <h6 class="slds-form-element__label slds-show">{label.STATUS}</h6>
+                                  <p class="slds-form-element__static slds-text-body_small">{e.status}</p>
+                                </div>
+
+                                <!-- Reason -->
+                                <div class="slds-col slds-size_1-of-2">
+                                  <h6 class="slds-form-element__label slds-show">{label.REASON}</h6>
+                                  <p class="slds-form-element__static slds-text-body_small slds-truncate">{e.reason}</p>
+                                </div>
+
+                                <!-- Expires -->
+                                <div class="slds-col slds-size_1-of-2">
+                                  <h6 class="slds-form-element__label slds-show">{label.EXPIRES}</h6>
+                                  <p class="slds-form-element__static slds-text-body_small">
+                                    <lightning-formatted-date-time value={e.expiresOn} year="numeric" month="short"
+                                      day="2-digit" hour="2-digit" minute="2-digit"></lightning-formatted-date-time>
+                                  </p>
+                                </div>
+
+                                <!-- Last Status Update -->
+                                <div class="slds-col slds-size_1-of-2">
+                                  <h6 class="slds-form-element__label slds-show">{label.LASTSTATUSUPDATE}</h6>
+                                  <p class="slds-form-element__static slds-text-body_small">
+                                    <lightning-relative-date-time value={e.lastStatusUpdate}>
+                                    </lightning-relative-date-time>
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </template>
+
+                        </div>
+                      </div>
+                    </li>
+                  </template>
+                </ul>
+
+              </lightning-accordion-section>
+            </template>
+
+          </lightning-accordion>
+
+        </template>
+
+      </template>
+    </template>
+</div>
+</template>

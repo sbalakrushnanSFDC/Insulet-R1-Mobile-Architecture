@@ -1,0 +1,379 @@
+{
+  "status": 0,
+  "result": {
+    "records": [
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/sobjects/EntityDefinition/01Ibb000001AFTR"
+        },
+        "QualifiedApiName": "amazonconnect__ACSFCCP_Call_Disposition_Code__mdt",
+        "Label": "Call Disposition Code",
+        "DurableId": "01Ibb000001AFTR"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/sobjects/EntityDefinition/01Ibb000001AFTt"
+        },
+        "QualifiedApiName": "amazonconnect__Call_Attributes_Configuration__mdt",
+        "Label": "Call Attributes Configuration",
+        "DurableId": "01Ibb000001AFTt"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/sobjects/EntityDefinition/01Ibb000001AFTv"
+        },
+        "QualifiedApiName": "amazonconnect__Presence_Sync_Configuration__mdt",
+        "Label": "Presence Sync Configuration",
+        "DurableId": "01Ibb000001AFTv"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/sobjects/EntityDefinition/01Ibb00000194rs"
+        },
+        "QualifiedApiName": "APXTConga4__Composer_Setting__mdt",
+        "Label": "Composer Setting",
+        "DurableId": "01Ibb00000194rs"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/sobjects/EntityDefinition/01Ibb00000194s0"
+        },
+        "QualifiedApiName": "APXTConga4__Conga_Solution_Export_Environment__mdt",
+        "Label": "Conga Solution Export Environment",
+        "DurableId": "01Ibb00000194s0"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/sobjects/EntityDefinition/01Ibb00000194s1"
+        },
+        "QualifiedApiName": "APXTConga4__Conga_Solution_Export_Setting__mdt",
+        "Label": "Conga Solution Export Setting",
+        "DurableId": "01Ibb00000194s1"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/sobjects/EntityDefinition/01Ibb00000194s9"
+        },
+        "QualifiedApiName": "APXTConga4__Connected_App_Setting__mdt",
+        "Label": "Connected App Setting",
+        "DurableId": "01Ibb00000194s9"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/sobjects/EntityDefinition/01Ibb0000018ogb"
+        },
+        "QualifiedApiName": "ASPN_Cancellation_Settings__mdt",
+        "Label": "ASPN Cancellation Setting",
+        "DurableId": "01Ibb0000018ogb"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/sobjects/EntityDefinition/01Ibb000001C3Xp"
+        },
+        "QualifiedApiName": "ASPN_SubStatus_to_OppStage__mdt",
+        "Label": "ASPN SubStatus to Opp Stage",
+        "DurableId": "01Ibb000001C3Xp"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/sobjects/EntityDefinition/01Ibb0000018ogd"
+        },
+        "QualifiedApiName": "Batch_Configuration__mdt",
+        "Label": "Batch Configuration",
+        "DurableId": "01Ibb0000018ogd"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/sobjects/EntityDefinition/01Ibb000001AYkb"
+        },
+        "QualifiedApiName": "Content_Document_Visibility_Config__mdt",
+        "Label": "Content Document Visibility Config",
+        "DurableId": "01Ibb000001AYkb"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/sobjects/EntityDefinition/01Ibb0000018vdH"
+        },
+        "QualifiedApiName": "dfsle__AuthProvider__mdt",
+        "Label": "DocuSign Auth Provider Metadata",
+        "DurableId": "01Ibb0000018vdH"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/sobjects/EntityDefinition/01Ibb0000018ogf"
+        },
+        "QualifiedApiName": "Duplicate_Rules_Criteria__mdt",
+        "Label": "Duplicate Rules Criteria",
+        "DurableId": "01Ibb0000018ogf"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/sobjects/EntityDefinition/01Ibb0000019VNN"
+        },
+        "QualifiedApiName": "Insulet_DocuSign_Countersigner__mdt",
+        "Label": "Insulet DocuSign Countersigner",
+        "DurableId": "01Ibb0000019VNN"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/sobjects/EntityDefinition/01Ibb000001BL6z"
+        },
+        "QualifiedApiName": "Lead2MemberPlan_InsuranceType_Mapping__mdt",
+        "Label": "Lead2MemberPlan InsuranceType Mapping",
+        "DurableId": "01Ibb000001BL6z"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/sobjects/EntityDefinition/01Ibb0000019gDx"
+        },
+        "QualifiedApiName": "Lead_Conversion_Precheck__mdt",
+        "Label": "Lead Conversion Precheck",
+        "DurableId": "01Ibb0000019gDx"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/sobjects/EntityDefinition/01IQO00000IjOTd"
+        },
+        "QualifiedApiName": "LogEntryDataMaskRule__mdt",
+        "Label": "Log Entry Data Mask Rule",
+        "DurableId": "01IQO00000IjOTd"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/sobjects/EntityDefinition/01IQO00000IjOTf"
+        },
+        "QualifiedApiName": "LogEntryTagRule__mdt",
+        "Label": "Log Entry Tag Rule",
+        "DurableId": "01IQO00000IjOTf"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/sobjects/EntityDefinition/01IQO00000IjOTk"
+        },
+        "QualifiedApiName": "LoggerFieldMapping__mdt",
+        "Label": "Logger Field Mapping",
+        "DurableId": "01IQO00000IjOTk"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/sobjects/EntityDefinition/01IQO00000IjOTl"
+        },
+        "QualifiedApiName": "LoggerParameter__mdt",
+        "Label": "Logger Parameter",
+        "DurableId": "01IQO00000IjOTl"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/sobjects/EntityDefinition/01IQO00000IjOTm"
+        },
+        "QualifiedApiName": "LoggerPlugin__mdt",
+        "Label": "Logger Plugin",
+        "DurableId": "01IQO00000IjOTm"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/sobjects/EntityDefinition/01IQO00000IjOTo"
+        },
+        "QualifiedApiName": "LoggerScenarioRule__mdt",
+        "Label": "Logger Scenario Rule",
+        "DurableId": "01IQO00000IjOTo"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/sobjects/EntityDefinition/01IQO00000IjOTn"
+        },
+        "QualifiedApiName": "LoggerSObjectHandler__mdt",
+        "Label": "Logger SObject Handler",
+        "DurableId": "01IQO00000IjOTn"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/sobjects/EntityDefinition/01IQO00000IjOTi"
+        },
+        "QualifiedApiName": "LogStatus__mdt",
+        "Label": "Log Status",
+        "DurableId": "01IQO00000IjOTi"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/sobjects/EntityDefinition/01Ibb000001bEeX"
+        },
+        "QualifiedApiName": "ODA3__PS_Permissions__mdt",
+        "Label": "OSU PS Permission",
+        "DurableId": "01Ibb000001bEeX"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/sobjects/EntityDefinition/01Ibb000001bEeZ"
+        },
+        "QualifiedApiName": "ODA3__SU_Permissions__mdt",
+        "Label": "OSU User Permission",
+        "DurableId": "01Ibb000001bEeZ"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/sobjects/EntityDefinition/01Ibb0000018bbP"
+        },
+        "QualifiedApiName": "omnistudio__DocumentTemplateSetting__mdt",
+        "Label": "Document Template Setting",
+        "DurableId": "01Ibb0000018bbP"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/sobjects/EntityDefinition/01Ibb000001BXzO"
+        },
+        "QualifiedApiName": "OrgSync_PublishSetting_Mapping__mdt",
+        "Label": "OrgSync Publish Setting Mapping",
+        "DurableId": "01Ibb000001BXzO"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/sobjects/EntityDefinition/01Ibb0000018ogh"
+        },
+        "QualifiedApiName": "Product_Recommendation_Matrix__mdt",
+        "Label": "Product Recommendation Matrix",
+        "DurableId": "01Ibb0000018ogh"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/sobjects/EntityDefinition/01Ibb0000019nIf"
+        },
+        "QualifiedApiName": "Task_Generation_Rule__mdt",
+        "Label": "Task Generation Rule",
+        "DurableId": "01Ibb0000019nIf"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/sobjects/EntityDefinition/01Ibb000001BgjJ"
+        },
+        "QualifiedApiName": "Training_Document_Template_Language__mdt",
+        "Label": "Training Document Template Language",
+        "DurableId": "01Ibb000001BgjJ"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/sobjects/EntityDefinition/01Ibb0000018ogj"
+        },
+        "QualifiedApiName": "Training_Template_Selector__mdt",
+        "Label": "Training Document Template Selector",
+        "DurableId": "01Ibb0000018ogj"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/sobjects/EntityDefinition/01Ibb000001BUrq"
+        },
+        "QualifiedApiName": "XCDC_Child_Spark__mdt",
+        "Label": "XCDC Child Spark",
+        "DurableId": "01Ibb000001BUrq"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/sobjects/EntityDefinition/01Ibb000001BUrr"
+        },
+        "QualifiedApiName": "XCDC_Config__mdt",
+        "Label": "XCDC Config",
+        "DurableId": "01Ibb000001BUrr"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/sobjects/EntityDefinition/01Ibb000001BUrs"
+        },
+        "QualifiedApiName": "XCDC_Connection__mdt",
+        "Label": "XCDC Connection",
+        "DurableId": "01Ibb000001BUrs"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/sobjects/EntityDefinition/01Ibb000001BUrv"
+        },
+        "QualifiedApiName": "XCDC_OrgSyncMonitoringConfig__mdt",
+        "Label": "XCDC OrgSyncMonitoringConfig",
+        "DurableId": "01Ibb000001BUrv"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/sobjects/EntityDefinition/01Ibb000001BUrw"
+        },
+        "QualifiedApiName": "XCDC_PublishSetting__mdt",
+        "Label": "XCDC Publish Setting",
+        "DurableId": "01Ibb000001BUrw"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/sobjects/EntityDefinition/01Ibb000001BUrx"
+        },
+        "QualifiedApiName": "XCDC_RefreshDocSetting__mdt",
+        "Label": "XCDC Refresh Doc Setting",
+        "DurableId": "01Ibb000001BUrx"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/sobjects/EntityDefinition/01Ibb000001BUry"
+        },
+        "QualifiedApiName": "XCDC_Spark_Filter__mdt",
+        "Label": "XCDC Spark Filter",
+        "DurableId": "01Ibb000001BUry"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/sobjects/EntityDefinition/01Ibb000001BUrz"
+        },
+        "QualifiedApiName": "XCDC_Stream__mdt",
+        "Label": "XCDC Stream",
+        "DurableId": "01Ibb000001BUrz"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/sobjects/EntityDefinition/01Ibb000001BUs0"
+        },
+        "QualifiedApiName": "XCDC_SubscribeSetting__mdt",
+        "Label": "XCDC Subscribe Setting",
+        "DurableId": "01Ibb000001BUs0"
+      }
+    ],
+    "totalSize": 41,
+    "done": true
+  },
+  "warnings": []
+}

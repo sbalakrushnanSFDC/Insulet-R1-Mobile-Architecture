@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>66.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <decisions>
+        <name>Flow_Bypass</name>
+        <label>Flow Bypass</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <isGoTo>true</isGoTo>
+            <targetReference>Update_Opportunity_and_Patient_on_Asset_Registration</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>After Update Context</defaultConnectorLabel>
+        <rules>
+            <name>Bypassed</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Permission.Bypass_Flows</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <label>Bypassed</label>
+        </rules>
+        <rules>
+            <name>After_Insert_Context</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record__Prior</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Opportunity_and_Patient_on_Asset_Registration</targetReference>
+            </connector>
+            <label>After Insert Context</label>
+        </rules>
+    </decisions>
+    <description>User Story - NGASIM-1651 : It automatically closes the latest open Opportunity and updates the Patient’s initial start date when an Asset is registered with a sales credit date.</description>
+    <environments>Default</environments>
+    <interviewLabel>Asset After Insert After Update {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Asset After Insert After Update</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Flow_Bypass</targetReference>
+        </connector>
+        <object>Asset</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <subflows>
+        <description>Update Opportunity and Patient on Asset Registration</description>
+        <name>Update_Opportunity_and_Patient_on_Asset_Registration</name>
+        <label>Update Opportunity and Patient on Asset Registration</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <flowName>Update_Opportunity_and_Patient_on_Asset_Registration</flowName>
+        <inputAssignments>
+            <name>varAsset</name>
+            <value>
+                <elementReference>$Record</elementReference>
+            </value>
+        </inputAssignments>
+    </subflows>
+</Flow>

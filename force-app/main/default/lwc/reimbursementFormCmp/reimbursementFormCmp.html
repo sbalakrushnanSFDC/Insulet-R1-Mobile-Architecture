@@ -1,0 +1,440 @@
+<template>
+    <div if:true={isLoading} class="full-page-spinner-container">
+        <lightning-spinner size="large"></lightning-spinner>
+        <div class="slds-backdrop slds-backdrop_open"></div>
+    </div>
+    <div lwc:if={showNextButton}> <!-- Form 1 -->
+        <div lwc:if={isNew}>
+            <div class="type-select">
+                <lightning-radio-group options={picklistLabels} label={labels.Select_Type} required
+                    onchange={handleTypeSelect}></lightning-radio-group>
+            </div>
+            <div lwc:if={selectedOption} class="slds-grid slds-gutters">
+                <div class="custom_btn slds-col slds-size_10-of-12">
+                    <lightning-button label={typeLabel} variant="success" onclick={handleModalOpen}></lightning-button>
+                    &nbsp;
+                    <code>{recordSelected}</code>
+                </div>
+                <div class="slds-col slds-size_2-of-12" lwc:if={isFormOpen}>
+                    <lightning-input type="text" label={labels.Rate_Applied} value={wrapper.rateApplied}
+                        lwc:if={isPatientTraining} disabled></lightning-input>
+                </div>
+            </div>
+            <br />
+            <div lwc:if={isModalOpen}>
+                <c-reusable-datatable title={tableTitle} max-records={maxRecords} columns={columns} records={rowData}
+                    key-field="Id" onrowselection={handleRowSelection} onrowaction={handleRowAction}
+                    error-message={errorMessage} enable-search="true">
+                </c-reusable-datatable>
+            </div>
+        </div>
+        <div lwc:else>
+            <div class="slds-grid slds-gutters">
+                <div class="slds-col slds-size_10-of-12"></div>
+                <div class="slds-col slds-size_2-of-12" lwc:if={isFormOpen}>
+                    <lightning-input type="text" label={labels.Rate_Applied} value={wrapper.rateApplied}
+                        lwc:if={wrapper.rateApplied} disabled></lightning-input>
+                </div>
+            </div>
+        </div>
+        <div class="form-container" lwc:if={isFormOpen}>
+
+
+            <div lwc:if={isObservation}>
+
+            <div class="bg-grey">{labels.Enter_Expenses}</div>
+
+            <div class="slds-grid slds-gutters">
+                <div class="slds-col slds-size_5-of-12">
+                    <div class="slds-grid slds-gutters">
+                        <h1 class='slds-text-heading_small slds-size_10-of-12 slds-col'>{labels.Meals}</h1>
+                        <lightning-input type="text" label={labels.Amount} value={wrapper.mealAmount}
+                            data-amount-type='meal' class="slds-size_2-of-12 slds-col"
+                            onblur={handleInput}></lightning-input>
+                    </div>
+                </div>
+                <span class="slds-col slds-size_1-of-12"></span>
+                <div class="slds-col slds-size_5-of-12">
+                    <div class="slds-grid slds-gutters">
+                        <h1 class='slds-text-heading_small slds-size_10-of-12 slds-col'>{labels.Hotels}</h1>
+                        <lightning-input type="text" label={labels.Amount} value={wrapper.hotelAmount}
+                            data-amount-type='hotel' class="slds-size_2-of-12 slds-col"
+                            onblur={handleInput}></lightning-input>
+                    </div>
+                </div>
+            </div>
+            <div class="slds-grid slds-gutters">
+                <div class="slds-col slds-size_5-of-12">
+                    <div class="slds-grid slds-gutters">
+                        <h1 class='slds-text-heading_small slds-size_10-of-12 slds-col'>{labels.Car_Rental}</h1>
+                        <lightning-input type="text" label={labels.Amount} value={wrapper.carRentalAmount}
+                            data-amount-type='carRental' class="slds-size_2-of-12 slds-col"
+                            onblur={handleInput}></lightning-input>
+                    </div>
+                </div>
+                <span class="slds-col slds-size_1-of-12"></span>
+                <div class="slds-col slds-size_5-of-12">
+                    <div class="slds-grid slds-gutters">
+                        <h1 class='slds-text-heading_small slds-size_10-of-12 slds-col'>{labels.Train_Bus_Airfare}</h1>
+                        <lightning-input type="text" label={labels.Amount} value={wrapper.trainBusAirfareAmount}
+                            data-amount-type='trainBusAirfare' class="slds-size_2-of-12 slds-col"
+                            onblur={handleInput}></lightning-input>
+                    </div>
+                </div>
+            </div>
+            <div class="slds-grid slds-gutters">
+                <div class="slds-col slds-size_5-of-12">
+                    <div class="slds-grid slds-gutters">
+                        <h1 class='slds-text-heading_small slds-size_10-of-12 slds-col'>{labels.Parking}</h1>
+                        <lightning-input type="text" label={labels.Amount} value={wrapper.parkingAmount}
+                            data-amount-type='parking' class="slds-size_2-of-12 slds-col"
+                            onblur={handleInput}></lightning-input>
+                    </div>
+                </div>
+                <span class="slds-col slds-size_1-of-12"></span>
+                <div class="slds-col slds-size_5-of-12">
+                    <div class="slds-grid slds-gutters">
+                        <h1 class='slds-text-heading_small slds-size_10-of-12 slds-col'>{labels.Tolls}</h1>
+                        <lightning-input type="text" label={labels.Amount} value={wrapper.tollsAmount}
+                            data-amount-type='tolls' class="slds-size_2-of-12 slds-col"
+                            onblur={handleInput}></lightning-input>
+                    </div>
+                </div>
+            </div>
+            <div class="slds-grid slds-gutters">
+                <div class="slds-col slds-size_5-of-12">
+                    <div class="slds-grid slds-gutters">
+                        <h1 class='slds-text-heading_small slds-size_10-of-12 slds-col'>{labels.Others}</h1>
+                        <lightning-input type="text" label={labels.Amount} value={wrapper.othersAmount}
+                            data-amount-type='others' class="slds-size_2-of-12 slds-col"
+                            onblur={handleInput}></lightning-input>
+                    </div>
+                </div>
+                <span class="slds-col slds-size_1-of-12"></span>
+                <div class="slds-col slds-size_5-of-12">
+                    <div class="slds-grid slds-gutters">
+                        <h1 class='slds-text-heading_small slds-size_6-of-12 slds-col'>{labels.Miles_Travelled}</h1>
+                        <lightning-input type="number" label={labels.Mileage_Rate} value={wrapper.mileageRate}
+                            class="slds-size_4-of-12" disabled></lightning-input>
+                        <lightning-input type="text" label={labels.Amount} value={wrapper.milesTravelledAmount}
+                            data-amount-type='milesTravelled' class="slds-size_2-of-12 slds-col"
+                            onblur={handleInput}></lightning-input>
+                    </div>
+                </div>
+                <span class="slds-col slds-size_1-of-12"></span>
+            </div>
+
+            <div class="slds-grid slds-gutters margin-bottom-50">
+                <span class="slds-col slds-size_1-of-12" lwc:if={isPatientTraining}></span>
+                <div class="slds-col slds-size_5-of-12" lwc:else>
+                    <div class="slds-grid slds-gutters">
+                        <h1 class='slds-text-heading_small slds-size_6-of-12 slds-col'>{labels.Hourly_Rate}</h1>
+                        <lightning-input type="number" label={labels.Hourly_Rate} value={wrapper.hourlyRate}
+                            class="slds-size_2-of-12" disabled></lightning-input>
+                        <!-- <lightning-input type="text" label={labels.Number_Of_Minutes} value={wrapper.hourlyRateAmount}
+                            data-amount-type='hourlyRate' class="slds-size_4-of-12 slds-col"
+                            onblur={handleInput}></lightning-input> -->
+                        <lightning-combobox label={labels.Number_Of_Minutes} value={wrapper.numberOfMinutes}
+                            data-amount-type="hourlyRate" class="slds-size_4-of-12 slds-col"
+                            onchange={handleMinutesSelect}
+                            options={wrapper.numberOfMinutesOptions}></lightning-combobox>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+            <div lwc:if={checkCCTLevel1Level2}> 
+            
+            </div>
+
+        <div lwc:elseif={checkCPTLevel2}>
+
+            <div class="bg-grey">{labels.Enter_Expenses}</div>
+
+            <div class="slds-grid slds-gutters">
+                <div class="slds-col slds-size_5-of-12">
+                    <div class="slds-grid slds-gutters">
+                        <h1 class='slds-text-heading_small slds-size_10-of-12 slds-col'>{labels.Meals}</h1>
+                        <lightning-input type="text" label={labels.Amount} value={wrapper.mealAmount}
+                            data-amount-type='meal' class="slds-size_2-of-12 slds-col"
+                            onblur={handleInput} disabled></lightning-input>
+                    </div>
+                </div>
+                <span class="slds-col slds-size_1-of-12"></span>
+                <div class="slds-col slds-size_5-of-12">
+                    <div class="slds-grid slds-gutters">
+                        <h1 class='slds-text-heading_small slds-size_10-of-12 slds-col'>{labels.Hotels}</h1>
+                        <lightning-input type="text" label={labels.Amount} value={wrapper.hotelAmount}
+                            data-amount-type='hotel' class="slds-size_2-of-12 slds-col"
+                            onblur={handleInput} disabled></lightning-input>
+                    </div>
+                </div>
+            </div>
+            <div class="slds-grid slds-gutters">
+                <div class="slds-col slds-size_5-of-12">
+                    <div class="slds-grid slds-gutters">
+                        <h1 class='slds-text-heading_small slds-size_10-of-12 slds-col'>{labels.Car_Rental}</h1>
+                        <lightning-input type="text" label={labels.Amount} value={wrapper.carRentalAmount}
+                            data-amount-type='carRental' class="slds-size_2-of-12 slds-col"
+                            onblur={handleInput} disabled></lightning-input>
+                    </div>
+                </div>
+                <span class="slds-col slds-size_1-of-12"></span>
+                <div class="slds-col slds-size_5-of-12">
+                    <div class="slds-grid slds-gutters">
+                        <h1 class='slds-text-heading_small slds-size_10-of-12 slds-col'>{labels.Train_Bus_Airfare}</h1>
+                        <lightning-input type="text" label={labels.Amount} value={wrapper.trainBusAirfareAmount}
+                            data-amount-type='trainBusAirfare' class="slds-size_2-of-12 slds-col"
+                            onblur={handleInput} disabled></lightning-input>
+                    </div>
+                </div>
+            </div>
+            <div class="slds-grid slds-gutters">
+                <div class="slds-col slds-size_5-of-12">
+                    <div class="slds-grid slds-gutters">
+                        <h1 class='slds-text-heading_small slds-size_10-of-12 slds-col'>{labels.Parking}</h1>
+                        <lightning-input type="text" label={labels.Amount} value={wrapper.parkingAmount}
+                            data-amount-type='parking' class="slds-size_2-of-12 slds-col"
+                            onblur={handleInput}></lightning-input>
+                    </div>
+                </div>
+                <span class="slds-col slds-size_1-of-12"></span>
+                <div class="slds-col slds-size_5-of-12">
+                    <div class="slds-grid slds-gutters">
+                        <h1 class='slds-text-heading_small slds-size_10-of-12 slds-col'>{labels.Tolls}</h1>
+                        <lightning-input type="text" label={labels.Amount} value={wrapper.tollsAmount}
+                            data-amount-type='tolls' class="slds-size_2-of-12 slds-col"
+                            onblur={handleInput} ></lightning-input>
+                    </div>
+                </div>
+            </div>
+            <div class="slds-grid slds-gutters">
+                <div class="slds-col slds-size_5-of-12">
+                    <div class="slds-grid slds-gutters">
+                        <h1 class='slds-text-heading_small slds-size_10-of-12 slds-col'>{labels.Others}</h1>
+                        <lightning-input type="text" label={labels.Amount} value={wrapper.othersAmount}
+                            data-amount-type='others' class="slds-size_2-of-12 slds-col"
+                            onblur={handleInput} disabled></lightning-input>
+                    </div>
+                </div>
+                <span class="slds-col slds-size_1-of-12"></span>
+                <div class="slds-col slds-size_5-of-12">
+                    <div class="slds-grid slds-gutters">
+                        <h1 class='slds-text-heading_small slds-size_6-of-12 slds-col'>{labels.Miles_Travelled}</h1>
+                        <lightning-input type="number" label={labels.Mileage_Rate} value={wrapper.mileageRate}
+                            class="slds-size_4-of-12" disabled></lightning-input>
+                        <lightning-input type="text" label={labels.Amount} value={wrapper.milesTravelledAmount}
+                            data-amount-type='milesTravelled' class="slds-size_2-of-12 slds-col"
+                            onblur={handleInput}></lightning-input>
+                    </div>
+                </div>
+                <span class="slds-col slds-size_1-of-12"></span>
+            </div>
+
+            <div class="slds-grid slds-gutters margin-bottom-50">
+                <span class="slds-col slds-size_1-of-12" lwc:if={isPatientTraining}></span>
+                <div class="slds-col slds-size_5-of-12" lwc:else>
+                    <div class="slds-grid slds-gutters">
+                        <h1 class='slds-text-heading_small slds-size_6-of-12 slds-col'>{labels.Hourly_Rate}</h1>
+                        <lightning-input type="number" label={labels.Hourly_Rate} value={wrapper.hourlyRate}
+                            class="slds-size_2-of-12" disabled></lightning-input>
+                        <!-- <lightning-input type="text" label={labels.Number_Of_Minutes} value={wrapper.hourlyRateAmount}
+                            data-amount-type='hourlyRate' class="slds-size_4-of-12 slds-col"
+                            onblur={handleInput}></lightning-input> -->
+                        <lightning-combobox label={labels.Number_Of_Minutes} value={wrapper.numberOfMinutes}
+                            data-amount-type="hourlyRate" class="slds-size_4-of-12 slds-col"
+                            onchange={handleMinutesSelect}
+                            options={wrapper.numberOfMinutesOptions} disabled></lightning-combobox>
+                    </div>
+                </div>
+            </div>
+          </div>
+
+        <div lwc:elseif={checkIsNewOrCPTLevel3}>
+
+            <div class="bg-grey">{labels.Enter_Expenses}</div>
+
+            <div class="slds-grid slds-gutters">
+                <div class="slds-col slds-size_5-of-12">
+                    <div class="slds-grid slds-gutters">
+                        <h1 class='slds-text-heading_small slds-size_10-of-12 slds-col'>{labels.Meals}</h1>
+                        <lightning-input type="text" label={labels.Amount} value={wrapper.mealAmount}
+                            data-amount-type='meal' class="slds-size_2-of-12 slds-col"
+                            onblur={handleInput}></lightning-input>
+                    </div>
+                </div>
+                <span class="slds-col slds-size_1-of-12"></span>
+                <div class="slds-col slds-size_5-of-12">
+                    <div class="slds-grid slds-gutters">
+                        <h1 class='slds-text-heading_small slds-size_10-of-12 slds-col'>{labels.Hotels}</h1>
+                        <lightning-input type="text" label={labels.Amount} value={wrapper.hotelAmount}
+                            data-amount-type='hotel' class="slds-size_2-of-12 slds-col"
+                            onblur={handleInput}></lightning-input>
+                    </div>
+                </div>
+            </div>
+            <div class="slds-grid slds-gutters">
+                <div class="slds-col slds-size_5-of-12">
+                    <div class="slds-grid slds-gutters">
+                        <h1 class='slds-text-heading_small slds-size_10-of-12 slds-col'>{labels.Car_Rental}</h1>
+                        <lightning-input type="text" label={labels.Amount} value={wrapper.carRentalAmount}
+                            data-amount-type='carRental' class="slds-size_2-of-12 slds-col"
+                            onblur={handleInput}></lightning-input>
+                    </div>
+                </div>
+                <span class="slds-col slds-size_1-of-12"></span>
+                <div class="slds-col slds-size_5-of-12">
+                    <div class="slds-grid slds-gutters">
+                        <h1 class='slds-text-heading_small slds-size_10-of-12 slds-col'>{labels.Train_Bus_Airfare}</h1>
+                        <lightning-input type="text" label={labels.Amount} value={wrapper.trainBusAirfareAmount}
+                            data-amount-type='trainBusAirfare' class="slds-size_2-of-12 slds-col"
+                            onblur={handleInput}></lightning-input>
+                    </div>
+                </div>
+            </div>
+            <div class="slds-grid slds-gutters">
+                <div class="slds-col slds-size_5-of-12">
+                    <div class="slds-grid slds-gutters">
+                        <h1 class='slds-text-heading_small slds-size_10-of-12 slds-col'>{labels.Parking}</h1>
+                        <lightning-input type="text" label={labels.Amount} value={wrapper.parkingAmount}
+                            data-amount-type='parking' class="slds-size_2-of-12 slds-col"
+                            onblur={handleInput}></lightning-input>
+                    </div>
+                </div>
+                <span class="slds-col slds-size_1-of-12"></span>
+                <div class="slds-col slds-size_5-of-12">
+                    <div class="slds-grid slds-gutters">
+                        <h1 class='slds-text-heading_small slds-size_10-of-12 slds-col'>{labels.Tolls}</h1>
+                        <lightning-input type="text" label={labels.Amount} value={wrapper.tollsAmount}
+                            data-amount-type='tolls' class="slds-size_2-of-12 slds-col"
+                            onblur={handleInput}></lightning-input>
+                    </div>
+                </div>
+            </div>
+            <div class="slds-grid slds-gutters">
+                <div class="slds-col slds-size_5-of-12">
+                    <div class="slds-grid slds-gutters">
+                        <h1 class='slds-text-heading_small slds-size_10-of-12 slds-col'>{labels.Others}</h1>
+                        <lightning-input type="text" label={labels.Amount} value={wrapper.othersAmount}
+                            data-amount-type='others' class="slds-size_2-of-12 slds-col"
+                            onblur={handleInput}></lightning-input>
+                    </div>
+                </div>
+                <span class="slds-col slds-size_1-of-12"></span>
+                <div class="slds-col slds-size_5-of-12">
+                    <div class="slds-grid slds-gutters">
+                        <h1 class='slds-text-heading_small slds-size_6-of-12 slds-col'>{labels.Miles_Travelled}</h1>
+                        <lightning-input type="number" label={labels.Mileage_Rate} value={wrapper.mileageRate}
+                            class="slds-size_4-of-12" disabled></lightning-input>
+                        <lightning-input type="text" label={labels.Amount} value={wrapper.milesTravelledAmount}
+                            data-amount-type='milesTravelled' class="slds-size_2-of-12 slds-col"
+                            onblur={handleInput}></lightning-input>
+                    </div>
+                </div>
+                <span class="slds-col slds-size_1-of-12"></span>
+            </div>
+
+            <div class="slds-grid slds-gutters margin-bottom-50">
+                <span class="slds-col slds-size_1-of-12" lwc:if={isPatientTraining}></span>
+                <div class="slds-col slds-size_5-of-12" lwc:else>
+                    <div class="slds-grid slds-gutters">
+                        <h1 class='slds-text-heading_small slds-size_6-of-12 slds-col'>{labels.Hourly_Rate}</h1>
+                        <lightning-input type="number" label={labels.Hourly_Rate} value={wrapper.hourlyRate}
+                            class="slds-size_2-of-12" disabled></lightning-input>
+                        <!-- <lightning-input type="text" label={labels.Number_Of_Minutes} value={wrapper.hourlyRateAmount}
+                            data-amount-type='hourlyRate' class="slds-size_4-of-12 slds-col"
+                            onblur={handleInput}></lightning-input> -->
+                        <lightning-combobox label={labels.Number_Of_Minutes} value={wrapper.numberOfMinutes}
+                            data-amount-type="hourlyRate" class="slds-size_4-of-12 slds-col"
+                            onchange={handleMinutesSelect}
+                            options={wrapper.numberOfMinutesOptions}></lightning-combobox>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <lightning-card title={labels.Calculated_Summary} lwc:if={isFormOpen} class="summary-card">
+                <div class="slds-p-around_medium">
+                    <div class="slds-grid slds-gutters" lwc:if={isPatientTraining}>
+                        <div class="slds-col slds-size_11-of-12">
+                            <p class='slds-text-heading_small'>{labels.Training_Subtotal}</p>
+                        </div>
+                        <div class="slds-col slds-size_1-of-12">
+                            <p class='slds-text-heading_small'>${wrapper.rateApplied}</p>
+                        </div>
+                    </div>
+                    <div class="slds-grid slds-gutters" lwc:else>
+                        <div class="slds-col slds-size_11-of-12">
+                            <p class='slds-text-heading_small'>{labels.Hourly_Rate_Subtotal}</p>
+                        </div>
+                        <div class="slds-col slds-size_1-of-12">
+                            <p class='slds-text-heading_small'>${hourlyRateSubtotal}</p>
+                        </div>
+                    </div>
+                    <div class="slds-grid slds-gutters">
+                        <div class="slds-col slds-size_11-of-12">
+                            <p class='slds-text-heading_small'>{labels.Mileage_Subtotal}</p>
+                        </div>
+                        <div class="slds-col slds-size_1-of-12">
+                            <p class='slds-text-heading_small'>${mileageSubtotal}</p>
+                        </div>
+                    </div>
+                    <div class="slds-grid slds-gutters">
+                        <div class="slds-col slds-size_11-of-12">
+                            <p class='slds-text-heading_small'>{labels.Parking_Tolls_Other}</p>
+                        </div>
+                        <div class="slds-col slds-size_1-of-12">
+                            <p class='slds-text-heading_small'>${parkingTollsOtherTotal}</p>
+                        </div>
+                    </div>
+                    <div class="slds-grid slds-gutters">
+                        <div class="slds-col slds-size_11-of-12">
+                            <p class='slds-text-heading_small'>{labels.Pre_Approved_Items}</p>
+                        </div>
+                        <div class="slds-col slds-size_1-of-12">
+                            <p class='slds-text-heading_small'>${preApprovedItemsTotal}</p>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="slds-grid slds-gutters">
+                        <div class="slds-col slds-size_11-of-12">
+                            <h1 class='slds-text-heading_small'>{labels.Grand_Total}</h1>
+                        </div>
+                        <div class="slds-col slds-size_1-of-12">
+                            <h1 class='slds-text-heading_small'>${grandTotal}</h1>
+                        </div>
+                    </div>
+                </div>
+            </lightning-card>
+
+            <div class="margin-top-20" lwc:if={isFormOpen}>
+                <lightning-input type="text" label={labels.Comments} value={wrapper.comments}
+                    onchange={handleCommentsChange}></lightning-input>
+            </div>
+
+            <div class="custom_btn margin-top-20" lwc:if={isFormOpen}>
+                <div class="slds-grid slds-grid_align-end slds-gutters">
+                    <lightning-button class="slds-col " label={labels.Cancel} variant="neutral"
+                        onclick={handleCancel}></lightning-button>
+                    <lightning-button class="slds-col " label={labels.Save_As_Draft} variant="neutral"
+                        onclick={handleSaveAsDraft}></lightning-button>
+                    <lightning-button class="slds-col " label={labels.Next} variant="success" lwc:if={showNextButton}
+                        onclick={handleNext}></lightning-button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div lwc:else> <!-- Form 2 -->
+        <div>
+            <c-files-related-list-cmp record-id={reimbursementId}></c-files-related-list-cmp>
+        </div>
+        <div class="custom_btn margin-top-20">
+            <div class="slds-grid slds-grid_align-end slds-gutters">
+                <lightning-button class="slds-col" label={labels.Save_As_Draft} variant="neutral"
+                    onclick={handleSaveAsDraft}></lightning-button>
+                <lightning-button class="slds-col" label={labels.Submit_For_Approval} variant="success"
+                    onclick={handleSubmit}></lightning-button>
+            </div>
+        </div>
+    </div>
+</template>

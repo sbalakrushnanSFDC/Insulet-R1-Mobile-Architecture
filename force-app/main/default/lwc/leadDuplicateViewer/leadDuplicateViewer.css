@@ -1,0 +1,81 @@
+/* Duplicate List Styling */
+.duplicate-list {
+    background: var(--slds-g-color-neutral-base-100);
+    border-radius: var(--slds-g-radius-border-4, 1rem);
+    border: var(--slds-g-sizing-border-1, 1px) solid var(--slds-g-color-surface-2, #f3f3f3);
+}
+
+.duplicate-item {
+    padding: var(--slds-g-spacing-4, 1rem) var(--slds-g-spacing-2, 0.5rem);
+    transition: background-color 0.2s ease;
+}
+
+.duplicate-item:hover {
+    background-color: var(--slds-g-color-surface-1, #ffffff);
+}
+
+.duplicate-item:last-child {
+    border-bottom: none !important;
+}
+
+/* Custom, component-scoped styles (avoid styling SLDS utility classes directly) */
+
+/* Use tokens where possible for consistency */
+:host {
+    --match-error-color: #c23934;
+    --match-warning-color: #ffb75d;
+    --success-color: #2e844a;
+}
+
+
+/* Link styling (scoped) */
+.record-link {
+    font-weight: var(--slds-g-font-weight-7, 700);
+}
+.record-link:hover {
+    text-decoration: underline;
+}
+
+/* Success state styling (scoped) */
+.success-text {
+    color: var(--success-color) !important;
+}
+
+/* Datatable cell emphasis (scoped) */
+lightning-datatable .match-full {
+    color: var(--match-error-color) !important;
+    font-weight: var(--slds-g-font-weight-7, 700);
+}
+lightning-datatable .match-partial {
+    color: var(--match-warning-color) !important;
+    font-weight: var(--slds-g-font-weight-7, 700);
+}
+
+/* Badge styling */
+.badge {
+    display: inline-block;
+    font-weight: var(--slds-g-font-weight-4, 400);
+}
+
+/* Loading spinner container */
+lightning-spinner {
+    position: relative;
+}
+
+/* Ensure our width is applied when using SLDS modal container */
+.slds-modal__container.modal-container {
+    width: 75vw;
+    max-width: 75vw;
+}
+
+@media screen and (max-width: 768px) {
+    .slds-modal__container.modal-container {
+        width: 95vw;
+        max-width: 95vw;
+    }
+
+    lightning-datatable {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+}

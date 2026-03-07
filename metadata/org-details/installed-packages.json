@@ -1,0 +1,424 @@
+{
+  "status": 0,
+  "result": {
+    "records": [
+      {
+        "attributes": {
+          "type": "InstalledSubscriberPackage",
+          "url": "/services/data/v66.0/tooling/sobjects/InstalledSubscriberPackage/0A3bb000000DekQCAS"
+        },
+        "Id": "0A3bb000000DekQCAS",
+        "SubscriberPackage": {
+          "attributes": {
+            "type": "SubscriberPackage",
+            "url": "/services/data/v66.0/tooling/sobjects/SubscriberPackage/03346000000dk4QAAQ"
+          },
+          "Name": "Amazon Connect - Universal Package"
+        },
+        "SubscriberPackageVersion": {
+          "attributes": {
+            "type": "SubscriberPackageVersion",
+            "url": "/services/data/v66.0/tooling/sobjects/SubscriberPackageVersion/04tKY000000tkLyYAI"
+          },
+          "Name": "Winter 2025",
+          "MajorVersion": 5,
+          "MinorVersion": 29
+        }
+      },
+      {
+        "attributes": {
+          "type": "InstalledSubscriberPackage",
+          "url": "/services/data/v66.0/tooling/sobjects/InstalledSubscriberPackage/0A3QO000000A3pW0AS"
+        },
+        "Id": "0A3QO000000A3pW0AS",
+        "SubscriberPackage": {
+          "attributes": {
+            "type": "SubscriberPackage",
+            "url": "/services/data/v66.0/tooling/sobjects/SubscriberPackage/0330b0000009j7kAAA"
+          },
+          "Name": "AppOmni"
+        },
+        "SubscriberPackageVersion": {
+          "attributes": {
+            "type": "SubscriberPackageVersion",
+            "url": "/services/data/v66.0/tooling/sobjects/SubscriberPackageVersion/04t5a000001Hz1JAAS"
+          },
+          "Name": "1.72",
+          "MajorVersion": 1,
+          "MinorVersion": 72
+        }
+      },
+      {
+        "attributes": {
+          "type": "InstalledSubscriberPackage",
+          "url": "/services/data/v66.0/tooling/sobjects/InstalledSubscriberPackage/0A3QO0000008avy0AA"
+        },
+        "Id": "0A3QO0000008avy0AA",
+        "SubscriberPackage": {
+          "attributes": {
+            "type": "SubscriberPackage",
+            "url": "/services/data/v66.0/tooling/sobjects/SubscriberPackage/0336S000000spIBQAY"
+          },
+          "Name": "CDPAdvertising"
+        },
+        "SubscriberPackageVersion": {
+          "attributes": {
+            "type": "SubscriberPackageVersion",
+            "url": "/services/data/v66.0/tooling/sobjects/SubscriberPackageVersion/04tKk000000Y1BdIAK"
+          },
+          "Name": "258.12b",
+          "MajorVersion": 3,
+          "MinorVersion": 21
+        }
+      },
+      {
+        "attributes": {
+          "type": "InstalledSubscriberPackage",
+          "url": "/services/data/v66.0/tooling/sobjects/InstalledSubscriberPackage/0A3fL000000GRh0SAG"
+        },
+        "Id": "0A3fL000000GRh0SAG",
+        "SubscriberPackage": {
+          "attributes": {
+            "type": "SubscriberPackage",
+            "url": "/services/data/v66.0/tooling/sobjects/SubscriberPackage/0336g000000NogpAAC"
+          },
+          "Name": "Code Builder"
+        },
+        "SubscriberPackageVersion": {
+          "attributes": {
+            "type": "SubscriberPackageVersion",
+            "url": "/services/data/v66.0/tooling/sobjects/SubscriberPackageVersion/04t6g000008fIj9AAE"
+          },
+          "Name": "ver 1.3.0",
+          "MajorVersion": 1,
+          "MinorVersion": 3
+        }
+      },
+      {
+        "attributes": {
+          "type": "InstalledSubscriberPackage",
+          "url": "/services/data/v66.0/tooling/sobjects/InstalledSubscriberPackage/0A3bb000000DNQECA4"
+        },
+        "Id": "0A3bb000000DNQECA4",
+        "SubscriberPackage": {
+          "attributes": {
+            "type": "SubscriberPackage",
+            "url": "/services/data/v66.0/tooling/sobjects/SubscriberPackage/033600000008bATAAY"
+          },
+          "Name": "Conga Composer"
+        },
+        "SubscriberPackageVersion": {
+          "attributes": {
+            "type": "SubscriberPackageVersion",
+            "url": "/services/data/v66.0/tooling/sobjects/SubscriberPackageVersion/04tKe000000szJuIAI"
+          },
+          "Name": "Crestone Needle",
+          "MajorVersion": 8,
+          "MinorVersion": 293
+        }
+      },
+      {
+        "attributes": {
+          "type": "InstalledSubscriberPackage",
+          "url": "/services/data/v66.0/tooling/sobjects/InstalledSubscriberPackage/0A3bb000000DKnKCAW"
+        },
+        "Id": "0A3bb000000DKnKCAW",
+        "SubscriberPackage": {
+          "attributes": {
+            "type": "SubscriberPackage",
+            "url": "/services/data/v66.0/tooling/sobjects/SubscriberPackage/0336A000000R2HGQA0"
+          },
+          "Name": "Docusign Apps Launcher"
+        },
+        "SubscriberPackageVersion": {
+          "attributes": {
+            "type": "SubscriberPackageVersion",
+            "url": "/services/data/v66.0/tooling/sobjects/SubscriberPackageVersion/04tKg000000D3VkIAK"
+          },
+          "Name": "7.12.1",
+          "MajorVersion": 7,
+          "MinorVersion": 12
+        }
+      },
+      {
+        "attributes": {
+          "type": "InstalledSubscriberPackage",
+          "url": "/services/data/v66.0/tooling/sobjects/InstalledSubscriberPackage/0A3fL0000007VTkSAM"
+        },
+        "Id": "0A3fL0000007VTkSAM",
+        "SubscriberPackage": {
+          "attributes": {
+            "type": "SubscriberPackage",
+            "url": "/services/data/v66.0/tooling/sobjects/SubscriberPackage/0331U000000RlTdQAK"
+          },
+          "Name": "GS_Sales_Reports_Dashboards"
+        },
+        "SubscriberPackageVersion": {
+          "attributes": {
+            "type": "SubscriberPackageVersion",
+            "url": "/services/data/v66.0/tooling/sobjects/SubscriberPackageVersion/04t1U000007g5g2QAA"
+          },
+          "Name": "GS_Reports_Dashboards",
+          "MajorVersion": 1,
+          "MinorVersion": 0
+        }
+      },
+      {
+        "attributes": {
+          "type": "InstalledSubscriberPackage",
+          "url": "/services/data/v66.0/tooling/sobjects/InstalledSubscriberPackage/0A3bb000000EV2MCAW"
+        },
+        "Id": "0A3bb000000EV2MCAW",
+        "SubscriberPackage": {
+          "attributes": {
+            "type": "SubscriberPackage",
+            "url": "/services/data/v66.0/tooling/sobjects/SubscriberPackage/033i0000000LVMYAA4"
+          },
+          "Name": "Marketing Cloud"
+        },
+        "SubscriberPackageVersion": {
+          "attributes": {
+            "type": "SubscriberPackageVersion",
+            "url": "/services/data/v66.0/tooling/sobjects/SubscriberPackageVersion/04tKk000000TqJxIAK"
+          },
+          "Name": "Marketing Cloud",
+          "MajorVersion": 258,
+          "MinorVersion": 0
+        }
+      },
+      {
+        "attributes": {
+          "type": "InstalledSubscriberPackage",
+          "url": "/services/data/v66.0/tooling/sobjects/InstalledSubscriberPackage/0A3bb000000EV42CAG"
+        },
+        "Id": "0A3bb000000EV42CAG",
+        "SubscriberPackage": {
+          "attributes": {
+            "type": "SubscriberPackage",
+            "url": "/services/data/v66.0/tooling/sobjects/SubscriberPackage/03361000000PjzmAAC"
+          },
+          "Name": "MarketingCloudConnectedApp"
+        },
+        "SubscriberPackageVersion": {
+          "attributes": {
+            "type": "SubscriberPackageVersion",
+            "url": "/services/data/v66.0/tooling/sobjects/SubscriberPackageVersion/04t61000000gWo1AAE"
+          },
+          "Name": "Spring 2017",
+          "MajorVersion": 1,
+          "MinorVersion": 5
+        }
+      },
+      {
+        "attributes": {
+          "type": "InstalledSubscriberPackage",
+          "url": "/services/data/v66.0/tooling/sobjects/InstalledSubscriberPackage/0A3QO000000A3uI0AS"
+        },
+        "Id": "0A3QO000000A3uI0AS",
+        "SubscriberPackage": {
+          "attributes": {
+            "type": "SubscriberPackage",
+            "url": "/services/data/v66.0/tooling/sobjects/SubscriberPackage/0335Y000000BMNuQAO"
+          },
+          "Name": "Nebula Logger - Unlocked Package"
+        },
+        "SubscriberPackageVersion": {
+          "attributes": {
+            "type": "SubscriberPackageVersion",
+            "url": "/services/data/v66.0/tooling/sobjects/SubscriberPackageVersion/04tKe0000011N4KIAU"
+          },
+          "Name": "Capture Apex Cursor Transaction Limits",
+          "MajorVersion": 4,
+          "MinorVersion": 16
+        }
+      },
+      {
+        "attributes": {
+          "type": "InstalledSubscriberPackage",
+          "url": "/services/data/v66.0/tooling/sobjects/InstalledSubscriberPackage/0A3bb000000EfuYCAS"
+        },
+        "Id": "0A3bb000000EfuYCAS",
+        "SubscriberPackage": {
+          "attributes": {
+            "type": "SubscriberPackage",
+            "url": "/services/data/v66.0/tooling/sobjects/SubscriberPackage/033a200000BDzhKAAT"
+          },
+          "Name": "Odaseva Service User Setup"
+        },
+        "SubscriberPackageVersion": {
+          "attributes": {
+            "type": "SubscriberPackageVersion",
+            "url": "/services/data/v66.0/tooling/sobjects/SubscriberPackageVersion/04ta20000000O2LAAU"
+          },
+          "Name": "ver 0.13.0",
+          "MajorVersion": 0,
+          "MinorVersion": 13
+        }
+      },
+      {
+        "attributes": {
+          "type": "InstalledSubscriberPackage",
+          "url": "/services/data/v66.0/tooling/sobjects/InstalledSubscriberPackage/0A3bb000000DEEsCAO"
+        },
+        "Id": "0A3bb000000DEEsCAO",
+        "SubscriberPackage": {
+          "attributes": {
+            "type": "SubscriberPackage",
+            "url": "/services/data/v66.0/tooling/sobjects/SubscriberPackage/0334W000000WKUrQAO"
+          },
+          "Name": "OmniStudio"
+        },
+        "SubscriberPackageVersion": {
+          "attributes": {
+            "type": "SubscriberPackageVersion",
+            "url": "/services/data/v66.0/tooling/sobjects/SubscriberPackageVersion/04tKb000000tBHcIAM"
+          },
+          "Name": "Spring 2026",
+          "MajorVersion": 260,
+          "MinorVersion": 6
+        }
+      },
+      {
+        "attributes": {
+          "type": "InstalledSubscriberPackage",
+          "url": "/services/data/v66.0/tooling/sobjects/InstalledSubscriberPackage/0A3bb000000DorqCAC"
+        },
+        "Id": "0A3bb000000DorqCAC",
+        "SubscriberPackage": {
+          "attributes": {
+            "type": "SubscriberPackage",
+            "url": "/services/data/v66.0/tooling/sobjects/SubscriberPackage/0334u0000001BDxAAM"
+          },
+          "Name": "OrgSync-Framework-CDC"
+        },
+        "SubscriberPackageVersion": {
+          "attributes": {
+            "type": "SubscriberPackageVersion",
+            "url": "/services/data/v66.0/tooling/sobjects/SubscriberPackageVersion/04t7y000000vLKfAAM"
+          },
+          "Name": "2.8.0",
+          "MajorVersion": 2,
+          "MinorVersion": 8
+        }
+      },
+      {
+        "attributes": {
+          "type": "InstalledSubscriberPackage",
+          "url": "/services/data/v66.0/tooling/sobjects/InstalledSubscriberPackage/0A3fL0000007VTjSAM"
+        },
+        "Id": "0A3fL0000007VTjSAM",
+        "SubscriberPackage": {
+          "attributes": {
+            "type": "SubscriberPackage",
+            "url": "/services/data/v66.0/tooling/sobjects/SubscriberPackage/03358000000Q8xqAAC"
+          },
+          "Name": "Sales Insights"
+        },
+        "SubscriberPackageVersion": {
+          "attributes": {
+            "type": "SubscriberPackageVersion",
+            "url": "/services/data/v66.0/tooling/sobjects/SubscriberPackageVersion/04t58000000SGw3AAG"
+          },
+          "Name": "1.0",
+          "MajorVersion": 1,
+          "MinorVersion": 0
+        }
+      },
+      {
+        "attributes": {
+          "type": "InstalledSubscriberPackage",
+          "url": "/services/data/v66.0/tooling/sobjects/InstalledSubscriberPackage/0A3QO0000009JX00AM"
+        },
+        "Id": "0A3QO0000009JX00AM",
+        "SubscriberPackage": {
+          "attributes": {
+            "type": "SubscriberPackage",
+            "url": "/services/data/v66.0/tooling/sobjects/SubscriberPackage/03330000000wDAbAAM"
+          },
+          "Name": "Salesforce Connected Apps"
+        },
+        "SubscriberPackageVersion": {
+          "attributes": {
+            "type": "SubscriberPackageVersion",
+            "url": "/services/data/v66.0/tooling/sobjects/SubscriberPackageVersion/04t30000001DUvrAAG"
+          },
+          "Name": "Winter '16",
+          "MajorVersion": 1,
+          "MinorVersion": 7
+        }
+      },
+      {
+        "attributes": {
+          "type": "InstalledSubscriberPackage",
+          "url": "/services/data/v66.0/tooling/sobjects/InstalledSubscriberPackage/0A3bb000000EA9qCAG"
+        },
+        "Id": "0A3bb000000EA9qCAG",
+        "SubscriberPackage": {
+          "attributes": {
+            "type": "SubscriberPackage",
+            "url": "/services/data/v66.0/tooling/sobjects/SubscriberPackage/03330000001Ig8MAAS"
+          },
+          "Name": "Salesforce Mobile Apps"
+        },
+        "SubscriberPackageVersion": {
+          "attributes": {
+            "type": "SubscriberPackageVersion",
+            "url": "/services/data/v66.0/tooling/sobjects/SubscriberPackageVersion/04t4V000001i8c0QAA"
+          },
+          "Name": "Summer 2025",
+          "MajorVersion": 1,
+          "MinorVersion": 24
+        }
+      },
+      {
+        "attributes": {
+          "type": "InstalledSubscriberPackage",
+          "url": "/services/data/v66.0/tooling/sobjects/InstalledSubscriberPackage/0A3fL000000Ii94SAC"
+        },
+        "Id": "0A3fL000000Ii94SAC",
+        "SubscriberPackage": {
+          "attributes": {
+            "type": "SubscriberPackage",
+            "url": "/services/data/v66.0/tooling/sobjects/SubscriberPackage/0335Y000000BLtoQAG"
+          },
+          "Name": "Salesforce Standard Data Model"
+        },
+        "SubscriberPackageVersion": {
+          "attributes": {
+            "type": "SubscriberPackageVersion",
+            "url": "/services/data/v66.0/tooling/sobjects/SubscriberPackageVersion/04tKe0000011NDqIAM"
+          },
+          "Name": "1.116",
+          "MajorVersion": 1,
+          "MinorVersion": 116
+        }
+      },
+      {
+        "attributes": {
+          "type": "InstalledSubscriberPackage",
+          "url": "/services/data/v66.0/tooling/sobjects/InstalledSubscriberPackage/0A3fL0000007VTlSAM"
+        },
+        "Id": "0A3fL0000007VTlSAM",
+        "SubscriberPackage": {
+          "attributes": {
+            "type": "SubscriberPackage",
+            "url": "/services/data/v66.0/tooling/sobjects/SubscriberPackage/03350000000DFFrAAO"
+          },
+          "Name": "Salesforce.com CRM Dashboards"
+        },
+        "SubscriberPackageVersion": {
+          "attributes": {
+            "type": "SubscriberPackageVersion",
+            "url": "/services/data/v66.0/tooling/sobjects/SubscriberPackageVersion/04t50000000EcdrAAC"
+          },
+          "Name": "Summer 2011",
+          "MajorVersion": 1,
+          "MinorVersion": 0
+        }
+      }
+    ],
+    "totalSize": 18,
+    "done": true
+  },
+  "warnings": []
+}

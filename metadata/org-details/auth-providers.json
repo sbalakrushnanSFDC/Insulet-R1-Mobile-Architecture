@@ -1,0 +1,100 @@
+{
+  "status": 0,
+  "result": {
+    "records": [
+      {
+        "attributes": {
+          "type": "AuthProvider",
+          "url": "/services/data/v66.0/sobjects/AuthProvider/0SOfL00000063zKWAQ"
+        },
+        "Id": "0SOfL00000063zKWAQ",
+        "DeveloperName": "FacebookSegmentIntelligence",
+        "ProviderType": "Facebook",
+        "FriendlyName": "Meta Ads Data Cloud"
+      },
+      {
+        "attributes": {
+          "type": "AuthProvider",
+          "url": "/services/data/v66.0/sobjects/AuthProvider/0SOfL00000063zJWAQ"
+        },
+        "Id": "0SOfL00000063zJWAQ",
+        "DeveloperName": "GoogleSegmentIntelligence",
+        "ProviderType": "Google",
+        "FriendlyName": "Google Ads Data Cloud"
+      },
+      {
+        "attributes": {
+          "type": "AuthProvider",
+          "url": "/services/data/v66.0/sobjects/AuthProvider/0SOfL00000063zPWAQ"
+        },
+        "Id": "0SOfL00000063zPWAQ",
+        "DeveloperName": "GoogleWebDataConnector",
+        "ProviderType": "Google",
+        "FriendlyName": "Google Drive Data Cloud"
+      },
+      {
+        "attributes": {
+          "type": "AuthProvider",
+          "url": "/services/data/v66.0/sobjects/AuthProvider/0SOfL00000063zLWAQ"
+        },
+        "Id": "0SOfL00000063zLWAQ",
+        "DeveloperName": "LinkedInEmiLinkedInAds",
+        "ProviderType": "LinkedIn",
+        "FriendlyName": "LinkedIn Ads for MI"
+      },
+      {
+        "attributes": {
+          "type": "AuthProvider",
+          "url": "/services/data/v66.0/sobjects/AuthProvider/0SOQO0000000EJ94AM"
+        },
+        "Id": "0SOQO0000000EJ94AM",
+        "DeveloperName": "LinkedInWebDataConnector",
+        "ProviderType": "LinkedIn",
+        "FriendlyName": "LinkedIn Snap Data Cloud"
+      },
+      {
+        "attributes": {
+          "type": "AuthProvider",
+          "url": "/services/data/v66.0/sobjects/AuthProvider/0SOfL00000063zMWAQ"
+        },
+        "Id": "0SOfL00000063zMWAQ",
+        "DeveloperName": "MicrosoftEmiBingAds",
+        "ProviderType": "Microsoft",
+        "FriendlyName": "Microsoft Advertising for MI"
+      },
+      {
+        "attributes": {
+          "type": "AuthProvider",
+          "url": "/services/data/v66.0/sobjects/AuthProvider/0SOfL00000063zOWAQ"
+        },
+        "Id": "0SOfL00000063zOWAQ",
+        "DeveloperName": "SalesforceEmiTikTokAds",
+        "ProviderType": "Salesforce",
+        "FriendlyName": "TikTok Ads for MI"
+      },
+      {
+        "attributes": {
+          "type": "AuthProvider",
+          "url": "/services/data/v66.0/sobjects/AuthProvider/0SObb0000000hzRGAQ"
+        },
+        "Id": "0SObb0000000hzRGAQ",
+        "DeveloperName": "Self_Callout_Provider",
+        "ProviderType": "Salesforce",
+        "FriendlyName": "Self Callout Provider"
+      },
+      {
+        "attributes": {
+          "type": "AuthProvider",
+          "url": "/services/data/v66.0/sobjects/AuthProvider/0SOfL00000063zNWAQ"
+        },
+        "Id": "0SOfL00000063zNWAQ",
+        "DeveloperName": "TwitterEmiXAds",
+        "ProviderType": "Twitter",
+        "FriendlyName": "X Ads for MI"
+      }
+    ],
+    "totalSize": 9,
+    "done": true
+  },
+  "warnings": []
+}

@@ -1,0 +1,7 @@
+<template>
+    <div lwc:if={showTable}>
+        <c-reusable-datatable records={trainings} columns={columns} key-field="Id" enable-search="true"
+            hide-checkbox-column="false" title={labels.Training_Title} multi-select="false">
+        </c-reusable-datatable>
+    </div>
+</template>

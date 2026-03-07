@@ -1,0 +1,397 @@
+{
+  "status": 0,
+  "result": {
+    "records": [
+      {
+        "attributes": {
+          "type": "ConnectedApplication",
+          "url": "/services/data/v66.0/sobjects/ConnectedApplication/0H4bb000000Z3PdCAK"
+        },
+        "Id": "0H4bb000000Z3PdCAK",
+        "Name": "Amazon Connect Integration",
+        "CreatedDate": "2026-02-27T21:15:31.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ConnectedApplication",
+          "url": "/services/data/v66.0/sobjects/ConnectedApplication/0H4QO0000001B4i0AE"
+        },
+        "Id": "0H4QO0000001B4i0AE",
+        "Name": "Ant Migration Tool",
+        "CreatedDate": "2025-10-16T19:47:41.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ConnectedApplication",
+          "url": "/services/data/v66.0/sobjects/ConnectedApplication/0H4QO0000001J8f0AE"
+        },
+        "Id": "0H4QO0000001J8f0AE",
+        "Name": "AppOmni",
+        "CreatedDate": "2025-12-02T07:45:31.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ConnectedApplication",
+          "url": "/services/data/v66.0/sobjects/ConnectedApplication/0H4bb000000W2Q5CAK"
+        },
+        "Id": "0H4bb000000W2Q5CAK",
+        "Name": "Batch for Salesforce",
+        "CreatedDate": "2025-12-12T14:02:54.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ConnectedApplication",
+          "url": "/services/data/v66.0/sobjects/ConnectedApplication/0H4bb000000YBfNCAW"
+        },
+        "Id": "0H4bb000000YBfNCAW",
+        "Name": "Chatter Desktop",
+        "CreatedDate": "2026-02-05T19:07:11.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ConnectedApplication",
+          "url": "/services/data/v66.0/sobjects/ConnectedApplication/0H4bb000000YBfPCAW"
+        },
+        "Id": "0H4bb000000YBfPCAW",
+        "Name": "Chatter Mobile for BlackBerry",
+        "CreatedDate": "2026-02-05T19:07:33.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ConnectedApplication",
+          "url": "/services/data/v66.0/sobjects/ConnectedApplication/0H4bb000000W2Q6CAK"
+        },
+        "Id": "0H4bb000000W2Q6CAK",
+        "Name": "Composer AP for Salesforce",
+        "CreatedDate": "2025-12-12T14:03:08.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ConnectedApplication",
+          "url": "/services/data/v66.0/sobjects/ConnectedApplication/0H4bb000000W2Q7CAK"
+        },
+        "Id": "0H4bb000000W2Q7CAK",
+        "Name": "Composer EU for Salesforce",
+        "CreatedDate": "2025-12-12T14:03:20.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ConnectedApplication",
+          "url": "/services/data/v66.0/sobjects/ConnectedApplication/0H4bb000000W2Q8CAK"
+        },
+        "Id": "0H4bb000000W2Q8CAK",
+        "Name": "Composer NA for Salesforce",
+        "CreatedDate": "2025-12-12T14:03:32.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ConnectedApplication",
+          "url": "/services/data/v66.0/sobjects/ConnectedApplication/0H4bb000000W2Q9CAK"
+        },
+        "Id": "0H4bb000000W2Q9CAK",
+        "Name": "Conga Composer",
+        "CreatedDate": "2025-12-12T14:03:45.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ConnectedApplication",
+          "url": "/services/data/v66.0/sobjects/ConnectedApplication/0H4bb000000W2QACA0"
+        },
+        "Id": "0H4bb000000W2QACA0",
+        "Name": "Conga Composer - AP",
+        "CreatedDate": "2025-12-12T14:03:59.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ConnectedApplication",
+          "url": "/services/data/v66.0/sobjects/ConnectedApplication/0H4bb000000W2QBCA0"
+        },
+        "Id": "0H4bb000000W2QBCA0",
+        "Name": "Conga Composer - EU",
+        "CreatedDate": "2025-12-12T14:04:12.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ConnectedApplication",
+          "url": "/services/data/v66.0/sobjects/ConnectedApplication/0H4bb000000W2QCCA0"
+        },
+        "Id": "0H4bb000000W2QCCA0",
+        "Name": "Conga Composer Lightning",
+        "CreatedDate": "2025-12-12T14:04:22.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ConnectedApplication",
+          "url": "/services/data/v66.0/sobjects/ConnectedApplication/0H4bb000000W2QDCA0"
+        },
+        "Id": "0H4bb000000W2QDCA0",
+        "Name": "Conga Composer Offline",
+        "CreatedDate": "2025-12-12T14:04:32.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ConnectedApplication",
+          "url": "/services/data/v66.0/sobjects/ConnectedApplication/0H4bb000000W2QECA0"
+        },
+        "Id": "0H4bb000000W2QECA0",
+        "Name": "Conga Composer SF1",
+        "CreatedDate": "2025-12-12T14:04:46.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ConnectedApplication",
+          "url": "/services/data/v66.0/sobjects/ConnectedApplication/0H4bb000000W2QFCA0"
+        },
+        "Id": "0H4bb000000W2QFCA0",
+        "Name": "Conga Composer SF1 AP",
+        "CreatedDate": "2025-12-12T14:04:59.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ConnectedApplication",
+          "url": "/services/data/v66.0/sobjects/ConnectedApplication/0H4bb000000W2QGCA0"
+        },
+        "Id": "0H4bb000000W2QGCA0",
+        "Name": "Conga Composer SF1 EU",
+        "CreatedDate": "2025-12-12T14:05:13.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ConnectedApplication",
+          "url": "/services/data/v66.0/sobjects/ConnectedApplication/0H4bb000000W2QMCA0"
+        },
+        "Id": "0H4bb000000W2QMCA0",
+        "Name": "Conga Platform",
+        "CreatedDate": "2025-12-12T14:06:26.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ConnectedApplication",
+          "url": "/services/data/v66.0/sobjects/ConnectedApplication/0H4bb000000W2QHCA0"
+        },
+        "Id": "0H4bb000000W2QHCA0",
+        "Name": "Conga Platform - Batch",
+        "CreatedDate": "2025-12-12T14:05:23.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ConnectedApplication",
+          "url": "/services/data/v66.0/sobjects/ConnectedApplication/0H4bb000000W2QICA0"
+        },
+        "Id": "0H4bb000000W2QICA0",
+        "Name": "Conga Platform - Composer AP",
+        "CreatedDate": "2025-12-12T14:05:38.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ConnectedApplication",
+          "url": "/services/data/v66.0/sobjects/ConnectedApplication/0H4bb000000W2QJCA0"
+        },
+        "Id": "0H4bb000000W2QJCA0",
+        "Name": "Conga Platform - Composer EU",
+        "CreatedDate": "2025-12-12T14:05:52.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ConnectedApplication",
+          "url": "/services/data/v66.0/sobjects/ConnectedApplication/0H4bb000000W2QKCA0"
+        },
+        "Id": "0H4bb000000W2QKCA0",
+        "Name": "Conga Platform - Composer Lightning",
+        "CreatedDate": "2025-12-12T14:06:02.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ConnectedApplication",
+          "url": "/services/data/v66.0/sobjects/ConnectedApplication/0H4bb000000W2QLCA0"
+        },
+        "Id": "0H4bb000000W2QLCA0",
+        "Name": "Conga Platform - Composer NA",
+        "CreatedDate": "2025-12-12T14:06:16.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ConnectedApplication",
+          "url": "/services/data/v66.0/sobjects/ConnectedApplication/0H4bb000000W2QNCA0"
+        },
+        "Id": "0H4bb000000W2QNCA0",
+        "Name": "Conga Scheduler",
+        "CreatedDate": "2025-12-12T14:06:36.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ConnectedApplication",
+          "url": "/services/data/v66.0/sobjects/ConnectedApplication/0H4QO0000000sEv0AI"
+        },
+        "Id": "0H4QO0000000sEv0AI",
+        "Name": "Copado DevOps (EMEA2)",
+        "CreatedDate": "2025-08-26T18:24:48.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ConnectedApplication",
+          "url": "/services/data/v66.0/sobjects/ConnectedApplication/0H4fL000000AEWLSA4"
+        },
+        "Id": "0H4fL000000AEWLSA4",
+        "Name": "CPQ Integration User Connected App",
+        "CreatedDate": "2025-01-15T16:31:14.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ConnectedApplication",
+          "url": "/services/data/v66.0/sobjects/ConnectedApplication/0H4QO0000001B4f0AE"
+        },
+        "Id": "0H4QO0000001B4f0AE",
+        "Name": "Dataloader Bulk",
+        "CreatedDate": "2025-10-16T19:47:20.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ConnectedApplication",
+          "url": "/services/data/v66.0/sobjects/ConnectedApplication/0H4QO0000001B4g0AE"
+        },
+        "Id": "0H4QO0000001B4g0AE",
+        "Name": "Dataloader Partner",
+        "CreatedDate": "2025-10-16T19:47:26.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ConnectedApplication",
+          "url": "/services/data/v66.0/sobjects/ConnectedApplication/0H4bb000000YD2rCAG"
+        },
+        "Id": "0H4bb000000YD2rCAG",
+        "Name": "DocuSign",
+        "CreatedDate": "2026-02-06T08:52:21.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ConnectedApplication",
+          "url": "/services/data/v66.0/sobjects/ConnectedApplication/0H4QO0000001B4h0AE"
+        },
+        "Id": "0H4QO0000001B4h0AE",
+        "Name": "Force.com IDE",
+        "CreatedDate": "2025-10-16T19:47:34.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ConnectedApplication",
+          "url": "/services/data/v66.0/sobjects/ConnectedApplication/0H4bb000000YyeTCAS"
+        },
+        "Id": "0H4bb000000YyeTCAS",
+        "Name": "Odaseva for Salesforce",
+        "CreatedDate": "2026-02-25T19:53:19.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ConnectedApplication",
+          "url": "/services/data/v66.0/sobjects/ConnectedApplication/0H4fL000000AEWMSA4"
+        },
+        "Id": "0H4fL000000AEWMSA4",
+        "Name": "OIQ_Integration",
+        "CreatedDate": "2025-01-15T16:31:14.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ConnectedApplication",
+          "url": "/services/data/v66.0/sobjects/ConnectedApplication/0H4bb000000YBfRCAW"
+        },
+        "Id": "0H4bb000000YBfRCAW",
+        "Name": "Salesforce Chatter",
+        "CreatedDate": "2026-02-05T19:08:01.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ConnectedApplication",
+          "url": "/services/data/v66.0/sobjects/ConnectedApplication/0H4bb000000YBfTCAW"
+        },
+        "Id": "0H4bb000000YBfTCAW",
+        "Name": "Salesforce Files",
+        "CreatedDate": "2026-02-05T19:08:18.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ConnectedApplication",
+          "url": "/services/data/v66.0/sobjects/ConnectedApplication/0H4bb000000YBfOCAW"
+        },
+        "Id": "0H4bb000000YBfOCAW",
+        "Name": "Salesforce for Android",
+        "CreatedDate": "2026-02-05T19:07:25.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ConnectedApplication",
+          "url": "/services/data/v66.0/sobjects/ConnectedApplication/0H4bb000000YBfQCAW"
+        },
+        "Id": "0H4bb000000YBfQCAW",
+        "Name": "Salesforce for iOS",
+        "CreatedDate": "2026-02-05T19:07:47.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ConnectedApplication",
+          "url": "/services/data/v66.0/sobjects/ConnectedApplication/0H4QO0000001B4l0AE"
+        },
+        "Id": "0H4QO0000001B4l0AE",
+        "Name": "Salesforce for Outlook",
+        "CreatedDate": "2025-10-16T19:48:03.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ConnectedApplication",
+          "url": "/services/data/v66.0/sobjects/ConnectedApplication/0H4bb000000YlhFCAS"
+        },
+        "Id": "0H4bb000000YlhFCAS",
+        "Name": "Salesforce Marketing Cloud",
+        "CreatedDate": "2026-02-20T11:33:03.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ConnectedApplication",
+          "url": "/services/data/v66.0/sobjects/ConnectedApplication/0H4QO0000001B4j0AE"
+        },
+        "Id": "0H4QO0000001B4j0AE",
+        "Name": "Salesforce Mobile Dashboards",
+        "CreatedDate": "2025-10-16T19:47:48.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ConnectedApplication",
+          "url": "/services/data/v66.0/sobjects/ConnectedApplication/0H4QO0000001B4k0AE"
+        },
+        "Id": "0H4QO0000001B4k0AE",
+        "Name": "Salesforce Touch",
+        "CreatedDate": "2025-10-16T19:47:55.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ConnectedApplication",
+          "url": "/services/data/v66.0/sobjects/ConnectedApplication/0H4bb000000YBfSCAW"
+        },
+        "Id": "0H4bb000000YBfSCAW",
+        "Name": "SalesforceA",
+        "CreatedDate": "2026-02-05T19:08:10.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ConnectedApplication",
+          "url": "/services/data/v66.0/sobjects/ConnectedApplication/0H4fL000000Mw6zSAC"
+        },
+        "Id": "0H4fL000000Mw6zSAC",
+        "Name": "SalesforceDX Namespace Registry",
+        "CreatedDate": "2025-04-07T18:12:58.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ConnectedApplication",
+          "url": "/services/data/v66.0/sobjects/ConnectedApplication/0H4QO0000001B4m0AE"
+        },
+        "Id": "0H4QO0000001B4m0AE",
+        "Name": "Workbench",
+        "CreatedDate": "2025-10-16T19:48:10.000+0000"
+      }
+    ],
+    "totalSize": 43,
+    "done": true
+  },
+  "warnings": []
+}

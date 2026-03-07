@@ -1,0 +1,29 @@
+/**
+ * ReusableDatatable Styles
+ * 
+ * Minimal styling - relies primarily on SLDS classes in template
+ * 
+ * @author      Shashank Nigam
+ * @created     28th January 2026
+ */
+
+:host {
+    display: block;
+}
+
+/* Search Container */
+.search-container {
+    min-width: 200px;
+}
+
+/* Pagination Footer Border */
+.pagination-footer {
+    border-top: 1px solid #dddbda;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .search-container {
+        min-width: 150px;
+    }
+}

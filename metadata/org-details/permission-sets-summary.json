@@ -1,0 +1,4306 @@
+{
+  "status": 0,
+  "result": {
+    "records": [
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000g7ptGAA"
+        },
+        "Id": "0PSbb000000g7ptGAA",
+        "Name": "AC_Administrator",
+        "Label": "AC Administrator",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": "amazonconnect"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000g7puGAA"
+        },
+        "Id": "0PSbb000000g7puGAA",
+        "Name": "AC_Agent",
+        "Label": "AC_Agent",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": "amazonconnect"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000g7pvGAA"
+        },
+        "Id": "0PSbb000000g7pvGAA",
+        "Name": "AC_CallRecording",
+        "Label": "AC_CallRecording",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": "amazonconnect"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000g7pwGAA"
+        },
+        "Id": "0PSbb000000g7pwGAA",
+        "Name": "AC_DisableEchoCancellation",
+        "Label": "AC_DisableEchoCancellation",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": "amazonconnect"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000g7pxGAA"
+        },
+        "Id": "0PSbb000000g7pxGAA",
+        "Name": "AC_Manager",
+        "Label": "AC_Manager",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": "amazonconnect"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000g7pyGAA"
+        },
+        "Id": "0PSbb000000g7pyGAA",
+        "Name": "AC_Wisdom",
+        "Label": "AC_AmazonQ",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": "amazonconnect"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000jR8vGAE"
+        },
+        "Id": "0PSbb000000jR8vGAE",
+        "Name": "ASPN_Integration_access",
+        "Label": "ASPN Integration access",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000hJYrGAM"
+        },
+        "Id": "0PSbb000000hJYrGAM",
+        "Name": "AbridgedEmailBuilder",
+        "Label": "Email Builder Lite",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000hIjPGAU"
+        },
+        "Id": "0PSbb000000hIjPGAU",
+        "Name": "AccessEpidemiologistDshbrd",
+        "Label": "Epidemiological Insights for Disease Surveillance",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU0DWAU"
+        },
+        "Id": "0PSfL000000uU0DWAU",
+        "Name": "AccessPSPasCaseAgentsPsl",
+        "Label": "Access Patient Support Programs as a Case Agent",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU0EWAU"
+        },
+        "Id": "0PSfL000000uU0EWAU",
+        "Name": "AccessPSPasProgramLeadPsl",
+        "Label": "Access Patient Support Programs as a Program Lead",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU0FWAU"
+        },
+        "Id": "0PSfL000000uU0FWAU",
+        "Name": "AccsPtntSuptPgmUseEinstein",
+        "Label": "Access Patient Support Programs Using Einstein",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU0GWAU"
+        },
+        "Id": "0PSfL000000uU0GWAU",
+        "Name": "ActionPlans",
+        "Label": "Action Plans",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU0HWAU"
+        },
+        "Id": "0PSfL000000uU0HWAU",
+        "Name": "ActionableSegmentationForHealthCloud",
+        "Label": "Actionable Segmentation for Health Cloud",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009Nrp4AE"
+        },
+        "Id": "0PSQO0000009Nrp4AE",
+        "Name": "ActivitiesWaveAdminHVS",
+        "Label": "CRM Analytics for Sales Cloud HVS",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000008ALf4AM"
+        },
+        "Id": "0PSQO0000008ALf4AM",
+        "Name": "ActorCASCPermSet",
+        "Label": "ActorCASCPermSet",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009Nrq4AE"
+        },
+        "Id": "0PSQO0000009Nrq4AE",
+        "Name": "AgentPlatformBuilder",
+        "Label": "Agent Platform Builder",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009Nrr4AE"
+        },
+        "Id": "0PSQO0000009Nrr4AE",
+        "Name": "AgentforceServiceAgentBase",
+        "Label": "Agentforce Service Agent Object Access",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009Nrs4AE"
+        },
+        "Id": "0PSQO0000009Nrs4AE",
+        "Name": "AgentforceServiceAgentBuilder",
+        "Label": "Agentforce Service Agent Configuration",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009Nrt4AE"
+        },
+        "Id": "0PSQO0000009Nrt4AE",
+        "Name": "AgentforceServiceAgentSecureBase",
+        "Label": "Agentforce Service Agent Secure Base",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009Nru4AE"
+        },
+        "Id": "0PSQO0000009Nru4AE",
+        "Name": "AgentforceServiceAgentUser",
+        "Label": "Agentforce Service Agent User",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009NqU4AU"
+        },
+        "Id": "0PSQO0000009NqU4AU",
+        "Name": "AgentforceServiceAgentUserPsg",
+        "Label": "AgentforceServiceAgentUserPsg",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009Nrv4AE"
+        },
+        "Id": "0PSQO0000009Nrv4AE",
+        "Name": "AnalyticsQueryServiceForSalesPlanning",
+        "Label": "Query for Datapipelines User for Sales Planning",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU0IWAU"
+        },
+        "Id": "0PSfL000000uU0IWAU",
+        "Name": "AnalyticsStoreUser",
+        "Label": "Data Pipelines Base User",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009Nrw4AE"
+        },
+        "Id": "0PSQO0000009Nrw4AE",
+        "Name": "AnalyticsViewOnlyUser",
+        "Label": "Analytics View Only User",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000hIjQGAU"
+        },
+        "Id": "0PSbb000000hIjQGAU",
+        "Name": "AncCrmIntegrationUser",
+        "Label": "Agentic Near Core CRM",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000hIjRGAU"
+        },
+        "Id": "0PSbb000000hIjRGAU",
+        "Name": "AncMarketingIntegrationUser",
+        "Label": "Agentic Near Core Marketing",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000hIjSGAU"
+        },
+        "Id": "0PSbb000000hIjSGAU",
+        "Name": "AncPersonalizationIntegrationUser",
+        "Label": "Agentic Near Core Personalization",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000hIjTGAU"
+        },
+        "Id": "0PSbb000000hIjTGAU",
+        "Name": "AncProvisioningIntegrationUser",
+        "Label": "Agentic Near Core Provisioning",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000jK1eWAE"
+        },
+        "Id": "0PSfL000000jK1eWAE",
+        "Name": "ApexGuruStandardPermSet",
+        "Label": "Salesforce Apex Guru",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009kej4AA"
+        },
+        "Id": "0PSQO0000009kej4AA",
+        "Name": "AppOmni_Authenticated_Perspective",
+        "Label": "AppOmni Authenticated Perspective",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": "appomni"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009lB54AI"
+        },
+        "Id": "0PSQO0000009lB54AI",
+        "Name": "AppOmni_OmniStudio_Access",
+        "Label": "AppOmni - OmniStudio Access",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009kek4AA"
+        },
+        "Id": "0PSQO0000009kek4AA",
+        "Name": "AppOmni_Service_Account",
+        "Label": "AppOmni Service Account - Base Edition",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": "appomni"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009kel4AA"
+        },
+        "Id": "0PSQO0000009kel4AA",
+        "Name": "AppOmni_Service_Account_Unlimited",
+        "Label": "AppOmni Service Account - Unlimited Edition",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": "appomni"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU0JWAU"
+        },
+        "Id": "0PSfL000000uU0JWAU",
+        "Name": "AssessmentEnvelope",
+        "Label": "Assessment Envelope",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009Nrx4AE"
+        },
+        "Id": "0PSQO0000009Nrx4AE",
+        "Name": "AssessmentSurveysManager",
+        "Label": "Manage Assessment Surveys",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009Nry4AE"
+        },
+        "Id": "0PSQO0000009Nry4AE",
+        "Name": "AuthenticatedPayer",
+        "Label": "Authenticated Payer",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000jK1lWAE"
+        },
+        "Id": "0PSfL000000jK1lWAE",
+        "Name": "AutomatedActionsUser",
+        "Label": "Automated Actions User",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU0KWAU"
+        },
+        "Id": "0PSfL000000uU0KWAU",
+        "Name": "BREDesigner",
+        "Label": "Rule Engine Designer",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU0LWAU"
+        },
+        "Id": "0PSfL000000uU0LWAU",
+        "Name": "BRERuntime",
+        "Label": "Rule Engine Runtime",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU0MWAU"
+        },
+        "Id": "0PSfL000000uU0MWAU",
+        "Name": "BehavioralHealthApp",
+        "Label": "Health Cloud Behavioral Health App",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009lB64AI"
+        },
+        "Id": "0PSQO0000009lB64AI",
+        "Name": "Billing",
+        "Label": "Billing",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009lB74AI"
+        },
+        "Id": "0PSQO0000009lB74AI",
+        "Name": "Bypass_Automations",
+        "Label": "Bypass Automations",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000pD3FGAU"
+        },
+        "Id": "0PSbb000000pD3FGAU",
+        "Name": "Bypass_Permission_to_test",
+        "Label": "Bypass Permission to test",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000eXjdGAE"
+        },
+        "Id": "0PSbb000000eXjdGAE",
+        "Name": "C2CAiWorkbenchPlatformMetabolismServicePermSet",
+        "Label": "C2CAiWorkbenchPlatformMetabolismServicePermSet",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000hIjUGAU"
+        },
+        "Id": "0PSbb000000hIjUGAU",
+        "Name": "C2CAnalyticsStoragePermSet",
+        "Label": "C2CAnalyticsStoragePermSet",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000008ALg4AM"
+        },
+        "Id": "0PSQO0000008ALg4AM",
+        "Name": "C2CCapstonePermSet",
+        "Label": "C2CCapstonePermSet",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000hIjVGAU"
+        },
+        "Id": "0PSbb000000hIjVGAU",
+        "Name": "C2CE360EmailPermSet",
+        "Label": "C2CE360EmailPermSet",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000jK1YWAU"
+        },
+        "Id": "0PSfL000000jK1YWAU",
+        "Name": "C2CHeadlessCMSAccessPermSet",
+        "Label": "Salesforce CMS Integration Admin",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000dcv3GAA"
+        },
+        "Id": "0PSbb000000dcv3GAA",
+        "Name": "C2CMcpServicePermSet",
+        "Label": "C2CMcpServicePermSet",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000e7XRGAY"
+        },
+        "Id": "0PSbb000000e7XRGAY",
+        "Name": "CLM_Administrator",
+        "Label": "DocuSign CLM Admin",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": "dfsle"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000e7XSGAY"
+        },
+        "Id": "0PSbb000000e7XSGAY",
+        "Name": "CLM_Community_User",
+        "Label": "DocuSign CLM Experience Cloud User",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": "dfsle"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000e7XTGAY"
+        },
+        "Id": "0PSbb000000e7XTGAY",
+        "Name": "CLM_User",
+        "Label": "DocuSign CLM User",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": "dfsle"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000e7XUGAY"
+        },
+        "Id": "0PSbb000000e7XUGAY",
+        "Name": "CLM_Viewer",
+        "Label": "DocuSign CLM Viewer",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": "dfsle"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU0NWAU"
+        },
+        "Id": "0PSfL000000uU0NWAU",
+        "Name": "CRMUserPsl",
+        "Label": "CRM User",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000peMnGAI"
+        },
+        "Id": "0PSbb000000peMnGAI",
+        "Name": "CTI_Integration_Access",
+        "Label": "CTI Integration Access",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000jK1mWAE"
+        },
+        "Id": "0PSfL000000jK1mWAE",
+        "Name": "CallCoachingIncluded",
+        "Label": "Einstein Conversation Insights Included",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000jK1nWAE"
+        },
+        "Id": "0PSfL000000jK1nWAE",
+        "Name": "CallCoachingIntegrationUser",
+        "Label": "Conversation Insights Integration User",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009Nrz4AE"
+        },
+        "Id": "0PSQO0000009Nrz4AE",
+        "Name": "CallCoachingUser",
+        "Label": "Sales Engagement Conversation Insights",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009Ns04AE"
+        },
+        "Id": "0PSQO0000009Ns04AE",
+        "Name": "CallCoachingUserPsl",
+        "Label": "Conversation Insights for Sales",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU0OWAU"
+        },
+        "Id": "0PSfL000000uU0OWAU",
+        "Name": "CarePlansPermissionSetLicense",
+        "Label": "Care Plans Access",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU0PWAU"
+        },
+        "Id": "0PSfL000000uU0PWAU",
+        "Name": "ClinicalTrialCoordinator",
+        "Label": "Clinical Trial Coordinator",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU0QWAU"
+        },
+        "Id": "0PSfL000000uU0QWAU",
+        "Name": "ClinicalTrialGuest",
+        "Label": "Clinical Trial Guest",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU0RWAU"
+        },
+        "Id": "0PSfL000000uU0RWAU",
+        "Name": "ClinicalTrialManager",
+        "Label": "Clinical Trial Manager",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU0SWAU"
+        },
+        "Id": "0PSfL000000uU0SWAU",
+        "Name": "ClinicalTrialParticipant",
+        "Label": "Clinical Trial Participant",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU0TWAU"
+        },
+        "Id": "0PSfL000000uU0TWAU",
+        "Name": "ClinicalTrialSiteCoordrExprcCloud",
+        "Label": "Clinical Trial Site Coordinator in Experience Cloud Partner",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009lBO4AY"
+        },
+        "Id": "0PSQO0000009lBO4AY",
+        "Name": "Clinical_Product_Specialist",
+        "Label": "Clinical Product Specialist",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009lBP4AY"
+        },
+        "Id": "0PSQO0000009lBP4AY",
+        "Name": "Clinical_Product_Support_Manager",
+        "Label": "Clinical Product Support Manager",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009lBQ4AY"
+        },
+        "Id": "0PSQO0000009lBQ4AY",
+        "Name": "Clinical_Services_Manager",
+        "Label": "Clinical Services Manager",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000001Y1KTWA0"
+        },
+        "Id": "0PSfL000001Y1KTWA0",
+        "Name": "CodeBuilder",
+        "Label": "Code Builder Package",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": "CodeBuilder"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000001Y1KUWA0"
+        },
+        "Id": "0PSfL000001Y1KUWA0",
+        "Name": "CodeBuilderGroup",
+        "Label": "Code Builder",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": "CodeBuilder"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000jK1XWAU"
+        },
+        "Id": "0PSfL000000jK1XWAU",
+        "Name": "CodeBuilderUserPsl",
+        "Label": "Code Builder User",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009Ns14AE"
+        },
+        "Id": "0PSQO0000009Ns14AE",
+        "Name": "CommerceAdmin",
+        "Label": "Commerce Admin",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009Ns24AE"
+        },
+        "Id": "0PSQO0000009Ns24AE",
+        "Name": "CommerceSession",
+        "Label": "Commerce Session",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009Ns34AE"
+        },
+        "Id": "0PSQO0000009Ns34AE",
+        "Name": "CommerceStarterApp",
+        "Label": "Commerce Starter App",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009Ns44AE"
+        },
+        "Id": "0PSQO0000009Ns44AE",
+        "Name": "CommerceUser",
+        "Label": "Shopper",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009NqS4AU"
+        },
+        "Id": "0PSQO0000009NqS4AU",
+        "Name": "CommerceUsers",
+        "Label": "CommerceUsers",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009NqJ4AU"
+        },
+        "Id": "0PSQO0000009NqJ4AU",
+        "Name": "Commerce_Shopper",
+        "Label": "Commerce_Shopper",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009lBR4AY"
+        },
+        "Id": "0PSQO0000009lBR4AY",
+        "Name": "Commercial_Sales",
+        "Label": "Commercial Sales",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009lB84AI"
+        },
+        "Id": "0PSQO0000009lB84AI",
+        "Name": "Commercial_Sales_Core_Access",
+        "Label": "Commercial Sales-Core Access",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009lBS4AY"
+        },
+        "Id": "0PSQO0000009lBS4AY",
+        "Name": "Compliance_Officer_GPM",
+        "Label": "Compliance Officer GPM",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000eG2rGAE"
+        },
+        "Id": "0PSbb000000eG2rGAE",
+        "Name": "Composer_Administrator",
+        "Label": "Composer Administrator",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": "APXTConga4"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000eG2sGAE"
+        },
+        "Id": "0PSbb000000eG2sGAE",
+        "Name": "Composer_Salesforce_Community_User",
+        "Label": "Composer Salesforce Community User",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": "APXTConga4"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000eG2tGAE"
+        },
+        "Id": "0PSbb000000eG2tGAE",
+        "Name": "Composer_User",
+        "Label": "Composer User",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": "APXTConga4"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000001kt95WAA"
+        },
+        "Id": "0PSfL000001kt95WAA",
+        "Name": "ConnectivityServiceCASCPermSet",
+        "Label": "ConnectivityServiceCASCPermSet",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009Ns54AE"
+        },
+        "Id": "0PSQO0000009Ns54AE",
+        "Name": "ContactCenterAdminExternalTelephony",
+        "Label": "Contact Center Admin (Partner Telephony)",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009Ns64AE"
+        },
+        "Id": "0PSQO0000009Ns64AE",
+        "Name": "ContactCenterAgentExternalTelephony",
+        "Label": "Contact Center Agent (Partner Telephony)",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009Ns74AE"
+        },
+        "Id": "0PSQO0000009Ns74AE",
+        "Name": "ContactCenterSupervisorExternalTelephony",
+        "Label": "Contact Center Supervisor (Partner Telephony)",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU0UWAU"
+        },
+        "Id": "0PSfL000000uU0UWAU",
+        "Name": "ContactCenterforHealthCloud",
+        "Label": "Contact Center for Health Cloud",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU0VWAU"
+        },
+        "Id": "0PSfL000000uU0VWAU",
+        "Name": "ContextServiceAdminPsl",
+        "Label": "Context Service Admin",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU0WWAU"
+        },
+        "Id": "0PSfL000000uU0WWAU",
+        "Name": "ContextServiceRuntimePsl",
+        "Label": "Context Service Runtime",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000001kt96WAA"
+        },
+        "Id": "0PSfL000001kt96WAA",
+        "Name": "CoordinateClinicalTrialForDigitalAgentUser",
+        "Label": "Coordinate Clinical Trial for Digital Agent User",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU0XWAU"
+        },
+        "Id": "0PSfL000000uU0XWAU",
+        "Name": "CriteriaBasedSearchAndFilterPsl",
+        "Label": "Criteria-Based Search and Filter",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009lBT4AY"
+        },
+        "Id": "0PSQO0000009lBT4AY",
+        "Name": "Customer_Care_Agent",
+        "Label": "Customer Care Agent",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009lB94AI"
+        },
+        "Id": "0PSQO0000009lB94AI",
+        "Name": "Customer_Care_Core_Access",
+        "Label": "Customer Care - Core Access",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009lBU4AY"
+        },
+        "Id": "0PSQO0000009lBU4AY",
+        "Name": "Customer_Care_Hybrid",
+        "Label": "Customer Care Hybrid",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009lBV4AY"
+        },
+        "Id": "0PSQO0000009lBV4AY",
+        "Name": "Customer_Care_Manager",
+        "Label": "Customer Care Manager",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000jK1VWAU"
+        },
+        "Id": "0PSfL000000jK1VWAU",
+        "Name": "D360HomeOrgPermSet",
+        "Label": "Data Cloud Home Org Integration User",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000001hgD7WAI"
+        },
+        "Id": "0PSfL000001hgD7WAI",
+        "Name": "DCToDCSharingSetupC2CPermSet",
+        "Label": "DCToDCSharingSetupC2CPermSet",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000ntD3GAI"
+        },
+        "Id": "0PSbb000000ntD3GAI",
+        "Name": "DMTracking",
+        "Label": "DMTracking",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": "et4ae5"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000007AM24AM"
+        },
+        "Id": "0PSQO0000007AM24AM",
+        "Name": "DataCloudActManager",
+        "Label": "Data Cloud Activation Manager",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000007AM34AM"
+        },
+        "Id": "0PSQO0000007AM34AM",
+        "Name": "DataCloudActSpecialist",
+        "Label": "Data Cloud Activation Specialist",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU0YWAU"
+        },
+        "Id": "0PSfL000000uU0YWAU",
+        "Name": "DataProcessingEngineUser",
+        "Label": "Use Data Processing Engine",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000e2eDGAQ"
+        },
+        "Id": "0PSbb000000e2eDGAQ",
+        "Name": "Data_Migration",
+        "Label": "Data Migration",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009lBW4AY"
+        },
+        "Id": "0PSQO0000009lBW4AY",
+        "Name": "Data_Privacy",
+        "Label": "Data Privacy",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000e2eEGAQ"
+        },
+        "Id": "0PSbb000000e2eEGAQ",
+        "Name": "Delete_Field_History",
+        "Label": "Delete Field History",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000jK1iWAE"
+        },
+        "Id": "0PSfL000000jK1iWAE",
+        "Name": "DeliveryEstimationServicePermSet",
+        "Label": "DeliveryEstimationServicePermSet",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009lBX4AY"
+        },
+        "Id": "0PSQO0000009lBX4AY",
+        "Name": "Development_Support",
+        "Label": "Development Support",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009lBA4AY"
+        },
+        "Id": "0PSQO0000009lBA4AY",
+        "Name": "Development_Support_Core_Access",
+        "Label": "Development Support-Core Access",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL0000011Du7WAE"
+        },
+        "Id": "0PSfL0000011Du7WAE",
+        "Name": "DiseaseSurveillance",
+        "Label": "Disease Surveillance",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000e7XVGAY"
+        },
+        "Id": "0PSbb000000e7XVGAY",
+        "Name": "DocuSign_Administrator",
+        "Label": "DocuSign Administrator",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": "dfsle"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000e7XWGAY"
+        },
+        "Id": "0PSbb000000e7XWGAY",
+        "Name": "DocuSign_Generator",
+        "Label": "DocuSign Document Generator",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": "dfsle"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000e7XXGAY"
+        },
+        "Id": "0PSbb000000e7XXGAY",
+        "Name": "DocuSign_Login",
+        "Label": "DocuSign Login",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": "dfsle"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000e7XYGAY"
+        },
+        "Id": "0PSbb000000e7XYGAY",
+        "Name": "DocuSign_Negotiator",
+        "Label": "DocuSign Document Negotiator",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": "dfsle"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000e7XZGAY"
+        },
+        "Id": "0PSbb000000e7XZGAY",
+        "Name": "DocuSign_Sender",
+        "Label": "DocuSign Sender",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": "dfsle"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000e7XaGAI"
+        },
+        "Id": "0PSbb000000e7XaGAI",
+        "Name": "DocuSign_User",
+        "Label": "DocuSign User",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": "dfsle"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU0ZWAU"
+        },
+        "Id": "0PSfL000000uU0ZWAU",
+        "Name": "DocumentChecklist",
+        "Label": "Document Checklist",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL0000011Du8WAE"
+        },
+        "Id": "0PSfL0000011Du8WAE",
+        "Name": "DynamicAssessmentPsl",
+        "Label": "Dynamic Assessment Access",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000001hgD8WAI"
+        },
+        "Id": "0PSfL000001hgD8WAI",
+        "Name": "E360MessagingC2CPermSet",
+        "Label": "E360 Messaging Integration User",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000001kt97WAA"
+        },
+        "Id": "0PSfL000001kt97WAA",
+        "Name": "E360UEC2CPermSet",
+        "Label": "E360UEC2CPermSet",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000jK1oWAE"
+        },
+        "Id": "0PSfL000000jK1oWAE",
+        "Name": "ERIBasic",
+        "Label": "ERI Basic User",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000jK1pWAE"
+        },
+        "Id": "0PSfL000000jK1pWAE",
+        "Name": "EinsteinActivityCaptureIncluded",
+        "Label": "Einstein Activity Capture Included",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU0aWAE"
+        },
+        "Id": "0PSfL000000uU0aWAE",
+        "Name": "EinsteinAgent",
+        "Label": "Einstein Case Classification User",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU0bWAE"
+        },
+        "Id": "0PSfL000000uU0bWAE",
+        "Name": "EinsteinAgentCWU",
+        "Label": "Einstein Case Wrap-Up User",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009Ns84AE"
+        },
+        "Id": "0PSQO0000009Ns84AE",
+        "Name": "EinsteinGPTPromptTemplateManager",
+        "Label": "Prompt Template Manager",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009Ns94AE"
+        },
+        "Id": "0PSQO0000009Ns94AE",
+        "Name": "EinsteinGPTPromptTemplateUser",
+        "Label": "Prompt Template User",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000jK1sWAE"
+        },
+        "Id": "0PSfL000000jK1sWAE",
+        "Name": "EinsteinSalesBots",
+        "Label": "Buyer Assistant Admin",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009NsA4AU"
+        },
+        "Id": "0PSQO0000009NsA4AU",
+        "Name": "EinsteinServiceInnovations",
+        "Label": "Einstein for Service Innovations",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU0cWAE"
+        },
+        "Id": "0PSfL000000uU0cWAE",
+        "Name": "EmployeeAccess",
+        "Label": "Employee Access",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000piQSGAY"
+        },
+        "Id": "0PSbb000000piQSGAY",
+        "Name": "EmployeeHubEmpUserPSG",
+        "Label": "EmployeeHubEmpUserPSG",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000piS1GAI"
+        },
+        "Id": "0PSbb000000piS1GAI",
+        "Name": "EmployeeHubEmployeeUser",
+        "Label": "Employee Hub Unified Employee User",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU0dWAE"
+        },
+        "Id": "0PSfL000000uU0dWAE",
+        "Name": "EmployeeManagement",
+        "Label": "Employee Management",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009NsB4AU"
+        },
+        "Id": "0PSQO0000009NsB4AU",
+        "Name": "EnablementAdmin",
+        "Label": "Manage Enablement Essentials",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009NsC4AU"
+        },
+        "Id": "0PSQO0000009NsC4AU",
+        "Name": "EnablementAnalytics",
+        "Label": "Manage Enablement Analytics",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009kd74AA"
+        },
+        "Id": "0PSQO0000009kd74AA",
+        "Name": "EnablementPartner",
+        "Label": "Use Partner Enablement Programs",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009NsD4AU"
+        },
+        "Id": "0PSQO0000009NsD4AU",
+        "Name": "EnablementUser",
+        "Label": "Use Enablement Programs",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009NqM4AU"
+        },
+        "Id": "0PSQO0000009NqM4AU",
+        "Name": "Enablement_Admin",
+        "Label": "Enablement_Admin",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009NqP4AU"
+        },
+        "Id": "0PSQO0000009NqP4AU",
+        "Name": "Enablement_Resources_Manager",
+        "Label": "Enablement_Resources_Manager",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009NqK4AU"
+        },
+        "Id": "0PSQO0000009NqK4AU",
+        "Name": "Enablement_User",
+        "Label": "Enablement_User",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000001hgD9WAI"
+        },
+        "Id": "0PSfL000001hgD9WAI",
+        "Name": "EventMonitoringPermSet",
+        "Label": "Event Monitoring User",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000001hgDAWAY"
+        },
+        "Id": "0PSfL000001hgDAWAY",
+        "Name": "EventMonitoringWaveAdmin",
+        "Label": "Event Monitoring Analytics Admin",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000001hgDBWAY"
+        },
+        "Id": "0PSfL000001hgDBWAY",
+        "Name": "EventMonitoringWaveUser",
+        "Label": "Event Monitoring Analytics User",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000ntD4GAI"
+        },
+        "Id": "0PSbb000000ntD4GAI",
+        "Name": "ExactTarget_Integration",
+        "Label": "Marketing Cloud Connector",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": "et4ae5"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000ntD5GAI"
+        },
+        "Id": "0PSbb000000ntD5GAI",
+        "Name": "ExactTarget_Integration_Admin",
+        "Label": "Marketing Cloud Connector Admin",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": "et4ae5"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000e2eFGAQ"
+        },
+        "Id": "0PSbb000000e2eFGAQ",
+        "Name": "Execute_RTBF",
+        "Label": "Execute RTBF",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU0eWAE"
+        },
+        "Id": "0PSfL000000uU0eWAE",
+        "Name": "ExplainabilityServicePSL",
+        "Label": "Decision Explainer Service Access",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009lBB4AY"
+        },
+        "Id": "0PSQO0000009lBB4AY",
+        "Name": "External_Trainers",
+        "Label": "External Trainers",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000001kt98WAA"
+        },
+        "Id": "0PSfL000001kt98WAA",
+        "Name": "FhirSubscription",
+        "Label": "FHIR Subscription",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009lBC4AY"
+        },
+        "Id": "0PSQO0000009lBC4AY",
+        "Name": "Field_Clinical",
+        "Label": "Field Clinical",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009lBD4AY"
+        },
+        "Id": "0PSQO0000009lBD4AY",
+        "Name": "Field_Sales_Core_Access",
+        "Label": "Field Sales-Core Access",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009lBE4AY"
+        },
+        "Id": "0PSQO0000009lBE4AY",
+        "Name": "Field_Sales_Edit",
+        "Label": "Field Sales - Edit",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009lBY4AY"
+        },
+        "Id": "0PSQO0000009lBY4AY",
+        "Name": "Field_Sales_GM_RBD",
+        "Label": "Field Sales GM RBD",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009lBZ4AY"
+        },
+        "Id": "0PSQO0000009lBZ4AY",
+        "Name": "Field_Sales_TM_DSM",
+        "Label": "Field Sales TM DSM",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009lBa4AI"
+        },
+        "Id": "0PSQO0000009lBa4AI",
+        "Name": "Functional_Analyst",
+        "Label": "Functional Analyst",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009lBF4AY"
+        },
+        "Id": "0PSQO0000009lBF4AY",
+        "Name": "Functional_Analyst_Core_Access",
+        "Label": "Functional Analyst-Core Access",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU0fWAE"
+        },
+        "Id": "0PSfL000000uU0fWAE",
+        "Name": "GenAIAssessmentQuestionsPsl",
+        "Label": "Generative AI Assessment Questions",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009NqO4AU"
+        },
+        "Id": "0PSQO0000009NqO4AU",
+        "Name": "GeneralUsers",
+        "Label": "GeneralUsers",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000001hgDCWAY"
+        },
+        "Id": "0PSfL000001hgDCWAY",
+        "Name": "GenieAdmin",
+        "Label": "Data Cloud Architect",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009NsE4AU"
+        },
+        "Id": "0PSQO0000009NsE4AU",
+        "Name": "GenieMarketingAdmin",
+        "Label": "(Legacy) Data Cloud Marketing Admin",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009NsF4AU"
+        },
+        "Id": "0PSQO0000009NsF4AU",
+        "Name": "GenieMarketingDataAwareSpecialistEnhancedSecurity",
+        "Label": "(Legacy) Data Cloud Data Aware Specialist",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009NsG4AU"
+        },
+        "Id": "0PSQO0000009NsG4AU",
+        "Name": "GenieMarketingManagerEnhancedSecurity",
+        "Label": "(Legacy) Data Cloud Marketing Manager",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009NsH4AU"
+        },
+        "Id": "0PSQO0000009NsH4AU",
+        "Name": "GenieMarketingSpecialistEnhancedSecurity",
+        "Label": "(Legacy) Data Cloud Marketing Specialist",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000001hgEjWAI"
+        },
+        "Id": "0PSfL000001hgEjWAI",
+        "Name": "GenieUserEnhancedSecurity",
+        "Label": "Data Cloud User",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU0gWAE"
+        },
+        "Id": "0PSfL000000uU0gWAE",
+        "Name": "HCAdvancedTherapyOrchestration",
+        "Label": "Health Cloud Advanced Therapy Orchestration",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU0hWAE"
+        },
+        "Id": "0PSfL000000uU0hWAE",
+        "Name": "HCChainOfCustodyUser",
+        "Label": "Chain Of Custody User",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU0iWAE"
+        },
+        "Id": "0PSfL000000uU0iWAE",
+        "Name": "HCCrisisSupportCenter",
+        "Label": "Health Cloud Crisis Support Center Management App",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000008CqR4AU"
+        },
+        "Id": "0PSQO0000008CqR4AU",
+        "Name": "HcProviderMatchingAutonomous",
+        "Label": "Provider Matching Access for AI Autonomous Agents",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU0jWAE"
+        },
+        "Id": "0PSfL000000uU0jWAE",
+        "Name": "HealthCloudAppointmentManagement",
+        "Label": "Health Cloud Appointment Management",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU0kWAE"
+        },
+        "Id": "0PSfL000000uU0kWAE",
+        "Name": "HealthCloudFoundation",
+        "Label": "Health Cloud Foundation",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU0lWAE"
+        },
+        "Id": "0PSfL000000uU0lWAE",
+        "Name": "HealthCloudMemberServices",
+        "Label": "Health Cloud Member Services",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU0mWAE"
+        },
+        "Id": "0PSfL000000uU0mWAE",
+        "Name": "HealthCloudPRM",
+        "Label": "Health Cloud Provider Relationship Management",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU0nWAE"
+        },
+        "Id": "0PSfL000000uU0nWAE",
+        "Name": "HealthCloudProviderSearch",
+        "Label": "Health Cloud Provider Search",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU0oWAE"
+        },
+        "Id": "0PSfL000000uU0oWAE",
+        "Name": "HealthCloudProviderSearchDpe",
+        "Label": "Health Cloud Provider Search Fields Access",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU0pWAE"
+        },
+        "Id": "0PSfL000000uU0pWAE",
+        "Name": "HealthCloudSocialDeterminants",
+        "Label": "Health Cloud Social Determinants",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU0qWAE"
+        },
+        "Id": "0PSfL000000uU0qWAE",
+        "Name": "HealthCloudUtilizationManagement",
+        "Label": "Health Cloud Utilization Management",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU0rWAE"
+        },
+        "Id": "0PSfL000000uU0rWAE",
+        "Name": "HealthCloudVideoCalls",
+        "Label": "Health Cloud Video Calls",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000jK1WWAU"
+        },
+        "Id": "0PSfL000000jK1WWAU",
+        "Name": "HighScaleFlowC2CPermSet",
+        "Label": "C360 High Scale Flow Integration User",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009NsI4AU"
+        },
+        "Id": "0PSQO0000009NsI4AU",
+        "Name": "HighVelocitySalesCadenceCreator",
+        "Label": "Sales Engagement Cadence Creator",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000jK1tWAE"
+        },
+        "Id": "0PSfL000000jK1tWAE",
+        "Name": "HighVelocitySalesCadenceCreatorIncluded",
+        "Label": "Sales Engagement Cadence Creator Included",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009NsJ4AU"
+        },
+        "Id": "0PSQO0000009NsJ4AU",
+        "Name": "HighVelocitySalesQuickCadenceCreator",
+        "Label": "Sales Engagement Quick Cadence Creator",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000jK1uWAE"
+        },
+        "Id": "0PSfL000000jK1uWAE",
+        "Name": "HighVelocitySalesQuickCadenceCreatorIncluded",
+        "Label": "Sales Engagement Quick Cadence Creator Included",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009NsK4AU"
+        },
+        "Id": "0PSQO0000009NsK4AU",
+        "Name": "HighVelocitySalesUser",
+        "Label": "Sales Engagement User",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000jK1vWAE"
+        },
+        "Id": "0PSfL000000jK1vWAE",
+        "Name": "HighVelocitySalesUserIncluded",
+        "Label": "Sales Engagement User Included",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL0000011Du9WAE"
+        },
+        "Id": "0PSfL0000011Du9WAE",
+        "Name": "HlsClinicalDecisionSupport",
+        "Label": "Hls Clinical Decision Support",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000008ALh4AM"
+        },
+        "Id": "0PSQO0000008ALh4AM",
+        "Name": "HyperionCASCPermSet",
+        "Label": "HyperionCASCPermSet",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000j159GAA"
+        },
+        "Id": "0PSbb000000j159GAA",
+        "Name": "IT_Modify_all",
+        "Label": "IT Modify all",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009kd84AA"
+        },
+        "Id": "0PSQO0000009kd84AA",
+        "Name": "InAppGuidanceForSitesAdmin",
+        "Label": "Manage In-App Guidance for Partners",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009NsL4AU"
+        },
+        "Id": "0PSQO0000009NsL4AU",
+        "Name": "InAppGuidanceManager",
+        "Label": "Manage In-App Guidance",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000jK1wWAE"
+        },
+        "Id": "0PSfL000000jK1wWAE",
+        "Name": "InboxIncluded",
+        "Label": "Inbox Included",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000001kt99WAA"
+        },
+        "Id": "0PSfL000001kt99WAA",
+        "Name": "IndustriesAssessmentPermissionSet",
+        "Label": "Industries Assessment",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL0000011DuAWAU"
+        },
+        "Id": "0PSfL0000011DuAWAU",
+        "Name": "IndustriesLPIPsl",
+        "Label": "Industries Licensing, Permitting, and Inspections (LPI) User",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU0sWAE"
+        },
+        "Id": "0PSfL000000uU0sWAE",
+        "Name": "IndustriesServiceExcellence",
+        "Label": "Industry Service Excellence",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU0tWAE"
+        },
+        "Id": "0PSfL000000uU0tWAE",
+        "Name": "IndustriesVisit",
+        "Label": "Industries Visit",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009lBG4AY"
+        },
+        "Id": "0PSQO0000009lBG4AY",
+        "Name": "Inside_Sales_Core_Access",
+        "Label": "Inside Sales-Core Access",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009lBb4AI"
+        },
+        "Id": "0PSQO0000009lBb4AI",
+        "Name": "Inside_Sales_Manager",
+        "Label": "Inside Sales Manager",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000jR2TGAU"
+        },
+        "Id": "0PSbb000000jR2TGAU",
+        "Name": "Inside_Sales_Manager_Access",
+        "Label": "Inside Sales-Manager Access",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009lBc4AI"
+        },
+        "Id": "0PSQO0000009lBc4AI",
+        "Name": "Inside_Sales_Quality_Specialist",
+        "Label": "Inside Sales Quality Specialist",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000lH3pGAE"
+        },
+        "Id": "0PSbb000000lH3pGAE",
+        "Name": "Inside_Sales_Quality_Specialist_Access",
+        "Label": "Inside Sales-Quality Specialist Access",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009lBd4AI"
+        },
+        "Id": "0PSQO0000009lBd4AI",
+        "Name": "Inside_Sales_Rep",
+        "Label": "Inside Sales Rep",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000mwHpGAI"
+        },
+        "Id": "0PSbb000000mwHpGAI",
+        "Name": "IntegrationIntelligenceSSODataSpace",
+        "Label": "Integration Intelligence SSO Data Space",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU0uWAE"
+        },
+        "Id": "0PSfL000000uU0uWAE",
+        "Name": "IntegrationOrchestratorUser",
+        "Label": "Integration Orchestrator User",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000jR8wGAE"
+        },
+        "Id": "0PSbb000000jR8wGAE",
+        "Name": "Integration_user_access_for_Drupal",
+        "Label": "Integration user access for Drupal",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU0vWAE"
+        },
+        "Id": "0PSfL000000uU0vWAE",
+        "Name": "IntelligentDocumentWorkspaceUser",
+        "Label": "Intelligent Document Workspace User",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000piS2GAI"
+        },
+        "Id": "0PSbb000000piS2GAI",
+        "Name": "ItsmPortalUelUserPermset",
+        "Label": "ITSM Portal Uel User",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000e2eHGAQ"
+        },
+        "Id": "0PSbb000000e2eHGAQ",
+        "Name": "Knowledge_Manager",
+        "Label": "Knowledge Manager",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000hyP7GAI"
+        },
+        "Id": "0PSbb000000hyP7GAI",
+        "Name": "Log_in_as_other_users_SENSITIVE",
+        "Label": "Log in as other users (SENSITIVE)",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009khx4AA"
+        },
+        "Id": "0PSQO0000009khx4AA",
+        "Name": "LoggerAdmin",
+        "Label": "Nebula Logger: Admin",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009khy4AA"
+        },
+        "Id": "0PSQO0000009khy4AA",
+        "Name": "LoggerEndUser",
+        "Label": "Nebula Logger: End User",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009khz4AA"
+        },
+        "Id": "0PSQO0000009khz4AA",
+        "Name": "LoggerLogCreator",
+        "Label": "Nebula Logger: Log Creator",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009ki04AA"
+        },
+        "Id": "0PSQO0000009ki04AA",
+        "Name": "LoggerLogViewer",
+        "Label": "Nebula Logger: Log Viewer",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009NsM4AU"
+        },
+        "Id": "0PSQO0000009NsM4AU",
+        "Name": "MacrosManager",
+        "Label": "Macros Manager",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000001kt9AWAQ"
+        },
+        "Id": "0PSfL000001kt9AWAQ",
+        "Name": "ManageClinicalTrialForDigitalAgentUser",
+        "Label": "Manage Clinical Trials for Digital Agent User",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009kd94AA"
+        },
+        "Id": "0PSQO0000009kd94AA",
+        "Name": "ManageExternalUsersPermissionSet",
+        "Label": "Manage External Users Permission Set for Channel Managers",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU0wWAE"
+        },
+        "Id": "0PSfL000000uU0wWAE",
+        "Name": "ManageFinancialAssistanceProgram",
+        "Label": "Manage Financial Assistance Program",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000001kt9BWAQ"
+        },
+        "Id": "0PSfL000001kt9BWAQ",
+        "Name": "ManageFinancialAssistanceProgramForDigitalAgentUser",
+        "Label": "Manage Financial Assistance Program for Digital Agent User",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000001kt9CWAQ"
+        },
+        "Id": "0PSfL000001kt9CWAQ",
+        "Name": "ManagePatientProgramOutcomeManagementForDigitalAgentUser",
+        "Label": "Manage Patient Program Outcome Management for Digital Agent User",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU0xWAE"
+        },
+        "Id": "0PSfL000000uU0xWAE",
+        "Name": "ManagePharmacyBenefitsVerification",
+        "Label": "Manage Pharmacy Benefits Verification",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000001kt9DWAQ"
+        },
+        "Id": "0PSfL000001kt9DWAQ",
+        "Name": "ManagePharmacyBenefitsVerificationForDigitalAgentUser",
+        "Label": "Manage Pharmacy Benefits Verification for Digital Agent User",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL0000011DuBWAU"
+        },
+        "Id": "0PSfL0000011DuBWAU",
+        "Name": "ManageSubscriptionsYourAccount",
+        "Label": "Manage Subscriptions in Your Account: Salesforce User",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009NqN4AU"
+        },
+        "Id": "0PSQO0000009NqN4AU",
+        "Name": "Manage_ASC_Analytics",
+        "Label": "Manage_ASC_Analytics",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009lBH4AY"
+        },
+        "Id": "0PSQO0000009lBH4AY",
+        "Name": "Manage_Reports_and_List_View",
+        "Label": "Manage Reports and List View",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000e2eIGAQ"
+        },
+        "Id": "0PSbb000000e2eIGAQ",
+        "Name": "Manage_Territories",
+        "Label": "Manage Territories",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU0yWAE"
+        },
+        "Id": "0PSfL000000uU0yWAE",
+        "Name": "ManufacturingAccountForecastPsl",
+        "Label": "Manufacturing Account Forecast",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU0zWAE"
+        },
+        "Id": "0PSfL000000uU0zWAE",
+        "Name": "ManufacturingAccountManagerTargetsPsl",
+        "Label": "Manufacturing Account Manager Targets",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU10WAE"
+        },
+        "Id": "0PSfL000000uU10WAE",
+        "Name": "ManufacturingAdvancedAccountForecastPsl",
+        "Label": "Manufacturing Advanced Account Forecast",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU11WAE"
+        },
+        "Id": "0PSfL000000uU11WAE",
+        "Name": "ManufacturingSalesAgreementsPsl",
+        "Label": "Manufacturing Sales Agreements",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009lBe4AI"
+        },
+        "Id": "0PSQO0000009lBe4AI",
+        "Name": "Market_Access",
+        "Label": "Market Access",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009lBf4AI"
+        },
+        "Id": "0PSQO0000009lBf4AI",
+        "Name": "Marketing",
+        "Label": "Marketing",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000hIjZGAU"
+        },
+        "Id": "0PSbb000000hIjZGAU",
+        "Name": "MarketingCloudEngagementTransformationC2CPermSet",
+        "Label": "MarketingCloudEngagementTransformationC2CPermSet",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000001kt9EWAQ"
+        },
+        "Id": "0PSfL000001kt9EWAQ",
+        "Name": "MarketingCloudPublishingC2CPermSet",
+        "Label": "MarketingCloudPublishingC2CPermSet",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000jK24WAE"
+        },
+        "Id": "0PSfL000000jK24WAE",
+        "Name": "MarketingCloudReportingC2CPermSet",
+        "Label": "Marketing Cloud Reporting C2C Perm",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009NqQ4AU"
+        },
+        "Id": "0PSQO0000009NqQ4AU",
+        "Name": "MarketingUsers",
+        "Label": "MarketingUsers",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000ntOLGAY"
+        },
+        "Id": "0PSbb000000ntOLGAY",
+        "Name": "Marketing_Cloud_Connected_App",
+        "Label": "Marketing Cloud Connected App",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000ntD6GAI"
+        },
+        "Id": "0PSbb000000ntD6GAI",
+        "Name": "Marketing_Cloud_System_User",
+        "Label": "Marketing Cloud System User",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": "et4ae5"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009lBI4AY"
+        },
+        "Id": "0PSQO0000009lBI4AY",
+        "Name": "Marketing_Core_Access",
+        "Label": "Marketing-Core Access",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU12WAE"
+        },
+        "Id": "0PSfL000000uU12WAE",
+        "Name": "MedReconciliationForMedMgmnt",
+        "Label": "Medication Reconciliation for Medication Management",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU13WAE"
+        },
+        "Id": "0PSfL000000uU13WAE",
+        "Name": "MedTherapyReviewForMedMgmt",
+        "Label": "Medication Therapy Review for Medication Management",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000jK1xWAE"
+        },
+        "Id": "0PSfL000000jK1xWAE",
+        "Name": "MessagingForInAppAndWebUser",
+        "Label": "Enhanced Chat User",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009NsN4AU"
+        },
+        "Id": "0PSQO0000009NsN4AU",
+        "Name": "MessagingSessionAgent",
+        "Label": "Messaging Session User",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000001hgDEWAY"
+        },
+        "Id": "0PSfL000001hgDEWAY",
+        "Name": "MetadataStudioUser",
+        "Label": "Metadata Studio User",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000eXjeGAE"
+        },
+        "Id": "0PSbb000000eXjeGAE",
+        "Name": "MuleSoftEinsteinPermSet",
+        "Label": "MuleSoftEinsteinPermSet",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000jK25WAE"
+        },
+        "Id": "0PSfL000000jK25WAE",
+        "Name": "MuleSoftPublishInvocableActionsC2CPermSet",
+        "Label": "MuleSoftPublishInvocableActionsC2CPermSet",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000008ALi4AM"
+        },
+        "Id": "0PSQO0000008ALi4AM",
+        "Name": "MuleSoftSeamlessLoginC2CPermSet",
+        "Label": "MuleSoftSeamlessLoginC2CPermSet",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU14WAE"
+        },
+        "Id": "0PSfL000000uU14WAE",
+        "Name": "MultiStepScheduling",
+        "Label": "Multi-Step Scheduling",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009lBJ4AY"
+        },
+        "Id": "0PSQO0000009lBJ4AY",
+        "Name": "Named_Credentials_Access",
+        "Label": "Named Credentials Access",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000nsX7GAI"
+        },
+        "Id": "0PSbb000000nsX7GAI",
+        "Name": "Odaseva_Integration_Access",
+        "Label": "Odaseva Integration Access",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000pkjxGAA"
+        },
+        "Id": "0PSbb000000pkjxGAA",
+        "Name": "Odaseva_Service_User_Permissions",
+        "Label": "Odaseva Service User Permissions",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000pkf7GAA"
+        },
+        "Id": "0PSbb000000pkf7GAA",
+        "Name": "Odaseva_Service_User_Setup",
+        "Label": "Odaseva Service User Setup",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": "ODA3"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU15WAE"
+        },
+        "Id": "0PSfL000000uU15WAE",
+        "Name": "OmniStudioAdmin",
+        "Label": "Omnistudio Admin",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU16WAE"
+        },
+        "Id": "0PSfL000000uU16WAE",
+        "Name": "OmniStudioExecution",
+        "Label": "Omnistudio User",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000e2eJGAQ"
+        },
+        "Id": "0PSbb000000e2eJGAQ",
+        "Name": "Omnistudio_Standard_User",
+        "Label": "Omnistudio Standard User",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000jK28WAE"
+        },
+        "Id": "0PSfL000000jK28WAE",
+        "Name": "OrchestrationProcessManagerPermissionSet",
+        "Label": "Orchestration Process Manager",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000i8I1GAI"
+        },
+        "Id": "0PSbb000000i8I1GAI",
+        "Name": "OrgSync_Admin_Stream_Setup",
+        "Label": "OrgSync Admin Stream Setup",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000i8I2GAI"
+        },
+        "Id": "0PSbb000000i8I2GAI",
+        "Name": "OrgSync_BulkForceSync",
+        "Label": "OrgSync BulkForceSync",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000i97dGAA"
+        },
+        "Id": "0PSbb000000i97dGAA",
+        "Name": "OrgSync_User_Access",
+        "Label": "OrgSync User Access",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000i8I3GAI"
+        },
+        "Id": "0PSbb000000i8I3GAI",
+        "Name": "OrgSync_User_Core",
+        "Label": "OrgSync User - Core",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009kdA4AQ"
+        },
+        "Id": "0PSQO0000009kdA4AQ",
+        "Name": "PRMChannelManagerPermissionSet",
+        "Label": "Channel Manager",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009kdB4AQ"
+        },
+        "Id": "0PSQO0000009kdB4AQ",
+        "Name": "PRMForSlackPartnerManagerPermSet",
+        "Label": "PRM for Slack app Salesforce User",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000jK29WAE"
+        },
+        "Id": "0PSfL000000jK29WAE",
+        "Name": "PartnerConnectPartnerAdminSetup",
+        "Label": "Partner Connect Partner Admin Setup",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009kdC4AQ"
+        },
+        "Id": "0PSQO0000009kdC4AQ",
+        "Name": "PartnerWalkthroughs",
+        "Label": "Use In-App Guidance for Partners",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009NqL4AU"
+        },
+        "Id": "0PSQO0000009NqL4AU",
+        "Name": "Partner_Enablement_User",
+        "Label": "Partner_Enablement_User",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU17WAE"
+        },
+        "Id": "0PSfL000000uU17WAE",
+        "Name": "PatientProgramOutcomeMgmt",
+        "Label": "Patient Program Outcome Management",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009NsO4AU"
+        },
+        "Id": "0PSQO0000009NsO4AU",
+        "Name": "PaymentsAdministrator",
+        "Label": "Payments Administrator",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000jK1yWAE"
+        },
+        "Id": "0PSfL000000jK1yWAE",
+        "Name": "PipelineInspectionIncluded",
+        "Label": "Pipeline Inspection Included",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000jK1SWAU"
+        },
+        "Id": "0PSfL000000jK1SWAU",
+        "Name": "PipelineInspectionUser",
+        "Label": "Pipeline Inspection User",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL0000011DuCWAU"
+        },
+        "Id": "0PSfL0000011DuCWAU",
+        "Name": "PricingFeatrForSalesAgr",
+        "Label": "Pricing Features for Sales Agreements",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000001kt9FWAQ"
+        },
+        "Id": "0PSfL000001kt9FWAQ",
+        "Name": "PrismBackofficeUser",
+        "Label": "Prism Backoffice User",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000001hgDFWAY"
+        },
+        "Id": "0PSfL000001hgDFWAY",
+        "Name": "PrismPlaygroundUser",
+        "Label": "Prism Playground User",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000piS3GAI"
+        },
+        "Id": "0PSbb000000piS3GAI",
+        "Name": "ProductCatalogManagementAdministrator",
+        "Label": "Product Catalog Management Designer",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000piS4GAI"
+        },
+        "Id": "0PSbb000000piS4GAI",
+        "Name": "ProductCatalogManagementC2CPermSet",
+        "Label": "ProductCatalogManagementC2CPermSet",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000piS5GAI"
+        },
+        "Id": "0PSbb000000piS5GAI",
+        "Name": "ProductCatalogManagementViewer",
+        "Label": "Product Catalog Management Viewer",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL0000011DuDWAU"
+        },
+        "Id": "0PSfL0000011DuDWAU",
+        "Name": "ProductCatalogMgmtForSalesAgr",
+        "Label": "Product Catalog Features for Sales Agreements",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000piS6GAI"
+        },
+        "Id": "0PSbb000000piS6GAI",
+        "Name": "ProductDiscoveryAdmin",
+        "Label": "Product Discovery Admin",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000piS7GAI"
+        },
+        "Id": "0PSbb000000piS7GAI",
+        "Name": "ProductDiscoveryUser",
+        "Label": "Product Discovery User",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009lBg4AI"
+        },
+        "Id": "0PSQO0000009lBg4AI",
+        "Name": "Product_Support_Agent",
+        "Label": "Product Support Agent",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009lBK4AY"
+        },
+        "Id": "0PSQO0000009lBK4AY",
+        "Name": "Product_Support_Core_Access",
+        "Label": "Product Support - Core Access",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009lBh4AI"
+        },
+        "Id": "0PSQO0000009lBh4AI",
+        "Name": "Product_Support_Manager",
+        "Label": "Product Support Manager",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009lBi4AI"
+        },
+        "Id": "0PSQO0000009lBi4AI",
+        "Name": "Product_Support_Vendor",
+        "Label": "Product Support Vendor",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000001kt9GWAQ"
+        },
+        "Id": "0PSfL000001kt9GWAQ",
+        "Name": "PromptTemplatePermSet",
+        "Label": "PromptTemplatePermSet",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000phyzGAA"
+        },
+        "Id": "0PSbb000000phyzGAA",
+        "Name": "Query_AllFiles",
+        "Label": "Query AllFiles",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL0000011DuEWAU"
+        },
+        "Id": "0PSfL0000011DuEWAU",
+        "Name": "RPAC2CPermSet",
+        "Label": "RPAC2CPermSet",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000008ALj4AM"
+        },
+        "Id": "0PSQO0000008ALj4AM",
+        "Name": "RecordStageOverviewStandardAccess",
+        "Label": "Record Stage Overview Standard Access",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009ZmX4AU"
+        },
+        "Id": "0PSQO0000009ZmX4AU",
+        "Name": "RegrelloC2CPermSet",
+        "Label": "RegrelloC2CPermSet",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009lBj4AI"
+        },
+        "Id": "0PSQO0000009lBj4AI",
+        "Name": "Reimbursement",
+        "Label": "Reimbursement",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000fAHxGAM"
+        },
+        "Id": "0PSbb000000fAHxGAM",
+        "Name": "SSO_enabled",
+        "Label": "SSO enabled",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000001DtNtWAK"
+        },
+        "Id": "0PSfL000001DtNtWAK",
+        "Name": "SalesActionPlans",
+        "Label": "Sales Action Plans",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000001kt9HWAQ"
+        },
+        "Id": "0PSfL000001kt9HWAQ",
+        "Name": "SalesAgreementsBulkUpdate",
+        "Label": "Sales Agreements Bulk Update",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009kdD4AQ"
+        },
+        "Id": "0PSQO0000009kdD4AQ",
+        "Name": "SalesCloudEinsteinForPartners",
+        "Label": "Sales Cloud Einstein for Partners",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000jK1zWAE"
+        },
+        "Id": "0PSfL000000jK1zWAE",
+        "Name": "SalesCloudEinsteinIncluded",
+        "Label": "Sales Cloud Einstein Included",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000jK2AWAU"
+        },
+        "Id": "0PSfL000000jK2AWAU",
+        "Name": "SalesCloudMobileUser",
+        "Label": "Seller-Focused Sales Mobile Experience",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000jK20WAE"
+        },
+        "Id": "0PSfL000000jK20WAE",
+        "Name": "SalesCloudUnlimitedAnalyticsAdminIncluded",
+        "Label": "CRM Analytics Template Administration Included",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000jK21WAE"
+        },
+        "Id": "0PSfL000000jK21WAE",
+        "Name": "SalesCloudUnlimitedIncluded",
+        "Label": "Sales Cloud Included Bundle",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000jK1ZWAU"
+        },
+        "Id": "0PSfL000000jK1ZWAU",
+        "Name": "SalesConsoleUser",
+        "Label": "Salesforce Console User",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000jK1TWAU"
+        },
+        "Id": "0PSfL000000jK1TWAU",
+        "Name": "SalesEngagementBasicUser",
+        "Label": "Sales Engagement Basic User",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000jK22WAE"
+        },
+        "Id": "0PSfL000000jK22WAE",
+        "Name": "SalesMeetingsIncluded",
+        "Label": "Salesforce Meetings Included",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000jK1aWAE"
+        },
+        "Id": "0PSfL000000jK1aWAE",
+        "Name": "SalesUserPsl",
+        "Label": "Sales Cloud User",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009NqT4AU"
+        },
+        "Id": "0PSQO0000009NqT4AU",
+        "Name": "SalesUsers",
+        "Label": "SalesUsers",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000ghN8GAI"
+        },
+        "Id": "0PSbb000000ghN8GAI",
+        "Name": "SalesWorkspace",
+        "Label": "Sales Workspace User",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000fGyTGAU"
+        },
+        "Id": "0PSbb000000fGyTGAU",
+        "Name": "SalesWorkspacePSG",
+        "Label": "SalesWorkspacePSG",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000e2eNGAQ"
+        },
+        "Id": "0PSbb000000e2eNGAQ",
+        "Name": "Sales_Ops",
+        "Label": "Sales Ops",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000e2eKGAQ"
+        },
+        "Id": "0PSbb000000e2eKGAQ",
+        "Name": "Sales_Ops_Core_Access",
+        "Label": "Sales Ops-Core Access",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000jK1RWAU"
+        },
+        "Id": "0PSfL000000jK1RWAU",
+        "Name": "Sales_User",
+        "Label": "Sales User",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000jK23WAE"
+        },
+        "Id": "0PSfL000000jK23WAE",
+        "Name": "SalesforceMeetings",
+        "Label": "Salesforce Meetings",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000jK1kWAE"
+        },
+        "Id": "0PSfL000000jK1kWAE",
+        "Name": "ScaleCenterStandardPS",
+        "Label": "Scale Center Standard Permission Set",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000jK2BWAU"
+        },
+        "Id": "0PSfL000000jK2BWAU",
+        "Name": "ScaleCenterUsers",
+        "Label": "ScaleCenterUsers",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000jK1dWAE"
+        },
+        "Id": "0PSfL000000jK1dWAE",
+        "Name": "SeasIndexingPermSet",
+        "Label": "SeaS Indexing C2C User Perm",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000007Dbd4AE"
+        },
+        "Id": "0PSQO0000007Dbd4AE",
+        "Name": "SegmentIntelligenceUser",
+        "Label": "Segment Intelligence User",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU18WAE"
+        },
+        "Id": "0PSfL000000uU18WAE",
+        "Name": "ServiceCatalogAgent",
+        "Label": "Service Catalog Agent",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU19WAE"
+        },
+        "Id": "0PSfL000000uU19WAE",
+        "Name": "ServiceCatalogBuilder",
+        "Label": "Service Catalog Builder",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU1AWAU"
+        },
+        "Id": "0PSfL000000uU1AWAU",
+        "Name": "ServiceCatalogUser",
+        "Label": "Service Catalog User",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009NsP4AU"
+        },
+        "Id": "0PSQO0000009NsP4AU",
+        "Name": "ServiceECIUser",
+        "Label": "Conversation Insights for Service",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009NsQ4AU"
+        },
+        "Id": "0PSQO0000009NsQ4AU",
+        "Name": "ServiceLightningKnowledgeManager",
+        "Label": "Lightning Knowledge Manager",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009NsR4AU"
+        },
+        "Id": "0PSQO0000009NsR4AU",
+        "Name": "ServiceUserPsl",
+        "Label": "Service Cloud User",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009NqR4AU"
+        },
+        "Id": "0PSQO0000009NqR4AU",
+        "Name": "ServiceUsers",
+        "Label": "ServiceUsers",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009lBk4AI"
+        },
+        "Id": "0PSQO0000009lBk4AI",
+        "Name": "Service_Delivery",
+        "Label": "Service Delivery",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009lBL4AY"
+        },
+        "Id": "0PSQO0000009lBL4AY",
+        "Name": "Service_Delivery_Core_Access",
+        "Label": "Service Delivery-Core Access",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000epobGAA"
+        },
+        "Id": "0PSbb000000epobGAA",
+        "Name": "Shield_Key_Management_Admin",
+        "Label": "Shield Key Management Admin",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL0000011DuFWAU"
+        },
+        "Id": "0PSfL0000011DuFWAU",
+        "Name": "SimpleCsvDataImport",
+        "Label": "Basic CSV Data Import",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU1BWAU"
+        },
+        "Id": "0PSfL000000uU1BWAU",
+        "Name": "SlackServiceUser",
+        "Label": "Slack Service User",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000001kt9JWAQ"
+        },
+        "Id": "0PSfL000001kt9JWAQ",
+        "Name": "Social_Program_Management_Caseworker",
+        "Label": "Social_Program_Management_Caseworker",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU1CWAU"
+        },
+        "Id": "0PSfL000000uU1CWAU",
+        "Name": "StageManagementDesignUser",
+        "Label": "Stage Management Design User",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU1DWAU"
+        },
+        "Id": "0PSfL000000uU1DWAU",
+        "Name": "StageManagementUser",
+        "Label": "Stage Management User",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000jK1bWAE"
+        },
+        "Id": "0PSfL000000jK1bWAE",
+        "Name": "StandardEinsteinActivityCapturePsl",
+        "Label": "Standard Einstein Activity Capture",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009NsS4AU"
+        },
+        "Id": "0PSQO0000009NsS4AU",
+        "Name": "StarterMarketingApp",
+        "Label": "Marketing Starter App",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009NsT4AU"
+        },
+        "Id": "0PSQO0000009NsT4AU",
+        "Name": "StarterSalesApp",
+        "Label": "Sales Starter App",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009NsU4AU"
+        },
+        "Id": "0PSQO0000009NsU4AU",
+        "Name": "StarterServiceApp",
+        "Label": "Service Starter App",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000008CqS4AU"
+        },
+        "Id": "0PSQO0000008CqS4AU",
+        "Name": "StudyManagerForSiteManagement",
+        "Label": "Study Manager for Site Management",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000jK1cWAE"
+        },
+        "Id": "0PSfL000000jK1cWAE",
+        "Name": "SubscriptionManagementPsl",
+        "Label": "Manage Subscriptions in Your Account: Identity User",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000e2eLGAQ"
+        },
+        "Id": "0PSbb000000e2eLGAQ",
+        "Name": "Super_CPTs",
+        "Label": "Super CPTs",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000uU1EWAU"
+        },
+        "Id": "0PSfL000000uU1EWAU",
+        "Name": "SurveyCreator",
+        "Label": "Survey Creator",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009Gbp4AE"
+        },
+        "Id": "0PSQO0000009Gbp4AE",
+        "Name": "TableauNextLimitedViewer",
+        "Label": "Tableau Next Limited Consumer",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009lBl4AI"
+        },
+        "Id": "0PSQO0000009lBl4AI",
+        "Name": "Third_Party_Trainers",
+        "Label": "3rd Party Trainers",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000gVSPGA2"
+        },
+        "Id": "0PSbb000000gVSPGA2",
+        "Name": "Training_Coordinator",
+        "Label": "Training Coordinator",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000p3QUGAY"
+        },
+        "Id": "0PSbb000000p3QUGAY",
+        "Name": "Training_Coordinators",
+        "Label": "Training Coordinators",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000jK1fWAE"
+        },
+        "Id": "0PSfL000000jK1fWAE",
+        "Name": "TrustCardManagerPsl",
+        "Label": "Trust Card Manager",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000piS8GAI"
+        },
+        "Id": "0PSbb000000piS8GAI",
+        "Name": "UnifiedCatalogAdmin",
+        "Label": "Unified Catalog Admin",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000piQPGAY"
+        },
+        "Id": "0PSbb000000piQPGAY",
+        "Name": "UnifiedCatalogAdminPsl",
+        "Label": "UnifiedCatalogAdminPsl",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000piS9GAI"
+        },
+        "Id": "0PSbb000000piS9GAI",
+        "Name": "UnifiedCatalogAgent",
+        "Label": "Unified Catalog Agent",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000piQQGAY"
+        },
+        "Id": "0PSbb000000piQQGAY",
+        "Name": "UnifiedCatalogAgentPsl",
+        "Label": "UnifiedCatalogAgentPsl",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000piSAGAY"
+        },
+        "Id": "0PSbb000000piSAGAY",
+        "Name": "UnifiedCatalogCommunityUser",
+        "Label": "Unified Catalog Community User",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000piQRGAY"
+        },
+        "Id": "0PSbb000000piQRGAY",
+        "Name": "UnifiedCatalogCommunityUserPsl",
+        "Label": "UnifiedCatalogCommunityUserPsl",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000hJYsGAM"
+        },
+        "Id": "0PSbb000000hJYsGAM",
+        "Name": "UnifiedEngagementHistoryDashboardViewerUserPermSet",
+        "Label": "View Unified Engagement History Dashboards",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009NsV4AU"
+        },
+        "Id": "0PSQO0000009NsV4AU",
+        "Name": "UnifiedMarketingStarterUserPermSet",
+        "Label": "Marketing Manager",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009NsW4AU"
+        },
+        "Id": "0PSQO0000009NsW4AU",
+        "Name": "UnifiedMarketingUserPermSet",
+        "Label": "(Legacy) Marketing Manager",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009lBm4AI"
+        },
+        "Id": "0PSQO0000009lBm4AI",
+        "Name": "View_All",
+        "Label": "View All",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009lBM4AY"
+        },
+        "Id": "0PSQO0000009lBM4AY",
+        "Name": "View_All_Read_Only",
+        "Label": "View All Read Only",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009lBN4AY"
+        },
+        "Id": "0PSQO0000009lBN4AY",
+        "Name": "View_Survey",
+        "Label": "View Survey",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000006PGf4AM"
+        },
+        "Id": "0PSQO0000006PGf4AM",
+        "Name": "Waive_MFA_Requirement",
+        "Label": "Waive MFA Requirement",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSQO0000009NsX4AU"
+        },
+        "Id": "0PSQO0000009NsX4AU",
+        "Name": "Walkthroughs",
+        "Label": "Use Custom Walkthroughs",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000001kt9IWAQ"
+        },
+        "Id": "0PSfL000001kt9IWAQ",
+        "Name": "YourAccountFeatureDataPermSet",
+        "Label": "YourAccountFeatureDataPermSet",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000jK27WAE"
+        },
+        "Id": "0PSfL000000jK27WAE",
+        "Name": "YourAccountNotifierPermSet",
+        "Label": "YourAccountNotifierPermSet",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000jK26WAE"
+        },
+        "Id": "0PSfL000000jK26WAE",
+        "Name": "YukonNudgeHeadlessPublishPermSet",
+        "Label": "Publish Suggested for You Nudges: Integration User",
+        "IsOwnedByProfile": false,
+        "IsCustom": false,
+        "NamespacePrefix": "force"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000001hgDGWAY"
+        },
+        "Id": "0PSfL000001hgDGWAY",
+        "Name": "sfdc_a360",
+        "Label": "Customer 360 Data Platform Integration",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": "sfdcInternalInt"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000001hgEkWAI"
+        },
+        "Id": "0PSfL000001hgEkWAI",
+        "Name": "sfdc_a360_sfcrm_data_extract",
+        "Label": "Data Cloud Salesforce Connector",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": "sfdcInternalInt"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000jK10WAE"
+        },
+        "Id": "0PSfL000000jK10WAE",
+        "Name": "sfdc_activityplatform",
+        "Label": "sfdc.activityplatform",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": "sfdcInternalInt"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000hggtGAA"
+        },
+        "Id": "0PSbb000000hggtGAA",
+        "Name": "sfdc_nc_constraints_engine_deploy",
+        "Label": "Constraint Rules Engine Licenseless permission set",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": "sfdcInternalInt"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSfL000000jK11WAE"
+        },
+        "Id": "0PSfL000000jK11WAE",
+        "Name": "sfdc_scrt2",
+        "Label": "SCRT2 Integration User",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": "sfdcInternalInt"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSbb000000fg1iGAA"
+        },
+        "Id": "0PSbb000000fg1iGAA",
+        "Name": "test_Update_Audit_field",
+        "Label": "test Update Audit field",
+        "IsOwnedByProfile": false,
+        "IsCustom": true,
+        "NamespacePrefix": null
+      }
+    ],
+    "totalSize": 358,
+    "done": true
+  },
+  "warnings": []
+}

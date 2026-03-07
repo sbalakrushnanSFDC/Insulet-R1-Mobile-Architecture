@@ -1,0 +1,70 @@
+.slds-text-heading_medium {
+    font-weight: bolder !important;
+    margin-bottom: 4px !important;
+    margin-top: 16px !important;
+}
+
+.form-container {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding: 16px;
+}
+
+.form-container .slds-size_5-of-12 {
+    padding: 8px;
+    border-bottom: 1px solid #d8dde6;
+    margin-top: 16px;
+}
+
+.form-container h1,
+input {
+    font-weight: 500;
+}
+
+.summary-card {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.margin-bottom-50 {
+    margin-bottom: 50px;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+.bg-grey {
+    background-color: #f3f2f2;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    margin-left: -16px;
+    margin-right: -16px;
+    padding: 8px;
+}
+.full-page-spinner-container {
+    position: fixed;
+    /* Covers the viewport */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    /* For centering the spinner */
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    /* Ensure it's on top */
+}
+
+.slds-spinner_container {
+    /* This inner container positions the actual spinner */
+    position: relative;
+    /* Or can be absolute if parent is fixed */
+}
+
+/* Override if needed for backdrop */
+.slds-backdrop_open {
+    opacity: 0.5;
+    /* Adjust as needed */
+}

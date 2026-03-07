@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>65.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Party Consents Related List</masterLabel>
+    <description>Related list component for Party Consents</description>
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property name="recordId" type="String" label="Record ID" required="true" default="{!recordId}" description="The ID of the parent record (Account ID)."/>
+            <property name="iconName" type="String" label="Icon Name" default="standard:individual" description="SLDS icon name to display next to the related list title. Use standard Salesforce icon format (e.g., 'standard:account', 'standard:case', 'custom:custom1'). Refer to Salesforce Lightning Design System icons for available options."/>
+            <property name="relatedListTitle" type="String" label="Title" default="Party Consents" description="The display title shown at the top of the related list component. This appears as the heading for the related records table (e.g., 'Party Consents', 'Related Cases', 'Opportunities')."/>
+            <property name="childObjectApiName" type="String" label="Child Object API Name" default="PartyConsent" description="The API name of the child object whose records will be displayed in the related list. Use the exact API name as it appears in Setup."/>
+            <property name="relationshipField" type="String" label="Lookup Field to Parent" default="Individual__c" description="The API name of the lookup/master-detail field on the child object that relates to the parent object."/>
+            <property name="columnLabels" type="String" label="Column Labels" default="Name, Data Use Purpose, Consent Capture Date Time, Effective From, Effective To" description="Comma-separated list of display labels for the datatable columns. Must match the order of Fields property. Example: If Fields is 'Name, DataUsePurpose.Name, CaptureDate', then Column Labels could be 'Consent Name, Data Use Purpose, Capture Date'."/>
+            <property name="fieldNames" type="String" label="Fields" default="Name, DataUsePurpose.Name, CaptureDate, EffectiveFrom, EffectiveTo" description="Comma-separated list of field API names to display as columns in the datatable. You can include standard fields, custom fields, and parent lookup fields using dot notation. Examples: 'Name, CreatedDate, Status__c' or 'Name, DataUsePurpose.Name, EffectiveFrom, EffectiveTo'. The order must match the Column Labels property."/>
+            <property name="sortedBy" type="String" label="Sort Field" default="LastModifiedDate" description="The API name of the field to use for default sorting of the related records. The records will be sorted by this field using the Sort Direction specified."/>
+            <property name="sortDirection" type="String" label="Sort Direction" default="desc" datasource="asc,desc" description="The direction to sort the records by the Sort Field. Select 'asc' for ascending order (A-Z, oldest to newest) or 'desc' for descending order (Z-A, newest to oldest). Default is 'asc'."/>
+            <property name="recordLimit" type="Integer" label="Number of Records" default="5" description="Maximum number of records to retrieve and display in the related list. Enter a positive integer value. The component will fetch up to this many records from the database. Default is 5."/>
+            <property name="typeFilter" type="String" label="Party Consent Type" default="Virtual Training, Group Training" description="Comma-separated list of Type__c picklist values to filter records. Only records matching these Type values will be displayed. Example: 'Virtual Training, Group Training'."/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

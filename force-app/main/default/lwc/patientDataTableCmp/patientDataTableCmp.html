@@ -1,0 +1,16 @@
+<template>
+
+    <template lwc:if={data.length}>
+        <lightning-card title={label.RELATED_CONTACT_LABEL}>
+            <lightning-datatable
+                key-field="email"
+                data={data}
+                columns={columns}
+                show-row-number-column
+                hide-checkbox-column="true">
+            </lightning-datatable>
+        </lightning-card>
+        
+    </template>
+    
+</template>

@@ -1,0 +1,4510 @@
+{
+  "status": 0,
+  "result": {
+    "records": [
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/Account"
+        },
+        "QualifiedApiName": "Account",
+        "Label": "Account",
+        "KeyPrefix": "001"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AccountAccountRelation"
+        },
+        "QualifiedApiName": "AccountAccountRelation",
+        "Label": "Account Account Relationship",
+        "KeyPrefix": "0zo"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AccountBrand"
+        },
+        "QualifiedApiName": "AccountBrand",
+        "Label": "Account Brand",
+        "KeyPrefix": "0TU"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AccountContactRelation"
+        },
+        "QualifiedApiName": "AccountContactRelation",
+        "Label": "Account Contact Relationship",
+        "KeyPrefix": "07k"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/Accreditation"
+        },
+        "QualifiedApiName": "Accreditation",
+        "Label": "Accreditation",
+        "KeyPrefix": "0Vl"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ActionPlan"
+        },
+        "QualifiedApiName": "ActionPlan",
+        "Label": "Action Plan",
+        "KeyPrefix": "07r"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ActionVisibility"
+        },
+        "QualifiedApiName": "ActionVisibility",
+        "Label": "Action Visibility",
+        "KeyPrefix": "0vN"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ActivationTarget"
+        },
+        "QualifiedApiName": "ActivationTarget",
+        "Label": "Activation Target",
+        "KeyPrefix": "85U"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ActivityTiming"
+        },
+        "QualifiedApiName": "ActivityTiming",
+        "Label": "Activity Timing",
+        "KeyPrefix": "1CD"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/Address"
+        },
+        "QualifiedApiName": "Address",
+        "Label": "Address",
+        "KeyPrefix": "130"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AdvAccountForecastFact"
+        },
+        "QualifiedApiName": "AdvAccountForecastFact",
+        "Label": "Advanced Account Forecast Fact",
+        "KeyPrefix": "0p2"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AdvAcctForecastFactAdj"
+        },
+        "QualifiedApiName": "AdvAcctForecastFactAdj",
+        "Label": "Advanced Account Forecast Fact Adjustment",
+        "KeyPrefix": "0oz"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AdvAcctForecastSetPartner"
+        },
+        "QualifiedApiName": "AdvAcctForecastSetPartner",
+        "Label": "Advanced Account Forecast Set Partner",
+        "KeyPrefix": "0og"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AdvAcctForecastSetUse"
+        },
+        "QualifiedApiName": "AdvAcctForecastSetUse",
+        "Label": "Advanced Account Forecast Set Use",
+        "KeyPrefix": "0u8"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AdvTherapyFieldOptOverride"
+        },
+        "QualifiedApiName": "AdvTherapyFieldOptOverride",
+        "Label": "Advanced Therapy Field Optionality Override",
+        "KeyPrefix": "15F"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AgeBandHlthRskAdjFctr"
+        },
+        "QualifiedApiName": "AgeBandHlthRskAdjFctr",
+        "Label": "Age Band Health Risk Adjustment Factor",
+        "KeyPrefix": "1Cl"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AgentWork"
+        },
+        "QualifiedApiName": "AgentWork",
+        "Label": "Agent Work",
+        "KeyPrefix": "0Bz"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AllergyIntolerance"
+        },
+        "QualifiedApiName": "AllergyIntolerance",
+        "Label": "Allergy Intolerance",
+        "KeyPrefix": "0ib"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AlternativePaymentMethod"
+        },
+        "QualifiedApiName": "AlternativePaymentMethod",
+        "Label": "Alternative Payment Method",
+        "KeyPrefix": "8Z7"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001AFTT"
+        },
+        "QualifiedApiName": "amazonconnect__AC_AgentPerformance__c",
+        "Label": "AC Agent Performance",
+        "KeyPrefix": "a1N"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001AFTU"
+        },
+        "QualifiedApiName": "amazonconnect__AC_CCPOverlayElement__c",
+        "Label": "AC CCP Overlay Element",
+        "KeyPrefix": "a1O"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001AFTW"
+        },
+        "QualifiedApiName": "amazonconnect__AC_ContactChannel_Reporting__c",
+        "Label": "AC ContactChannel Reporting",
+        "KeyPrefix": "a1Q"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001AFTV"
+        },
+        "QualifiedApiName": "amazonconnect__AC_ContactChannelAnalytics__c",
+        "Label": "AC Contact Channel Analytics",
+        "KeyPrefix": "a1P"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001AFTX"
+        },
+        "QualifiedApiName": "amazonconnect__AC_ContactChannels__c",
+        "Label": "AC Contact Channel",
+        "KeyPrefix": "a1R"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001AFTY"
+        },
+        "QualifiedApiName": "amazonconnect__AC_ContactTraceRecord__c",
+        "Label": "AC Contact Trace Record",
+        "KeyPrefix": "a1S"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001AFTZ"
+        },
+        "QualifiedApiName": "amazonconnect__AC_CtiAdapter__c",
+        "Label": "AC CTI Adapter",
+        "KeyPrefix": "a1T"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001AFTa"
+        },
+        "QualifiedApiName": "amazonconnect__AC_CtiAttribute__c",
+        "Label": "AC CTI Attribute",
+        "KeyPrefix": "a1U"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001AFTb"
+        },
+        "QualifiedApiName": "amazonconnect__AC_CtiScript__c",
+        "Label": "AC CTI Script",
+        "KeyPrefix": "a1V"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001AFTd"
+        },
+        "QualifiedApiName": "amazonconnect__AC_Feature__c",
+        "Label": "AC Feature",
+        "KeyPrefix": "a1W"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001AFTe"
+        },
+        "QualifiedApiName": "amazonconnect__AC_HistoricalQueueMetrics__c",
+        "Label": "AC Historical Queue Metrics",
+        "KeyPrefix": "a1X"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001AFTg"
+        },
+        "QualifiedApiName": "amazonconnect__AC_PhoneCall__c",
+        "Label": "AC Phone Call",
+        "KeyPrefix": "a1Z"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001AFTf"
+        },
+        "QualifiedApiName": "amazonconnect__AC_PhoneCall_Reporting__c",
+        "Label": "AC PhoneCall Reporting",
+        "KeyPrefix": "a1Y"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001AFTh"
+        },
+        "QualifiedApiName": "amazonconnect__AC_PresenceSyncRule__c",
+        "Label": "AC Presence Sync Rule",
+        "KeyPrefix": "a1a"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001AFTi"
+        },
+        "QualifiedApiName": "amazonconnect__AC_QueueMatries__c",
+        "Label": "AC QueueMatrix",
+        "KeyPrefix": "a1b"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001AFTj"
+        },
+        "QualifiedApiName": "amazonconnect__AC_QueueMetrics__c",
+        "Label": "AC Real Time Queue Metric",
+        "KeyPrefix": "a1c"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001AFTl"
+        },
+        "QualifiedApiName": "amazonconnect__AC_ReplicaInstance__c",
+        "Label": "AC Replica Instance",
+        "KeyPrefix": "a1d"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001AFTm"
+        },
+        "QualifiedApiName": "amazonconnect__AC_TriggerBatchJobRecords__c",
+        "Label": "AC Trigger Batch Job Record",
+        "KeyPrefix": "a1e"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001AFTn"
+        },
+        "QualifiedApiName": "amazonconnect__AC_VoiceIdChannel__c",
+        "Label": "AC Voice Id Channel",
+        "KeyPrefix": "a1f"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001AFTo"
+        },
+        "QualifiedApiName": "amazonconnect__AC_VoicemailDrop__c",
+        "Label": "AC Voicemail Drop",
+        "KeyPrefix": "a1g"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001AFTR"
+        },
+        "QualifiedApiName": "amazonconnect__ACSFCCP_Call_Disposition_Code__mdt",
+        "Label": "Call Disposition Code",
+        "KeyPrefix": "m0W"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001AFTS"
+        },
+        "QualifiedApiName": "amazonconnect__ACSFCCP_HistoricalReportData__c",
+        "Label": "Amazon Connect Historical Report Data",
+        "KeyPrefix": "a1M"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001AFTs"
+        },
+        "QualifiedApiName": "amazonconnect__Amazon_Connect__c",
+        "Label": "Toolkit for Amazon Connect",
+        "KeyPrefix": "a1k"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001AFTp"
+        },
+        "QualifiedApiName": "amazonconnect__AWS_CtiAdapter__c",
+        "Label": "AWS CTI Adapter",
+        "KeyPrefix": "a1h"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001AFTr"
+        },
+        "QualifiedApiName": "amazonconnect__AWS_PhoneCall__c",
+        "Label": "AWS Phone Call",
+        "KeyPrefix": "a1j"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001AFTq"
+        },
+        "QualifiedApiName": "amazonconnect__AWS_PhoneCallEvent__c",
+        "Label": "AWS Phone Call Event",
+        "KeyPrefix": "a1i"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001AFTt"
+        },
+        "QualifiedApiName": "amazonconnect__Call_Attributes_Configuration__mdt",
+        "Label": "Call Attributes Configuration",
+        "KeyPrefix": "m0X"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001AFTu"
+        },
+        "QualifiedApiName": "amazonconnect__Call_Campaign__c",
+        "Label": "Amazon Connect Call Campaign",
+        "KeyPrefix": "a1l"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001AFTv"
+        },
+        "QualifiedApiName": "amazonconnect__Presence_Sync_Configuration__mdt",
+        "Label": "Presence Sync Configuration",
+        "KeyPrefix": "m0Y"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/Applicant"
+        },
+        "QualifiedApiName": "Applicant",
+        "Label": "Applicant",
+        "KeyPrefix": "13Y"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ApplicationForm"
+        },
+        "QualifiedApiName": "ApplicationForm",
+        "Label": "Application Form",
+        "KeyPrefix": "13X"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ApplicationFormRelation"
+        },
+        "QualifiedApiName": "ApplicationFormRelation",
+        "Label": "Application Form Relation",
+        "KeyPrefix": "1Ah"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AppointmentCategory"
+        },
+        "QualifiedApiName": "AppointmentCategory",
+        "Label": "Appointment Category",
+        "KeyPrefix": "11x"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AppointmentInvitation"
+        },
+        "QualifiedApiName": "AppointmentInvitation",
+        "Label": "Appointment Invitation",
+        "KeyPrefix": "1S8"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AppointmentInvitee"
+        },
+        "QualifiedApiName": "AppointmentInvitee",
+        "Label": "Appointment Invitee",
+        "KeyPrefix": "0y6"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AppointmentTopicTimeSlot"
+        },
+        "QualifiedApiName": "AppointmentTopicTimeSlot",
+        "Label": "Appointment Topic Time Slot",
+        "KeyPrefix": "0mS"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01IQO00000IjO5R"
+        },
+        "QualifiedApiName": "appomni__AppOmni_Settings__c",
+        "Label": "AppOmni Settings",
+        "KeyPrefix": "a03"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ApprovalSubmission"
+        },
+        "QualifiedApiName": "ApprovalSubmission",
+        "Label": "Approval Submission",
+        "KeyPrefix": "9iP"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ApprovalSubmissionDetail"
+        },
+        "QualifiedApiName": "ApprovalSubmissionDetail",
+        "Label": "Approval Submission Detail",
+        "KeyPrefix": "1XE"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ApprovalWorkItem"
+        },
+        "QualifiedApiName": "ApprovalWorkItem",
+        "Label": "Approval Work Item",
+        "KeyPrefix": "9jR"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb00000194rp"
+        },
+        "QualifiedApiName": "APXTConga4__Composer_Host_Override__c",
+        "Label": "Composer Host Override",
+        "KeyPrefix": "a0C"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb00000194rq"
+        },
+        "QualifiedApiName": "APXTConga4__Composer_QuickMerge__c",
+        "Label": "Conga Global Merge",
+        "KeyPrefix": "a0D"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb00000194rr"
+        },
+        "QualifiedApiName": "APXTConga4__Composer_Refresh_Token__mdt",
+        "Label": "Composer Refresh Token",
+        "KeyPrefix": "m0C"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb00000194rs"
+        },
+        "QualifiedApiName": "APXTConga4__Composer_Setting__mdt",
+        "Label": "Composer Setting",
+        "KeyPrefix": "m0D"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb00000194ru"
+        },
+        "QualifiedApiName": "APXTConga4__Conga_Collection__c",
+        "Label": "Conga Collection",
+        "KeyPrefix": "a0F"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb00000194rt"
+        },
+        "QualifiedApiName": "APXTConga4__Conga_Collection_Solution__c",
+        "Label": "Conga Collection Solution",
+        "KeyPrefix": "a0E"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb00000194rv"
+        },
+        "QualifiedApiName": "APXTConga4__Conga_Composer_Settings__c",
+        "Label": "Conga Composer Settings",
+        "KeyPrefix": "a0G"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb00000194rw"
+        },
+        "QualifiedApiName": "APXTConga4__Conga_Email_Staging__c",
+        "Label": "Conga Email Staging",
+        "KeyPrefix": "a0H"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb00000194rx"
+        },
+        "QualifiedApiName": "APXTConga4__Conga_Email_Template__c",
+        "Label": "Conga Email Template",
+        "KeyPrefix": "a0I"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb00000194ry"
+        },
+        "QualifiedApiName": "APXTConga4__Conga_Merge_Query__c",
+        "Label": "Conga Query",
+        "KeyPrefix": "a0J"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb00000194s6"
+        },
+        "QualifiedApiName": "APXTConga4__Conga_Solution__c",
+        "Label": "Conga Solution",
+        "KeyPrefix": "a0P"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb00000194rz"
+        },
+        "QualifiedApiName": "APXTConga4__Conga_Solution_Email_Template__c",
+        "Label": "Conga Solution Email Template",
+        "KeyPrefix": "a0K"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb00000194s0"
+        },
+        "QualifiedApiName": "APXTConga4__Conga_Solution_Export_Environment__mdt",
+        "Label": "Conga Solution Export Environment",
+        "KeyPrefix": "m0E"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb00000194s1"
+        },
+        "QualifiedApiName": "APXTConga4__Conga_Solution_Export_Setting__mdt",
+        "Label": "Conga Solution Export Setting",
+        "KeyPrefix": "m0F"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb00000194s2"
+        },
+        "QualifiedApiName": "APXTConga4__Conga_Solution_Parameter__c",
+        "Label": "Conga Solution Parameter",
+        "KeyPrefix": "a0L"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb00000194s3"
+        },
+        "QualifiedApiName": "APXTConga4__Conga_Solution_Query__c",
+        "Label": "Conga Solution Query",
+        "KeyPrefix": "a0M"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb00000194s4"
+        },
+        "QualifiedApiName": "APXTConga4__Conga_Solution_Report__c",
+        "Label": "Conga Solution Report",
+        "KeyPrefix": "a0N"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb00000194s5"
+        },
+        "QualifiedApiName": "APXTConga4__Conga_Solution_Template__c",
+        "Label": "Conga Solution Template",
+        "KeyPrefix": "a0O"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb00000194s7"
+        },
+        "QualifiedApiName": "APXTConga4__Conga_Solutions_Settings__c",
+        "Label": "Conga Solutions Settings",
+        "KeyPrefix": "a0Q"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb00000194s8"
+        },
+        "QualifiedApiName": "APXTConga4__Conga_Template__c",
+        "Label": "Conga Template",
+        "KeyPrefix": "a0R"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb00000194s9"
+        },
+        "QualifiedApiName": "APXTConga4__Connected_App_Setting__mdt",
+        "Label": "Connected App Setting",
+        "KeyPrefix": "m0G"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb00000194sB"
+        },
+        "QualifiedApiName": "APXTConga4__Document_History__c",
+        "Label": "Document History",
+        "KeyPrefix": "a0T"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb00000194sA"
+        },
+        "QualifiedApiName": "APXTConga4__Document_History_Detail__c",
+        "Label": "Document History Detail",
+        "KeyPrefix": "a0S"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb00000194sC"
+        },
+        "QualifiedApiName": "APXTConga4__EventData__c",
+        "Label": "EventData",
+        "KeyPrefix": "a0U"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb00000194sD"
+        },
+        "QualifiedApiName": "APXTConga4__Lightning_Connected_App_Setting__mdt",
+        "Label": "Lightning Connected App Setting",
+        "KeyPrefix": "m0H"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb00000194sE"
+        },
+        "QualifiedApiName": "APXTConga4__Lightning_Connected_App_Settings__c",
+        "Label": "Lightning Connected App Settings",
+        "KeyPrefix": "a0V"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001Yhzd"
+        },
+        "QualifiedApiName": "APXTConga4__Setting__c",
+        "Label": "Conga Platform Settings",
+        "KeyPrefix": "a1y"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb00000194sF"
+        },
+        "QualifiedApiName": "APXTConga4__VersionedData__c",
+        "Label": "VersionedData",
+        "KeyPrefix": "a0W"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000018ogb"
+        },
+        "QualifiedApiName": "ASPN_Cancellation_Settings__mdt",
+        "Label": "ASPN Cancellation Setting",
+        "KeyPrefix": "m0K"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001C3Xp"
+        },
+        "QualifiedApiName": "ASPN_SubStatus_to_OppStage__mdt",
+        "Label": "ASPN SubStatus to Opp Stage",
+        "KeyPrefix": "m0m"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/Assessment"
+        },
+        "QualifiedApiName": "Assessment",
+        "Label": "Assessment",
+        "KeyPrefix": "0U3"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AssessmentDefinition"
+        },
+        "QualifiedApiName": "AssessmentDefinition",
+        "Label": "Assessment Definition",
+        "KeyPrefix": "9OP"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AssessmentEnvelope"
+        },
+        "QualifiedApiName": "AssessmentEnvelope",
+        "Label": "Assessment Envelope",
+        "KeyPrefix": "0yI"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AssessmentEnvelopeItem"
+        },
+        "QualifiedApiName": "AssessmentEnvelopeItem",
+        "Label": "Assessment Envelope Item",
+        "KeyPrefix": "0yK"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AssessmentIndDefinedValue"
+        },
+        "QualifiedApiName": "AssessmentIndDefinedValue",
+        "Label": "Assessment Indicator Defined Value",
+        "KeyPrefix": "0z5"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AssessmentIndicatorDefinition"
+        },
+        "QualifiedApiName": "AssessmentIndicatorDefinition",
+        "Label": "Assessment Indicator Definition",
+        "KeyPrefix": "0eu"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AssessmentQuestion"
+        },
+        "QualifiedApiName": "AssessmentQuestion",
+        "Label": "Assessment Question",
+        "KeyPrefix": "0U4"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AssessmentQuestionAssignment"
+        },
+        "QualifiedApiName": "AssessmentQuestionAssignment",
+        "Label": "Assessment Question Assignment",
+        "KeyPrefix": "0r4"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AssessmentQuestionResponse"
+        },
+        "QualifiedApiName": "AssessmentQuestionResponse",
+        "Label": "Assessment Question Response",
+        "KeyPrefix": "0jb"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AssessmentQuestionSet"
+        },
+        "QualifiedApiName": "AssessmentQuestionSet",
+        "Label": "Assessment Question Set",
+        "KeyPrefix": "0lB"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AssessmentQuestionVersion"
+        },
+        "QualifiedApiName": "AssessmentQuestionVersion",
+        "Label": "Assessment Question Version",
+        "KeyPrefix": "0lF"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AssessmentSignature"
+        },
+        "QualifiedApiName": "AssessmentSignature",
+        "Label": "Assessment Signature",
+        "KeyPrefix": "11N"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AssessmentTask"
+        },
+        "QualifiedApiName": "AssessmentTask",
+        "Label": "Assessment Task",
+        "KeyPrefix": "0eg"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AssessmentTaskContentDocument"
+        },
+        "QualifiedApiName": "AssessmentTaskContentDocument",
+        "Label": "Assessment Task Content Document",
+        "KeyPrefix": "0dQ"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AssessmentTaskDefinition"
+        },
+        "QualifiedApiName": "AssessmentTaskDefinition",
+        "Label": "Assessment Task Definition",
+        "KeyPrefix": "0Z4"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AssessmentTaskIndDefinition"
+        },
+        "QualifiedApiName": "AssessmentTaskIndDefinition",
+        "Label": "Assessment Task Indicator Definition",
+        "KeyPrefix": "0dt"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AssessmentTaskOrder"
+        },
+        "QualifiedApiName": "AssessmentTaskOrder",
+        "Label": "Assessment Task Order",
+        "KeyPrefix": "0es"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/Asset"
+        },
+        "QualifiedApiName": "Asset",
+        "Label": "Asset",
+        "KeyPrefix": "02i"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AssetRelationship"
+        },
+        "QualifiedApiName": "AssetRelationship",
+        "Label": "Asset Relationship",
+        "KeyPrefix": "1AR"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AssignedResource"
+        },
+        "QualifiedApiName": "AssignedResource",
+        "Label": "Assigned Resource",
+        "KeyPrefix": "03r"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AssociatedLocation"
+        },
+        "QualifiedApiName": "AssociatedLocation",
+        "Label": "Associated Location",
+        "KeyPrefix": "0Kt"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AsyncOperationTracker"
+        },
+        "QualifiedApiName": "AsyncOperationTracker",
+        "Label": "Async Operation Tracker",
+        "KeyPrefix": "16P"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AttributeCategory"
+        },
+        "QualifiedApiName": "AttributeCategory",
+        "Label": "Attribute Category",
+        "KeyPrefix": "0v3"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AttributeCategoryAttribute"
+        },
+        "QualifiedApiName": "AttributeCategoryAttribute",
+        "Label": "Attribute Category Attribute",
+        "KeyPrefix": "11E"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AttributeDefinition"
+        },
+        "QualifiedApiName": "AttributeDefinition",
+        "Label": "Attribute Definition",
+        "KeyPrefix": "0tj"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AttributePicklist"
+        },
+        "QualifiedApiName": "AttributePicklist",
+        "Label": "Attribute Picklist",
+        "KeyPrefix": "0v5"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AttributePicklistValue"
+        },
+        "QualifiedApiName": "AttributePicklistValue",
+        "Label": "Attribute Picklist Value",
+        "KeyPrefix": "0v6"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AttrPicklistExcludedValue"
+        },
+        "QualifiedApiName": "AttrPicklistExcludedValue",
+        "Label": "Attribute Picklist Excluded Value",
+        "KeyPrefix": "1Ar"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AuthFormRequestRecord"
+        },
+        "QualifiedApiName": "AuthFormRequestRecord",
+        "Label": "Authorizable Form Request Record",
+        "KeyPrefix": "0lo"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AuthorizationForm"
+        },
+        "QualifiedApiName": "AuthorizationForm",
+        "Label": "Authorization Form",
+        "KeyPrefix": "0cI"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AuthorizationFormConsent"
+        },
+        "QualifiedApiName": "AuthorizationFormConsent",
+        "Label": "Authorization Form Consent",
+        "KeyPrefix": "0cK"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AuthorizationFormDataUse"
+        },
+        "QualifiedApiName": "AuthorizationFormDataUse",
+        "Label": "Authorization Form Data Use",
+        "KeyPrefix": "0cM"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AuthorizationFormText"
+        },
+        "QualifiedApiName": "AuthorizationFormText",
+        "Label": "Authorization Form Text",
+        "KeyPrefix": "0cN"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/AuthorNote"
+        },
+        "QualifiedApiName": "AuthorNote",
+        "Label": "Author Note",
+        "KeyPrefix": "0nN"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/Award"
+        },
+        "QualifiedApiName": "Award",
+        "Label": "Award",
+        "KeyPrefix": "0cF"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000018ogd"
+        },
+        "QualifiedApiName": "Batch_Configuration__mdt",
+        "Label": "Batch Configuration",
+        "KeyPrefix": "m0L"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/Benefit"
+        },
+        "QualifiedApiName": "Benefit",
+        "Label": "Benefit",
+        "KeyPrefix": "0ji"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/BenefitAssignment"
+        },
+        "QualifiedApiName": "BenefitAssignment",
+        "Label": "Benefit Assignment",
+        "KeyPrefix": "0nD"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/BenefitAssignmentAsset"
+        },
+        "QualifiedApiName": "BenefitAssignmentAsset",
+        "Label": "Benefit Assignment Asset",
+        "KeyPrefix": "1zY"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/BenefitDisbursement"
+        },
+        "QualifiedApiName": "BenefitDisbursement",
+        "Label": "Benefit Disbursement",
+        "KeyPrefix": "0xW"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/BenefitSchedule"
+        },
+        "QualifiedApiName": "BenefitSchedule",
+        "Label": "Benefit Schedule",
+        "KeyPrefix": "1Bs"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/BenefitScheduleAssignment"
+        },
+        "QualifiedApiName": "BenefitScheduleAssignment",
+        "Label": "Benefit Schedule Assignment",
+        "KeyPrefix": "156"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/BenefitSession"
+        },
+        "QualifiedApiName": "BenefitSession",
+        "Label": "Benefit Session",
+        "KeyPrefix": "2Bs"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/BenefitType"
+        },
+        "QualifiedApiName": "BenefitType",
+        "Label": "Benefit Type",
+        "KeyPrefix": "0jh"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/BoardCertification"
+        },
+        "QualifiedApiName": "BoardCertification",
+        "Label": "Board Certification",
+        "KeyPrefix": "0YS"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/BusinessAlert"
+        },
+        "QualifiedApiName": "BusinessAlert",
+        "Label": "Business Alert",
+        "KeyPrefix": "10w"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/BusinessAlertStatus"
+        },
+        "QualifiedApiName": "BusinessAlertStatus",
+        "Label": "Business Alert Status",
+        "KeyPrefix": "11D"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/BusinessBrand"
+        },
+        "QualifiedApiName": "BusinessBrand",
+        "Label": "Business Brand",
+        "KeyPrefix": "1BU"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/BusinessLicense"
+        },
+        "QualifiedApiName": "BusinessLicense",
+        "Label": "Business License",
+        "KeyPrefix": "0cE"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/BusinessMilestone"
+        },
+        "QualifiedApiName": "BusinessMilestone",
+        "Label": "Business Milestone",
+        "KeyPrefix": "0do"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CalcMatrixColumnRange"
+        },
+        "QualifiedApiName": "CalcMatrixColumnRange",
+        "Label": "Decision Matrix Column Range",
+        "KeyPrefix": "9QX"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CalcProcStepRelationship"
+        },
+        "QualifiedApiName": "CalcProcStepRelationship",
+        "Label": "Expression Set Step Relationship",
+        "KeyPrefix": "06Z"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CalculatedInsightRangeBound"
+        },
+        "QualifiedApiName": "CalculatedInsightRangeBound",
+        "Label": "Calculated Insight Range Bound",
+        "KeyPrefix": "157"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CalculationMatrix"
+        },
+        "QualifiedApiName": "CalculationMatrix",
+        "Label": "Decision Matrix",
+        "KeyPrefix": "0lI"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CalculationMatrixColumn"
+        },
+        "QualifiedApiName": "CalculationMatrixColumn",
+        "Label": "Decision Matrix Column",
+        "KeyPrefix": "0lJ"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CalculationMatrixRow"
+        },
+        "QualifiedApiName": "CalculationMatrixRow",
+        "Label": "Decision Matrix Row",
+        "KeyPrefix": "9mt"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CalculationMatrixVersion"
+        },
+        "QualifiedApiName": "CalculationMatrixVersion",
+        "Label": "Decision Matrix Version",
+        "KeyPrefix": "0lN"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CalculationProcedure"
+        },
+        "QualifiedApiName": "CalculationProcedure",
+        "Label": "Calculation Procedure",
+        "KeyPrefix": "0k0"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CalculationProcedureStep"
+        },
+        "QualifiedApiName": "CalculationProcedureStep",
+        "Label": "Calculation Procedure Step",
+        "KeyPrefix": "0mq"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CalculationProcedureVariable"
+        },
+        "QualifiedApiName": "CalculationProcedureVariable",
+        "Label": "Calculation Procedure Variable",
+        "KeyPrefix": "0kJ"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CalculationProcedureVersion"
+        },
+        "QualifiedApiName": "CalculationProcedureVersion",
+        "Label": "Calculation Procedure Version",
+        "KeyPrefix": "0k1"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/Campaign"
+        },
+        "QualifiedApiName": "Campaign",
+        "Label": "Campaign",
+        "KeyPrefix": "701"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CampaignInfluence"
+        },
+        "QualifiedApiName": "CampaignInfluence",
+        "Label": "Campaign Influence",
+        "KeyPrefix": "0KK"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CampaignMember"
+        },
+        "QualifiedApiName": "CampaignMember",
+        "Label": "Campaign Member",
+        "KeyPrefix": "00v"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CardPaymentMethod"
+        },
+        "QualifiedApiName": "CardPaymentMethod",
+        "Label": "Card Payment Method",
+        "KeyPrefix": "03O"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CareBarrier"
+        },
+        "QualifiedApiName": "CareBarrier",
+        "Label": "Care Barrier",
+        "KeyPrefix": "0Vo"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CareBarrierDeterminant"
+        },
+        "QualifiedApiName": "CareBarrierDeterminant",
+        "Label": "Care Barrier Determinant",
+        "KeyPrefix": "0Zb"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CareBarrierType"
+        },
+        "QualifiedApiName": "CareBarrierType",
+        "Label": "Care Barrier Type",
+        "KeyPrefix": "0Vs"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CareBenefitVerifyRequest"
+        },
+        "QualifiedApiName": "CareBenefitVerifyRequest",
+        "Label": "Care Benefit Verify Request",
+        "KeyPrefix": "0n2"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CareDeterminant"
+        },
+        "QualifiedApiName": "CareDeterminant",
+        "Label": "Care Determinant",
+        "KeyPrefix": "8GR"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CareDeterminantType"
+        },
+        "QualifiedApiName": "CareDeterminantType",
+        "Label": "Care Determinant Type",
+        "KeyPrefix": "0YO"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CareDiagnosis"
+        },
+        "QualifiedApiName": "CareDiagnosis",
+        "Label": "Care Diagnosis",
+        "KeyPrefix": "0VC"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CareFacilityBed"
+        },
+        "QualifiedApiName": "CareFacilityBed",
+        "Label": "Care Facility Bed",
+        "KeyPrefix": "12c"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CareInterventionType"
+        },
+        "QualifiedApiName": "CareInterventionType",
+        "Label": "Care Intervention Type",
+        "KeyPrefix": "0YM"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CareMetricTarget"
+        },
+        "QualifiedApiName": "CareMetricTarget",
+        "Label": "Care Metric Target",
+        "KeyPrefix": "0hL"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CareObservation"
+        },
+        "QualifiedApiName": "CareObservation",
+        "Label": "Care Observation",
+        "KeyPrefix": "0hI"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CareObservationComponent"
+        },
+        "QualifiedApiName": "CareObservationComponent",
+        "Label": "Care Observation Component",
+        "KeyPrefix": "0jg"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CarePerformer"
+        },
+        "QualifiedApiName": "CarePerformer",
+        "Label": "Care Performer",
+        "KeyPrefix": "0ig"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CarePgmEnrolleeWkOrdStep"
+        },
+        "QualifiedApiName": "CarePgmEnrolleeWkOrdStep",
+        "Label": "Care Program Enrollee Work Order Step",
+        "KeyPrefix": "0z8"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CarePgmEnrolleeWorkOrder"
+        },
+        "QualifiedApiName": "CarePgmEnrolleeWorkOrder",
+        "Label": "Care Program Enrollee Work Order",
+        "KeyPrefix": "0zj"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CarePgmProvHealthcareProvider"
+        },
+        "QualifiedApiName": "CarePgmProvHealthcareProvider",
+        "Label": "Care Program Healthcare Provider",
+        "KeyPrefix": "0h7"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CarePreauth"
+        },
+        "QualifiedApiName": "CarePreauth",
+        "Label": "Care Preauth",
+        "KeyPrefix": "0Td"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CarePreauthItem"
+        },
+        "QualifiedApiName": "CarePreauthItem",
+        "Label": "Care Preauth Item",
+        "KeyPrefix": "0Tg"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CareProcessingError"
+        },
+        "QualifiedApiName": "CareProcessingError",
+        "Label": "Care Processing Error",
+        "KeyPrefix": "13H"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CareProgram"
+        },
+        "QualifiedApiName": "CareProgram",
+        "Label": "Care Program",
+        "KeyPrefix": "0Ze"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CareProgramAssistance"
+        },
+        "QualifiedApiName": "CareProgramAssistance",
+        "Label": "Care Program Assistance",
+        "KeyPrefix": "1Ci"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CareProgramCampaign"
+        },
+        "QualifiedApiName": "CareProgramCampaign",
+        "Label": "Care Program Campaign",
+        "KeyPrefix": "0Zs"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CareProgramDetail"
+        },
+        "QualifiedApiName": "CareProgramDetail",
+        "Label": "Care Program Detail",
+        "KeyPrefix": "7tu"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CareProgramEligibilityRule"
+        },
+        "QualifiedApiName": "CareProgramEligibilityRule",
+        "Label": "Care Program Eligibility Rule",
+        "KeyPrefix": "0bk"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CareProgramEnrollee"
+        },
+        "QualifiedApiName": "CareProgramEnrollee",
+        "Label": "Care Program Enrollee",
+        "KeyPrefix": "0Ww"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CareProgramEnrolleeProduct"
+        },
+        "QualifiedApiName": "CareProgramEnrolleeProduct",
+        "Label": "Care Program Enrollee Product",
+        "KeyPrefix": "0be"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CareProgramEnrollmentCard"
+        },
+        "QualifiedApiName": "CareProgramEnrollmentCard",
+        "Label": "Care Program Enrollment Card",
+        "KeyPrefix": "0bg"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CareProgramGoal"
+        },
+        "QualifiedApiName": "CareProgramGoal",
+        "Label": "Care Program Goal",
+        "KeyPrefix": "0bn"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CareProgramProduct"
+        },
+        "QualifiedApiName": "CareProgramProduct",
+        "Label": "Care Program Product",
+        "KeyPrefix": "0bd"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CareProgramProvider"
+        },
+        "QualifiedApiName": "CareProgramProvider",
+        "Label": "Care Program Provider",
+        "KeyPrefix": "0bo"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CareProgramTeamMember"
+        },
+        "QualifiedApiName": "CareProgramTeamMember",
+        "Label": "Care Program Team Member",
+        "KeyPrefix": "0Zr"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CareProviderAdverseAction"
+        },
+        "QualifiedApiName": "CareProviderAdverseAction",
+        "Label": "Care Provider Adverse Action",
+        "KeyPrefix": "0et"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CareProviderFacilitySpecialty"
+        },
+        "QualifiedApiName": "CareProviderFacilitySpecialty",
+        "Label": "Care Provider Facility Specialty",
+        "KeyPrefix": "0bX"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CareProviderSearchableField"
+        },
+        "QualifiedApiName": "CareProviderSearchableField",
+        "Label": "Care Provider Searchable Field",
+        "KeyPrefix": "0d0"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CareRegisteredDevice"
+        },
+        "QualifiedApiName": "CareRegisteredDevice",
+        "Label": "Care Registered Device",
+        "KeyPrefix": "0hB"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CareRequest"
+        },
+        "QualifiedApiName": "CareRequest",
+        "Label": "Care Request",
+        "KeyPrefix": "0Um"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CareRequestDrug"
+        },
+        "QualifiedApiName": "CareRequestDrug",
+        "Label": "Care Request Drug",
+        "KeyPrefix": "0VD"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CareRequestExchangeInfo"
+        },
+        "QualifiedApiName": "CareRequestExchangeInfo",
+        "Label": "Care Request Exchange Information",
+        "KeyPrefix": "1NT"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CareRequestExtension"
+        },
+        "QualifiedApiName": "CareRequestExtension",
+        "Label": "Care Request Extension",
+        "KeyPrefix": "0br"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CareRequestItem"
+        },
+        "QualifiedApiName": "CareRequestItem",
+        "Label": "Care Request Item",
+        "KeyPrefix": "0VK"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CareRequestReviewer"
+        },
+        "QualifiedApiName": "CareRequestReviewer",
+        "Label": "Care Request Reviewer",
+        "KeyPrefix": "06H"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CareRequestSupportingCntnt"
+        },
+        "QualifiedApiName": "CareRequestSupportingCntnt",
+        "Label": "Care Request Supporting Content",
+        "KeyPrefix": "18H"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CareService"
+        },
+        "QualifiedApiName": "CareService",
+        "Label": "Care Service",
+        "KeyPrefix": "13x"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CareSpecialty"
+        },
+        "QualifiedApiName": "CareSpecialty",
+        "Label": "Care Specialty",
+        "KeyPrefix": "0bc"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CareSpecialtyTaxonomy"
+        },
+        "QualifiedApiName": "CareSpecialtyTaxonomy",
+        "Label": "Care Specialty Taxonomy",
+        "KeyPrefix": "0kB"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CareTask"
+        },
+        "QualifiedApiName": "CareTask",
+        "Label": "Care Task",
+        "KeyPrefix": "21f"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CareTaskDetail"
+        },
+        "QualifiedApiName": "CareTaskDetail",
+        "Label": "Care Task Detail",
+        "KeyPrefix": "25f"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CareTaxonomy"
+        },
+        "QualifiedApiName": "CareTaxonomy",
+        "Label": "Care Taxonomy",
+        "KeyPrefix": "0bK"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/Case"
+        },
+        "QualifiedApiName": "Case",
+        "Label": "Case",
+        "KeyPrefix": "500"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CaseRelatedIssue"
+        },
+        "QualifiedApiName": "CaseRelatedIssue",
+        "Label": "Case Related Issue",
+        "KeyPrefix": "0oL"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01IQO00000GQYRR"
+        },
+        "QualifiedApiName": "cdpactvstrgptnr__ActivationPlatformCredential__mdt",
+        "Label": "ActivationPlatformCredential",
+        "KeyPrefix": "m03"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000018oge"
+        },
+        "QualifiedApiName": "Certification__c",
+        "Label": "Certification",
+        "KeyPrefix": "a0m"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ChangeRequest"
+        },
+        "QualifiedApiName": "ChangeRequest",
+        "Label": "Change Request",
+        "KeyPrefix": "0oW"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ChangeRequestRelatedIssue"
+        },
+        "QualifiedApiName": "ChangeRequestRelatedIssue",
+        "Label": "Change Request Related Issue",
+        "KeyPrefix": "0oK"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ChangeRequestRelatedItem"
+        },
+        "QualifiedApiName": "ChangeRequestRelatedItem",
+        "Label": "Change Request Related Item",
+        "KeyPrefix": "0tC"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ChannelProgram"
+        },
+        "QualifiedApiName": "ChannelProgram",
+        "Label": "Channel Program",
+        "KeyPrefix": "0Pk"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ChannelProgramLevel"
+        },
+        "QualifiedApiName": "ChannelProgramLevel",
+        "Label": "Channel Program Level",
+        "KeyPrefix": "0Pl"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ChannelProgramMember"
+        },
+        "QualifiedApiName": "ChannelProgramMember",
+        "Label": "Channel Program Member",
+        "KeyPrefix": "0Pm"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001aUwf"
+        },
+        "QualifiedApiName": "Clinic_Grouping__c",
+        "Label": "Clinic Grouping",
+        "KeyPrefix": "a2R"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ClinicalAlert"
+        },
+        "QualifiedApiName": "ClinicalAlert",
+        "Label": "Clinical Alert",
+        "KeyPrefix": "0l9"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ClinicalDetectedIssue"
+        },
+        "QualifiedApiName": "ClinicalDetectedIssue",
+        "Label": "Clinical Detected Issue",
+        "KeyPrefix": "0u5"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ClinicalDetectedIssueDetail"
+        },
+        "QualifiedApiName": "ClinicalDetectedIssueDetail",
+        "Label": "Clinical Detected Issue Detail",
+        "KeyPrefix": "0ui"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ClinicalEncounter"
+        },
+        "QualifiedApiName": "ClinicalEncounter",
+        "Label": "Clinical Encounter",
+        "KeyPrefix": "0kG"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ClinicalEncounterDiagnosis"
+        },
+        "QualifiedApiName": "ClinicalEncounterDiagnosis",
+        "Label": "Clinical Encounter Diagnosis",
+        "KeyPrefix": "0kZ"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ClinicalEncounterFacility"
+        },
+        "QualifiedApiName": "ClinicalEncounterFacility",
+        "Label": "Clinical Encounter Facility",
+        "KeyPrefix": "0l1"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ClinicalEncounterIdentifier"
+        },
+        "QualifiedApiName": "ClinicalEncounterIdentifier",
+        "Label": "Clinical Encounter Identifier",
+        "KeyPrefix": "0k6"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ClinicalEncounterProvider"
+        },
+        "QualifiedApiName": "ClinicalEncounterProvider",
+        "Label": "Clinical Encounter Provider",
+        "KeyPrefix": "0kM"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ClinicalEncounterReason"
+        },
+        "QualifiedApiName": "ClinicalEncounterReason",
+        "Label": "Clinical Encounter Reason",
+        "KeyPrefix": "0lm"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ClinicalEncounterSvcRequest"
+        },
+        "QualifiedApiName": "ClinicalEncounterSvcRequest",
+        "Label": "Clinical Encounter Svc Request",
+        "KeyPrefix": "0lx"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ClinicalServiceRequest"
+        },
+        "QualifiedApiName": "ClinicalServiceRequest",
+        "Label": "Clinical Service Request",
+        "KeyPrefix": "0jy"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ClinicalServiceRequestDetail"
+        },
+        "QualifiedApiName": "ClinicalServiceRequestDetail",
+        "Label": "Clinical Service Request Detail",
+        "KeyPrefix": "0lT"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01IfL000001lgBL"
+        },
+        "QualifiedApiName": "CodeBuilder__CodeBuilderSetting__mdt",
+        "Label": "CodeBuilderSetting",
+        "KeyPrefix": "m00"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01IfL000001lgBM"
+        },
+        "QualifiedApiName": "CodeBuilder__CryptoKey__mdt",
+        "Label": "Crypto Key",
+        "KeyPrefix": "m01"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01IfL000001lgBN"
+        },
+        "QualifiedApiName": "CodeBuilder__ServiceSetting__mdt",
+        "Label": "Service Setting",
+        "KeyPrefix": "m02"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01IfL000001lgBO"
+        },
+        "QualifiedApiName": "CodeBuilder__SessionData__c",
+        "Label": "SessionData",
+        "KeyPrefix": "a01"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01IfL000001lgBP"
+        },
+        "QualifiedApiName": "CodeBuilder__Workspace__c",
+        "Label": "Environment",
+        "KeyPrefix": "a02"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CodeSet"
+        },
+        "QualifiedApiName": "CodeSet",
+        "Label": "Code Set",
+        "KeyPrefix": "0hs"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CodeSetBundle"
+        },
+        "QualifiedApiName": "CodeSetBundle",
+        "Label": "Code Set Bundle",
+        "KeyPrefix": "0iP"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CommSubscription"
+        },
+        "QualifiedApiName": "CommSubscription",
+        "Label": "Communication Subscription",
+        "KeyPrefix": "0Xl"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CommSubscriptionChannelType"
+        },
+        "QualifiedApiName": "CommSubscriptionChannelType",
+        "Label": "Communication Subscription Channel Type",
+        "KeyPrefix": "0eB"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CommSubscriptionConsent"
+        },
+        "QualifiedApiName": "CommSubscriptionConsent",
+        "Label": "Communication Subscription Consent",
+        "KeyPrefix": "0dY"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CommSubscriptionTiming"
+        },
+        "QualifiedApiName": "CommSubscriptionTiming",
+        "Label": "Communication Subscription Timing",
+        "KeyPrefix": "0al"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CondIntrctnHlthRskAdjFctr"
+        },
+        "QualifiedApiName": "CondIntrctnHlthRskAdjFctr",
+        "Label": "Condition Interaction Health Risk Adjustment Factor",
+        "KeyPrefix": "1Cm"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/Contact"
+        },
+        "QualifiedApiName": "Contact",
+        "Label": "Contact",
+        "KeyPrefix": "003"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ContactContactRelation"
+        },
+        "QualifiedApiName": "ContactContactRelation",
+        "Label": "Contact Contact Relationship",
+        "KeyPrefix": "0zm"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ContactEncounter"
+        },
+        "QualifiedApiName": "ContactEncounter",
+        "Label": "Contact Encounter",
+        "KeyPrefix": "0ha"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ContactEncounterParticipant"
+        },
+        "QualifiedApiName": "ContactEncounterParticipant",
+        "Label": "Contact Encounter Participant",
+        "KeyPrefix": "0hb"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ContactPointAddress"
+        },
+        "QualifiedApiName": "ContactPointAddress",
+        "Label": "Contact Point Address",
+        "KeyPrefix": "8lW"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ContactPointBestContactTime"
+        },
+        "QualifiedApiName": "ContactPointBestContactTime",
+        "Label": "Contact Point Best Contact Time",
+        "KeyPrefix": "7eq"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ContactPointConsent"
+        },
+        "QualifiedApiName": "ContactPointConsent",
+        "Label": "Contact Point Consent",
+        "KeyPrefix": "0ZX"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ContactPointEmail"
+        },
+        "QualifiedApiName": "ContactPointEmail",
+        "Label": "Contact Point Email",
+        "KeyPrefix": "9Vl"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ContactPointPhone"
+        },
+        "QualifiedApiName": "ContactPointPhone",
+        "Label": "Contact Point Phone",
+        "KeyPrefix": "0Ow"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ContactPointTypeConsent"
+        },
+        "QualifiedApiName": "ContactPointTypeConsent",
+        "Label": "Contact Point Type Consent",
+        "KeyPrefix": "0ZY"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ContactProfile"
+        },
+        "QualifiedApiName": "ContactProfile",
+        "Label": "Contact Profile",
+        "KeyPrefix": "11A"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ContactRequest"
+        },
+        "QualifiedApiName": "ContactRequest",
+        "Label": "Contact Request",
+        "KeyPrefix": "0Tz"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001AYkb"
+        },
+        "QualifiedApiName": "Content_Document_Visibility_Config__mdt",
+        "Label": "Content Document Visibility Config",
+        "KeyPrefix": "m0Z"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ContentVersion"
+        },
+        "QualifiedApiName": "ContentVersion",
+        "Label": "Content Version",
+        "KeyPrefix": "068"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/Contract"
+        },
+        "QualifiedApiName": "Contract",
+        "Label": "Contract",
+        "KeyPrefix": "800"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ContractLineItem"
+        },
+        "QualifiedApiName": "ContractLineItem",
+        "Label": "Contract Line Item",
+        "KeyPrefix": "811"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ConvEntryRelatedRecordCopy"
+        },
+        "QualifiedApiName": "ConvEntryRelatedRecordCopy",
+        "Label": "Conv Entry Related Record Copy",
+        "KeyPrefix": "2c6"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ConversationEntryCopy"
+        },
+        "QualifiedApiName": "ConversationEntryCopy",
+        "Label": "Conversation Entry Copy",
+        "KeyPrefix": "2c5"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CostBook"
+        },
+        "QualifiedApiName": "CostBook",
+        "Label": "Cost Book",
+        "KeyPrefix": "29g"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CostBookEntry"
+        },
+        "QualifiedApiName": "CostBookEntry",
+        "Label": "Cost Book Entry",
+        "KeyPrefix": "22g"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CoverageBenefit"
+        },
+        "QualifiedApiName": "CoverageBenefit",
+        "Label": "Coverage Benefit",
+        "KeyPrefix": "0TL"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CoverageBenefitItem"
+        },
+        "QualifiedApiName": "CoverageBenefitItem",
+        "Label": "Coverage Benefit Item",
+        "KeyPrefix": "0Sf"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CoverageBenefitItemLimit"
+        },
+        "QualifiedApiName": "CoverageBenefitItemLimit",
+        "Label": "Coverage Benefit Item Limit",
+        "KeyPrefix": "0n4"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CreditMemo"
+        },
+        "QualifiedApiName": "CreditMemo",
+        "Label": "Credit Memo",
+        "KeyPrefix": "50g"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CreditMemoInvApplication"
+        },
+        "QualifiedApiName": "CreditMemoInvApplication",
+        "Label": "Credit Memo Invoice Application",
+        "KeyPrefix": "4sF"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CreditMemoLine"
+        },
+        "QualifiedApiName": "CreditMemoLine",
+        "Label": "Credit Memo Line",
+        "KeyPrefix": "9yx"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CustodyChainEntry"
+        },
+        "QualifiedApiName": "CustodyChainEntry",
+        "Label": "Custody Chain Entry",
+        "KeyPrefix": "15C"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CustodyItem"
+        },
+        "QualifiedApiName": "CustodyItem",
+        "Label": "Custody Item",
+        "KeyPrefix": "15D"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/CustodyVerfcTypeOverride"
+        },
+        "QualifiedApiName": "CustodyVerfcTypeOverride",
+        "Label": "Custody Verification Type Override",
+        "KeyPrefix": "15H"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/Customer"
+        },
+        "QualifiedApiName": "Customer",
+        "Label": "Customer",
+        "KeyPrefix": "0o6"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataKitDeploymentLog"
+        },
+        "QualifiedApiName": "DataKitDeploymentLog",
+        "Label": "Data Kit Deployment Log",
+        "KeyPrefix": "1D0"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataQueryWorkspace"
+        },
+        "QualifiedApiName": "DataQueryWorkspace",
+        "Label": "Query Editor",
+        "KeyPrefix": "20m"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataUseLegalBasis"
+        },
+        "QualifiedApiName": "DataUseLegalBasis",
+        "Label": "Data Use Legal Basis",
+        "KeyPrefix": "0ZT"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DataUsePurpose"
+        },
+        "QualifiedApiName": "DataUsePurpose",
+        "Label": "Data Use Purpose",
+        "KeyPrefix": "0ZW"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000018vdF"
+        },
+        "QualifiedApiName": "dfsle__AccountSettings__c",
+        "Label": "Account Settings",
+        "KeyPrefix": "a0q"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000018vdG"
+        },
+        "QualifiedApiName": "dfsle__AgreementConfiguration__c",
+        "Label": "Agreement Configuration",
+        "KeyPrefix": "a0r"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000018vdH"
+        },
+        "QualifiedApiName": "dfsle__AuthProvider__mdt",
+        "Label": "DocuSign Auth Provider Metadata",
+        "KeyPrefix": "m0P"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000018vdI"
+        },
+        "QualifiedApiName": "dfsle__BulkList__c",
+        "Label": "Docusign Bulk Send List",
+        "KeyPrefix": "a0s"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000018vdJ"
+        },
+        "QualifiedApiName": "dfsle__BulkStatus__c",
+        "Label": "Docusign Bulk Send Status",
+        "KeyPrefix": "a0t"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000018vdL"
+        },
+        "QualifiedApiName": "dfsle__ChatterSettings__c",
+        "Label": "Chatter Settings",
+        "KeyPrefix": "a0v"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000018vdK"
+        },
+        "QualifiedApiName": "dfsle__CLMConversionSettings__c",
+        "Label": "CLM Conversion Settings",
+        "KeyPrefix": "a0u"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000018vdM"
+        },
+        "QualifiedApiName": "dfsle__CustomParameterMap__c",
+        "Label": "DocuSign Custom Parameter Map",
+        "KeyPrefix": "a0w"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000018vdN"
+        },
+        "QualifiedApiName": "dfsle__CustomRecipient__c",
+        "Label": "DocuSign Custom Recipient",
+        "KeyPrefix": "a0x"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000018vdO"
+        },
+        "QualifiedApiName": "dfsle__DFSMigrationToolSettings__c",
+        "Label": "DFS Migration Tool Settings",
+        "KeyPrefix": "a0y"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000018vdP"
+        },
+        "QualifiedApiName": "dfsle__Document__c",
+        "Label": "Docusign Envelope Document",
+        "KeyPrefix": "a0z"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000018vdX"
+        },
+        "QualifiedApiName": "dfsle__Envelope__c",
+        "Label": "Docusign Envelope",
+        "KeyPrefix": "a17"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000018vdT"
+        },
+        "QualifiedApiName": "dfsle__EnvelopeConfiguration__c",
+        "Label": "Docusign Envelope Template",
+        "KeyPrefix": "a13"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000018vdR"
+        },
+        "QualifiedApiName": "dfsle__EnvelopeConfigurationDocument__c",
+        "Label": "Docusign Envelope Configuration Document",
+        "KeyPrefix": "a11"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000018vdS"
+        },
+        "QualifiedApiName": "dfsle__EnvelopeConfigurationRecipient__c",
+        "Label": "Docusign Envelope Configuration Recipien",
+        "KeyPrefix": "a12"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000018vdU"
+        },
+        "QualifiedApiName": "dfsle__EnvelopeLocalization__c",
+        "Label": "Docusign Localization",
+        "KeyPrefix": "a14"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000018vdV"
+        },
+        "QualifiedApiName": "dfsle__EnvelopeSettings__c",
+        "Label": "Envelope Settings",
+        "KeyPrefix": "a15"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000018vdW"
+        },
+        "QualifiedApiName": "dfsle__EnvelopeStatus__c",
+        "Label": "Docusign Status",
+        "KeyPrefix": "a16"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000018vdY"
+        },
+        "QualifiedApiName": "dfsle__Environment__mdt",
+        "Label": "DocuSign Environment Metadata",
+        "KeyPrefix": "m0Q"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000018vdQ"
+        },
+        "QualifiedApiName": "dfsle__EOS_Type__c",
+        "Label": "EOS Type",
+        "KeyPrefix": "a10"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000018vdZ"
+        },
+        "QualifiedApiName": "dfsle__GenMigrationSettings__c",
+        "Label": "Gen Migration Settings",
+        "KeyPrefix": "a18"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000018vda"
+        },
+        "QualifiedApiName": "dfsle__GenTemplate__c",
+        "Label": "Docusign Gen Template",
+        "KeyPrefix": "a19"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000018vdb"
+        },
+        "QualifiedApiName": "dfsle__Jobs__c",
+        "Label": "Docusign Job",
+        "KeyPrefix": "a1A"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000018vdc"
+        },
+        "QualifiedApiName": "dfsle__Localization__mdt",
+        "Label": "DocuSign Localization Metadata",
+        "KeyPrefix": "m0R"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000018vde"
+        },
+        "QualifiedApiName": "dfsle__Log__c",
+        "Label": "Docusign Log",
+        "KeyPrefix": "a1C"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000018vdd"
+        },
+        "QualifiedApiName": "dfsle__LogSettings__c",
+        "Label": "Log Settings",
+        "KeyPrefix": "a1B"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000018vdf"
+        },
+        "QualifiedApiName": "dfsle__OnlineEditorRoot__c",
+        "Label": "Online Editor Root",
+        "KeyPrefix": "a1D"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000018vdg"
+        },
+        "QualifiedApiName": "dfsle__Organization__mdt",
+        "Label": "DocuSign Organization Metadata",
+        "KeyPrefix": "m0S"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000018vdh"
+        },
+        "QualifiedApiName": "dfsle__ProductRoleSettings__c",
+        "Label": "Product Roles",
+        "KeyPrefix": "a1E"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000018vdi"
+        },
+        "QualifiedApiName": "dfsle__ProductSettings__c",
+        "Label": "Products",
+        "KeyPrefix": "a1F"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000018vdk"
+        },
+        "QualifiedApiName": "dfsle__Recipient__c",
+        "Label": "Docusign Envelope Recipient",
+        "KeyPrefix": "a1H"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000018vdj"
+        },
+        "QualifiedApiName": "dfsle__RecipientStatus__c",
+        "Label": "Docusign Recipient Status",
+        "KeyPrefix": "a1G"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000018vdl"
+        },
+        "QualifiedApiName": "dfsle__RoleSettings__c",
+        "Label": "Roles",
+        "KeyPrefix": "a1I"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000018vdm"
+        },
+        "QualifiedApiName": "dfsle__TokenSettings__c",
+        "Label": "Token Settings",
+        "KeyPrefix": "a1J"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000018vdo"
+        },
+        "QualifiedApiName": "dfsle__User_Activity__c",
+        "Label": "User Activity",
+        "KeyPrefix": "a1L"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000018vdn"
+        },
+        "QualifiedApiName": "dfsle__UserSettings__c",
+        "Label": "User Settings",
+        "KeyPrefix": "a1K"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DiagnosticSummary"
+        },
+        "QualifiedApiName": "DiagnosticSummary",
+        "Label": "Diagnostic Summary",
+        "KeyPrefix": "0lQ"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DiagnosticSummaryDetail"
+        },
+        "QualifiedApiName": "DiagnosticSummaryDetail",
+        "Label": "Diagnostic Summary Detail",
+        "KeyPrefix": "0oB"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DigitalVerfSetupDetail"
+        },
+        "QualifiedApiName": "DigitalVerfSetupDetail",
+        "Label": "Digital Verification Setup Detail",
+        "KeyPrefix": "19L"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DigitalVerification"
+        },
+        "QualifiedApiName": "DigitalVerification",
+        "Label": "Digital Verification",
+        "KeyPrefix": "15E"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DigitalVerificationSetup"
+        },
+        "QualifiedApiName": "DigitalVerificationSetup",
+        "Label": "Digital Verification Setup",
+        "KeyPrefix": "19K"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DigitalWallet"
+        },
+        "QualifiedApiName": "DigitalWallet",
+        "Label": "Digital Wallet",
+        "KeyPrefix": "1DW"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DocumentChecklistItem"
+        },
+        "QualifiedApiName": "DocumentChecklistItem",
+        "Label": "Document Checklist Item",
+        "KeyPrefix": "0dd"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DocumentDecisionRequirement"
+        },
+        "QualifiedApiName": "DocumentDecisionRequirement",
+        "Label": "Document Decision Requirement",
+        "KeyPrefix": "16W"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000018ogf"
+        },
+        "QualifiedApiName": "Duplicate_Rules_Criteria__mdt",
+        "Label": "Duplicate Rules Criteria",
+        "KeyPrefix": "m0M"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DuplicateRecordItem"
+        },
+        "QualifiedApiName": "DuplicateRecordItem",
+        "Label": "Duplicate Record Item",
+        "KeyPrefix": "0GL"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/DuplicateRecordSet"
+        },
+        "QualifiedApiName": "DuplicateRecordSet",
+        "Label": "Duplicate Record Set",
+        "KeyPrefix": "0GK"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/EmailMessage"
+        },
+        "QualifiedApiName": "EmailMessage",
+        "Label": "Email Message",
+        "KeyPrefix": "02s"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/Employee"
+        },
+        "QualifiedApiName": "Employee",
+        "Label": "Employee",
+        "KeyPrefix": "0id"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/EngagementAttendee"
+        },
+        "QualifiedApiName": "EngagementAttendee",
+        "Label": "Engagement Attendee",
+        "KeyPrefix": "0tz"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/EngagementChannelType"
+        },
+        "QualifiedApiName": "EngagementChannelType",
+        "Label": "Engagement Channel Type",
+        "KeyPrefix": "0eF"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/EngagementChannelWorkType"
+        },
+        "QualifiedApiName": "EngagementChannelWorkType",
+        "Label": "Engagement Channel Work Type",
+        "KeyPrefix": "0xz"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/EngagementInteraction"
+        },
+        "QualifiedApiName": "EngagementInteraction",
+        "Label": "Engagement Interaction",
+        "KeyPrefix": "0u3"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/EngagementTopic"
+        },
+        "QualifiedApiName": "EngagementTopic",
+        "Label": "Engagement Topic",
+        "KeyPrefix": "0uB"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/EnrollmentEligibilityCriteria"
+        },
+        "QualifiedApiName": "EnrollmentEligibilityCriteria",
+        "Label": "Enrollment Eligibility Criteria",
+        "KeyPrefix": "0bm"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/Entitlement"
+        },
+        "QualifiedApiName": "Entitlement",
+        "Label": "Entitlement",
+        "KeyPrefix": "550"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/EntityMilestone"
+        },
+        "QualifiedApiName": "EntityMilestone",
+        "Label": "Object Milestone",
+        "KeyPrefix": "1EM"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001Zl8l"
+        },
+        "QualifiedApiName": "et4ae5__abTest__c",
+        "Label": "AB Test",
+        "KeyPrefix": "a2N"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001Zl8L"
+        },
+        "QualifiedApiName": "et4ae5__AggregateLink__c",
+        "Label": "Aggregate Link Level Detail",
+        "KeyPrefix": "a21"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001Zl8M"
+        },
+        "QualifiedApiName": "et4ae5__Automated_Send__c",
+        "Label": "Triggered Send",
+        "KeyPrefix": "a22"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001Zl8N"
+        },
+        "QualifiedApiName": "et4ae5__Business_Unit__c",
+        "Label": "Business Unit",
+        "KeyPrefix": "a23"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001Zl8O"
+        },
+        "QualifiedApiName": "et4ae5__Campaign_Member_Configuration__c",
+        "Label": "Campaign Member Configuration",
+        "KeyPrefix": "a24"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001Zl8P"
+        },
+        "QualifiedApiName": "et4ae5__Configuration__c",
+        "Label": "Configuration",
+        "KeyPrefix": "a25"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001Zl8W"
+        },
+        "QualifiedApiName": "et4ae5__Email_Linkage__c",
+        "Label": "Email Linkage",
+        "KeyPrefix": "a2C"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001Zl8R"
+        },
+        "QualifiedApiName": "et4ae5__ET4AE_Config__c",
+        "Label": "ET4AE Configuration",
+        "KeyPrefix": "a27"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001Zl8S"
+        },
+        "QualifiedApiName": "et4ae5__ET4AE_Int_Creds__c",
+        "Label": "ET4AE Integration Credentials",
+        "KeyPrefix": "a28"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001Zl8T"
+        },
+        "QualifiedApiName": "et4ae5__ET4AE_JWT__c",
+        "Label": "ET4AE JWT",
+        "KeyPrefix": "a29"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001Zl8U"
+        },
+        "QualifiedApiName": "et4ae5__ET4AE_Private_Settings__c",
+        "Label": "ET4AE Private Settings",
+        "KeyPrefix": "a2A"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001Zl8V"
+        },
+        "QualifiedApiName": "et4ae5__ET4AE_User_Information__c",
+        "Label": "ET4AE User Information",
+        "KeyPrefix": "a2B"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001Zl8Q"
+        },
+        "QualifiedApiName": "et4ae5__ET4AEConfig__c",
+        "Label": "ET4AE Config",
+        "KeyPrefix": "a26"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001Zl8X"
+        },
+        "QualifiedApiName": "et4ae5__IndividualEmailResult__c",
+        "Label": "Individual Email Result",
+        "KeyPrefix": "a2D"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001Zl8Y"
+        },
+        "QualifiedApiName": "et4ae5__IndividualLink__c",
+        "Label": "Individual Link Level Detail",
+        "KeyPrefix": "a2E"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001Zl8d"
+        },
+        "QualifiedApiName": "et4ae5__MC_CDC_Journey__c",
+        "Label": "MC CDC Journey",
+        "KeyPrefix": "a2F"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001Zl8c"
+        },
+        "QualifiedApiName": "et4ae5__MCOAuthClientDetail__mdt",
+        "Label": "MC OAuth Client Detail",
+        "KeyPrefix": "m0n"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001Zl8m"
+        },
+        "QualifiedApiName": "et4ae5__oAuth2_UserInfo__c",
+        "Label": "ET4AE oAuth2 User Information",
+        "KeyPrefix": "a2O"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001Zl8g"
+        },
+        "QualifiedApiName": "et4ae5__SendDefinition__c",
+        "Label": "Email Send",
+        "KeyPrefix": "a2I"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001Zl8h"
+        },
+        "QualifiedApiName": "et4ae5__SendJunction__c",
+        "Label": "Send Junction",
+        "KeyPrefix": "a2J"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001Zl8e"
+        },
+        "QualifiedApiName": "et4ae5__SMSDefinition__c",
+        "Label": "Mobile Send",
+        "KeyPrefix": "a2G"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001Zl8f"
+        },
+        "QualifiedApiName": "et4ae5__SMSJunction__c",
+        "Label": "SMS Junction",
+        "KeyPrefix": "a2H"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001Zl8i"
+        },
+        "QualifiedApiName": "et4ae5__SupportRequest__c",
+        "Label": "Support Request",
+        "KeyPrefix": "a2K"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001Zl8j"
+        },
+        "QualifiedApiName": "et4ae5__Triggered_Send_Execution__c",
+        "Label": "Triggered Send Execution",
+        "KeyPrefix": "a2L"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001Zl8k"
+        },
+        "QualifiedApiName": "et4ae5__UEBU__c",
+        "Label": "User Enabled Business Unit",
+        "KeyPrefix": "a2M"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/Event"
+        },
+        "QualifiedApiName": "Event",
+        "Label": "Event",
+        "KeyPrefix": "00U"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ExpressionSet"
+        },
+        "QualifiedApiName": "ExpressionSet",
+        "Label": "Expression Set",
+        "KeyPrefix": "9QL"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ExpressionSetVersion"
+        },
+        "QualifiedApiName": "ExpressionSetVersion",
+        "Label": "Expression Set Version",
+        "KeyPrefix": "9QM"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ExternalAssessmentDefinition"
+        },
+        "QualifiedApiName": "ExternalAssessmentDefinition",
+        "Label": "External Assessment Definition",
+        "KeyPrefix": "23F"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/FlowOrchestrationInstance"
+        },
+        "QualifiedApiName": "FlowOrchestrationInstance",
+        "Label": "Orchestration Run",
+        "KeyPrefix": "0jE"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/FlowOrchestrationInstRelaObj"
+        },
+        "QualifiedApiName": "FlowOrchestrationInstRelaObj",
+        "Label": "Flow Orchestration Instance Related Obj",
+        "KeyPrefix": "16b"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/FlowOrchestrationLog"
+        },
+        "QualifiedApiName": "FlowOrchestrationLog",
+        "Label": "Orchestration Run Log",
+        "KeyPrefix": "0mZ"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/FlowOrchestrationStageInstance"
+        },
+        "QualifiedApiName": "FlowOrchestrationStageInstance",
+        "Label": "Orchestration Stage Run",
+        "KeyPrefix": "0jF"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/FlowOrchestrationStepInstance"
+        },
+        "QualifiedApiName": "FlowOrchestrationStepInstance",
+        "Label": "Orchestration Step Run",
+        "KeyPrefix": "0jL"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/FlowOrchestrationWorkItem"
+        },
+        "QualifiedApiName": "FlowOrchestrationWorkItem",
+        "Label": "Orchestration Work Item",
+        "KeyPrefix": "0jf"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ForecastingCustomData"
+        },
+        "QualifiedApiName": "ForecastingCustomData",
+        "Label": "Forecasting Custom Data",
+        "KeyPrefix": "56s"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01IfL000000SRrj"
+        },
+        "QualifiedApiName": "ForecastingItem__hd",
+        "Label": "Forecasting Item (Historical)",
+        "KeyPrefix": "h01"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/FulfillmentPlan"
+        },
+        "QualifiedApiName": "FulfillmentPlan",
+        "Label": "Orchestration Plan",
+        "KeyPrefix": "13V"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/FulfillmentStep"
+        },
+        "QualifiedApiName": "FulfillmentStep",
+        "Label": "Fulfillment Step",
+        "KeyPrefix": "13W"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/FulfillmentStepDefinition"
+        },
+        "QualifiedApiName": "FulfillmentStepDefinition",
+        "Label": "Fulfillment Step Definition",
+        "KeyPrefix": "0qD"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/FulfillmentStepDefinitionGroup"
+        },
+        "QualifiedApiName": "FulfillmentStepDefinitionGroup",
+        "Label": "Fulfillment Step Definition Group",
+        "KeyPrefix": "13o"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/FulfillmentStepDependencyDef"
+        },
+        "QualifiedApiName": "FulfillmentStepDependencyDef",
+        "Label": "Fulfillment Step Dependency Definition",
+        "KeyPrefix": "9Zr"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/FulfillmentStepSource"
+        },
+        "QualifiedApiName": "FulfillmentStepSource",
+        "Label": "Fulfillment Step Source",
+        "KeyPrefix": "14G"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/FulfillmentTaskAssignmentRule"
+        },
+        "QualifiedApiName": "FulfillmentTaskAssignmentRule",
+        "Label": "Fulfillment Task Assignment Rule",
+        "KeyPrefix": "2Am"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/GenericVisitTask"
+        },
+        "QualifiedApiName": "GenericVisitTask",
+        "Label": "Generic Visit Task",
+        "KeyPrefix": "0py"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/GenericVisitTaskContext"
+        },
+        "QualifiedApiName": "GenericVisitTaskContext",
+        "Label": "Generic Visit Task Context",
+        "KeyPrefix": "0oO"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/GeoCountry"
+        },
+        "QualifiedApiName": "GeoCountry",
+        "Label": "Geo Country",
+        "KeyPrefix": "0vf"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/GnrcVstKeyPerformanceInd"
+        },
+        "QualifiedApiName": "GnrcVstKeyPerformanceInd",
+        "Label": "Generic Visit Key Performance Indicator",
+        "KeyPrefix": "0q5"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/GnrcVstTaskContextRelation"
+        },
+        "QualifiedApiName": "GnrcVstTaskContextRelation",
+        "Label": "Generic Visit Task Context Relation",
+        "KeyPrefix": "0yz"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/GoalAssignment"
+        },
+        "QualifiedApiName": "GoalAssignment",
+        "Label": "Goal Assignment",
+        "KeyPrefix": "1pg"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/GoalAssignmentRecommendation"
+        },
+        "QualifiedApiName": "GoalAssignmentRecommendation",
+        "Label": "Goal Assignment Recommendation",
+        "KeyPrefix": "7qQ"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/GoalDefinition"
+        },
+        "QualifiedApiName": "GoalDefinition",
+        "Label": "Goal Definition",
+        "KeyPrefix": "1gd"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/HealthCareDiagnosis"
+        },
+        "QualifiedApiName": "HealthCareDiagnosis",
+        "Label": "Healthcare Diagnosis",
+        "KeyPrefix": "0XN"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/HealthcareFacility"
+        },
+        "QualifiedApiName": "HealthcareFacility",
+        "Label": "Healthcare Facility",
+        "KeyPrefix": "0kl"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/HealthcareFacilityNetwork"
+        },
+        "QualifiedApiName": "HealthcareFacilityNetwork",
+        "Label": "Healthcare Facility Network",
+        "KeyPrefix": "0bY"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/HealthcarePayerNetwork"
+        },
+        "QualifiedApiName": "HealthcarePayerNetwork",
+        "Label": "Healthcare Payer Network",
+        "KeyPrefix": "0bf"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/HealthcarePractitionerFacility"
+        },
+        "QualifiedApiName": "HealthcarePractitionerFacility",
+        "Label": "Healthcare Practitioner Facility",
+        "KeyPrefix": "0bS"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/HealthCareProcedure"
+        },
+        "QualifiedApiName": "HealthCareProcedure",
+        "Label": "Healthcare Procedure",
+        "KeyPrefix": "0XK"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/HealthcareProvider"
+        },
+        "QualifiedApiName": "HealthcareProvider",
+        "Label": "Healthcare Provider",
+        "KeyPrefix": "0cm"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/HealthcareProviderNpi"
+        },
+        "QualifiedApiName": "HealthcareProviderNpi",
+        "Label": "Healthcare Provider NPI",
+        "KeyPrefix": "0bN"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/HealthcareProviderService"
+        },
+        "QualifiedApiName": "HealthcareProviderService",
+        "Label": "Healthcare Provider Service",
+        "KeyPrefix": "15M"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/HealthcareProviderSpecialty"
+        },
+        "QualifiedApiName": "HealthcareProviderSpecialty",
+        "Label": "Healthcare Provider Specialty",
+        "KeyPrefix": "0bO"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/HealthcareProviderTaxonomy"
+        },
+        "QualifiedApiName": "HealthcareProviderTaxonomy",
+        "Label": "Healthcare Provider Taxonomy",
+        "KeyPrefix": "0bP"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/HealthcareServiceDetail"
+        },
+        "QualifiedApiName": "HealthcareServiceDetail",
+        "Label": "Healthcare Service Detail",
+        "KeyPrefix": "15N"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/HealthCondition"
+        },
+        "QualifiedApiName": "HealthCondition",
+        "Label": "Health Condition",
+        "KeyPrefix": "0j4"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/HealthConditionDetail"
+        },
+        "QualifiedApiName": "HealthConditionDetail",
+        "Label": "Health Condition Detail",
+        "KeyPrefix": "0o8"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/HealthRiskEvalDetail"
+        },
+        "QualifiedApiName": "HealthRiskEvalDetail",
+        "Label": "Health Risk Evaluation Detail",
+        "KeyPrefix": "2Re"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/HealthRiskEvalOutcome"
+        },
+        "QualifiedApiName": "HealthRiskEvalOutcome",
+        "Label": "Health Risk Evaluation Outcome",
+        "KeyPrefix": "3Rf"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/HealthRiskEvaluation"
+        },
+        "QualifiedApiName": "HealthRiskEvaluation",
+        "Label": "Health Risk Evaluation",
+        "KeyPrefix": "8rK"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/HealthScore"
+        },
+        "QualifiedApiName": "HealthScore",
+        "Label": "Health Score",
+        "KeyPrefix": "0qi"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/HealthScoreActionLog"
+        },
+        "QualifiedApiName": "HealthScoreActionLog",
+        "Label": "Health Score Action Log",
+        "KeyPrefix": "0qM"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/HierCondHlthCodeMapping"
+        },
+        "QualifiedApiName": "HierCondHlthCodeMapping",
+        "Label": "Hierarchical Condition Health Code Mapping",
+        "KeyPrefix": "1Co"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/HierCondHlthRskAdjFctr"
+        },
+        "QualifiedApiName": "HierCondHlthRskAdjFctr",
+        "Label": "Hierarchical Condition Health Risk Adjustment Factor",
+        "KeyPrefix": "1Ck"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/HlthCareProvTreatedCondition"
+        },
+        "QualifiedApiName": "HlthCareProvTreatedCondition",
+        "Label": "Healthcare Provider Treated Condition",
+        "KeyPrefix": "1K4"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/Idea"
+        },
+        "QualifiedApiName": "Idea",
+        "Label": "Idea",
+        "KeyPrefix": "087"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/Identifier"
+        },
+        "QualifiedApiName": "Identifier",
+        "Label": "Identifier",
+        "KeyPrefix": "0hk"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/IdentityDocument"
+        },
+        "QualifiedApiName": "IdentityDocument",
+        "Label": "Identity Document",
+        "KeyPrefix": "0Ss"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/Image"
+        },
+        "QualifiedApiName": "Image",
+        "Label": "Image",
+        "KeyPrefix": "4YL"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ImpactStrategy"
+        },
+        "QualifiedApiName": "ImpactStrategy",
+        "Label": "Impact Strategy",
+        "KeyPrefix": "13I"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/ImpactStrategyAssignment"
+        },
+        "QualifiedApiName": "ImpactStrategyAssignment",
+        "Label": "Impact Strategy Assignment",
+        "KeyPrefix": "13L"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01IfL000000SRrh"
+        },
+        "QualifiedApiName": "In_App_Checklist_Settings__c",
+        "Label": "In App Checklist Settings",
+        "KeyPrefix": "a00"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/Incident"
+        },
+        "QualifiedApiName": "Incident",
+        "Label": "Incident",
+        "KeyPrefix": "0ny"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/IncidentRelatedItem"
+        },
+        "QualifiedApiName": "IncidentRelatedItem",
+        "Label": "Incident Related Item",
+        "KeyPrefix": "0tA"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/IndicatorAssignment"
+        },
+        "QualifiedApiName": "IndicatorAssignment",
+        "Label": "Indicator Assignment",
+        "KeyPrefix": "9IA"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/IndicatorDefinition"
+        },
+        "QualifiedApiName": "IndicatorDefinition",
+        "Label": "Indicator Definition",
+        "KeyPrefix": "9ID"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/IndicatorPerformancePeriod"
+        },
+        "QualifiedApiName": "IndicatorPerformancePeriod",
+        "Label": "Indicator Performance Period",
+        "KeyPrefix": "9IP"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/IndicatorResult"
+        },
+        "QualifiedApiName": "IndicatorResult",
+        "Label": "Indicator Result",
+        "KeyPrefix": "9IR"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/Individual"
+        },
+        "QualifiedApiName": "Individual",
+        "Label": "Individual",
+        "KeyPrefix": "0PK"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/InfoAuthorizationRequest"
+        },
+        "QualifiedApiName": "InfoAuthorizationRequest",
+        "Label": "Info Authorization Request",
+        "KeyPrefix": "0n8"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/InfoAuthRequestForm"
+        },
+        "QualifiedApiName": "InfoAuthRequestForm",
+        "Label": "Info Authorization Request Form",
+        "KeyPrefix": "0lj"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000019VNN"
+        },
+        "QualifiedApiName": "Insulet_DocuSign_Countersigner__mdt",
+        "Label": "Insulet DocuSign Countersigner",
+        "KeyPrefix": "m0T"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001XtZp"
+        },
+        "QualifiedApiName": "Integration_Error__c",
+        "Label": "Integration Error",
+        "KeyPrefix": "a1w"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001WFmX"
+        },
+        "QualifiedApiName": "Integration_Transactions_Log__c",
+        "Label": "Integration Transactions Log",
+        "KeyPrefix": "a1t"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/IntegrationJobRun"
+        },
+        "QualifiedApiName": "IntegrationJobRun",
+        "Label": "Integration Job Run",
+        "KeyPrefix": "1Oz"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/IntegrationProviderDcsnRqmt"
+        },
+        "QualifiedApiName": "IntegrationProviderDcsnRqmt",
+        "Label": "Integration Provider Decision Requirement",
+        "KeyPrefix": "18s"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/IntegrationProviderExecution"
+        },
+        "QualifiedApiName": "IntegrationProviderExecution",
+        "Label": "Integration Provider Execution",
+        "KeyPrefix": "18u"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/InternalOrganizationUnit"
+        },
+        "QualifiedApiName": "InternalOrganizationUnit",
+        "Label": "Internal Organization Unit",
+        "KeyPrefix": "0gJ"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/Invoice"
+        },
+        "QualifiedApiName": "Invoice",
+        "Label": "Invoice",
+        "KeyPrefix": "3tt"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/InvoiceLine"
+        },
+        "QualifiedApiName": "InvoiceLine",
+        "Label": "Invoice Line",
+        "KeyPrefix": "5TV"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000018awz"
+        },
+        "QualifiedApiName": "Knowledge__kav",
+        "Label": "Knowledge",
+        "KeyPrefix": "ka0"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/KnowledgeArticleFeedback"
+        },
+        "QualifiedApiName": "KnowledgeArticleFeedback",
+        "Label": "Knowledge Article Feedback",
+        "KeyPrefix": "1Qd"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/Lead"
+        },
+        "QualifiedApiName": "Lead",
+        "Label": "Lead",
+        "KeyPrefix": "00Q"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001BL6z"
+        },
+        "QualifiedApiName": "Lead2MemberPlan_InsuranceType_Mapping__mdt",
+        "Label": "Lead2MemberPlan InsuranceType Mapping",
+        "KeyPrefix": "m0a"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000019gDx"
+        },
+        "QualifiedApiName": "Lead_Conversion_Precheck__mdt",
+        "Label": "Lead Conversion Precheck",
+        "KeyPrefix": "m0U"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/LearningItem"
+        },
+        "QualifiedApiName": "LearningItem",
+        "Label": "Learning Item",
+        "KeyPrefix": "04Q"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/LinkedArticle"
+        },
+        "QualifiedApiName": "LinkedArticle",
+        "Label": "Linked Article",
+        "KeyPrefix": "1WK"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/Location"
+        },
+        "QualifiedApiName": "Location",
+        "Label": "Location",
+        "KeyPrefix": "131"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/LocationTrustMeasure"
+        },
+        "QualifiedApiName": "LocationTrustMeasure",
+        "Label": "Location Trust Measure",
+        "KeyPrefix": "20X"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01IQO00000IjOTj"
+        },
+        "QualifiedApiName": "Log__c",
+        "Label": "Log",
+        "KeyPrefix": "a06"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01IQO00000IjOTh"
+        },
+        "QualifiedApiName": "LogEntry__c",
+        "Label": "Log Entry",
+        "KeyPrefix": "a05"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01IQO00000IjOTd"
+        },
+        "QualifiedApiName": "LogEntryDataMaskRule__mdt",
+        "Label": "Log Entry Data Mask Rule",
+        "KeyPrefix": "m04"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01IQO00000IjOTg"
+        },
+        "QualifiedApiName": "LogEntryTag__c",
+        "Label": "Log Entry Tag",
+        "KeyPrefix": "a04"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01IQO00000IjOTf"
+        },
+        "QualifiedApiName": "LogEntryTagRule__mdt",
+        "Label": "Log Entry Tag Rule",
+        "KeyPrefix": "m05"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01IQO00000IjOTk"
+        },
+        "QualifiedApiName": "LoggerFieldMapping__mdt",
+        "Label": "Logger Field Mapping",
+        "KeyPrefix": "m07"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01IQO00000IjOTl"
+        },
+        "QualifiedApiName": "LoggerParameter__mdt",
+        "Label": "Logger Parameter",
+        "KeyPrefix": "m08"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01IQO00000IjOTm"
+        },
+        "QualifiedApiName": "LoggerPlugin__mdt",
+        "Label": "Logger Plugin",
+        "KeyPrefix": "m09"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01IQO00000IjOTp"
+        },
+        "QualifiedApiName": "LoggerScenario__c",
+        "Label": "Logger Scenario",
+        "KeyPrefix": "a07"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01IQO00000IjOTo"
+        },
+        "QualifiedApiName": "LoggerScenarioRule__mdt",
+        "Label": "Logger Scenario Rule",
+        "KeyPrefix": "m0B"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01IQO00000IjOTq"
+        },
+        "QualifiedApiName": "LoggerSettings__c",
+        "Label": "Logger Settings",
+        "KeyPrefix": "a08"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01IQO00000IjOTn"
+        },
+        "QualifiedApiName": "LoggerSObjectHandler__mdt",
+        "Label": "Logger SObject Handler",
+        "KeyPrefix": "m0A"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01IQO00000IjOTr"
+        },
+        "QualifiedApiName": "LoggerTag__c",
+        "Label": "Logger Tag",
+        "KeyPrefix": "a09"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01IQO00000IjOTi"
+        },
+        "QualifiedApiName": "LogStatus__mdt",
+        "Label": "Log Status",
+        "KeyPrefix": "m06"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/Macro"
+        },
+        "QualifiedApiName": "Macro",
+        "Label": "Macro",
+        "KeyPrefix": "0JZ"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/Medication"
+        },
+        "QualifiedApiName": "Medication",
+        "Label": "Medication",
+        "KeyPrefix": "0it"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/MedicationAdministration"
+        },
+        "QualifiedApiName": "MedicationAdministration",
+        "Label": "Medication Administration",
+        "KeyPrefix": "8di"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/MedicationAdministrationDtl"
+        },
+        "QualifiedApiName": "MedicationAdministrationDtl",
+        "Label": "Medication Administration Detail",
+        "KeyPrefix": "9di"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/MedicationDispense"
+        },
+        "QualifiedApiName": "MedicationDispense",
+        "Label": "Medication Dispense",
+        "KeyPrefix": "0NB"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/MedicationReconciliation"
+        },
+        "QualifiedApiName": "MedicationReconciliation",
+        "Label": "Medication Reconciliation",
+        "KeyPrefix": "0rK"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/MedicationRequest"
+        },
+        "QualifiedApiName": "MedicationRequest",
+        "Label": "Medication Request",
+        "KeyPrefix": "0km"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/MedicationStatement"
+        },
+        "QualifiedApiName": "MedicationStatement",
+        "Label": "Medication Statement",
+        "KeyPrefix": "0ju"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/MedicationStatementDetail"
+        },
+        "QualifiedApiName": "MedicationStatementDetail",
+        "Label": "Medication Statement Detail",
+        "KeyPrefix": "0rW"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/MedicationTherapyReview"
+        },
+        "QualifiedApiName": "MedicationTherapyReview",
+        "Label": "Medication Therapy Review",
+        "KeyPrefix": "0pl"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/MedicationTherapyStmtReview"
+        },
+        "QualifiedApiName": "MedicationTherapyStmtReview",
+        "Label": "Medication Therapy Statement Review",
+        "KeyPrefix": "0ND"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/MedicinalIngredient"
+        },
+        "QualifiedApiName": "MedicinalIngredient",
+        "Label": "Medicinal Ingredient",
+        "KeyPrefix": "0nA"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/MedReconRecommendation"
+        },
+        "QualifiedApiName": "MedReconRecommendation",
+        "Label": "Medication Reconciliation Recommendation",
+        "KeyPrefix": "0r1"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/MedReconStmtRecommendation"
+        },
+        "QualifiedApiName": "MedReconStmtRecommendation",
+        "Label": "Medication Reconciliation Statement Recommendation",
+        "KeyPrefix": "0qz"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/MedTherapyStmtReviewIssue"
+        },
+        "QualifiedApiName": "MedTherapyStmtReviewIssue",
+        "Label": "Medication Therapy Statement Review Issue",
+        "KeyPrefix": "0uT"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/MemberPlan"
+        },
+        "QualifiedApiName": "MemberPlan",
+        "Label": "Member Plan",
+        "KeyPrefix": "0Sq"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/MessagingEndUser"
+        },
+        "QualifiedApiName": "MessagingEndUser",
+        "Label": "Messaging User",
+        "KeyPrefix": "0PA"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/MessagingSession"
+        },
+        "QualifiedApiName": "MessagingSession",
+        "Label": "Messaging Session",
+        "KeyPrefix": "0Mw"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001ZmKX"
+        },
+        "QualifiedApiName": "Multi_Location_Contract__c",
+        "Label": "Multi Location Contract",
+        "KeyPrefix": "a2P"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/MultipartyInfoAuthRequest"
+        },
+        "QualifiedApiName": "MultipartyInfoAuthRequest",
+        "Label": "Multiparty Information Authorization Request",
+        "KeyPrefix": "0lR"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000018ogg"
+        },
+        "QualifiedApiName": "Observation__c",
+        "Label": "Observation",
+        "KeyPrefix": "a0n"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001bEeX"
+        },
+        "QualifiedApiName": "ODA3__PS_Permissions__mdt",
+        "Label": "OSU PS Permission",
+        "KeyPrefix": "m0o"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001bEeZ"
+        },
+        "QualifiedApiName": "ODA3__SU_Permissions__mdt",
+        "Label": "OSU User Permission",
+        "KeyPrefix": "m0p"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb000001bEeY"
+        },
+        "QualifiedApiName": "ODA3__SUSetup_Settings__c",
+        "Label": "Odaseva Service User Setup Settings",
+        "KeyPrefix": "a2U"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/OmniAssessmentTask"
+        },
+        "QualifiedApiName": "OmniAssessmentTask",
+        "Label": "Omni Assessment Task",
+        "KeyPrefix": "0os"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/OmniComponentErrorLog"
+        },
+        "QualifiedApiName": "OmniComponentErrorLog",
+        "Label": "Omni Component Error Log",
+        "KeyPrefix": "1TX"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/OmniDataPack"
+        },
+        "QualifiedApiName": "OmniDataPack",
+        "Label": "Omni DataPack",
+        "KeyPrefix": "0nc"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/OmniDataTransform"
+        },
+        "QualifiedApiName": "OmniDataTransform",
+        "Label": "Omni Data Transformation",
+        "KeyPrefix": "0jI"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/OmniDataTransformItem"
+        },
+        "QualifiedApiName": "OmniDataTransformItem",
+        "Label": "Omni Data Transformation Item",
+        "KeyPrefix": "0kd"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/OmniESignatureTemplate"
+        },
+        "QualifiedApiName": "OmniESignatureTemplate",
+        "Label": "Omni Electronic Signature Template",
+        "KeyPrefix": "0nL"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/OmniGlobalAutoNumber"
+        },
+        "QualifiedApiName": "OmniGlobalAutoNumber",
+        "Label": "Omni Global Auto Number",
+        "KeyPrefix": "1Lg"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/OmniProcess"
+        },
+        "QualifiedApiName": "OmniProcess",
+        "Label": "Omni Process",
+        "KeyPrefix": "0jN"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/OmniProcessAsmtQuestionVer"
+        },
+        "QualifiedApiName": "OmniProcessAsmtQuestionVer",
+        "Label": "Omni Process Assessment Question Version",
+        "KeyPrefix": "0r5"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/OmniProcessCompilation"
+        },
+        "QualifiedApiName": "OmniProcessCompilation",
+        "Label": "Omni Process Compilation",
+        "KeyPrefix": "0k7"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/OmniProcessElement"
+        },
+        "QualifiedApiName": "OmniProcessElement",
+        "Label": "Omni Process Element",
+        "KeyPrefix": "0kE"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/OmniProcessOmniAsmtTask"
+        },
+        "QualifiedApiName": "OmniProcessOmniAsmtTask",
+        "Label": "Omni Process Omni Assessment Task",
+        "KeyPrefix": "1Kf"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/OmniProcessTransientData"
+        },
+        "QualifiedApiName": "OmniProcessTransientData",
+        "Label": "Omni Process Transient Data",
+        "KeyPrefix": "0nM"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/OmniScriptSavedSession"
+        },
+        "QualifiedApiName": "OmniScriptSavedSession",
+        "Label": "OmniScript Saved Session",
+        "KeyPrefix": "0kT"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000018bbJ"
+        },
+        "QualifiedApiName": "omnistudio__CardFrameworkConfiguration__c",
+        "Label": "Card Framework Configuration",
+        "KeyPrefix": "a0X"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000018bbP"
+        },
+        "QualifiedApiName": "omnistudio__DocumentTemplateSetting__mdt",
+        "Label": "Document Template Setting",
+        "KeyPrefix": "m0I"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000018bbO"
+        },
+        "QualifiedApiName": "omnistudio__DocuSignSystemUser__c",
+        "Label": "DocuSign System User",
+        "KeyPrefix": "a0c"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000018bbK"
+        },
+        "QualifiedApiName": "omnistudio__DRBatchQueue__c",
+        "Label": "Vlocity Data Mapper Batch Queue",
+        "KeyPrefix": "a0Y"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000018bbL"
+        },
+        "QualifiedApiName": "omnistudio__DRBulkData__c",
+        "Label": "Data Mapper Bulk Data",
+        "KeyPrefix": "a0Z"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000018bbM"
+        },
+        "QualifiedApiName": "omnistudio__DREncryption__c",
+        "Label": "Data Mapper Encryption",
+        "KeyPrefix": "a0a"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000018bbN"
+        },
+        "QualifiedApiName": "omnistudio__DRWorker__c",
+        "Label": "Data Mapper Workers",
+        "KeyPrefix": "a0b"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000018bbQ"
+        },
+        "QualifiedApiName": "omnistudio__Interface_DRGeneric__c",
+        "Label": "Vlocity Data Mapper Object Interface",
+        "KeyPrefix": "a0d"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000018bbR"
+        },
+        "QualifiedApiName": "omnistudio__PDFTronEncryptionKey__mdt",
+        "Label": "PDFTron Encryption Key",
+        "KeyPrefix": "m0J"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000018bbS"
+        },
+        "QualifiedApiName": "omnistudio__TestResult__c",
+        "Label": "Test Result",
+        "KeyPrefix": "a0e"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000018bbT"
+        },
+        "QualifiedApiName": "omnistudio__TriggerSetup__c",
+        "Label": "Trigger Setup",
+        "KeyPrefix": "a0f"
+      },
+      {
+        "attributes": {
+          "type": "EntityDefinition",
+          "url": "/services/data/v66.0/tooling/sobjects/EntityDefinition/01Ibb0000018bbU"
+        },
+        "QualifiedApiName": "omnistudio__UISettings__c",
+        "Label": "UISettings",
+        "KeyPrefix": "a0g"
+      }
+    ],
+    "totalSize": 500,
+    "done": true
+  },
+  "warnings": []
+}

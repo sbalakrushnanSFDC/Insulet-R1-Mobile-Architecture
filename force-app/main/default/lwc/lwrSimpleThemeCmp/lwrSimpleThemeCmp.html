@@ -1,0 +1,14 @@
+<template>
+    <!-- Simple LWR Theme Layout WITHOUT header -->
+    <section class="theme slds-grid slds-wrap" role="presentation">
+        <main class="main slds-size_1-of-1" role="main">
+            <!-- Default region: drop your page content/component here -->
+            <slot></slot>
+        </main>
+
+        <!-- Optional footer region -->
+        <footer class="footer slds-size_1-of-1" role="contentinfo">
+            <slot name="footer"></slot>
+        </footer>
+    </section>
+</template>

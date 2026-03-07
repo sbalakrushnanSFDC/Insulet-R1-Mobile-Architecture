@@ -1,0 +1,1710 @@
+{
+  "status": 0,
+  "result": {
+    "records": [
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tInnOCAS"
+        },
+        "Id": "0Ymbb00000tInnOCAS",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005bb00000gb7GyAAI"
+          },
+          "Name": "Som Balakrushnan"
+        },
+        "Display": "Set new password for user Som Balakrushnan",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-06T01:20:15.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tHe1oCAC"
+        },
+        "Id": "0Ymbb00000tHe1oCAC",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005bb00000cgLujAAE"
+          },
+          "Name": "Persona - Inside Sales Rep"
+        },
+        "Display": "Logged out using Login-As access for Persona - Inside Sales Rep",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-06T01:03:53.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tHoSHCA0"
+        },
+        "Id": "0Ymbb00000tHoSHCA0",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005bb00000cgLuJAAU"
+          },
+          "Name": "Prateek Goyal"
+        },
+        "Display": "Logged in using Login-As access for PO - Inside Sales Rep",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T21:26:00.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tI5BHCA0"
+        },
+        "Id": "0Ymbb00000tI5BHCA0",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005bb00000fjEX3AAM"
+          },
+          "Name": "Paul Hughes"
+        },
+        "Display": "Logged in using Login-As access for Persona - Inside Sales Rep",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T21:22:03.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tI5HjCAK"
+        },
+        "Id": "0Ymbb00000tI5HjCAK",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005bb00000cgLupAAE"
+          },
+          "Name": "Persona - Field Sales (GM/RBD)"
+        },
+        "Display": "Logged out using Login-As access for Persona - Field Sales (GM/RBD)",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T21:19:09.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tI5xdCAC"
+        },
+        "Id": "0Ymbb00000tI5xdCAC",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005bb00000cgLuJAAU"
+          },
+          "Name": "Prateek Goyal"
+        },
+        "Display": "Logged in using Login-As access for PO - Inside Sales Rep",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T20:55:00.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tHwtTCAS"
+        },
+        "Id": "0Ymbb00000tHwtTCAS",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005bb00000cgLujAAE"
+          },
+          "Name": "Persona - Inside Sales Rep"
+        },
+        "Display": "Logged out using Login-As access for Persona - Inside Sales Rep",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T20:43:18.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tHue3CAC"
+        },
+        "Id": "0Ymbb00000tHue3CAC",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005bb00000fjEX3AAM"
+          },
+          "Name": "Paul Hughes"
+        },
+        "Display": "Logged in using Login-As access for Persona - Field Sales (GM/RBD)",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T20:29:57.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tHfaBCAS"
+        },
+        "Id": "0Ymbb00000tHfaBCAS",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005bb00000cgZHFAA2"
+          },
+          "Name": "Carl Cottrell"
+        },
+        "Display": "Logged in using Login-As access for PO - Sales Ops",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T20:03:14.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tHzaTCAS"
+        },
+        "Id": "0Ymbb00000tHzaTCAS",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005bb00000cgLuoAAE"
+          },
+          "Name": "Persona - Field Sales (TM/DSM)"
+        },
+        "Display": "Logged out using Login-As access for Persona - Field Sales (TM/DSM)",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T20:02:58.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tHyPtCAK"
+        },
+        "Id": "0Ymbb00000tHyPtCAK",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005bb00000cgZHMAA2"
+          },
+          "Name": "Vipul Tripathi"
+        },
+        "Display": "Logged in using Login-As access for Philip Thomas",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T19:53:40.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tHYnVCAW"
+        },
+        "Id": "0Ymbb00000tHYnVCAW",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005bb00000cgZHEAA2"
+          },
+          "Name": "Tomo Ota"
+        },
+        "Display": "Logged in using Login-As access for CPT_Trainer_30Jan-001",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T19:52:32.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tHwuLCAS"
+        },
+        "Id": "0Ymbb00000tHwuLCAS",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005bb00000cgZHMAA2"
+          },
+          "Name": "Vipul Tripathi"
+        },
+        "Display": "Logged in using Login-As access for Philip Thomas",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T19:43:51.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tHX6qCAG"
+        },
+        "Id": "0Ymbb00000tHX6qCAG",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005bb00000cgZHEAA2"
+          },
+          "Name": "Tomo Ota"
+        },
+        "Display": "Logged in using Login-As access for CPT_Trainer_30Jan-001",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T19:37:18.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tHNrmCAG"
+        },
+        "Id": "0Ymbb00000tHNrmCAG",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005bb00000cgLuJAAU"
+          },
+          "Name": "Prateek Goyal"
+        },
+        "Display": "Logged in using Login-As access for PO - Inside Sales Rep",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T19:35:43.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tHanNCAS"
+        },
+        "Id": "0Ymbb00000tHanNCAS",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005bb00000cgZHYAA2"
+          },
+          "Name": "Vinusha G"
+        },
+        "Display": "Logged in using Login-As access for Persona - Field Sales (GM/RBD)",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T18:28:04.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tHaPBCA0"
+        },
+        "Id": "0Ymbb00000tHaPBCA0",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005bb00000cgLuoAAE"
+          },
+          "Name": "Persona - Field Sales (TM/DSM)"
+        },
+        "Display": "Logged out using Login-As access for Persona - Field Sales (TM/DSM)",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T18:27:13.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tHVZDCA4"
+        },
+        "Id": "0Ymbb00000tHVZDCA4",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005bb00000cgZHYAA2"
+          },
+          "Name": "Vinusha G"
+        },
+        "Display": "Logged in using Login-As access for Persona - Field Sales (TM/DSM)",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T18:17:58.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tHTmSCAW"
+        },
+        "Id": "0Ymbb00000tHTmSCAW",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005bb00000cgLupAAE"
+          },
+          "Name": "Persona - Field Sales (GM/RBD)"
+        },
+        "Display": "Logged out using Login-As access for Persona - Field Sales (GM/RBD)",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T18:17:44.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tHDh8CAG"
+        },
+        "Id": "0Ymbb00000tHDh8CAG",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005bb00000cgLurAAE"
+          },
+          "Name": "Sourabh Khambalkar"
+        },
+        "Display": "Logged in using Login-As access for Persona - Inside Sales Rep",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T17:46:57.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tH2sDCAS"
+        },
+        "Id": "0Ymbb00000tH2sDCAS",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005bb00000etwHIAAY"
+          },
+          "Name": "Madhumita Dey"
+        },
+        "Display": "Logged in using Login-As access for Persona - Sales Ops",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T17:38:22.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGuBWCA0"
+        },
+        "Id": "0Ymbb00000tGuBWCA0",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005bb00000cgLujAAE"
+          },
+          "Name": "Persona - Inside Sales Rep"
+        },
+        "Display": "Logged out using Login-As access for Persona - Inside Sales Rep",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T17:38:03.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tH9aJCAS"
+        },
+        "Id": "0Ymbb00000tH9aJCAS",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005bb00000cmgofAAA"
+          },
+          "Name": "Test CPT User (Rahul)"
+        },
+        "Display": "Logged out using Login-As access for Test CPT User (Rahul)",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T17:20:52.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tH7IRCA0"
+        },
+        "Id": "0Ymbb00000tH7IRCA0",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005QO00000ApvzNYAR"
+          },
+          "Name": "Kasturika Bhal"
+        },
+        "Display": "Changed federation id for user Jamison Shipley (UserID: [005bb00000eQrg9]) from null to jshipley@insulet.com",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T17:17:52.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tH6vnCAC"
+        },
+        "Id": "0Ymbb00000tH6vnCAC",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005bb00000cguAcAAI"
+          },
+          "Name": "Autumn Edelson"
+        },
+        "Display": "Logged in using Login-As access for Persona - Field Sales (TM/DSM)",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T16:35:55.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGmH9CAK"
+        },
+        "Id": "0Ymbb00000tGmH9CAK",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005bb00000cgZHYAA2"
+          },
+          "Name": "Vinusha G"
+        },
+        "Display": "Logged in using Login-As access for Persona - Field Sales (GM/RBD)",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T16:34:50.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGpEFCA0"
+        },
+        "Id": "0Ymbb00000tGpEFCA0",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005bb00000cgLuoAAE"
+          },
+          "Name": "Persona - Field Sales (TM/DSM)"
+        },
+        "Display": "Logged out using Login-As access for Persona - Field Sales (TM/DSM)",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T16:34:05.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGiFCCA0"
+        },
+        "Id": "0Ymbb00000tGiFCCA0",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005bb00000cgLupAAE"
+          },
+          "Name": "Persona - Field Sales (GM/RBD)"
+        },
+        "Display": "Logged out using Login-As access for Persona - Field Sales (GM/RBD)",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T16:25:39.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tHDUDCA4"
+        },
+        "Id": "0Ymbb00000tHDUDCA4",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005bb00000cgZHYAA2"
+          },
+          "Name": "Vinusha G"
+        },
+        "Display": "Logged in using Login-As access for Persona - Field Sales (GM/RBD)",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T16:24:35.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tHDIvCAO"
+        },
+        "Id": "0Ymbb00000tHDIvCAO",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005bb00000cgLuSAAU"
+          },
+          "Name": "Srinivas Shanigarapu"
+        },
+        "Display": "Logged in using Login-As access for Persona Training Coordinator",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T16:24:20.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGlL6CAK"
+        },
+        "Id": "0Ymbb00000tGlL6CAK",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005bb00000cgZHFAA2"
+          },
+          "Name": "Carl Cottrell"
+        },
+        "Display": "Logged in using Login-As access for Persona - Inside Sales Rep",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T16:09:12.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGx2tCAC"
+        },
+        "Id": "0Ymbb00000tGx2tCAC",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005bb00000cgLuSAAU"
+          },
+          "Name": "Srinivas Shanigarapu"
+        },
+        "Display": "Logged in using Login-As access for Persona - Field Clinical (CSM)",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T15:56:55.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGx2sCAC"
+        },
+        "Id": "0Ymbb00000tGx2sCAC",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005bb00000cgLuSAAU"
+          },
+          "Name": "Srinivas Shanigarapu"
+        },
+        "Display": "Logged in using Login-As access for Persona - Field Clinical (CSM)",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T15:52:13.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tH521CAC"
+        },
+        "Id": "0Ymbb00000tH521CAC",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005bb00000cgLuSAAU"
+          },
+          "Name": "Srinivas Shanigarapu"
+        },
+        "Display": "Logged in using Login-As access for Persona Training Coordinator",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T15:47:40.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGy5OCAS"
+        },
+        "Id": "0Ymbb00000tGy5OCAS",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005bb00000cgLuSAAU"
+          },
+          "Name": "Srinivas Shanigarapu"
+        },
+        "Display": "Logged in using Login-As access for Persona Training Coordinator",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T15:47:38.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tH3cyCAC"
+        },
+        "Id": "0Ymbb00000tH3cyCAC",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005fL000003xYf5QAE"
+          },
+          "Name": "Copado Integration"
+        },
+        "Display": "Permission set group calculation completed : Training_Coordinators",
+        "Section": "Permission Set Group",
+        "CreatedDate": "2026-03-05T15:38:32.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tH3cxCAC"
+        },
+        "Id": "0Ymbb00000tH3cxCAC",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005fL000003xYf5QAE"
+          },
+          "Name": "Copado Integration"
+        },
+        "Display": "Changed permission set group Training Coordinators: field-level security for Training: Current Therapy was changed from No Access to Read Only",
+        "Section": "Permission Set Group",
+        "CreatedDate": "2026-03-05T15:38:30.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tH3cwCAC"
+        },
+        "Id": "0Ymbb00000tH3cwCAC",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005fL000003xYf5QAE"
+          },
+          "Name": "Copado Integration"
+        },
+        "Display": "Changed permission set group Training Coordinators: field-level security for Training: Internal Trainer was changed from No Access to Read Only",
+        "Section": "Permission Set Group",
+        "CreatedDate": "2026-03-05T15:38:30.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tH3cvCAC"
+        },
+        "Id": "0Ymbb00000tH3cvCAC",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005fL000003xYf5QAE"
+          },
+          "Name": "Copado Integration"
+        },
+        "Display": "Permission set group calculation started : Training_Coordinators",
+        "Section": "Permission Set Group",
+        "CreatedDate": "2026-03-05T15:38:20.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGb42CAC"
+        },
+        "Id": "0Ymbb00000tGb42CAC",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005fL000003xYf5QAE"
+          },
+          "Name": "Copado Integration"
+        },
+        "Display": "Changed permission set Training Coordinator: field-level security for Training: Internal Trainer was changed from No Access to Read Only",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T15:38:20.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGb41CAC"
+        },
+        "Id": "0Ymbb00000tGb41CAC",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005fL000003xYf5QAE"
+          },
+          "Name": "Copado Integration"
+        },
+        "Display": "Changed permission set Training Coordinator: field-level security for Training: Current Therapy was changed from No Access to Read Only",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T15:38:20.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGvYwCAK"
+        },
+        "Id": "0Ymbb00000tGvYwCAK",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005bb00000cgLuSAAU"
+          },
+          "Name": "Srinivas Shanigarapu"
+        },
+        "Display": "Logged in using Login-As access for Persona Training Coordinator",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T15:35:34.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGStZCAW"
+        },
+        "Id": "0Ymbb00000tGStZCAW",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005bb00000cgLuIAAU"
+          },
+          "Name": "Bijayalaxmi Prusty"
+        },
+        "Display": "Logged in using Login-As access for PO - Inside Sales Rep",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T15:34:43.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tH1xhCAC"
+        },
+        "Id": "0Ymbb00000tH1xhCAC",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005fL000003xYf5QAE"
+          },
+          "Name": "Copado Integration"
+        },
+        "Display": "Changed providerPracticeLeadConvert Lightning Web Component",
+        "Section": "Lightning Components",
+        "CreatedDate": "2026-03-05T15:28:36.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGUbzCAG"
+        },
+        "Id": "0Ymbb00000tGUbzCAG",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005bb00000cg3i6AAA"
+          },
+          "Name": "Anni Sinha"
+        },
+        "Display": "Logged in using Login-As access for Persona - Field Sales (GM/RBD)",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T15:24:57.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGkwtCAC"
+        },
+        "Id": "0Ymbb00000tGkwtCAC",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005bb00000cgLuoAAE"
+          },
+          "Name": "Persona - Field Sales (TM/DSM)"
+        },
+        "Display": "Logged out using Login-As access for Persona - Field Sales (TM/DSM)",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T15:24:38.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGhkXCAS"
+        },
+        "Id": "0Ymbb00000tGhkXCAS",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005bb00000cg3i2AAA"
+          },
+          "Name": "Rahul Porwad"
+        },
+        "Display": "Logged in using Login-As access for Test CPT User (Rahul)",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T15:21:28.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGgekCAC"
+        },
+        "Id": "0Ymbb00000tGgekCAC",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005bb00000cgLujAAE"
+          },
+          "Name": "Persona - Inside Sales Rep"
+        },
+        "Display": "Logged out using Login-As access for Persona - Inside Sales Rep",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T15:20:45.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGR9WCAW"
+        },
+        "Id": "0Ymbb00000tGR9WCAW",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005bb00000d9j13AAA"
+          },
+          "Name": "Drapureddy Lavanya"
+        },
+        "Display": "Logged in using Login-As access for Persona - Inside Sales Rep",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T15:13:27.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGsMZCA0"
+        },
+        "Id": "0Ymbb00000tGsMZCA0",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005bb00000cgLuoAAE"
+          },
+          "Name": "Persona - Field Sales (TM/DSM)"
+        },
+        "Display": "Logged out using Login-As access for Persona - Field Sales (TM/DSM)",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T15:08:38.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGxu5CAC"
+        },
+        "Id": "0Ymbb00000tGxu5CAC",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005bb00000cg3i3AAA"
+          },
+          "Name": "Saketh Tanjavur"
+        },
+        "Display": "Logged in using Login-As access for Persona - Field Sales (TM/DSM)",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T15:08:22.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGSk7CAG"
+        },
+        "Id": "0Ymbb00000tGSk7CAG",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005bb00000cgLupAAE"
+          },
+          "Name": "Persona - Field Sales (GM/RBD)"
+        },
+        "Display": "Logged out using Login-As access for Persona - Field Sales (GM/RBD)",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T15:08:02.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGXRpCAO"
+        },
+        "Id": "0Ymbb00000tGXRpCAO",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005bb00000cg3i3AAA"
+          },
+          "Name": "Saketh Tanjavur"
+        },
+        "Display": "Logged in using Login-As access for Persona - Field Sales (GM/RBD)",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T15:07:45.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGiQSCA0"
+        },
+        "Id": "0Ymbb00000tGiQSCA0",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005bb00000cgLuHAAU"
+          },
+          "Name": "Anup Bandawar"
+        },
+        "Display": "Logged in using Login-As access for Persona - Field Sales (GM/RBD)",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T15:07:14.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGvx8CAC"
+        },
+        "Id": "0Ymbb00000tGvx8CAC",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005bb00000cg3i6AAA"
+          },
+          "Name": "Anni Sinha"
+        },
+        "Display": "Logged in using Login-As access for Persona - Field Sales (TM/DSM)",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T15:02:50.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tG8TUCA0"
+        },
+        "Id": "0Ymbb00000tG8TUCA0",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005bb00000cgLujAAE"
+          },
+          "Name": "Persona - Inside Sales Rep"
+        },
+        "Display": "Logged out using Login-As access for Persona - Inside Sales Rep",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T15:02:29.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGiNDCA0"
+        },
+        "Id": "0Ymbb00000tGiNDCA0",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005bb00000cg3i6AAA"
+          },
+          "Name": "Anni Sinha"
+        },
+        "Display": "Logged in using Login-As access for Persona - Inside Sales Rep",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T15:01:22.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGwQ9CAK"
+        },
+        "Id": "0Ymbb00000tGwQ9CAK",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005bb00000cgLuoAAE"
+          },
+          "Name": "Persona - Field Sales (TM/DSM)"
+        },
+        "Display": "Logged out using Login-As access for Persona - Field Sales (TM/DSM)",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T15:00:58.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGuhhCAC"
+        },
+        "Id": "0Ymbb00000tGuhhCAC",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005bb00000cg3i6AAA"
+          },
+          "Name": "Anni Sinha"
+        },
+        "Display": "Logged in using Login-As access for Persona - Field Sales (TM/DSM)",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T14:54:41.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGubFCAS"
+        },
+        "Id": "0Ymbb00000tGubFCAS",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005bb00000cgLupAAE"
+          },
+          "Name": "Persona - Field Sales (GM/RBD)"
+        },
+        "Display": "Logged out using Login-As access for Persona - Field Sales (GM/RBD)",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T14:54:15.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGu8aCAC"
+        },
+        "Id": "0Ymbb00000tGu8aCAC",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005fL000003xYf5QAE"
+          },
+          "Name": "Copado Integration"
+        },
+        "Display": "Changed permission set Integration user access for Drupal: field-level security for Opportunity Product: TotalPrice was changed from Read Only to Read/Write",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T14:52:39.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGu8ZCAS"
+        },
+        "Id": "0Ymbb00000tGu8ZCAS",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005fL000003xYf5QAE"
+          },
+          "Name": "Copado Integration"
+        },
+        "Display": "Changed permission set Integration user access for Drupal: field-level security for Opportunity Product: Subtotal was changed from Read Only to Read/Write",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T14:52:39.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGu8YCAS"
+        },
+        "Id": "0Ymbb00000tGu8YCAS",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005fL000003xYf5QAE"
+          },
+          "Name": "Copado Integration"
+        },
+        "Display": "Changed permission set Integration user access for Drupal: field-level security for Opportunity Product: ProductCode was changed from Read Only to Read/Write",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T14:52:39.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGu8XCAS"
+        },
+        "Id": "0Ymbb00000tGu8XCAS",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005fL000003xYf5QAE"
+          },
+          "Name": "Copado Integration"
+        },
+        "Display": "Changed permission set Integration user access for Drupal: field-level security for Opportunity Product: ListPrice was changed from Read Only to Read/Write",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T14:52:39.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGu8WCAS"
+        },
+        "Id": "0Ymbb00000tGu8WCAS",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005fL000003xYf5QAE"
+          },
+          "Name": "Copado Integration"
+        },
+        "Display": "Changed permission set Integration user access for Drupal: field-level security for Opportunity: Expected Revenue was changed from Read Only to Read/Write",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T14:52:39.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGu8VCAS"
+        },
+        "Id": "0Ymbb00000tGu8VCAS",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005fL000003xYf5QAE"
+          },
+          "Name": "Copado Integration"
+        },
+        "Display": "Changed permission set Integration user access for Drupal: field-level security for Lead: Last Transfer Date was changed from Read Only to Read/Write",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T14:52:39.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGu8UCAS"
+        },
+        "Id": "0Ymbb00000tGu8UCAS",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005fL000003xYf5QAE"
+          },
+          "Name": "Copado Integration"
+        },
+        "Display": "Changed permission set Integration user access for Drupal: field-level security for Campaign: Won Opportunities in Campaign was changed from Read Only to Read/Write",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T14:52:39.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGu8TCAS"
+        },
+        "Id": "0Ymbb00000tGu8TCAS",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005fL000003xYf5QAE"
+          },
+          "Name": "Copado Integration"
+        },
+        "Display": "Changed permission set Integration user access for Drupal: field-level security for Campaign: Responses in Campaign was changed from Read Only to Read/Write",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T14:52:39.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGu8SCAS"
+        },
+        "Id": "0Ymbb00000tGu8SCAS",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005fL000003xYf5QAE"
+          },
+          "Name": "Copado Integration"
+        },
+        "Display": "Changed permission set Integration user access for Drupal: field-level security for Campaign: Opportunities in Campaign was changed from Read Only to Read/Write",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T14:52:39.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGu8RCAS"
+        },
+        "Id": "0Ymbb00000tGu8RCAS",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005fL000003xYf5QAE"
+          },
+          "Name": "Copado Integration"
+        },
+        "Display": "Changed permission set Integration user access for Drupal: field-level security for Campaign: Leads in Campaign was changed from Read Only to Read/Write",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T14:52:39.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGu8QCAS"
+        },
+        "Id": "0Ymbb00000tGu8QCAS",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005fL000003xYf5QAE"
+          },
+          "Name": "Copado Integration"
+        },
+        "Display": "Changed permission set Integration user access for Drupal: field-level security for Campaign: Converted Leads in Campaign was changed from Read Only to Read/Write",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T14:52:39.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGu8PCAS"
+        },
+        "Id": "0Ymbb00000tGu8PCAS",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005fL000003xYf5QAE"
+          },
+          "Name": "Copado Integration"
+        },
+        "Display": "Changed permission set Integration user access for Drupal: field-level security for Campaign: Contacts in Campaign was changed from Read Only to Read/Write",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T14:52:39.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGu8OCAS"
+        },
+        "Id": "0Ymbb00000tGu8OCAS",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005fL000003xYf5QAE"
+          },
+          "Name": "Copado Integration"
+        },
+        "Display": "Changed permission set Integration user access for Drupal: field-level security for Campaign: Num Sent in Hierarchy was changed from Read Only to Read/Write",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T14:52:39.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGu8NCAS"
+        },
+        "Id": "0Ymbb00000tGu8NCAS",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005fL000003xYf5QAE"
+          },
+          "Name": "Copado Integration"
+        },
+        "Display": "Changed permission set Integration user access for Drupal: field-level security for Campaign: Won Opportunities in Hierarchy was changed from Read Only to Read/Write",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T14:52:39.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGu8MCAS"
+        },
+        "Id": "0Ymbb00000tGu8MCAS",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005fL000003xYf5QAE"
+          },
+          "Name": "Copado Integration"
+        },
+        "Display": "Changed permission set Integration user access for Drupal: field-level security for Campaign: Responses in Hierarchy was changed from Read Only to Read/Write",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T14:52:39.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGu8LCAS"
+        },
+        "Id": "0Ymbb00000tGu8LCAS",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005fL000003xYf5QAE"
+          },
+          "Name": "Copado Integration"
+        },
+        "Display": "Changed permission set Integration user access for Drupal: field-level security for Campaign: Opportunities in Hierarchy was changed from Read Only to Read/Write",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T14:52:39.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGu8KCAS"
+        },
+        "Id": "0Ymbb00000tGu8KCAS",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005fL000003xYf5QAE"
+          },
+          "Name": "Copado Integration"
+        },
+        "Display": "Changed permission set Integration user access for Drupal: field-level security for Campaign: Leads in Hierarchy was changed from Read Only to Read/Write",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T14:52:39.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGu8JCAS"
+        },
+        "Id": "0Ymbb00000tGu8JCAS",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005fL000003xYf5QAE"
+          },
+          "Name": "Copado Integration"
+        },
+        "Display": "Changed permission set Integration user access for Drupal: field-level security for Campaign: Converted Leads in Hierarchy was changed from Read Only to Read/Write",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T14:52:39.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGu8ICAS"
+        },
+        "Id": "0Ymbb00000tGu8ICAS",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005fL000003xYf5QAE"
+          },
+          "Name": "Copado Integration"
+        },
+        "Display": "Changed permission set Integration user access for Drupal: field-level security for Campaign: Contacts in Hierarchy was changed from Read Only to Read/Write",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T14:52:39.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGu8HCAS"
+        },
+        "Id": "0Ymbb00000tGu8HCAS",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005fL000003xYf5QAE"
+          },
+          "Name": "Copado Integration"
+        },
+        "Display": "Changed permission set Integration user access for Drupal: field-level security for Campaign: Expected Revenue in Hierarchy was changed from Read Only to Read/Write",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T14:52:39.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGu8GCAS"
+        },
+        "Id": "0Ymbb00000tGu8GCAS",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005fL000003xYf5QAE"
+          },
+          "Name": "Copado Integration"
+        },
+        "Display": "Changed permission set Integration user access for Drupal: field-level security for Campaign: Budgeted Cost in Hierarchy was changed from Read Only to Read/Write",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T14:52:39.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGu8FCAS"
+        },
+        "Id": "0Ymbb00000tGu8FCAS",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005fL000003xYf5QAE"
+          },
+          "Name": "Copado Integration"
+        },
+        "Display": "Changed permission set Integration user access for Drupal: field-level security for Campaign: Value Won Opportunities in Hierarchy was changed from Read Only to Read/Write",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T14:52:39.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGu8ECAS"
+        },
+        "Id": "0Ymbb00000tGu8ECAS",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005fL000003xYf5QAE"
+          },
+          "Name": "Copado Integration"
+        },
+        "Display": "Changed permission set Integration user access for Drupal: field-level security for Campaign: Value Opportunities in Hierarchy was changed from Read Only to Read/Write",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T14:52:39.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGu8DCAS"
+        },
+        "Id": "0Ymbb00000tGu8DCAS",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005fL000003xYf5QAE"
+          },
+          "Name": "Copado Integration"
+        },
+        "Display": "Changed permission set Integration user access for Drupal: field-level security for Campaign: Actual Cost in Hierarchy was changed from Read Only to Read/Write",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T14:52:39.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGu8CCAS"
+        },
+        "Id": "0Ymbb00000tGu8CCAS",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005fL000003xYf5QAE"
+          },
+          "Name": "Copado Integration"
+        },
+        "Display": "Changed permission set Integration user access for Drupal: field-level security for Campaign: Value Won Opportunities in Campaign was changed from Read Only to Read/Write",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T14:52:39.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGu8BCAS"
+        },
+        "Id": "0Ymbb00000tGu8BCAS",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005fL000003xYf5QAE"
+          },
+          "Name": "Copado Integration"
+        },
+        "Display": "Changed permission set Integration user access for Drupal: field-level security for Campaign: Value Opportunities in Campaign was changed from Read Only to Read/Write",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T14:52:39.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGu8ACAS"
+        },
+        "Id": "0Ymbb00000tGu8ACAS",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005fL000003xYf5QAE"
+          },
+          "Name": "Copado Integration"
+        },
+        "Display": "Changed permission set Integration user access for Drupal: field-level security for ASPN Staging: Patient was changed from No Access to Read/Write",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T14:52:39.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGu89CAC"
+        },
+        "Id": "0Ymbb00000tGu89CAC",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005fL000003xYf5QAE"
+          },
+          "Name": "Copado Integration"
+        },
+        "Display": "Changed permission set Integration user access for Drupal: field-level security for ASPN Staging: PA Required was changed from No Access to Read/Write",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T14:52:39.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGu88CAC"
+        },
+        "Id": "0Ymbb00000tGu88CAC",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005fL000003xYf5QAE"
+          },
+          "Name": "Copado Integration"
+        },
+        "Display": "Changed permission set Integration user access for Drupal: field-level security for ASPN Staging: Time To Process was changed from No Access to Read/Write",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T14:52:39.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGu87CAC"
+        },
+        "Id": "0Ymbb00000tGu87CAC",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005fL000003xYf5QAE"
+          },
+          "Name": "Copado Integration"
+        },
+        "Display": "Changed permission set Integration user access for Drupal: field-level security for ASPN Staging: Rx Group was changed from No Access to Read/Write",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T14:52:39.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGu86CAC"
+        },
+        "Id": "0Ymbb00000tGu86CAC",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005fL000003xYf5QAE"
+          },
+          "Name": "Copado Integration"
+        },
+        "Display": "Changed permission set Integration user access for Drupal: field-level security for ASPN Staging: SMS Opt In was changed from No Access to Read/Write",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T14:52:39.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGu85CAC"
+        },
+        "Id": "0Ymbb00000tGu85CAC",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005fL000003xYf5QAE"
+          },
+          "Name": "Copado Integration"
+        },
+        "Display": "Changed permission set Integration user access for Drupal: field-level security for ASPN Staging: Address was changed from No Access to Read/Write",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T14:52:39.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGu84CAC"
+        },
+        "Id": "0Ymbb00000tGu84CAC",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005fL000003xYf5QAE"
+          },
+          "Name": "Copado Integration"
+        },
+        "Display": "Changed permission set Integration user access for Drupal: field-level security for ASPN Staging: Pharmacy memberID was changed from No Access to Read/Write",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T14:52:39.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGu83CAC"
+        },
+        "Id": "0Ymbb00000tGu83CAC",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005fL000003xYf5QAE"
+          },
+          "Name": "Copado Integration"
+        },
+        "Display": "Changed permission set Integration user access for Drupal: field-level security for ASPN Staging: Doctor State was changed from No Access to Read/Write",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T14:52:39.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGu82CAC"
+        },
+        "Id": "0Ymbb00000tGu82CAC",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005fL000003xYf5QAE"
+          },
+          "Name": "Copado Integration"
+        },
+        "Display": "Changed permission set Integration user access for Drupal: field-level security for ASPN Staging: XCDC StateField was changed from No Access to Read/Write",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T14:52:39.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGu81CAC"
+        },
+        "Id": "0Ymbb00000tGu81CAC",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005fL000003xYf5QAE"
+          },
+          "Name": "Copado Integration"
+        },
+        "Display": "Changed permission set Integration user access for Drupal: field-level security for ASPN Staging: System Error Message was changed from No Access to Read/Write",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T14:52:39.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGu80CAC"
+        },
+        "Id": "0Ymbb00000tGu80CAC",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005fL000003xYf5QAE"
+          },
+          "Name": "Copado Integration"
+        },
+        "Display": "Changed permission set Integration user access for Drupal: field-level security for ASPN Staging: Insurance Name was changed from No Access to Read/Write",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T14:52:39.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGu7zCAC"
+        },
+        "Id": "0Ymbb00000tGu7zCAC",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005fL000003xYf5QAE"
+          },
+          "Name": "Copado Integration"
+        },
+        "Display": "Changed permission set Integration user access for Drupal: field-level security for ASPN Staging: Legacy Id was changed from No Access to Read/Write",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T14:52:39.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGu7yCAC"
+        },
+        "Id": "0Ymbb00000tGu7yCAC",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005fL000003xYf5QAE"
+          },
+          "Name": "Copado Integration"
+        },
+        "Display": "Changed permission set Integration user access for Drupal: field-level security for ASPN Staging: PCN was changed from No Access to Read/Write",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T14:52:39.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "SetupAuditTrail",
+          "url": "/services/data/v66.0/sobjects/SetupAuditTrail/0Ymbb00000tGu7xCAC"
+        },
+        "Id": "0Ymbb00000tGu7xCAC",
+        "CreatedBy": {
+          "attributes": {
+            "type": "User",
+            "url": "/services/data/v66.0/sobjects/User/005fL000003xYf5QAE"
+          },
+          "Name": "Copado Integration"
+        },
+        "Display": "Changed permission set Integration user access for Drupal: field-level security for ASPN Staging: Rx Bin was changed from No Access to Read/Write",
+        "Section": "Manage Users",
+        "CreatedDate": "2026-03-05T14:52:39.000+0000"
+      }
+    ],
+    "totalSize": 100,
+    "done": true
+  },
+  "warnings": []
+}

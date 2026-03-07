@@ -1,0 +1,41 @@
+.ds-header {
+    display: flex;
+    align-items: center;
+    gap : 10px 15px;
+}
+.ds-icon {
+    width: 26px;
+    height: 26px;
+}
+.ds-bold-text{
+    font-weight: 700;
+}
+
+.ds-pad {
+    padding: 12px;
+}
+
+.ds-icon--sent {
+    --sds-c-icon-color-background: rgb(242, 139, 0);
+    background: rgb(242, 139, 0);
+}
+
+.ds-icon--declined {
+    --sds-c-icon-color-background: #d83b3b;
+    background: #d83b3b;
+}
+
+.ds-icon--signed {
+    background: rgb(59, 167, 85);
+    --sds-c-icon-color-background: rgb(59, 167, 85);
+}
+
+.ds-icon--info {
+    background: #5a6b85;
+     --sds-c-icon-color-background: #5a6b85;
+}
+
+.ds-svg {
+    --slds-c-icon-color-foreground-default: #ffffff;
+    --slds-c-icon-radius-border: 0.25rem;
+}

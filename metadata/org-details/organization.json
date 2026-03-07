@@ -1,0 +1,24 @@
+{
+  "status": 0,
+  "result": {
+    "records": [
+      {
+        "attributes": {
+          "type": "Organization",
+          "url": "/services/data/v66.0/sobjects/Organization/00Dbb000006gUxVEAU"
+        },
+        "Id": "00Dbb000006gUxVEAU",
+        "Name": "Insulet Corporation - NA (Lightning Migration)",
+        "OrganizationType": "Unlimited Edition",
+        "IsSandbox": true,
+        "InstanceName": "USA870S",
+        "NamespacePrefix": null,
+        "TrialExpirationDate": null,
+        "CreatedDate": "2025-01-15T16:31:14.000+0000"
+      }
+    ],
+    "totalSize": 1,
+    "done": true
+  },
+  "warnings": []
+}

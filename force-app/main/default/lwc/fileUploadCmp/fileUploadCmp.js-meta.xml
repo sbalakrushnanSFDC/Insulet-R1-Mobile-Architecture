@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>61.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>File Upload Component</masterLabel>
+       <targets>
+        <target>lightning__RecordPage</target>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <property name="recordId" type="String" label="Record ID" />
+            <property name="showFileUpload" type="Boolean" label="Show File Uploader Component" default="false" />
+            <property name="label" type="String" label="Label"/>
+            <property name="acceptedFormats" type="String" label="Accepted Formats (comma separated)" default=".pdf,.png,.jpg,.jpeg,.doc,.docx,.xlsx,.xls,.csv,.txt,.ppt,.pptx"/>
+            <property name="multiple" type="Boolean" label="Allow Multiple Files" default="false" />
+            <property name="disabled" type="Boolean" label="Disabled" default="false" />
+            <property name="required" type="Boolean" label="Required" default="false" />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

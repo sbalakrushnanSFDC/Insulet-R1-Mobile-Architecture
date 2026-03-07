@@ -1,0 +1,37 @@
+<template>
+    <lightning-card title={_relatedListTitle} icon-name={_iconName} lwc:if={showRelatedList}>
+        <div class="slds-m-around_medium party-consent-container">
+
+            <!-- Loading Spinner -->
+            <template lwc:if={isLoading}>
+                <div class="spinner-container">
+                    <lightning-spinner
+                        alternative-text="Loading"
+                        size="medium">
+                    </lightning-spinner>
+                </div>
+            </template>
+
+            <!-- Party Consents Data Table -->
+            <template lwc:if={hasRecords}>
+                <div class="datatable-wrapper">
+                    <lightning-datatable
+                        key-field="Id"
+                        data={records}
+                        columns={columns}
+                        hide-checkbox-column
+                        sorted-by={_sortedBy}
+                        sorted-direction={sortDirection}>
+                    </lightning-datatable>
+                </div>
+            </template>
+
+            <!-- Empty State Message -->
+            <template lwc:else>
+                <div class="slds-text-align_center slds-p-vertical_large">
+                    <p>{labels.relatedRecordsNotFoundText}</p>
+                </div>
+            </template>
+        </div>
+    </lightning-card>
+</template>

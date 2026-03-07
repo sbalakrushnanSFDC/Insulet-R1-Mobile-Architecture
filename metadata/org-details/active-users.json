@@ -1,0 +1,62 @@
+{
+  "result": {
+    "records": [
+      {
+        "profileName": "System Administrator",
+        "cnt": 177
+      },
+      {
+        "profileName": "External Trainer",
+        "cnt": 68
+      },
+      {
+        "profileName": "Sales",
+        "cnt": 65
+      },
+      {
+        "profileName": "Service",
+        "cnt": 48
+      },
+      {
+        "profileName": "IT",
+        "cnt": 26
+      },
+      {
+        "profileName": "Marketing",
+        "cnt": 5
+      },
+      {
+        "profileName": "Integration API Only",
+        "cnt": 4
+      },
+      {
+        "profileName": "00efL000000YORPQA4",
+        "cnt": 2
+      },
+      {
+        "profileName": "Analytics Cloud Integration User",
+        "cnt": 1
+      },
+      {
+        "profileName": "Sales Insights Integration User",
+        "cnt": 1
+      },
+      {
+        "profileName": "Minimum Access - API Only Integrations",
+        "cnt": 1
+      },
+      {
+        "profileName": "Trainer Portal Profile",
+        "cnt": 1
+      },
+      {
+        "profileName": "SalesforceIQ Integration User",
+        "cnt": 1
+      },
+      {
+        "profileName": "00efL000000YORRQA4",
+        "cnt": 1
+      }
+    ]
+  }
+}

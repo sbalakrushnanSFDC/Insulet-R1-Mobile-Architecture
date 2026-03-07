@@ -1,0 +1,11 @@
+.truncate {
+    max-width: 22rem;
+  }
+  .action-row a {
+    text-decoration: none;
+  }  .container-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+  }

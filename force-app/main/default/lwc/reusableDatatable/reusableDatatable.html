@@ -1,0 +1,33 @@
+<template>
+    <lightning-card title={title} icon-name={iconName}>
+        <div slot="actions" lwc:if={enableSearch}>
+            <lightning-input type="search" value={searchTerm} onchange={handleSearchChange}
+                placeholder={label.SEARCH_THIS_LIST}>
+            </lightning-input>
+        </div>
+        <lightning-spinner alternative-text={label.LOADING} size="large" lwc:if={loading}></lightning-spinner>
+        <div lwc:elseif={displayedRecords.length}>
+            <lightning-datatable data={displayedRecords} columns={columns} key-field={keyField} onsort={handleSort}
+                sorted-by={sortedBy} sorted-direction={sortedDirection} onrowaction={handleRowAction}
+                onrowselection={handleRowSelection} selected-rows={selectedRows} lwc:if={multiSelect}
+                hide-checkbox-column={hideCheckboxColumn}>
+            </lightning-datatable>
+            <lightning-datatable data={displayedRecords} columns={columns} key-field={keyField} onsort={handleSort}
+                sorted-by={sortedBy} sorted-direction={sortedDirection} onrowaction={handleRowAction}
+                onrowselection={handleRowSelection} selected-rows={selectedRows} max-row-selection="1" lwc:else>
+            </lightning-datatable>
+            <div class="slds-m-top_medium slds-m-bottom_medium slds-text-align_center">
+                <lightning-button label={label.PREVIOUS} onclick={handlePrevious} disabled={isPreviousDisabled}>
+                </lightning-button>
+                <lightning-button class="slds-m-left_xx-small" label={label.NEXT} onclick={handleNext}
+                    disabled={isNextDisabled}>
+                </lightning-button>
+            </div>
+        </div>
+        <div lwc:else>
+            <div class="slds-box">
+                {errorMessage.noRecords}
+            </div>
+        </div>
+    </lightning-card>
+</template>

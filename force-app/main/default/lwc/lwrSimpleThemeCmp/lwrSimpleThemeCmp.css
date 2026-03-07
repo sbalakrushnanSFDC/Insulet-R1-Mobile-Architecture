@@ -1,0 +1,31 @@
+:host {
+    /* Base theme variables */
+    --theme-max-width: 1280px;
+    --theme-padding: 1rem;
+    --theme-bg: var(--lwc-colorBackground, #ffffff);
+    --theme-text: var(--lwc-colorTextDefault, #080707);
+}
+
+/* Full-bleed container with centered content */
+.theme {
+    background: var(--theme-bg);
+    color: var(--theme-text);
+    min-height: 100%;
+    width: 100%;
+}
+
+.main {
+    max-width: var(--theme-max-width);
+    margin: 0 auto;
+    padding: var(--theme-padding);
+}
+
+/* No header styles included by design */
+
+/* Optional footer region */
+.footer {
+    max-width: var(--theme-max-width);
+    margin: 0 auto;
+    padding: var(--theme-padding);
+    border-top: 1px solid var(--lwc-colorBorder, #d8dde6);
+}

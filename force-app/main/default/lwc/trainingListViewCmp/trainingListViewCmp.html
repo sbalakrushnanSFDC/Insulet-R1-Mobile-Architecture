@@ -1,0 +1,83 @@
+<template>
+    <lightning-spinner lwc:if={loading.configLoading}></lightning-spinner>
+    <lightning-tabset variant="scoped" lwc:else>
+        <lightning-tab label={label.Portal_Available_Training} value={label.Portal_Available_Training}
+            onactive={handleTabChange} lwc:if={showTrainingsForCPT}>
+            <lightning-spinner lwc:if={loading.dataLoading}></lightning-spinner>
+            <lightning-card title={label.Portal_Available_Training} icon-name="custom:custom63" lwc:else>
+        <div slot="actions">
+            <lightning-input type="search" value={searchTerm} onchange={handleSearchChange}
+                        placeholder={label.SEARCH_THIS_LIST}>
+            </lightning-input>
+        </div>
+        <div lwc:if={totalRecords}>
+            <div class="slds-text-body_regular">
+                {pageInfoMessage}
+            </div>
+        </div>
+        <div lwc:if={displayedRecords.length}>
+                    <lightning-datatable data={displayedRecords} columns={columns} key-field="Id"
+                        hide-checkbox-column=true onsort={handleSort} sorted-by={sortedBy}
+                        sorted-direction={sortedDirection} onrowaction={handleRowAction}>
+                    </lightning-datatable>
+                </div>
+                <div lwc:else>
+                    <div class="slds-box">
+                        {label.Portal_Available_Training_No_Records}
+                    </div>
+                </div>
+        <div lwc:if={displayedRecords.length}>
+            <div class="slds-m-top_medium slds-m-bottom_medium slds-text-align_center">
+                        <lightning-button label={label.PREVIOUS} onclick={handlePrevious} disabled={isPreviousDisabled}>
+                        </lightning-button>
+                        <lightning-button class="slds-m-left_xx-small" label={label.NEXT} onclick={handleNext}
+                    disabled={isNextDisabled}>
+                </lightning-button>
+            </div>
+        </div>
+            </lightning-card>
+        </lightning-tab>
+        <lightning-tab label={label.Portal_Available_Training_For_Clinics}
+            value={label.Portal_Available_Training_For_Clinics} onactive={handleTabChange} lwc:if={showTrainingsForCC}>
+            <lightning-spinner lwc:if={loading.dataLoading}></lightning-spinner>
+            <lightning-card title={label.Portal_Available_Training_For_Clinics} icon-name="custom:custom63" lwc:else>
+                <div slot="actions">
+                    <lightning-input type="search" value={searchTerm} onchange={handleSearchChange}
+                        placeholder={label.SEARCH_THIS_LIST}>
+                    </lightning-input>
+                </div>
+                <div lwc:if={totalRecords}>
+                    <div class="slds-text-body_regular">
+                        {pageInfoMessage}
+                    </div>
+                </div>
+                <div lwc:if={displayedRecords.length}>
+                    <lightning-datatable data={displayedRecords} columns={columns} key-field="Id"
+                        hide-checkbox-column=true onsort={handleSort} sorted-by={sortedBy}
+                        sorted-direction={sortedDirection} onrowaction={handleRowAction}>
+                    </lightning-datatable>
+                </div>
+                <div lwc:else>
+                    <div class="slds-box">
+                        {label.Portal_Available_Training_For_Clinics_No_Records}
+                    </div>
+                </div>
+                <div lwc:if={displayedRecords.length}>
+                    <div class="slds-m-top_medium slds-m-bottom_medium slds-text-align_center">
+                        <lightning-button label={label.PREVIOUS} onclick={handlePrevious} disabled={isPreviousDisabled}>
+                        </lightning-button>
+                        <lightning-button class="slds-m-left_xx-small" label={label.NEXT} onclick={handleNext}
+                            disabled={isNextDisabled}>
+                        </lightning-button>
+                    </div>
+                </div>
+            </lightning-card>
+        </lightning-tab>
+
+    </lightning-tabset>
+    <c-accept-training-cmp onrefresh={handleRefresh} lwc:ref="acceptModal">
+    </c-accept-training-cmp>
+    <c-decline-training-cmp onrefresh={handleRefresh} lwc:ref="declineModal" decline-reason-options={configs.options}>
+    </c-decline-training-cmp>
+    
+</template>

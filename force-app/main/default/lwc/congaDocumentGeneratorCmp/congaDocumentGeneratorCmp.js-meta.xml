@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>64.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightning__FlowScreen</target>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>   
+
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__FlowScreen">
+            <property name="recordId" type="String" label="Record Id"/>
+            <property name="outputMessage" type="String" label="Output Message"/>
+            <property name="congaTemplateIdList" type="String[]" label="Conga Template Ids"/>
+            <property name="partnerServerURL" type="String" label="Partner Server URL"/>
+            <property name="congaQueryId" type="String" label="Conga Query Id"/>
+            <property name="congaQueryAlias" type="String" label="Conga Query Alias"/>
+            <property name="filename" type="String" label="Filename"/>
+        </targetConfig>
+        
+    </targetConfigs>
+</LightningComponentBundle>

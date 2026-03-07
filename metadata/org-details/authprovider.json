@@ -1,0 +1,114 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "005bb00000gb7GyAAI",
+      "createdByName": "Som Balakrushnan",
+      "createdDate": "2026-01-14T16:53:13.000Z",
+      "fileName": "authproviders/Self_Callout_Provider.authprovider",
+      "fullName": "Self_Callout_Provider",
+      "id": "0SObb0000000hzRGAQ",
+      "lastModifiedById": "005bb00000gb7GyAAI",
+      "lastModifiedByName": "Som Balakrushnan",
+      "lastModifiedDate": "1970-01-01T00:00:00.000Z",
+      "type": "AuthProvider"
+    },
+    {
+      "createdById": "005bb00000gb7GyAAI",
+      "createdByName": "Som Balakrushnan",
+      "createdDate": "2025-05-30T18:10:52.000Z",
+      "fileName": "authproviders/TwitterEmiXAds.authprovider",
+      "fullName": "TwitterEmiXAds",
+      "id": "0SOfL00000063zNWAQ",
+      "lastModifiedById": "005bb00000gb7GyAAI",
+      "lastModifiedByName": "Som Balakrushnan",
+      "lastModifiedDate": "1970-01-01T00:00:00.000Z",
+      "type": "AuthProvider"
+    },
+    {
+      "createdById": "005bb00000gb7GyAAI",
+      "createdByName": "Som Balakrushnan",
+      "createdDate": "2025-05-30T18:10:52.000Z",
+      "fileName": "authproviders/FacebookSegmentIntelligence.authprovider",
+      "fullName": "FacebookSegmentIntelligence",
+      "id": "0SOfL00000063zKWAQ",
+      "lastModifiedById": "005bb00000gb7GyAAI",
+      "lastModifiedByName": "Som Balakrushnan",
+      "lastModifiedDate": "1970-01-01T00:00:00.000Z",
+      "type": "AuthProvider"
+    },
+    {
+      "createdById": "005bb00000gb7GyAAI",
+      "createdByName": "Som Balakrushnan",
+      "createdDate": "2025-05-30T18:10:52.000Z",
+      "fileName": "authproviders/MicrosoftEmiBingAds.authprovider",
+      "fullName": "MicrosoftEmiBingAds",
+      "id": "0SOfL00000063zMWAQ",
+      "lastModifiedById": "005bb00000gb7GyAAI",
+      "lastModifiedByName": "Som Balakrushnan",
+      "lastModifiedDate": "1970-01-01T00:00:00.000Z",
+      "type": "AuthProvider"
+    },
+    {
+      "createdById": "005bb00000gb7GyAAI",
+      "createdByName": "Som Balakrushnan",
+      "createdDate": "2025-05-30T18:10:52.000Z",
+      "fileName": "authproviders/GoogleWebDataConnector.authprovider",
+      "fullName": "GoogleWebDataConnector",
+      "id": "0SOfL00000063zPWAQ",
+      "lastModifiedById": "005bb00000gb7GyAAI",
+      "lastModifiedByName": "Som Balakrushnan",
+      "lastModifiedDate": "1970-01-01T00:00:00.000Z",
+      "type": "AuthProvider"
+    },
+    {
+      "createdById": "005bb00000gb7GyAAI",
+      "createdByName": "Som Balakrushnan",
+      "createdDate": "2025-05-30T18:10:52.000Z",
+      "fileName": "authproviders/SalesforceEmiTikTokAds.authprovider",
+      "fullName": "SalesforceEmiTikTokAds",
+      "id": "0SOfL00000063zOWAQ",
+      "lastModifiedById": "005bb00000gb7GyAAI",
+      "lastModifiedByName": "Som Balakrushnan",
+      "lastModifiedDate": "1970-01-01T00:00:00.000Z",
+      "type": "AuthProvider"
+    },
+    {
+      "createdById": "005bb00000gb7GyAAI",
+      "createdByName": "Som Balakrushnan",
+      "createdDate": "2025-05-30T18:10:52.000Z",
+      "fileName": "authproviders/LinkedInEmiLinkedInAds.authprovider",
+      "fullName": "LinkedInEmiLinkedInAds",
+      "id": "0SOfL00000063zLWAQ",
+      "lastModifiedById": "005bb00000gb7GyAAI",
+      "lastModifiedByName": "Som Balakrushnan",
+      "lastModifiedDate": "1970-01-01T00:00:00.000Z",
+      "type": "AuthProvider"
+    },
+    {
+      "createdById": "005bb00000gb7GyAAI",
+      "createdByName": "Som Balakrushnan",
+      "createdDate": "2025-05-30T18:10:52.000Z",
+      "fileName": "authproviders/GoogleSegmentIntelligence.authprovider",
+      "fullName": "GoogleSegmentIntelligence",
+      "id": "0SOfL00000063zJWAQ",
+      "lastModifiedById": "005bb00000gb7GyAAI",
+      "lastModifiedByName": "Som Balakrushnan",
+      "lastModifiedDate": "1970-01-01T00:00:00.000Z",
+      "type": "AuthProvider"
+    },
+    {
+      "createdById": "005bb00000gb7GyAAI",
+      "createdByName": "Som Balakrushnan",
+      "createdDate": "2025-09-03T07:00:18.000Z",
+      "fileName": "authproviders/LinkedInWebDataConnector.authprovider",
+      "fullName": "LinkedInWebDataConnector",
+      "id": "0SOQO0000000EJ94AM",
+      "lastModifiedById": "005bb00000gb7GyAAI",
+      "lastModifiedByName": "Som Balakrushnan",
+      "lastModifiedDate": "1970-01-01T00:00:00.000Z",
+      "type": "AuthProvider"
+    }
+  ],
+  "warnings": []
+}

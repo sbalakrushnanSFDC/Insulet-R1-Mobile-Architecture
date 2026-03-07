@@ -1,0 +1,11 @@
+<template>
+    <div class="slds-grid slds-grid_align-end slds-gutters">
+        <div lwc:if={showTakeExamButton}>
+            <div class="slds-col">
+                <lightning-button label={labels.takeExam} variant="brand"
+                    onclick={handleExam} disabled={isDisabled}>
+                </lightning-button>
+            </div>
+        </div>
+    </div>
+</template>

@@ -1,0 +1,44 @@
+<template>
+  <div class="slds-float_right">
+    <template lwc:if={showFlow}>
+      <section role="dialog" aria-modal="true" aria-labelledby="flow-modal-heading"
+        class="slds-modal slds-fade-in-open slds-modal_medium">
+        <div class="slds-modal__container">
+          <header class="slds-modal__header">
+            <button class="slds-button slds-button_icon slds-modal__close" title={label.CLOSE}
+              onclick={handleCloseModal}>
+              <lightning-icon icon-name="utility:close" size="small" alternative-text={label.CLOSE}></lightning-icon>
+              <span class="slds-assistive-text">{label.CLOSE}</span>
+            </button>
+            <h2 id="flow-modal-heading" class="slds-text-heading_medium slds-hyphenate">
+              {buttonName}
+            </h2>
+          </header>
+          <div class="slds-modal__content slds-p-around_medium">
+            <div class="slds-form slds-form_stacked">
+              <div class="slds-form-element">
+                <template lwc:if={renderFlow}>
+                <div class="slds-form-element__control">
+                  <lightning-flow flow-api-name={flowApiName} flow-input-variables={inputVariables}
+                    onstatuschange={handleFlowStatusChange} lightning-style-sheets="true"></lightning-flow>
+                </div>
+                </template>
+                <template lwc:else>
+                <div class="slds-form-element__control">
+                  <lightning-flow flow-api-name='Generate_Document_TrainerPortal' 
+                    onstatuschange={handlePortalFlowStatusChange} lightning-style-sheets="true"></lightning-flow>
+                </div>
+                </template>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <div class="slds-backdrop slds-backdrop_open"></div>
+    </template>
+    <template lwc:else>
+      <lightning-button label={buttonName} onclick={handleButtonClick} variant="brand"></lightning-button>
+    </template>
+  </div>
+</template>

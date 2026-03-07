@@ -1,0 +1,126 @@
+<template>
+    <!-- Modal Backdrop -->
+    <template lwc:if={resultFetched}>
+        <div class="slds-backdrop slds-backdrop_open" style="backdrop-filter: blur(4px);"></div>
+    </template>
+
+    <!-- Loading State -->
+    <template lwc:if={isLoading}>
+        <section role="dialog" tabindex="-1" class="slds-modal slds-fade-in-open" aria-labelledby="modal-heading-01"
+            aria-modal="true">
+            <div class="slds-modal__container">
+                <div class="slds-modal__content slds-p-around_xx-large slds-text-align_center">
+                    <div class="slds-spinner_container slds-m-bottom_large">
+                        <div role="status" class="slds-spinner slds-spinner_large slds-spinner_brand">
+                            <span class="slds-assistive-text">{label.LoadingLabel}</span>
+                            <div class="slds-spinner__dot-a"></div>
+                            <div class="slds-spinner__dot-b"></div>
+                        </div>
+                    </div>
+                    <h2 class="slds-text-heading_medium slds-text-color_weak">
+                        &#x2728; {label.PortalTrainingOnLoad}
+                    </h2>
+                    <p class="slds-text-body_regular slds-text-color_weak slds-m-top_small">
+                        {label.PortalTrainingLoadingSubHeader}
+                    </p>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <!-- Success State -->
+    <template lwc:if={isSuccess}>
+        <section role="dialog" tabindex="-1" class="slds-modal slds-fade-in-open" aria-labelledby="modal-heading-01"
+            aria-modal="true">
+            <div class="slds-modal__container" style="max-width: 600px;">
+
+                <div class="slds-modal__content slds-p-horizontal_xx-large slds-p-vertical_large">
+                    <!-- Success Illustration -->
+                    <div class="slds-illustration slds-illustration_large slds-text-align_center slds-m-bottom_large">
+                        <div class="slds-m-bottom_medium">
+                            <lightning-icon icon-name='action:approval' alternative-text='approval' size='large'
+                                title='approval'></lightning-icon>
+
+                        </div>
+                        <h1 class="slds-text-heading_large slds-text-color_warning slds-m-bottom_small">
+                            {headerMessage}
+                        </h1>
+                        <p class="slds-text-body_regular slds-text-color_weak slds-m-bottom_large">
+                            {label.PortalTrainingSuccessSubHeader}
+                        </p>
+                    </div>
+                </div>
+
+                <div class="slds-modal__footer slds-text-align_center">
+                    <button class="slds-button slds-button_brand slds-button_stretch" onclick={handleClose}>
+                        {label.ContinueLabel}
+                    </button>
+                </div>
+            </div>
+        </section>
+    </template>
+
+    <!-- Failure State -->
+    <template lwc:if={isNotSuccess}>
+        <section role="dialog" tabindex="-1" class="slds-modal slds-fade-in-open" aria-labelledby="modal-heading-01"
+            aria-modal="true">
+            <div class="slds-modal__container" style="max-width: 600px;">
+                <div class="slds-modal__content slds-p-horizontal_xx-large slds-p-vertical_large">
+                    <!-- Encouragement Illustration -->
+                    <div class="slds-illustration slds-illustration_large slds-text-align_center slds-m-bottom_large">
+                        <div class="slds-m-bottom_medium">
+                            <lightning-icon icon-name='action:close' alternative-text='close' size='large'
+                                title='close'></lightning-icon>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Performance Summary Card -->
+                    <div class="slds-card slds-card_boundary slds-m-bottom_large"
+                        style="background-color: lightslategrey">
+                        <div class="slds-card__header">
+                            <h2 class="slds-card__header-title slds-text-heading_small slds-text-color_inverse">
+                                &#128202; {label.PortalTrainingAttemptSummary}
+                            </h2>
+                        </div>
+                        <div class="slds-card__body slds-card__body_inner">
+                            <!-- Score Display -->
+                            <div class="slds-grid slds-wrap slds-gutters_small">
+                                <div class="slds-col slds-size_1-of-2">
+                                    <div class="slds-text-align_center">
+                                        <div class="slds-text-heading_large slds-text-color_inverse">
+                                            {result.finalScore}%
+                                        </div>
+                                        <div class="slds-text-body_small slds-text-color_inverse">
+                                            &#128200; {label.PortalTrainingCurrentScore}
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slds-col slds-size_1-of-2">
+                                    <div class="slds-text-align_center">
+                                        <div class="slds-text-heading_large slds-text-color_inverse">
+                                            {result.totalQuestionAnswered}
+                                        </div>
+                                        <div class="slds-text-body_small slds-text-color_inverse">
+                                            &#128221; {label.PortalTrainingQuestionsAnswered}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="slds-text-body_regular slds-text-color_weak slds-m-bottom_large">
+                        {label.PortalTrainingFailureSubHeader}
+                    </p>
+                </div>
+
+                <div class="slds-modal__footer slds-text-align_center">
+                    <button class="slds-button slds-button_brand slds-button_stretch" onclick={handleClose}>
+                        {label.ContinueLabel}
+                    </button>
+                </div>
+            </div>
+        </section>
+    </template>
+</template>

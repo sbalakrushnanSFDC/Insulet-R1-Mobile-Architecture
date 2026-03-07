@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <description>Logs the fault message when the flow encounters an error.</description>
+        <name>Log_Entry</name>
+        <label>Log Entry</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <actionName>FlowLogEntry</actionName>
+        <actionType>apex</actionType>
+        <flowTransactionModel>Automatic</flowTransactionModel>
+        <inputParameters>
+            <name>flowName</name>
+            <value>
+                <stringValue>Contract_After_Save_Update_Account</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>message</name>
+            <value>
+                <elementReference>$Flow.FaultMessage</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recordId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>saveLog</name>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputParameters>
+        <nameSegment>FlowLogEntry</nameSegment>
+        <offset>0</offset>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </actionCalls>
+    <apiVersion>65.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <assignments>
+        <description>Sets the Account Id and Contract Expiration Date, then adds the record to the update collection.</description>
+        <name>Assign_Account_Record</name>
+        <label>Assign Account Record</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignmentItems>
+            <assignToReference>accountRecord.Id</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Iterate_Multi_Location_Contracts.Related_Location__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>accountRecord.Contract_Expiration_Date__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>$Record.EndDate</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>accountRecords</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>accountRecord</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>accountIds</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>Iterate_Multi_Location_Contracts.Related_Location__c</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Iterate_Multi_Location_Contracts</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <description>Checks if the user has the Bypass Flows custom permission to skip flow execution.</description>
+        <name>Bypass_Flow</name>
+        <label>Bypass Flow</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>Is_Contract_Status_Activated</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Execute</defaultConnectorLabel>
+        <rules>
+            <name>Bypass</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Permission.Bypass_Flows</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <label>Bypass</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <description>Verifies whether the account already exists in the collection of AccountIds to prevent duplicate entries.</description>
+        <name>Check_If_Account_Already_Added</name>
+        <label>Check If Account Already Added</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>Assign_Account_Record</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Account Not Exist</defaultConnectorLabel>
+        <rules>
+            <name>Account_Exist</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>accountIds</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <elementReference>Iterate_Multi_Location_Contracts.Related_Location__c</elementReference>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>accountIds</leftValueReference>
+                <operator>IsEmpty</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Iterate_Multi_Location_Contracts</targetReference>
+            </connector>
+            <label>Account Exist</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <description>Checks if any Multi-Location Contract records were retrieved.</description>
+        <name>Check_if_Locations_Found</name>
+        <label>Check if Locations Found</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>Is_Contract_End_Date_Changed</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Locations_Exist</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Existing_Multi_Location_Records</leftValueReference>
+                <operator>IsEmpty</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Iterate_Multi_Location_Contracts</targetReference>
+            </connector>
+            <label>Locations Exist</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <description>Checks if the Contract End Date was changed and the Account is populated.</description>
+        <name>Is_Contract_End_Date_Changed</name>
+        <label>Is Contract End Date Changed</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Yes</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.EndDate</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.AccountId</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Parent_Account</targetReference>
+            </connector>
+            <label>Yes</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <description>Checks if the Contract Status is Activated to process multi-location account updates.</description>
+        <name>Is_Contract_Status_Activated</name>
+        <label>Is Contract Status Activated</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>Is_Contract_End_Date_Changed</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>IS_Contract_Activated</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Status</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Activated</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_Existing_Multi_Location_Records</targetReference>
+            </connector>
+            <label>IS Contract Activated</label>
+        </rules>
+    </decisions>
+    <description>After Save (Create/Update) flow that updates Account Contract Expiration Date from Contract changes.</description>
+    <environments>Default</environments>
+    <interviewLabel>Contract {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Contract : After Save - Update Account</label>
+    <loops>
+        <description>Iterates over Multi-Location Contract records to build Account records for bulk update.</description>
+        <name>Iterate_Multi_Location_Contracts</name>
+        <label>Iterate Multi Location Contracts</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <collectionReference>Get_Existing_Multi_Location_Records</collectionReference>
+        <iterationOrder>Asc</iterationOrder>
+        <nextValueConnector>
+            <targetReference>Check_If_Account_Already_Added</targetReference>
+        </nextValueConnector>
+        <noMoreValuesConnector>
+            <targetReference>Update_Multi_Location_Accounts</targetReference>
+        </noMoreValuesConnector>
+    </loops>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <description>Retrieves all Multi-Location Contract junction records associated with the previously identified source contract.</description>
+        <name>Get_Existing_Multi_Location_Records</name>
+        <label>Get Existing Multi-Location Records</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Check_if_Locations_Found</targetReference>
+        </connector>
+        <faultConnector>
+            <isGoTo>true</isGoTo>
+            <targetReference>Log_Entry</targetReference>
+        </faultConnector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Contract__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>Multi_Location_Contract__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <description>Bulk updates multi-location Account records with the Contract Expiration Date.</description>
+        <name>Update_Multi_Location_Accounts</name>
+        <label>Update Multi-Location Accounts</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Is_Contract_End_Date_Changed</targetReference>
+        </connector>
+        <faultConnector>
+            <isGoTo>true</isGoTo>
+            <targetReference>Log_Entry</targetReference>
+        </faultConnector>
+        <inputReference>accountRecords</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <description>Updates the parent Account&apos;s Contract Expiration Date when the End Date changes.</description>
+        <name>Update_Parent_Account</name>
+        <label>Update Parent Account</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <faultConnector>
+            <targetReference>Log_Entry</targetReference>
+        </faultConnector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.AccountId</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Contract_Expiration_Date__c</field>
+            <value>
+                <elementReference>$Record.EndDate</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Account</object>
+    </recordUpdates>
+    <start>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Bypass_Flow</targetReference>
+        </connector>
+        <filterLogic>or</filterLogic>
+        <filters>
+            <field>Status</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Activated</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>EndDate</field>
+            <operator>IsChanged</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <object>Contract</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <variables>
+        <description>Collection of Account Ids used for duplicate detection during iteration.</description>
+        <name>accountIds</name>
+        <dataType>String</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <description>A single Account record used to set field values before adding to the collection.</description>
+        <name>accountRecord</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Account</objectType>
+    </variables>
+    <variables>
+        <description>Stores collection of Account records for bulk update.</description>
+        <name>accountRecords</name>
+        <dataType>SObject</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Account</objectType>
+    </variables>
+</Flow>

@@ -1,0 +1,18 @@
+/* Custom styling for modal header using SLDS design tokens and custom namespace */
+/* Note: Since lightning-modal-header is a base component, we use CSS custom properties */
+/* with our own namespace to avoid SLDS namespace conflicts */
+:host {
+    /* Use custom namespace for all CSS variables - avoid --slds-* namespace for custom hooks */
+    --patient-lead-conversion-modal-header-bg: var(--slds-g-color-surface-2, #f3f3f3);
+    --patient-lead-conversion-modal-header-border-color: #e5e5e5;
+    --patient-lead-conversion-modal-title-color: var(--slds-g-color-neutral-base-10, #181818);
+    --patient-lead-conversion-modal-icon-color: var(--slds-g-color-neutral-base-50, #706e6b);
+    --patient-lead-conversion-border-width: var(--slds-g-sizing-border-1, 1px);
+}
+
+/* Apply styling - using :host to scope styles without directly overriding SLDS classes */
+/* This approach minimizes SLDS class overrides while maintaining necessary styling */
+:host {
+    /* Use CSS custom properties that may be supported by the modal component */
+    --lwc-modal-header-background: var(--patient-lead-conversion-modal-header-bg);
+}

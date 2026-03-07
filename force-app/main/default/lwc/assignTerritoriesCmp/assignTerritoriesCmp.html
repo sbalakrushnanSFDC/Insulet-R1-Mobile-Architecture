@@ -1,0 +1,89 @@
+<template>
+  <section class="slds-card slds-p-around_medium slds-is-relative">
+    <div lwc:if={isLoading}>
+      <lightning-spinner alternative-text="Loading" size="medium"></lightning-spinner>
+    </div>
+    <header class="slds-m-bottom_large">
+      <div class="slds-page-header">
+        <div class="slds-page-header__row slds-align_absolute-center">
+          <div class="slds-page-header__col-title">
+            <h1
+              class="slds-page-header__title slds-truncate slds-text-align_center"
+              title={labels.assignTerritories}
+            >
+              {labels.assignTerritories}
+            </h1>
+          </div>
+        </div>
+      </div>
+      <div class="slds-border_bottom slds-m-top_medium"></div>
+    </header>
+    <div class="slds-card__body slds-card__body_inner slds-grow">
+      <div class="slds-grid slds-grid_vertical slds-align_absolute-center">
+        <div class="slds-col slds-size_1-of-1 slds-medium-size_10-of-12">
+          <div class="slds-form-element">
+            <label class="slds-form-element__label slds-m-bottom_xx-small" for="territory-search">
+              <abbr class="slds-required" title="required">*</abbr>
+              {labels.territoriesLabel}
+            </label>
+            <div class="slds-form-element__control slds-input-has-icon slds-input-has-icon_right">
+              <lightning-icon
+                icon-name="utility:search"
+                size="x-small"
+                class="slds-input__icon slds-input__icon_right"
+              ></lightning-icon>
+              <input
+                type="text"
+                id="territory-search"
+                class="slds-input"
+                style="border-radius: 8px;"
+                placeholder="Search Territories..."
+                value={searchTerm}
+                oninput={handleSearch}
+              />
+            </div>
+            <div lwc:if={searchResults} class="slds-dropdown slds-dropdown_fluid slds-dropdown_length-5">
+              <ul class="slds-dropdown__list" role="menu">
+                <template for:each={searchResults} for:item="territory">
+                  <li
+                    key={territory.value}
+                    class="slds-dropdown__item"
+                    role="presentation"
+                    onclick={handleSelect}
+                    data-id={territory.value}
+                    data-name={territory.label}
+                  >
+                    <a role="menuitem" tabindex="0">
+                      <span class="slds-truncate">{territory.label}</span>
+                    </a>
+                  </li>
+                </template>
+              </ul>
+            </div>
+          </div>
+          <div class="slds-m-top_medium">
+            <lightning-pill-container
+              items={selectedPills}
+              onitemremove={handleRemove}
+            ></lightning-pill-container>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="slds-m-top_xx-large slds-p-top_medium slds-border_top slds-text-align_right">
+      <lightning-button
+        label= {labels.cancel}
+        onclick={handleCancel}
+        variant="neutral"
+        disabled={isLoading}
+        class="slds-m-right_x-small"
+      ></lightning-button>
+      <lightning-button
+        label={labels.save}
+        variant="brand"
+        onclick={handleSave}
+        disabled={isSaveDisabled}
+      ></lightning-button>
+    </footer>
+  </section>
+</template>

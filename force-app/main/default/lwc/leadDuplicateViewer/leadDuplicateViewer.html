@@ -1,0 +1,189 @@
+<template>
+    <!-- Loading Spinner -->
+    <template if:true={isLoading}>
+        <lightning-spinner alternative-text="Loading duplicate records..." size="medium"></lightning-spinner>
+    </template>
+
+    <!-- Main Display -->
+    <template if:false={isLoading}>
+        <lightning-card 
+            title={cardTitle} 
+            icon-name="standard:merge">
+            
+            <!-- No Duplicates Found -->
+            <template if:false={hasDuplicates}>
+                <div class="slds-p-around_medium">
+                    <div class="slds-grid slds-gutters_small slds-grid_vertical-align-center">
+                        <div class="slds-col">
+                            <span class="slds-text-body_regular slds-text-title_bold">
+                                {label.LDW_NoPotentialDuplicates}
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </template>
+
+            <!-- Duplicates List -->
+            <template if:true={hasDuplicates}>
+                <div class="slds-p-around_medium">
+                    <!-- Summary Message -->
+                    <p class="slds-text-body_regular slds-m-bottom_medium">
+                      <lightning-formatted-rich-text value={potentialMatchMessage}></lightning-formatted-rich-text>
+                    </p>
+
+                    <!-- Single Duplicate Record -->
+                    <template if:true={firstDuplicate}>
+                        <div class="duplicate-list">
+                            <div class="duplicate-item slds-border_bottom slds-p-vertical_small">
+                                <div class="slds-grid slds-gutters_small">
+                                    <!-- Record Info -->
+                                    <div class="slds-col slds-size_1-of-1">
+                                        <div class="slds-grid slds-gutters_x-small slds-grid_vertical-align-center">
+                                            <div class="slds-col slds-no-flex">
+                                                <a href={firstDuplicate.recordUrl} target="_blank" class="slds-text-link slds-text-body_medium record-link">
+                                                    {firstDuplicate.name}
+                                                </a>
+                                            </div>
+                                            <div class="slds-no-flex">
+                                                <lightning-badge label={firstDuplicate.recordType} class="badge"></lightning-badge>
+                                            </div>
+                                            <div class="slds-no-flex">
+                                                <lightning-badge label={firstDuplicate.matchingStatus} class="badge"></lightning-badge>
+                                            </div>
+                                        </div>
+                                        
+                                        <!-- Record Details -->
+                                        <div class="slds-grid slds-grid_vertical slds-gutters_x-small slds-m-top_x-small">
+                                            <div class="slds-col">
+                                                <span class="slds-text-body_small slds-text-color_weak">Date of Birth:</span>
+                                                <span class="slds-text-body_small">{firstDuplicate.formattedDateOfBirth}</span>
+                                            </div>
+                                            <div class="slds-col">
+                                                <span class="slds-text-body_small slds-text-color_weak">Email:</span>
+                                                <span class="slds-text-body_small">{firstDuplicate.email}</span>
+                                            </div>
+                                            <div class="slds-col">
+                                                <span class="slds-text-body_small slds-text-color_weak">Phone:</span>
+                                                <span class="slds-text-body_small">{firstDuplicate.phone}</span>
+                                            </div>
+                                            <div class="slds-col slds-size_1-of-1">
+                                                <span class="slds-text-body_small slds-text-color_weak">Address:</span>
+                                                <span class="slds-text-body_small">{firstDuplicate.address}</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </template>
+
+                    <!-- View All Button -->
+                    <template if:true={showViewAllButton}>
+                        <div class="slds-text-align_center slds-m-top_medium">
+                            <lightning-button 
+                                label="View All"
+                                variant="brand"
+                                onclick={handleViewAll}>
+                            </lightning-button>
+                        </div>
+                    </template>
+                </div>
+            </template>
+        </lightning-card>
+    </template>
+
+    <!-- Modal for All Duplicates -->
+    <template if:true={isModalOpen}>
+        <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true" 
+                class="slds-modal slds-fade-in-open">
+            <div class="slds-modal__container modal-container">
+                <!-- Modal Header -->
+                <header class="slds-modal__header">
+                    <lightning-button-icon
+                        icon-name="utility:close"
+                        alternative-text="Close"
+                        class="slds-button slds-button_icon slds-modal__close"
+                        onclick={handleCloseModal}
+                        variant="bare">
+                    </lightning-button-icon>
+                    <h2 id="modal-heading-01" class="slds-modal__title slds-hyphenate">
+                        {duplicateRecordsMessage}
+                    </h2>
+                    <p class="slds-m-top_x-small">
+                        {label.LDW_ReviewPotentialDuplicates}
+                    </p>
+                </header>
+
+                <!-- Modal Body -->
+                <div class="slds-modal__content slds-p-around_medium">
+                    <!-- Lead Duplicates Table -->
+                    <template if:true={hasLeadDuplicates}>
+                        <div class="slds-m-bottom_large">
+                            <div class="slds-grid slds-gutters_small slds-grid_align-spread slds-m-bottom_small">
+                                <div class="slds-col">
+                                    <h3 class="slds-text-heading_medium">
+                                        <lightning-icon icon-name="standard:lead" size="small" class="slds-m-right_x-small"></lightning-icon>
+                                        {duplicateLeadMessage}
+                                    </h3>
+                                </div>
+                                <div class="slds-col slds-no-flex">
+                                    <lightning-button
+                                        label="Close Duplicate"
+                                        variant="brand"
+                                        disabled={isCloseButtonDisabled}
+                                        onclick={handleCloseAsDuplicate}>
+                                    </lightning-button>
+                                </div>
+                            </div>
+                            <lightning-datatable
+                                key-field="recordId"
+                                data={leadDuplicates}
+                                columns={leadColumns}
+                                selected-rows={selectedLeadRows}
+                                onrowselection={handleLeadRowSelection}
+                                show-row-number-column="false">
+                            </lightning-datatable>
+                        </div>
+                    </template>
+
+                    <!-- Account Duplicates Table -->
+                    <template if:true={hasAccountDuplicates}>
+                        <div class="slds-m-bottom_medium">
+                            <h3 class="slds-text-heading_medium slds-m-bottom_small">
+                                <lightning-icon icon-name="standard:account" size="small" class="slds-m-right_x-small"></lightning-icon>
+                                {duplicateAccountMessage}
+                            </h3>
+                            <lightning-datatable
+                                key-field="recordId"
+                                data={accountDuplicates}
+                                columns={accountColumns}
+                                hide-checkbox-column="true"
+                                show-row-number-column="false">
+                            </lightning-datatable>
+                        </div>
+                    </template>
+
+                    <!-- No Duplicates Message in Modal -->
+                    <template if:false={hasDuplicates}>
+                        <div class="slds-text-align_center slds-p-around_large">
+                            <lightning-icon icon-name="utility:success" size="large" variant="success"></lightning-icon>
+                            <p class="slds-text-heading_medium slds-m-top_medium">
+                               {label.LDW_NoDuplicates}
+                            </p>
+                        </div>
+                    </template>
+                </div>
+
+                <!-- Modal Footer -->
+                <footer class="slds-modal__footer">
+                    <lightning-button 
+                        label="Close" 
+                        variant="neutral" 
+                        onclick={handleCloseModal}>
+                    </lightning-button>
+                </footer>
+            </div>
+        </section>
+        <div class="slds-backdrop slds-backdrop_open"></div>
+    </template>
+</template>

@@ -1,0 +1,88 @@
+/* Full Width Banner Notification Styles */
+
+/* Container spans full viewport width */
+.slds-notify_container_full-width {
+    position: relative;
+    width: 100vw;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    background-color: #ffffff;
+    padding-bottom: 8px;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 8px;
+    font-size: 13px !important;
+    z-index: 1000;
+    /* Relatively less than header nav menu */
+}
+
+/* Alert banner styling */
+.slds-notify_alert {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    margin-top: 4px;
+    background-image: none;
+}
+
+.slds-text-heading_small {
+    font-size: 13px !important;
+}
+
+/* Warning theme colors */
+.slds-alert_warning {
+    background-color: #F8D84E;
+    color: #1B1A1A;
+}
+
+.slds-alert_error a:not(.slds-button),
+.slds-alert_error a:not(.slds-button):hover,
+.slds-alert_error a:not(.slds-button):focus,
+.slds-alert_error a:not(.slds-button):active {
+    color: #1B1A1A;
+}
+
+/* Error theme colors */
+.slds-alert_error {
+    background-color: #FFA700;
+    color: #1B1A1A;
+}
+
+/* Info theme colors */
+.slds-alert_info {
+    background-color: #706e6b;
+    color: #ffffff;
+}
+
+/* Success theme colors */
+.slds-alert_success {
+    background-color: #2e844a;
+    color: #ffffff;
+}
+
+/* Content styling */
+.slds-notify__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Icon styling for warning */
+.slds-alert_warning lightning-icon {
+    --sds-c-icon-color-foreground-default: #1B1A1A;
+}
+
+/* Icon styling for error */
+svg.error-icon {
+    fill: #BB0000;
+}
+
+/* Icon styling for other types */
+.slds-alert_info lightning-icon,
+.slds-alert_success lightning-icon {
+    --sds-c-icon-color-foreground-default: #ffffff;
+}

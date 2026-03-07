@@ -1,0 +1,48 @@
+<template>
+    <div lwc:if={isLoadingData}>
+        <div class="slds-align_absolute-center slds-var-m-vertical_medium">
+            <lightning-spinner alternative-text={labels.Processing} size="large"></lightning-spinner>
+        </div>
+    </div>
+    <div lwc:if={isDeclineVisible}>
+        <div lwc:if={isProcessing}>
+            <div class="slds-align_absolute-center slds-var-m-vertical_medium">
+                <lightning-spinner alternative-text={labels.Processing}  size="large"></lightning-spinner>
+            </div>
+        </div>
+        <section role="dialog" tabindex="-1" aria-modal="true" aria-labelledby="modal-heading-01"
+            class="slds-modal slds-fade-in-open slds-modal_small">
+            <div class="slds-modal__container">
+                <header class="slds-modal__header">
+                    <h2 id="modal-heading-01" class="slds-modal__title slds-text-heading_medium">
+                        {labels.declineTraining}</h2>
+                </header>
+                <div class="slds-modal__content slds-var-p-around_medium" id="modal-content-id-1">
+                    <lightning-combobox name="declineReason" label={labels.Decline_Reason}  value={declineReason}
+                        options={declineReasonOptions} onchange={handleReasonChange} required disabled={isProcessing}>
+                    </lightning-combobox>
+                    <div class="slds-var-m-top_medium">
+                        <div lwc:if={isOtherSelected}>
+                            <lightning-textarea name="declineComments" label={declineCommentsLabel}
+                                value={declineComments} onchange={handleDeclineCommentsChange} max-length="255" required
+                                disabled={isProcessing}>
+                            </lightning-textarea>
+                        </div>
+                    </div>
+                    <div lwc:if={errorMessage}>
+                        <div class="slds-text-color_error slds-var-m-top_small">{errorMessage}</div>
+                    </div>
+                </div>
+                <footer class="slds-modal__footer slds-grid slds-grid_align-end">
+                    <lightning-button variant="neutral" label= {labels.Cancel} title={labels.Cancel} onclick={handleCancel}
+                        class="slds-var-m-right_small" disabled={isProcessing}>
+                    </lightning-button>
+                    <lightning-button variant="brand" label={labels.Submit} title={labels.Submit_Decline} onclick={handleSubmit}
+                        disabled={isProcessing}>
+                    </lightning-button>
+                </footer>
+            </div>
+        </section>
+        <div class="slds-backdrop slds-backdrop_open" role="presentation"></div>
+    </div>
+</template>

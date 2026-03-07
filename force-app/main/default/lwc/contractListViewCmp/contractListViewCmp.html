@@ -1,0 +1,58 @@
+<template>
+    <lightning-toast-container></lightning-toast-container>
+    <lightning-spinner lwc:if={loading.configLoading}></lightning-spinner>
+    <lightning-tabset variant="scoped" class="custom_btn" lwc:else>
+        <lightning-tab label={label.MyContracts} lwc:if={showContractsForCPT} value={label.MyContracts}
+            onactive={handleTabChange}>
+            <lightning-card title={label.MyContracts}>
+                <div slot="actions">
+                    <lightning-input type="search" value={searchTerm} onchange={handleSearchChange}
+                        placeholder="Search this list">
+                    </lightning-input>
+                </div>
+                <lightning-spinner lwc:if={loading.dataLoading}></lightning-spinner>
+                <div lwc:elseif={displayedRecords.length}>
+                    <lightning-datatable data={displayedRecords} columns={columns} key-field="Id"
+                        hide-checkbox-column=true onsort={handleSort} sorted-by={sortedBy}
+                        sorted-direction={sortedDirection} onrowaction={handleRowAction}>
+                    </lightning-datatable>
+                    <div class="slds-m-top_medium slds-m-bottom_medium slds-text-align_center">
+                        <lightning-button label="Previous" onclick={handlePrevious} disabled={isPreviousDisabled}>
+                        </lightning-button>
+                        <lightning-button class="slds-m-left_xx-small" label="Next" onclick={handleNext} disabled={isNextDisabled}>
+                        </lightning-button>
+                    </div>
+                </div>
+                <div lwc:else>
+                    <p class="slds-p-around_medium slds-text-align_center">{label.NoActiveContracts}</p>
+                </div>
+            </lightning-card>
+        </lightning-tab>
+        <lightning-tab label={label.MyClinicContracts} lwc:if={showContractsForCC} value={label.MyClinicContracts}
+            onactive={handleTabChange}>
+            <lightning-card title={label.MyClinicContracts}>
+                <div slot="actions">
+                    <lightning-input type="search" value={searchTerm} onchange={handleSearchChange}
+                        placeholder="Search this list">
+                    </lightning-input>
+                </div>
+                <lightning-spinner lwc:if={loading.dataLoading}></lightning-spinner>
+                <div lwc:elseif={displayedRecords.length}>
+                    <lightning-datatable data={displayedRecords} columns={columns} key-field="Id"
+                        hide-checkbox-column=true onsort={handleSort} sorted-by={sortedBy}
+                        sorted-direction={sortedDirection} onrowaction={handleRowAction}>
+                    </lightning-datatable>
+                    <div class="slds-m-top_medium slds-m-bottom_medium slds-text-align_center">
+                        <lightning-button label="Previous" onclick={handlePrevious} disabled={isPreviousDisabled}>
+                        </lightning-button>
+                        <lightning-button class="slds-m-left_xx-small" label="Next" onclick={handleNext} disabled={isNextDisabled}>
+                        </lightning-button>
+                    </div>
+                </div>
+                <div lwc:else>
+                    <p class="slds-p-around_medium slds-text-align_center">{label.NoActiveClinicContracts}</p>
+                </div>
+            </lightning-card>
+        </lightning-tab>
+    </lightning-tabset>
+</template>

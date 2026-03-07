@@ -1,0 +1,27 @@
+/* Main container */
+.party-consent-container {
+    position: relative;
+}
+
+/* Datatable wrapper */
+.datatable-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+/* Small devices */
+@media screen and (max-width: 768px) {
+    .datatable-wrapper {
+        border: 1px solid var(--slds-g-color-border-base-4, #e5e5e5);
+        border-radius: 0.25rem;
+    }
+}
+
+/* Loading spinner */
+.spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+}

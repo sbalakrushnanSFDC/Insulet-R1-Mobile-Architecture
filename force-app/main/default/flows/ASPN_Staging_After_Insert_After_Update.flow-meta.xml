@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>66.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <decisions>
+        <description>After Insert/ After Update</description>
+        <name>After_Insert_After_Update</name>
+        <label>After Insert/ After Update</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnectorLabel>After Update Context</defaultConnectorLabel>
+        <rules>
+            <name>After_Insert_Context</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.CreatedDate</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>$Record.LastModifiedDate</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>ASPN_Staging_Opp_Event_Logic_Subflow</targetReference>
+            </connector>
+            <label>After Insert Context</label>
+        </rules>
+    </decisions>
+    <description>This flow runs during insert and update</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>byPassFlow</name>
+        <dataType>Boolean</dataType>
+        <expression>{!$Permission.Bypass_Flows}</expression>
+    </formulas>
+    <formulas>
+        <description>Check whether this is insert or update in scheduled path.</description>
+        <name>isInsert</name>
+        <dataType>Boolean</dataType>
+        <expression>ISNEW()</expression>
+    </formulas>
+    <interviewLabel>ASPN Staging After Insert After Update {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>ASPN Staging After Insert After Update</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <filterFormula>NOT({!$Permission.Bypass_Flows})</filterFormula>
+        <object>OrgSync_ASPN_Staging__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <scheduledPaths>
+            <name>Wait_1_Minute</name>
+            <connector>
+                <targetReference>After_Insert_After_Update</targetReference>
+            </connector>
+            <label>Wait_1_Minute</label>
+            <offsetNumber>1</offsetNumber>
+            <offsetUnit>Minutes</offsetUnit>
+            <recordField>CreatedDate</recordField>
+            <timeSource>RecordField</timeSource>
+        </scheduledPaths>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <subflows>
+        <description>ASPN Staging Opp Event Logic Subflow</description>
+        <name>ASPN_Staging_Opp_Event_Logic_Subflow</name>
+        <label>ASPN Staging Opp Event Logic Subflow</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <flowName>ASPN_Staging_OppEventLogic_Subflow</flowName>
+        <inputAssignments>
+            <name>Input_Staging_Record</name>
+            <value>
+                <elementReference>$Record</elementReference>
+            </value>
+        </inputAssignments>
+    </subflows>
+</Flow>

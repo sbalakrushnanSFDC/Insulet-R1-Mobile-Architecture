@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This action invokes screen flow which will submit the record for DSM approval</description>
+    <flowDefinition>Approval_Workflow_Observation_SuperCPT_Approval</flowDefinition>
+    <label>Submit for Approval</label>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
+    <type>Flow</type>
+</QuickAction>

@@ -1,0 +1,131 @@
+<template>
+    <section class="slds-card slds-var-m-around_small">
+        <div class="slds-card__header slds-grid slds-grid_vertical-align-center slds-wrap slds-var-p-around_small">
+            <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                <div class="slds-media__figure">
+                    <lightning-icon icon-name="utility:file" size="small"></lightning-icon>
+                </div>
+                <div class="slds-media__body">
+                    <h2 class="slds-card__header-title">
+                        <span class="slds-truncate" title="Files">{labels.files}</span>
+                    </h2>
+                    <template lwc:if={hasFiles}>
+                        <div class="slds-text-body_small slds-text-color_default">
+                            {labels.totalItems}<strong>{files.length}</strong>
+                        </div>
+                    </template>
+                </div>
+            </header>
+            <div class="slds-no-flex slds-m-left_small">
+                <div class="container-buttons">
+                    <template lwc:if={toshow}>
+                    <div>
+                        <c-file-upload-cmp record-id={recordId} 
+                        show-file-upload="true" multiple="true" onfilesuploaded={handleFilesUploaded}></c-file-upload-cmp>
+                    </div>
+                    </template>
+                    <div style="margin-left: 1.5rem;">
+                        <lightning-button-icon 
+                            icon-name="utility:refresh" 
+                            alternative-text={labels.refresh}
+                            title={labels.refresh}
+                            onclick={handleRefresh}>
+                        </lightning-button-icon>
+                    </div>
+                    <div style="min-width: 220px; margin-left: 0.5rem;">
+                        <lightning-combobox 
+                            value={sortBy} 
+                            options={sortOptions} 
+                            onchange={handleSortChange}
+                            variant="label-hidden" 
+                            placeholder={labels.sortBy}
+                            style="width: 100%;">
+                        </lightning-combobox>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slds-card__body slds-card__body_inner">
+            <template lwc:if={isLoading}>
+                <div class="slds-is-relative files-spinner-container">
+                    <lightning-spinner alternative-text={labels.loading}></lightning-spinner>
+                </div>
+            </template>
+            <template lwc:if={notLoading}>
+                <template lwc:if={hasFiles}>
+                    <div class="slds-scrollable_x">
+                        <table class="slds-table slds-table_cell-buffer slds-table_bordered" role="grid">
+                            <thead>
+                                <tr class="slds-line-height_reset">
+                                    <th style="width:40%;">
+                                        <div title={labels.title}>{labels.title}</div>
+                                    </th>
+                                    <th style="width:15%;">
+                                        <div class="slds-truncate" title={labels.owner}>{labels.owner}</div>
+                                    </th>
+                                    <th style="width:20%;">
+                                        <div class="slds-truncate" title={labels.lastModified}>{labels.lastModified}
+                                        </div>
+                                    </th>
+                                    <th style="width:10%;">
+                                        <div class="slds-truncate" title={labels.size}>{labels.size}</div>
+                                    </th>
+                                    <th style="width:110px;">
+                                        <div class="slds-truncate" title={labels.actions}>{labels.actions}</div>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <template for:each={files} for:item="file">
+                                    <tr key={file.versionId}>
+                                        <td>
+                                            <div class="slds-grid slds-wrap slds-grid_vertical-align-center">
+                                                <div class="slds-m-right_small">
+                                                    <lightning-icon icon-name={file.iconName}
+                                                        size="small"></lightning-icon>
+                                                </div>
+                                                <div title={file.titleSafe}>
+                                                    {file.titleSafe}
+                                                    <div class="slds-text-color_weak slds-text-body_small slds-truncate"
+                                                        title={file.fileExtension}>
+                                                        .{file.fileExtension}
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="slds-truncate" title={file.ownerName}>{file.ownerName}</div>
+                                        </td>
+                                        <td>
+                                            <div class="slds-truncate" title={file.modifiedLabel}>{file.modifiedLabel}
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="slds-truncate" title={file.sizeLabel}>{file.sizeLabel}</div>
+                                        </td>
+                                        <td>
+                                            <div class="slds-grid slds-grid_vertical-align-center slds-justify_center">
+                                                <a href={file.fileDownloadUrl} style="font-weight:bold;"
+                                                    title={labels.download}>
+                                                    {labels.download}
+                                                </a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </template>
+                            </tbody>
+                        </table>
+                    </div>
+                </template>
+                <template lwc:if={noFiles}>
+                    <div class="slds-illustration slds-illustration_small slds-text-align_center slds-p-vertical_large">
+                        <div class="slds-text-heading_medium slds-m-bottom_xx-small">{labels.noFiles}</div>
+                        <p class="slds-text-body_regular slds-text-color_weak">
+                            {labels.noFilesMessage}
+                        </p>
+                    </div>
+                </template>
+            </template>
+        </div>
+    </section>
+</template>

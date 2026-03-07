@@ -1,0 +1,78 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "005bb00000cguBFAAY",
+      "createdByName": "Rohan Saxena",
+      "createdDate": "2026-02-06T08:52:22.000Z",
+      "fileName": "connectedApps/DocuSign.connectedApp",
+      "fullName": "DocuSign",
+      "id": "09Hbb000000AV0vEAG",
+      "lastModifiedById": "005bb00000cguBFAAY",
+      "lastModifiedByName": "Rohan Saxena",
+      "lastModifiedDate": "2026-02-06T08:52:22.000Z",
+      "type": "ConnectedApp"
+    },
+    {
+      "createdById": "005fL00000563mjQAA",
+      "createdByName": "Kiran Kumar Nakka",
+      "createdDate": "2025-12-02T14:05:19.000Z",
+      "fileName": "connectedApps/DEVHUB_l6dkgcpxeguonetmwa0d.connectedApp",
+      "fullName": "DEVHUB_l6dkgcpxeguonetmwa0d",
+      "id": "09HQO000000zYkj2AE",
+      "lastModifiedById": "005fL00000563mjQAA",
+      "lastModifiedByName": "Kiran Kumar Nakka",
+      "lastModifiedDate": "2025-12-02T14:05:19.000Z",
+      "type": "ConnectedApp"
+    },
+    {
+      "createdById": "005fL000003tYgxQAE",
+      "createdByName": "Avinash Nelluri",
+      "createdDate": "2025-08-26T18:24:48.000Z",
+      "fileName": "connectedApps/Copado_DevOps_EMEA2.connectedApp",
+      "fullName": "Copado_DevOps_EMEA2",
+      "id": "09HQO000000mrlB2AQ",
+      "lastModifiedById": "005fL000003tYgxQAE",
+      "lastModifiedByName": "Avinash Nelluri",
+      "lastModifiedDate": "2025-08-26T18:24:48.000Z",
+      "type": "ConnectedApp"
+    },
+    {
+      "createdById": "005fL0000022TciQAE",
+      "createdByName": "Automated Process",
+      "createdDate": "2025-01-15T16:31:14.000Z",
+      "fileName": "connectedApps/CPQIntegrationUserApp.connectedApp",
+      "fullName": "CPQIntegrationUserApp",
+      "id": "09HfL0000008iGnUAI",
+      "lastModifiedById": "005fL0000022TciQAE",
+      "lastModifiedByName": "Automated Process",
+      "lastModifiedDate": "2025-01-15T16:31:14.000Z",
+      "type": "ConnectedApp"
+    },
+    {
+      "createdById": "005bb00000fucSnAAI",
+      "createdByName": "Gregory Cameron",
+      "createdDate": "2026-02-27T21:15:32.000Z",
+      "fileName": "connectedApps/Amazon_Connect_Integration.connectedApp",
+      "fullName": "Amazon_Connect_Integration",
+      "id": "09Hbb000000BAYjEAO",
+      "lastModifiedById": "005bb00000fucSnAAI",
+      "lastModifiedByName": "Gregory Cameron",
+      "lastModifiedDate": "2026-02-27T21:15:32.000Z",
+      "type": "ConnectedApp"
+    },
+    {
+      "createdById": "005bb00000gFyGzAAK",
+      "createdByName": "Alexander Suárez Vivas",
+      "createdDate": "2026-02-25T19:53:19.000Z",
+      "fileName": "connectedApps/Odaseva_for_Salesforce.connectedApp",
+      "fullName": "Odaseva_for_Salesforce",
+      "id": "09Hbb000000B8YXEA0",
+      "lastModifiedById": "005bb00000gFyGzAAK",
+      "lastModifiedByName": "Alexander Suárez Vivas",
+      "lastModifiedDate": "2026-02-25T19:53:19.000Z",
+      "type": "ConnectedApp"
+    }
+  ],
+  "warnings": []
+}

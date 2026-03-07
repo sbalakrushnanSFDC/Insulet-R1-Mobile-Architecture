@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>65.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <assignments>
+        <name>Assign_Status_SubStatus</name>
+        <label>Assign Status SubStatus</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignmentItems>
+            <assignToReference>ParentOppRecord.Status__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>TriggeringRecord.Status__c</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>ParentOppRecord.Sub_Status__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>TriggeringRecord.Sub_Status__c</elementReference>
+            </value>
+        </assignmentItems>
+    </assignments>
+    <decisions>
+        <name>Check_Parent_Opportunity</name>
+        <label>Check Parent Opportunity</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnectorLabel>Parent Opp Current Prod Does Not Match</defaultConnectorLabel>
+        <rules>
+            <name>Parent_Opp_Current_Prod_Matches</name>
+            <conditionLogic>1 AND 2 AND (3 OR 4)</conditionLogic>
+            <conditions>
+                <leftValueReference>ParentOppRecord.Current_Product__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>TriggeringRecord.Product2Id</elementReference>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>ProductDescriptionBoolean</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>ParentOppRecord.Status__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <elementReference>TriggeringRecord.Status__c</elementReference>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>ParentOppRecord.Sub_Status__c</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <elementReference>TriggeringRecord.Sub_Status__c</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Status_SubStatus</targetReference>
+            </connector>
+            <label>Parent Opp Current Prod Matches</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <formulas>
+        <name>ProductDescriptionBoolean</name>
+        <dataType>Boolean</dataType>
+        <expression>AND(
+NOT(ISBLANK({!TriggeringRecord.Product2Id})),
+NOT(ISBLANK({!TriggeringRecord.Product2.Description})),
+CONTAINS(LOWER({!TriggeringRecord.Product2.Description}), &quot;pod&quot;)
+)</expression>
+    </formulas>
+    <interviewLabel>Set Status And SubStatus On Parent Opportunity {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Set Status And SubStatus On Parent Opportunity</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Check_Parent_Opportunity</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>ParentOppRecord</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <objectType>Opportunity</objectType>
+    </variables>
+    <variables>
+        <name>TriggeringRecord</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+        <objectType>OpportunityLineItem</objectType>
+    </variables>
+</Flow>

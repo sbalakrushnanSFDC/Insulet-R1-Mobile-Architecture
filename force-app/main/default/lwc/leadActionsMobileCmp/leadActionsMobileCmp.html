@@ -1,0 +1,42 @@
+<template>
+    <lightning-card title="Lead Actions">
+        <div class="slds-p-around_medium">
+            <lightning-layout multiple-rows>
+                <lightning-layout-item size="12" class="slds-p-bottom_small">
+                    <lightning-button
+                        label="Send Email"
+                        variant="brand"
+                        onclick={handleSendEmail}
+                        class="slds-button_stretch"
+                        icon-name="utility:email">
+                    </lightning-button>
+                </lightning-layout-item>
+                <lightning-layout-item size="12" class="slds-p-bottom_small">
+                    <lightning-button
+                        label="Add to Campaign"
+                        variant="neutral"
+                        onclick={handleAddToCampaign}
+                        class="slds-button_stretch"
+                        icon-name="utility:campaign">
+                    </lightning-button>
+                </lightning-layout-item>
+                <lightning-layout-item size="12" class="slds-p-bottom_small">
+                    <lightning-button
+                        label="Log a Call"
+                        variant="neutral"
+                        onclick={handleLogACall}
+                        class="slds-button_stretch"
+                        icon-name="utility:log_a_call">
+                    </lightning-button>
+                </lightning-layout-item>
+                <lightning-layout-item size="12" class="slds-p-top_small">
+                    <lightning-button
+                        label="Cancel"
+                        onclick={handleCancel}
+                        class="slds-button_stretch">
+                    </lightning-button>
+                </lightning-layout-item>
+            </lightning-layout>
+        </div>
+    </lightning-card>
+</template>

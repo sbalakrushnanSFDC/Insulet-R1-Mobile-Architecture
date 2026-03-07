@@ -1,0 +1,124 @@
+<template>
+    <div class="slds-box slds-theme_default slds-p-around_medium slds-radius_medium slds-shadow_small slds-is-relative">
+
+        <template if:true={shouldShowSpinner}>
+            <div class="slds-backdrop slds-backdrop_open slds-is-absolute slds-grid slds-grid_align-center slds-grid_vertical-align-center"
+                style="z-index: 10;">
+                <lightning-spinner alternative-text="Loading" size="medium"></lightning-spinner>
+            </div>
+        </template>
+
+        <!-- Modal Header -->
+        <lightning-modal-header label="Lead Conversion Summary" onclose={closeModal}></lightning-modal-header>
+
+        <!-- Modal Body -->
+        <lightning-modal-body class="slds-is-relative">
+
+            <!-- Error Messages (Show only if validation fails) -->
+            <template if:true={hasErrors}>
+                <div class="slds-m-bottom_medium" role="alert">
+                    <div class="slds-section slds-is-open">
+                        <h3 class="slds-section__title slds-theme_shade">
+                            <span class="slds-truncate slds-p-left_small"
+                                title="Prerequisites Before Converting Lead">Prerequisites
+                                Before Converting Lead</span>
+                        </h3>
+                        <div class="slds-section__content slds-p-around_medium">
+                            <div class="slds-text-align_left">
+                                <template for:each={errorMessages} for:item="error">
+                                    <p key={error} class="slds-text-body_regular slds-m-bottom_xx-small">
+                                        {error}
+                                    </p>
+                                </template>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </template>
+
+            <!-- Processing State -->
+            <template if:false={hasErrors}>
+                <template if:false={showSuccessState}>
+                    <div class="slds-text-align_center slds-m-vertical_medium">
+                        <p class="slds-text-body_regular">
+                            Processing lead conversion...
+                        </p>
+                    </div>
+                </template>
+            </template>
+
+            <!-- Success State - Show Converted/Existing Account and Opportunities -->
+            <template if:true={showSuccessState}>
+                <div class="slds-grid slds-wrap slds-p-around_medium slds-gutters">
+
+                    <!-- Account Section -->
+                    <template for:each={accountsList} for:item="rec">
+                        <div key={rec.keyLabel} class="slds-col slds-size_1-of-2">
+                            <lightning-icon icon-name="standard:account" size="small"
+                                alternative-text={rec.keyLabel}></lightning-icon>
+                            <p class="slds-text-title_caps slds-p-top_x-small">
+                                {rec.keyLabel}
+                            </p>
+                            <p class="slds-text-heading_small">
+                                <a href={rec.url} target="_blank">{rec.name}</a>
+                            </p>
+                        </div>
+                    </template>
+
+                    <!-- Opportunity Section -->
+                    <template if:true={hasOpportunities}>
+                        <div class="slds-col slds-size_1-of-2">
+                            <lightning-icon icon-name="standard:opportunity" size="small"
+                                alternative-text="Opportunity"></lightning-icon>
+                            <p class="slds-text-title_caps slds-p-top_x-small">
+                                Opportunit{opportunitiesLabel}
+                            </p>
+                            <p class="slds-text-heading_small">
+                                <a href={firstOpportunity.url} target="_blank">{firstOpportunity.name}</a>
+                            </p>
+
+                            <!-- Show "View All" link if multiple opportunities -->
+                            <template if:true={hasMultipleOpportunities}>
+                                <p class="slds-text-body_small slds-m-top_xx-small">
+                                    <lightning-button variant="base" label={viewAllLabel}
+                                        onclick={handleViewAllOpportunities} class="slds-m-top_xxx-small">
+                                    </lightning-button>
+                                </p>
+                            </template>
+                        </div>
+                    </template>
+
+                </div>
+
+                <!-- Opportunity Table (shown when View All is clicked) -->
+                <template if:true={showOpportunityTable}>
+                    <div class="slds-m-top_medium">
+                        <div class="slds-section slds-is-open">
+                            <h3 class="slds-section__title slds-theme_shade">
+                                <button class="slds-button slds-section__title-action"
+                                    onclick={handleViewAllOpportunities}>
+                                    <lightning-icon icon-name="utility:switch" size="x-small"
+                                        class="slds-section__title-action-icon slds-button__icon_left"></lightning-icon>
+                                    <span class="slds-truncate" title="All Opportunities">All Opportunities
+                                        ({opportunitiesCount})</span>
+                                </button>
+                            </h3>
+                            <div class="slds-section__content">
+                                <lightning-datatable key-field="id" data={allOpportunities}
+                                    columns={opportunityTableColumns} hide-checkbox-column show-row-number-column>
+                                </lightning-datatable>
+                            </div>
+                        </div>
+                    </div>
+                </template>
+            </template>
+
+        </lightning-modal-body>
+
+        <!-- Modal Footer -->
+        <lightning-modal-footer>
+            <!-- Footer is kept for spacing, no close button needed since header has close icon -->
+        </lightning-modal-footer>
+
+    </div>
+</template>

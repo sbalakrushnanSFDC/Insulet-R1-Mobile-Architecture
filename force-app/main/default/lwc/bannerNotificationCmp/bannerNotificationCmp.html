@@ -1,0 +1,59 @@
+<template>
+    <template if:true={hasNotification}>
+        <div class="slds-notify_container slds-notify_container_full-width">
+            <template for:each={notification} for:item='item' for:index='notificationIndex'>
+                <div lwc:if={item.show} key={item.id}>
+                    <div class="slds-notify slds-notify_alert slds-alert_error" role="alert" lwc:if={item.isError}>
+                        <span class="slds-icon_container slds-m-right_x-small error-icon-container">
+                            <!-- Due to limitation on coloring icon to desired color, converted it to svg-->
+                            <svg class="error-icon" aria-hidden="true" width="16" height="16" viewBox="0 0 52 52">
+                                <path fill="#BB0000"
+                                    d="M50 42.3L27.9 4.9c-.8-1.4-2.9-1.4-3.7 0L2 42.3c-.8 1.4.2 3.2 1.9 3.2h44.3c1.6 0 2.6-1.8 1.8-3.2zM26 41c-1.7 0-3-1.3-3-3s1.3-3 3-3 3 1.3 3 3-1.3 3-3 3zm3-10c0 1.7-1.3 3-3 3s-3-1.3-3-3V21c0-1.7 1.3-3 3-3s3 1.3 3 3v10z" />
+                            </svg>
+                        </span>
+                        <h2 class="slds-notify__content">
+                            <span class="slds-text-heading_small">{item.message}</span>
+                            <template iterator:link={item.links}>
+                                &nbsp;
+                                <a href={link.value.url} target="_self" class="slds-text-link" key={link.value.id}
+                                    data-notification={notificationIndex} data-link={link.value.url} onclick={openURL}
+                                    data-page={link.value.pageName}>
+                                    {link.value.label}
+                                </a>
+                                <span key={link.value.id} lwc:if={link.last}></span>
+                                <span key={link.value.id} lwc:else>{item.linkSeperator}</span>
+                            </template>
+                        </h2>
+                    </div>
+                    <div class="slds-notify slds-notify_alert slds-alert_warning" role="alert"
+                        lwc:elseif={item.isWarning}>
+                        <span class="slds-icon_container slds-icon-utility-warning slds-m-right_x-small">
+                            <lightning-icon icon-name="utility:warning" size="x-small"
+                                variant="inverse"></lightning-icon>
+                        </span>
+                        <h2 class="slds-notify__content">
+                            <span class="slds-text-heading_small">{item.message}</span>
+                            <template iterator:link={item.links}>
+                                &nbsp;
+                                <a href={link.value.url} target="_self" class="slds-text-link" key={link.value.id}
+                                    data-notification={notificationIndex} data-link={link.value.url}
+                                    data-page={link.value.pageName} onclick={openURL}>
+                                    {link.value.label}
+                                </a>
+                                <span key={link.value.id} lwc:if={link.last}></span>
+                                <span key={link.value.id} lwc:else>{item.linkSeperator}</span>
+                            </template>
+                        </h2>
+                        <div class="slds-notify__close">
+                            <button
+                                class="slds-button slds-button_icon slds-button_icon-small slds-button_icon-border-filled">
+                                <lightning-icon icon-name="utility:close" size="x-small" onclick={closeNotification}
+                                    data-index={notificationIndex}></lightning-icon>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </template>
+        </div>
+    </template>
+</template>

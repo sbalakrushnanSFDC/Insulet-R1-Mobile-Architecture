@@ -1,0 +1,24 @@
+<template>
+    <div class="slds-grid slds-grid_align-end slds-gutters">
+        <div lwc:if={showReassignButton}>
+            <div class="slds-col">
+                <c-reassign-trainer-cmp onrefresh={handleRefresh}  record-id={recordId}></c-reassign-trainer-cmp>
+            </div>
+        </div>
+        <div lwc:if={showDeclineButton}>
+            <div class="slds-col">
+                <lightning-button label={labels.declineTraining} variant="destructive" onclick={handleDeclineClick}>
+                </lightning-button>
+                <c-decline-training-cmp onrefresh={handleRefresh} lwc:ref="declineModal" record-id={recordId}
+                    is-call-from-parent="true" decline-reason-options={options}>
+                </c-decline-training-cmp>
+            </div>
+        </div>
+        <div lwc:if={isLiveTraining}>
+        <div class="slds-col">
+            <c-reusable-flow-button-wrapper-cmp record-id={recordId} button-name={buttonName}
+                flow-api-name={flowAPIName}></c-reusable-flow-button-wrapper-cmp>
+        </div>
+    </div>
+    </div>
+</template>

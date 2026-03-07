@@ -1,0 +1,946 @@
+{
+  "status": 0,
+  "result": {
+    "records": [
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb000006MfnRAAS"
+        },
+        "Id": "01qbb000006MfnRAAS",
+        "Name": "AC_AgentPerformanceTrigger",
+        "Status": "Active",
+        "ApiVersion": 58,
+        "TableEnumOrId": "amazonconnect__AC_AgentPerformance__c",
+        "CreatedDate": "2025-12-30T05:48:09.000+0000",
+        "LastModifiedDate": "2025-12-30T05:48:09.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb000006MfnUAAS"
+        },
+        "Id": "01qbb000006MfnUAAS",
+        "Name": "AC_AssociateCaseContactCCATrigger",
+        "Status": "Active",
+        "ApiVersion": 58,
+        "TableEnumOrId": "amazonconnect__AC_ContactChannelAnalytics__c",
+        "CreatedDate": "2025-12-30T05:48:09.000+0000",
+        "LastModifiedDate": "2025-12-30T05:48:09.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb000006MfnSAAS"
+        },
+        "Id": "01qbb000006MfnSAAS",
+        "Name": "AC_AssociateCCACaseTrigger",
+        "Status": "Active",
+        "ApiVersion": 58,
+        "TableEnumOrId": "Case",
+        "CreatedDate": "2025-12-30T05:48:09.000+0000",
+        "LastModifiedDate": "2025-12-30T05:48:09.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb000006MfnTAAS"
+        },
+        "Id": "01qbb000006MfnTAAS",
+        "Name": "AC_AssociateCCAContactTrigger",
+        "Status": "Active",
+        "ApiVersion": 58,
+        "TableEnumOrId": "Contact",
+        "CreatedDate": "2025-12-30T05:48:09.000+0000",
+        "LastModifiedDate": "2025-12-30T05:48:09.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb000006MfnVAAS"
+        },
+        "Id": "01qbb000006MfnVAAS",
+        "Name": "AC_ContactChannelAnalyticsTrigger",
+        "Status": "Active",
+        "ApiVersion": 50,
+        "TableEnumOrId": "amazonconnect__AC_ContactChannelAnalytics__c",
+        "CreatedDate": "2025-12-30T05:48:09.000+0000",
+        "LastModifiedDate": "2025-12-30T05:48:09.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb000006MfnWAAS"
+        },
+        "Id": "01qbb000006MfnWAAS",
+        "Name": "AC_ContactChannelTrigger",
+        "Status": "Active",
+        "ApiVersion": 58,
+        "TableEnumOrId": "amazonconnect__AC_ContactChannels__c",
+        "CreatedDate": "2025-12-30T05:48:09.000+0000",
+        "LastModifiedDate": "2025-12-30T05:48:09.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb000006MfnXAAS"
+        },
+        "Id": "01qbb000006MfnXAAS",
+        "Name": "AC_ContactTraceRecordTrigger",
+        "Status": "Active",
+        "ApiVersion": 58,
+        "TableEnumOrId": "amazonconnect__AC_ContactTraceRecord__c",
+        "CreatedDate": "2025-12-30T05:48:09.000+0000",
+        "LastModifiedDate": "2025-12-30T05:48:09.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb000006MfnYAAS"
+        },
+        "Id": "01qbb000006MfnYAAS",
+        "Name": "AC_CtiAdapterValidator",
+        "Status": "Active",
+        "ApiVersion": 58,
+        "TableEnumOrId": "amazonconnect__AC_CtiAdapter__c",
+        "CreatedDate": "2025-12-30T05:48:10.000+0000",
+        "LastModifiedDate": "2025-12-30T05:48:10.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb000006MfnZAAS"
+        },
+        "Id": "01qbb000006MfnZAAS",
+        "Name": "AC_CtiScriptTrigger",
+        "Status": "Active",
+        "ApiVersion": 58,
+        "TableEnumOrId": "amazonconnect__AC_CtiScript__c",
+        "CreatedDate": "2025-12-30T05:48:10.000+0000",
+        "LastModifiedDate": "2025-12-30T05:48:10.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb000006MfnaAAC"
+        },
+        "Id": "01qbb000006MfnaAAC",
+        "Name": "AC_GlobalResiliencyCtiFeatureTrigger",
+        "Status": "Active",
+        "ApiVersion": 50,
+        "TableEnumOrId": "amazonconnect__AC_Feature__c",
+        "CreatedDate": "2025-12-30T05:48:10.000+0000",
+        "LastModifiedDate": "2025-12-30T05:48:10.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb000006MfnbAAC"
+        },
+        "Id": "01qbb000006MfnbAAC",
+        "Name": "AC_GlobalResiliencyReplicaInstanceTrigger",
+        "Status": "Active",
+        "ApiVersion": 50,
+        "TableEnumOrId": "amazonconnect__AC_ReplicaInstance__c",
+        "CreatedDate": "2025-12-30T05:48:10.000+0000",
+        "LastModifiedDate": "2025-12-30T05:48:10.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb000006MfncAAC"
+        },
+        "Id": "01qbb000006MfncAAC",
+        "Name": "AC_HistoricalQueueMetricsTrigger",
+        "Status": "Active",
+        "ApiVersion": 50,
+        "TableEnumOrId": "amazonconnect__AC_HistoricalQueueMetrics__c",
+        "CreatedDate": "2025-12-30T05:48:10.000+0000",
+        "LastModifiedDate": "2025-12-30T05:48:10.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb000006MfndAAC"
+        },
+        "Id": "01qbb000006MfndAAC",
+        "Name": "AC_QueueMetricsTrigger",
+        "Status": "Active",
+        "ApiVersion": 58,
+        "TableEnumOrId": "amazonconnect__AC_QueueMetrics__c",
+        "CreatedDate": "2025-12-30T05:48:10.000+0000",
+        "LastModifiedDate": "2025-12-30T05:48:10.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb000006MfneAAC"
+        },
+        "Id": "01qbb000006MfneAAC",
+        "Name": "AC_ReplicaInstanceTrigger",
+        "Status": "Active",
+        "ApiVersion": 58,
+        "TableEnumOrId": "amazonconnect__AC_ReplicaInstance__c",
+        "CreatedDate": "2025-12-30T05:48:10.000+0000",
+        "LastModifiedDate": "2025-12-30T05:48:10.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb000006MfnfAAC"
+        },
+        "Id": "01qbb000006MfnfAAC",
+        "Name": "AC_TaskTrigger",
+        "Status": "Active",
+        "ApiVersion": 58,
+        "TableEnumOrId": "Task",
+        "CreatedDate": "2025-12-30T05:48:10.000+0000",
+        "LastModifiedDate": "2025-12-30T05:48:10.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb000006MfngAAC"
+        },
+        "Id": "01qbb000006MfngAAC",
+        "Name": "AC_VdiPlatformCtiFeatureTrigger",
+        "Status": "Active",
+        "ApiVersion": 50,
+        "TableEnumOrId": "amazonconnect__AC_Feature__c",
+        "CreatedDate": "2025-12-30T05:48:10.000+0000",
+        "LastModifiedDate": "2025-12-30T05:48:10.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb000006MfnhAAC"
+        },
+        "Id": "01qbb000006MfnhAAC",
+        "Name": "AC_VdiPlatformEnablePopoutTrigger",
+        "Status": "Active",
+        "ApiVersion": 50,
+        "TableEnumOrId": "amazonconnect__AC_Feature__c",
+        "CreatedDate": "2025-12-30T05:48:10.000+0000",
+        "LastModifiedDate": "2025-12-30T05:48:10.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb000006MfniAAC"
+        },
+        "Id": "01qbb000006MfniAAC",
+        "Name": "AC_VdiPlatformMedialessTrigger",
+        "Status": "Active",
+        "ApiVersion": 50,
+        "TableEnumOrId": "amazonconnect__AC_CtiAdapter__c",
+        "CreatedDate": "2025-12-30T05:48:10.000+0000",
+        "LastModifiedDate": "2025-12-30T05:48:10.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb000006MfnjAAC"
+        },
+        "Id": "01qbb000006MfnjAAC",
+        "Name": "AC_VoiceIdChannelTrigger",
+        "Status": "Active",
+        "ApiVersion": 58,
+        "TableEnumOrId": "amazonconnect__AC_VoiceIdChannel__c",
+        "CreatedDate": "2025-12-30T05:48:10.000+0000",
+        "LastModifiedDate": "2025-12-30T05:48:10.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb000006UDArAAO"
+        },
+        "Id": "01qbb000006UDArAAO",
+        "Name": "AccountContactRelationTrigger",
+        "Status": "Active",
+        "ApiVersion": 65,
+        "TableEnumOrId": "AccountContactRelation",
+        "CreatedDate": "2026-01-13T16:13:29.000+0000",
+        "LastModifiedDate": "2026-01-20T16:50:28.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb00000684HWAAY"
+        },
+        "Id": "01qbb00000684HWAAY",
+        "Name": "AccountTrigger",
+        "Status": "Active",
+        "ApiVersion": 64,
+        "TableEnumOrId": "Account",
+        "CreatedDate": "2025-12-10T18:27:35.000+0000",
+        "LastModifiedDate": "2026-02-10T13:05:32.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb00000684HXAAY"
+        },
+        "Id": "01qbb00000684HXAAY",
+        "Name": "AssessmentQuestionResponseTrigger",
+        "Status": "Active",
+        "ApiVersion": 65,
+        "TableEnumOrId": "AssessmentQuestionResponse",
+        "CreatedDate": "2025-12-10T18:27:35.000+0000",
+        "LastModifiedDate": "2025-12-10T18:27:35.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb000006uvHvAAI"
+        },
+        "Id": "01qbb000006uvHvAAI",
+        "Name": "assignETPermission",
+        "Status": "Active",
+        "ApiVersion": 46,
+        "TableEnumOrId": "User",
+        "CreatedDate": "2026-02-20T10:58:54.000+0000",
+        "LastModifiedDate": "2026-02-20T10:58:54.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb000006uvHwAAI"
+        },
+        "Id": "01qbb000006uvHwAAI",
+        "Name": "assignSendDefRecordType",
+        "Status": "Active",
+        "ApiVersion": 46,
+        "TableEnumOrId": "et4ae5__SendDefinition__c",
+        "CreatedDate": "2026-02-20T10:58:54.000+0000",
+        "LastModifiedDate": "2026-02-20T10:58:54.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb000006uvHxAAI"
+        },
+        "Id": "01qbb000006uvHxAAI",
+        "Name": "assignSmsDefRecordType",
+        "Status": "Active",
+        "ApiVersion": 46,
+        "TableEnumOrId": "et4ae5__SMSDefinition__c",
+        "CreatedDate": "2026-02-20T10:58:54.000+0000",
+        "LastModifiedDate": "2026-02-20T10:58:54.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb000006uvHyAAI"
+        },
+        "Id": "01qbb000006uvHyAAI",
+        "Name": "cascadeDeleteIERs",
+        "Status": "Active",
+        "ApiVersion": 46,
+        "TableEnumOrId": "et4ae5__SendDefinition__c",
+        "CreatedDate": "2026-02-20T10:58:54.000+0000",
+        "LastModifiedDate": "2026-02-20T10:58:54.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb000006uvHzAAI"
+        },
+        "Id": "01qbb000006uvHzAAI",
+        "Name": "cascadeDeleteILDs",
+        "Status": "Active",
+        "ApiVersion": 46,
+        "TableEnumOrId": "et4ae5__IndividualEmailResult__c",
+        "CreatedDate": "2026-02-20T10:58:54.000+0000",
+        "LastModifiedDate": "2026-02-20T10:58:54.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb000006y7hVAAQ"
+        },
+        "Id": "01qbb000006y7hVAAQ",
+        "Name": "CaseTrigger",
+        "Status": "Active",
+        "ApiVersion": 66,
+        "TableEnumOrId": "Case",
+        "CreatedDate": "2026-02-25T08:51:49.000+0000",
+        "LastModifiedDate": "2026-02-25T08:51:49.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb0000069X69AAE"
+        },
+        "Id": "01qbb0000069X69AAE",
+        "Name": "CleanUpRecords2",
+        "Status": "Active",
+        "ApiVersion": 65,
+        "TableEnumOrId": "APXTConga4__Conga_Email_Staging__c",
+        "CreatedDate": "2025-12-12T14:02:43.000+0000",
+        "LastModifiedDate": "2026-02-14T04:25:03.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb0000069X6AAAU"
+        },
+        "Id": "01qbb0000069X6AAAU",
+        "Name": "CongaEmailTemplateTrigger",
+        "Status": "Active",
+        "ApiVersion": 65,
+        "TableEnumOrId": "APXTConga4__Conga_Email_Template__c",
+        "CreatedDate": "2025-12-12T14:02:43.000+0000",
+        "LastModifiedDate": "2026-02-14T04:25:03.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb0000069X6BAAU"
+        },
+        "Id": "01qbb0000069X6BAAU",
+        "Name": "CongaMergeQueryTrigger",
+        "Status": "Active",
+        "ApiVersion": 65,
+        "TableEnumOrId": "APXTConga4__Conga_Merge_Query__c",
+        "CreatedDate": "2025-12-12T14:02:43.000+0000",
+        "LastModifiedDate": "2026-02-14T04:25:03.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb0000069X6CAAU"
+        },
+        "Id": "01qbb0000069X6CAAU",
+        "Name": "CongaTemplateTrigger",
+        "Status": "Active",
+        "ApiVersion": 65,
+        "TableEnumOrId": "APXTConga4__Conga_Template__c",
+        "CreatedDate": "2025-12-12T14:02:44.000+0000",
+        "LastModifiedDate": "2026-02-14T04:25:03.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb000006UDAsAAO"
+        },
+        "Id": "01qbb000006UDAsAAO",
+        "Name": "ContactContactRelationTrigger",
+        "Status": "Active",
+        "ApiVersion": 65,
+        "TableEnumOrId": "ContactContactRelation",
+        "CreatedDate": "2026-01-13T16:13:29.000+0000",
+        "LastModifiedDate": "2026-01-20T08:36:04.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb000006UDAtAAO"
+        },
+        "Id": "01qbb000006UDAtAAO",
+        "Name": "ContactPointAddressTrigger",
+        "Status": "Active",
+        "ApiVersion": 65,
+        "TableEnumOrId": "ContactPointAddress",
+        "CreatedDate": "2026-01-13T16:13:29.000+0000",
+        "LastModifiedDate": "2026-02-13T09:03:59.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb000006UDAuAAO"
+        },
+        "Id": "01qbb000006UDAuAAO",
+        "Name": "ContactPointEmailTrigger",
+        "Status": "Active",
+        "ApiVersion": 65,
+        "TableEnumOrId": "ContactPointEmail",
+        "CreatedDate": "2026-01-13T16:13:29.000+0000",
+        "LastModifiedDate": "2026-02-13T09:03:59.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb000006UDAvAAO"
+        },
+        "Id": "01qbb000006UDAvAAO",
+        "Name": "ContactPointPhoneTrigger",
+        "Status": "Active",
+        "ApiVersion": 65,
+        "TableEnumOrId": "ContactPointPhone",
+        "CreatedDate": "2026-01-13T16:13:29.000+0000",
+        "LastModifiedDate": "2026-02-13T09:03:59.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb000006wY97AAE"
+        },
+        "Id": "01qbb000006wY97AAE",
+        "Name": "ContactPointTypeConsentTrigger",
+        "Status": "Active",
+        "ApiVersion": 66,
+        "TableEnumOrId": "ContactPointTypeConsent",
+        "CreatedDate": "2026-02-23T12:22:58.000+0000",
+        "LastModifiedDate": "2026-03-02T08:44:51.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb000006IrAVAA0"
+        },
+        "Id": "01qbb000006IrAVAA0",
+        "Name": "ContentDocumentLinkTrigger",
+        "Status": "Active",
+        "ApiVersion": 65,
+        "TableEnumOrId": "ContentDocumentLink",
+        "CreatedDate": "2025-12-24T08:30:31.000+0000",
+        "LastModifiedDate": "2025-12-24T08:30:31.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb00000715jBAAQ"
+        },
+        "Id": "01qbb00000715jBAAQ",
+        "Name": "ContentVersionDirectShareTrigger",
+        "Status": "Inactive",
+        "ApiVersion": 66,
+        "TableEnumOrId": "ContentVersion",
+        "CreatedDate": "2026-03-03T15:42:53.000+0000",
+        "LastModifiedDate": "2026-03-04T05:09:14.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb00000715HlAAI"
+        },
+        "Id": "01qbb00000715HlAAI",
+        "Name": "ContractFileAccountShareTrigger",
+        "Status": "Inactive",
+        "ApiVersion": 66,
+        "TableEnumOrId": "ContentDocumentLink",
+        "CreatedDate": "2026-03-03T15:25:50.000+0000",
+        "LastModifiedDate": "2026-03-04T05:09:34.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb000006uvI0AAI"
+        },
+        "Id": "01qbb000006uvI0AAI",
+        "Name": "createQueueableJobFromJB_Event",
+        "Status": "Active",
+        "ApiVersion": 64,
+        "TableEnumOrId": "et4ae5__JB_Event__e",
+        "CreatedDate": "2026-02-20T10:58:54.000+0000",
+        "LastModifiedDate": "2026-02-20T10:58:54.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb000006uvI1AAI"
+        },
+        "Id": "01qbb000006uvI1AAI",
+        "Name": "createQueueableJobFromJB_Flow_Event",
+        "Status": "Active",
+        "ApiVersion": 64,
+        "TableEnumOrId": "et4ae5__JB_Flow_Event__e",
+        "CreatedDate": "2026-02-20T10:58:54.000+0000",
+        "LastModifiedDate": "2026-02-20T10:58:54.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb0000066KOnAAM"
+        },
+        "Id": "01qbb0000066KOnAAM",
+        "Name": "DRBulk",
+        "Status": "Active",
+        "ApiVersion": 56,
+        "TableEnumOrId": "omnistudio__DRBulkData__c",
+        "CreatedDate": "2025-12-08T15:27:43.000+0000",
+        "LastModifiedDate": "2025-12-08T15:27:43.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb000006iV6HAAU"
+        },
+        "Id": "01qbb000006iV6HAAU",
+        "Name": "HealthcarePractitionerFacilityTrigger",
+        "Status": "Active",
+        "ApiVersion": 65,
+        "TableEnumOrId": "HealthcarePractitionerFacility",
+        "CreatedDate": "2026-02-02T14:40:11.000+0000",
+        "LastModifiedDate": "2026-02-02T14:40:11.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb000006fuqnAAA"
+        },
+        "Id": "01qbb000006fuqnAAA",
+        "Name": "IdentifierTrigger",
+        "Status": "Active",
+        "ApiVersion": 66,
+        "TableEnumOrId": "Identifier",
+        "CreatedDate": "2026-01-31T17:45:08.000+0000",
+        "LastModifiedDate": "2026-01-31T17:45:08.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb0000066KOoAAM"
+        },
+        "Id": "01qbb0000066KOoAAM",
+        "Name": "Interface_DRGenericTrigger",
+        "Status": "Active",
+        "ApiVersion": 56,
+        "TableEnumOrId": "omnistudio__Interface_DRGeneric__c",
+        "CreatedDate": "2025-12-08T15:27:43.000+0000",
+        "LastModifiedDate": "2025-12-08T15:27:43.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb000006uvHtAAI"
+        },
+        "Id": "01qbb000006uvHtAAI",
+        "Name": "JBIntCDCEventTrigger",
+        "Status": "Active",
+        "ApiVersion": 64,
+        "TableEnumOrId": "et4ae5__JB_CDC_Event__e",
+        "CreatedDate": "2026-02-20T10:58:54.000+0000",
+        "LastModifiedDate": "2026-02-20T10:58:54.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb00000684HYAAY"
+        },
+        "Id": "01qbb00000684HYAAY",
+        "Name": "LeadTrigger",
+        "Status": "Active",
+        "ApiVersion": 65,
+        "TableEnumOrId": "Lead",
+        "CreatedDate": "2025-12-10T18:27:35.000+0000",
+        "LastModifiedDate": "2025-12-10T18:27:35.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb000006uvHuAAI"
+        },
+        "Id": "01qbb000006uvHuAAI",
+        "Name": "LinkIERActivityLog",
+        "Status": "Active",
+        "ApiVersion": 58,
+        "TableEnumOrId": "et4ae5__IndividualEmailResult__c",
+        "CreatedDate": "2026-02-20T10:58:54.000+0000",
+        "LastModifiedDate": "2026-02-20T10:58:54.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qQO0000080BGbYAM"
+        },
+        "Id": "01qQO0000080BGbYAM",
+        "Name": "Log",
+        "Status": "Active",
+        "ApiVersion": 63,
+        "TableEnumOrId": "Log__c",
+        "CreatedDate": "2025-12-02T08:01:58.000+0000",
+        "LastModifiedDate": "2025-12-02T08:01:58.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qQO0000080BGcYAM"
+        },
+        "Id": "01qQO0000080BGcYAM",
+        "Name": "LogEntry",
+        "Status": "Active",
+        "ApiVersion": 63,
+        "TableEnumOrId": "LogEntry__c",
+        "CreatedDate": "2025-12-02T08:01:58.000+0000",
+        "LastModifiedDate": "2025-12-02T08:01:58.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qQO0000080BGdYAM"
+        },
+        "Id": "01qQO0000080BGdYAM",
+        "Name": "LogEntryEvent",
+        "Status": "Active",
+        "ApiVersion": 63,
+        "TableEnumOrId": "LogEntryEvent__e",
+        "CreatedDate": "2025-12-02T08:01:59.000+0000",
+        "LastModifiedDate": "2025-12-02T08:01:59.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qQO0000080BGeYAM"
+        },
+        "Id": "01qQO0000080BGeYAM",
+        "Name": "LogEntryTag",
+        "Status": "Active",
+        "ApiVersion": 63,
+        "TableEnumOrId": "LogEntryTag__c",
+        "CreatedDate": "2025-12-02T08:01:59.000+0000",
+        "LastModifiedDate": "2025-12-02T08:01:59.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qQO0000080BGfYAM"
+        },
+        "Id": "01qQO0000080BGfYAM",
+        "Name": "LoggerScenario",
+        "Status": "Active",
+        "ApiVersion": 63,
+        "TableEnumOrId": "LoggerScenario__c",
+        "CreatedDate": "2025-12-02T08:01:59.000+0000",
+        "LastModifiedDate": "2025-12-02T08:01:59.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qQO0000080BGgYAM"
+        },
+        "Id": "01qQO0000080BGgYAM",
+        "Name": "LoggerTag",
+        "Status": "Active",
+        "ApiVersion": 63,
+        "TableEnumOrId": "LoggerTag__c",
+        "CreatedDate": "2025-12-02T08:01:59.000+0000",
+        "LastModifiedDate": "2025-12-02T08:01:59.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb00000684HZAAY"
+        },
+        "Id": "01qbb00000684HZAAY",
+        "Name": "ObservationTrigger",
+        "Status": "Active",
+        "ApiVersion": 65,
+        "TableEnumOrId": "Observation__c",
+        "CreatedDate": "2025-12-10T18:27:35.000+0000",
+        "LastModifiedDate": "2025-12-10T18:27:35.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb000006fuqoAAA"
+        },
+        "Id": "01qbb000006fuqoAAA",
+        "Name": "OpportunityProductTrigger",
+        "Status": "Active",
+        "ApiVersion": 66,
+        "TableEnumOrId": "OpportunityLineItem",
+        "CreatedDate": "2026-01-31T17:45:08.000+0000",
+        "LastModifiedDate": "2026-01-31T17:45:08.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb00000684HaAAI"
+        },
+        "Id": "01qbb00000684HaAAI",
+        "Name": "OpportunityTrigger",
+        "Status": "Active",
+        "ApiVersion": 65,
+        "TableEnumOrId": "Opportunity",
+        "CreatedDate": "2025-12-10T18:27:35.000+0000",
+        "LastModifiedDate": "2025-12-10T18:27:35.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb000006UDAwAAO"
+        },
+        "Id": "01qbb000006UDAwAAO",
+        "Name": "OrgSync_Patient_Staging_Trigger",
+        "Status": "Active",
+        "ApiVersion": 65,
+        "TableEnumOrId": "OrgSync_Patient_Staging__c",
+        "CreatedDate": "2026-01-13T16:13:29.000+0000",
+        "LastModifiedDate": "2026-02-17T17:23:47.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb000006bunlAAA"
+        },
+        "Id": "01qbb000006bunlAAA",
+        "Name": "OrgSync_Physician_Staging_Trigger",
+        "Status": "Active",
+        "ApiVersion": 65,
+        "TableEnumOrId": "OrgSync_Physician_Staging__c",
+        "CreatedDate": "2026-01-28T14:52:14.000+0000",
+        "LastModifiedDate": "2026-01-28T14:52:14.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb000006s6OMAAY"
+        },
+        "Id": "01qbb000006s6OMAAY",
+        "Name": "OrgSync_TrainingStagingTrigger",
+        "Status": "Active",
+        "ApiVersion": 66,
+        "TableEnumOrId": "OrgSync_Training_Staging__c",
+        "CreatedDate": "2026-02-17T05:39:52.000+0000",
+        "LastModifiedDate": "2026-02-17T05:39:52.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb000006uvI2AAI"
+        },
+        "Id": "01qbb000006uvI2AAI",
+        "Name": "sendDefChange",
+        "Status": "Active",
+        "ApiVersion": 46,
+        "TableEnumOrId": "et4ae5__SendDefinition__c",
+        "CreatedDate": "2026-02-20T10:58:54.000+0000",
+        "LastModifiedDate": "2026-02-20T10:58:54.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb000006uvI3AAI"
+        },
+        "Id": "01qbb000006uvI3AAI",
+        "Name": "smsDefChange",
+        "Status": "Active",
+        "ApiVersion": 46,
+        "TableEnumOrId": "et4ae5__SMSDefinition__c",
+        "CreatedDate": "2026-02-20T10:58:54.000+0000",
+        "LastModifiedDate": "2026-02-20T10:58:54.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb000006bQ4vAAE"
+        },
+        "Id": "01qbb000006bQ4vAAE",
+        "Name": "TaskTriggerTest",
+        "Status": "Active",
+        "ApiVersion": 66,
+        "TableEnumOrId": "Task",
+        "CreatedDate": "2026-01-27T19:51:23.000+0000",
+        "LastModifiedDate": "2026-01-27T19:51:42.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb00000684HbAAI"
+        },
+        "Id": "01qbb00000684HbAAI",
+        "Name": "TrainingTrigger",
+        "Status": "Active",
+        "ApiVersion": 64,
+        "TableEnumOrId": "Training__c",
+        "CreatedDate": "2025-12-10T18:27:35.000+0000",
+        "LastModifiedDate": "2026-01-14T15:02:34.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb000006uvI4AAI"
+        },
+        "Id": "01qbb000006uvI4AAI",
+        "Name": "trigSendDefChange",
+        "Status": "Active",
+        "ApiVersion": 46,
+        "TableEnumOrId": "et4ae5__Automated_Send__c",
+        "CreatedDate": "2026-02-20T10:58:54.000+0000",
+        "LastModifiedDate": "2026-02-20T10:58:54.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb000006uvI5AAI"
+        },
+        "Id": "01qbb000006uvI5AAI",
+        "Name": "updateBURecord",
+        "Status": "Active",
+        "ApiVersion": 46,
+        "TableEnumOrId": "et4ae5__SendDefinition__c",
+        "CreatedDate": "2026-02-20T10:58:54.000+0000",
+        "LastModifiedDate": "2026-02-20T10:58:54.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb000006uvI6AAI"
+        },
+        "Id": "01qbb000006uvI6AAI",
+        "Name": "updateCampaignMemberStatusForIER",
+        "Status": "Active",
+        "ApiVersion": 46,
+        "TableEnumOrId": "et4ae5__IndividualEmailResult__c",
+        "CreatedDate": "2026-02-20T10:58:54.000+0000",
+        "LastModifiedDate": "2026-02-20T10:58:54.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb0000066KOpAAM"
+        },
+        "Id": "01qbb0000066KOpAAM",
+        "Name": "VlocityDataPack",
+        "Status": "Active",
+        "ApiVersion": 56,
+        "TableEnumOrId": "omnistudio__VlocityDataPack__c",
+        "CreatedDate": "2025-12-08T15:27:43.000+0000",
+        "LastModifiedDate": "2025-12-08T15:27:43.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb0000066KOqAAM"
+        },
+        "Id": "01qbb0000066KOqAAM",
+        "Name": "VlocityScheduledJob",
+        "Status": "Active",
+        "ApiVersion": 56,
+        "TableEnumOrId": "omnistudio__VlocityScheduledJob__c",
+        "CreatedDate": "2025-12-08T15:27:43.000+0000",
+        "LastModifiedDate": "2025-12-08T15:27:43.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qfL000001w0lRQAQ"
+        },
+        "Id": "01qfL000001w0lRQAQ",
+        "Name": "Workspaces",
+        "Status": "Active",
+        "ApiVersion": 51,
+        "TableEnumOrId": "CodeBuilder__Workspace__c",
+        "CreatedDate": "2025-04-23T20:34:18.000+0000",
+        "LastModifiedDate": "2025-04-23T20:34:18.000+0000"
+      },
+      {
+        "attributes": {
+          "type": "ApexTrigger",
+          "url": "/services/data/v66.0/tooling/sobjects/ApexTrigger/01qbb000006U4HGAA0"
+        },
+        "Id": "01qbb000006U4HGAA0",
+        "Name": "XCDC_MiddlewareSettingTrigger",
+        "Status": "Active",
+        "ApiVersion": 58,
+        "TableEnumOrId": "XCDC_MiddlewareSetting__c",
+        "CreatedDate": "2026-01-13T10:19:44.000+0000",
+        "LastModifiedDate": "2026-01-13T10:19:44.000+0000"
+      }
+    ],
+    "totalSize": 72,
+    "done": true
+  },
+  "warnings": []
+}

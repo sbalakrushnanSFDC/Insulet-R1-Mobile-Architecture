@@ -1,0 +1,13 @@
+<template>
+    <!-- File Upload Component-->
+    <lightning-file-upload class={fileUploadClass} lwc:if={showFileUpload}
+        label={label}
+        name="fileUploader"
+        record-id={recordId}
+        accept={acceptedFormatsArray}
+        multiple={multiple}
+        disabled={disabled}
+        required={required}
+        onuploadfinished={handleUploadFinished}>
+    </lightning-file-upload>
+</template>

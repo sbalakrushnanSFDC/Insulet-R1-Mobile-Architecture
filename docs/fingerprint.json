@@ -1,0 +1,12 @@
+{
+  "capturedAt": "2026-03-06T01:37:40.346804Z",
+  "sfCliVersion": "@salesforce/cli/2.111.7 darwin-arm64 node-v22.20.0",
+  "nodeVersion": "v22.20.0",
+  "orgId": "00Dbb000006gUxVEAU",
+  "instanceUrl": "https://omnipod--devint2.sandbox.my.salesforce.com",
+  "username": "sbalakrushnan@insulet.com.nextgen.devint2",
+  "alias": "devint2",
+  "apiVersion": "66.0",
+  "clientId": "PlatformCLI",
+  "connectedStatus": "Connected"
+}

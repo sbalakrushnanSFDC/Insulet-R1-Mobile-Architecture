@@ -1,0 +1,480 @@
+{
+  "status": 0,
+  "result": {
+    "records": [
+      {
+        "attributes": {
+          "type": "PermissionSetGroup",
+          "url": "/services/data/v66.0/sobjects/PermissionSetGroup/0PGQO00000011Bw4AI"
+        },
+        "Id": "0PGQO00000011Bw4AI",
+        "DeveloperName": "AgentforceServiceAgentUserPsg",
+        "MasterLabel": "AgentforceServiceAgentUserPsg",
+        "Status": "Updated"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSetGroup",
+          "url": "/services/data/v66.0/sobjects/PermissionSetGroup/0PGQO00000012m94AA"
+        },
+        "Id": "0PGQO00000012m94AA",
+        "DeveloperName": "Clinical_Product_Specialist",
+        "MasterLabel": "Clinical Product Specialist",
+        "Status": "Updated"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSetGroup",
+          "url": "/services/data/v66.0/sobjects/PermissionSetGroup/0PGQO00000012mA4AQ"
+        },
+        "Id": "0PGQO00000012mA4AQ",
+        "DeveloperName": "Clinical_Product_Support_Manager",
+        "MasterLabel": "Clinical Product Support Manager",
+        "Status": "Updated"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSetGroup",
+          "url": "/services/data/v66.0/sobjects/PermissionSetGroup/0PGQO00000012mB4AQ"
+        },
+        "Id": "0PGQO00000012mB4AQ",
+        "DeveloperName": "Clinical_Services_Manager",
+        "MasterLabel": "Clinical Services Manager",
+        "Status": "Updated"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSetGroup",
+          "url": "/services/data/v66.0/sobjects/PermissionSetGroup/0PGfL0000009oATWAY"
+        },
+        "Id": "0PGfL0000009oATWAY",
+        "DeveloperName": "CodeBuilderGroup",
+        "MasterLabel": "Code Builder",
+        "Status": "Updated"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSetGroup",
+          "url": "/services/data/v66.0/sobjects/PermissionSetGroup/0PGQO00000011Bl4AI"
+        },
+        "Id": "0PGQO00000011Bl4AI",
+        "DeveloperName": "Commerce_Shopper",
+        "MasterLabel": "Commerce_Shopper",
+        "Status": "Updated"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSetGroup",
+          "url": "/services/data/v66.0/sobjects/PermissionSetGroup/0PGQO00000011Bu4AI"
+        },
+        "Id": "0PGQO00000011Bu4AI",
+        "DeveloperName": "CommerceUsers",
+        "MasterLabel": "CommerceUsers",
+        "Status": "Updated"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSetGroup",
+          "url": "/services/data/v66.0/sobjects/PermissionSetGroup/0PGQO00000012mC4AQ"
+        },
+        "Id": "0PGQO00000012mC4AQ",
+        "DeveloperName": "Commercial_Sales",
+        "MasterLabel": "Commercial Sales",
+        "Status": "Updated"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSetGroup",
+          "url": "/services/data/v66.0/sobjects/PermissionSetGroup/0PGQO00000012mD4AQ"
+        },
+        "Id": "0PGQO00000012mD4AQ",
+        "DeveloperName": "Compliance_Officer_GPM",
+        "MasterLabel": "Compliance Officer GPM",
+        "Status": "Updated"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSetGroup",
+          "url": "/services/data/v66.0/sobjects/PermissionSetGroup/0PGQO00000012mE4AQ"
+        },
+        "Id": "0PGQO00000012mE4AQ",
+        "DeveloperName": "Customer_Care_Agent",
+        "MasterLabel": "Customer Care Agent",
+        "Status": "Updated"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSetGroup",
+          "url": "/services/data/v66.0/sobjects/PermissionSetGroup/0PGQO00000012mF4AQ"
+        },
+        "Id": "0PGQO00000012mF4AQ",
+        "DeveloperName": "Customer_Care_Hybrid",
+        "MasterLabel": "Customer Care Hybrid",
+        "Status": "Updated"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSetGroup",
+          "url": "/services/data/v66.0/sobjects/PermissionSetGroup/0PGQO00000012mG4AQ"
+        },
+        "Id": "0PGQO00000012mG4AQ",
+        "DeveloperName": "Customer_Care_Manager",
+        "MasterLabel": "Customer Care Manager",
+        "Status": "Updated"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSetGroup",
+          "url": "/services/data/v66.0/sobjects/PermissionSetGroup/0PGQO00000012mH4AQ"
+        },
+        "Id": "0PGQO00000012mH4AQ",
+        "DeveloperName": "Data_Privacy",
+        "MasterLabel": "Data Privacy",
+        "Status": "Updated"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSetGroup",
+          "url": "/services/data/v66.0/sobjects/PermissionSetGroup/0PGQO00000012mI4AQ"
+        },
+        "Id": "0PGQO00000012mI4AQ",
+        "DeveloperName": "Development_Support",
+        "MasterLabel": "Development Support",
+        "Status": "Updated"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSetGroup",
+          "url": "/services/data/v66.0/sobjects/PermissionSetGroup/0PGbb0000005dVQGAY"
+        },
+        "Id": "0PGbb0000005dVQGAY",
+        "DeveloperName": "EmployeeHubEmpUserPSG",
+        "MasterLabel": "EmployeeHubEmpUserPSG",
+        "Status": "Updated"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSetGroup",
+          "url": "/services/data/v66.0/sobjects/PermissionSetGroup/0PGQO00000011Bo4AI"
+        },
+        "Id": "0PGQO00000011Bo4AI",
+        "DeveloperName": "Enablement_Admin",
+        "MasterLabel": "Enablement_Admin",
+        "Status": "Updated"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSetGroup",
+          "url": "/services/data/v66.0/sobjects/PermissionSetGroup/0PGQO00000011Br4AI"
+        },
+        "Id": "0PGQO00000011Br4AI",
+        "DeveloperName": "Enablement_Resources_Manager",
+        "MasterLabel": "Enablement_Resources_Manager",
+        "Status": "Updated"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSetGroup",
+          "url": "/services/data/v66.0/sobjects/PermissionSetGroup/0PGQO00000011Bm4AI"
+        },
+        "Id": "0PGQO00000011Bm4AI",
+        "DeveloperName": "Enablement_User",
+        "MasterLabel": "Enablement_User",
+        "Status": "Updated"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSetGroup",
+          "url": "/services/data/v66.0/sobjects/PermissionSetGroup/0PGQO00000012mJ4AQ"
+        },
+        "Id": "0PGQO00000012mJ4AQ",
+        "DeveloperName": "Field_Sales_GM_RBD",
+        "MasterLabel": "Field Sales GM RBD",
+        "Status": "Updated"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSetGroup",
+          "url": "/services/data/v66.0/sobjects/PermissionSetGroup/0PGQO00000012mK4AQ"
+        },
+        "Id": "0PGQO00000012mK4AQ",
+        "DeveloperName": "Field_Sales_TM_DSM",
+        "MasterLabel": "Field Sales TM DSM",
+        "Status": "Updated"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSetGroup",
+          "url": "/services/data/v66.0/sobjects/PermissionSetGroup/0PGQO00000012mL4AQ"
+        },
+        "Id": "0PGQO00000012mL4AQ",
+        "DeveloperName": "Functional_Analyst",
+        "MasterLabel": "Functional Analyst",
+        "Status": "Updated"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSetGroup",
+          "url": "/services/data/v66.0/sobjects/PermissionSetGroup/0PGQO00000011Bq4AI"
+        },
+        "Id": "0PGQO00000011Bq4AI",
+        "DeveloperName": "GeneralUsers",
+        "MasterLabel": "GeneralUsers",
+        "Status": "Updated"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSetGroup",
+          "url": "/services/data/v66.0/sobjects/PermissionSetGroup/0PGQO00000012mM4AQ"
+        },
+        "Id": "0PGQO00000012mM4AQ",
+        "DeveloperName": "Inside_Sales_Manager",
+        "MasterLabel": "Inside Sales Manager",
+        "Status": "Updated"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSetGroup",
+          "url": "/services/data/v66.0/sobjects/PermissionSetGroup/0PGQO00000012mN4AQ"
+        },
+        "Id": "0PGQO00000012mN4AQ",
+        "DeveloperName": "Inside_Sales_Quality_Specialist",
+        "MasterLabel": "Inside Sales Quality Specialist",
+        "Status": "Updated"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSetGroup",
+          "url": "/services/data/v66.0/sobjects/PermissionSetGroup/0PGQO00000012mO4AQ"
+        },
+        "Id": "0PGQO00000012mO4AQ",
+        "DeveloperName": "Inside_Sales_Rep",
+        "MasterLabel": "Inside Sales Rep",
+        "Status": "Updated"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSetGroup",
+          "url": "/services/data/v66.0/sobjects/PermissionSetGroup/0PGQO00000011Bp4AI"
+        },
+        "Id": "0PGQO00000011Bp4AI",
+        "DeveloperName": "Manage_ASC_Analytics",
+        "MasterLabel": "Manage_ASC_Analytics",
+        "Status": "Updated"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSetGroup",
+          "url": "/services/data/v66.0/sobjects/PermissionSetGroup/0PGQO00000012mP4AQ"
+        },
+        "Id": "0PGQO00000012mP4AQ",
+        "DeveloperName": "Market_Access",
+        "MasterLabel": "Market Access",
+        "Status": "Updated"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSetGroup",
+          "url": "/services/data/v66.0/sobjects/PermissionSetGroup/0PGQO00000012mQ4AQ"
+        },
+        "Id": "0PGQO00000012mQ4AQ",
+        "DeveloperName": "Marketing",
+        "MasterLabel": "Marketing",
+        "Status": "Updated"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSetGroup",
+          "url": "/services/data/v66.0/sobjects/PermissionSetGroup/0PGQO00000011Bs4AI"
+        },
+        "Id": "0PGQO00000011Bs4AI",
+        "DeveloperName": "MarketingUsers",
+        "MasterLabel": "MarketingUsers",
+        "Status": "Updated"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSetGroup",
+          "url": "/services/data/v66.0/sobjects/PermissionSetGroup/0PGQO00000011Bn4AI"
+        },
+        "Id": "0PGQO00000011Bn4AI",
+        "DeveloperName": "Partner_Enablement_User",
+        "MasterLabel": "Partner_Enablement_User",
+        "Status": "Updated"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSetGroup",
+          "url": "/services/data/v66.0/sobjects/PermissionSetGroup/0PGQO00000012mR4AQ"
+        },
+        "Id": "0PGQO00000012mR4AQ",
+        "DeveloperName": "Product_Support_Agent",
+        "MasterLabel": "Product Support Agent",
+        "Status": "Updated"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSetGroup",
+          "url": "/services/data/v66.0/sobjects/PermissionSetGroup/0PGQO00000012mS4AQ"
+        },
+        "Id": "0PGQO00000012mS4AQ",
+        "DeveloperName": "Product_Support_Manager",
+        "MasterLabel": "Product Support Manager",
+        "Status": "Updated"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSetGroup",
+          "url": "/services/data/v66.0/sobjects/PermissionSetGroup/0PGQO00000012mT4AQ"
+        },
+        "Id": "0PGQO00000012mT4AQ",
+        "DeveloperName": "Product_Support_Vendor",
+        "MasterLabel": "Product Support Vendor",
+        "Status": "Updated"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSetGroup",
+          "url": "/services/data/v66.0/sobjects/PermissionSetGroup/0PGQO00000012mU4AQ"
+        },
+        "Id": "0PGQO00000012mU4AQ",
+        "DeveloperName": "Reimbursement",
+        "MasterLabel": "Reimbursement",
+        "Status": "Updated"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSetGroup",
+          "url": "/services/data/v66.0/sobjects/PermissionSetGroup/0PGbb0000004HezGAE"
+        },
+        "Id": "0PGbb0000004HezGAE",
+        "DeveloperName": "Sales_Ops",
+        "MasterLabel": "Sales Ops",
+        "Status": "Updated"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSetGroup",
+          "url": "/services/data/v66.0/sobjects/PermissionSetGroup/0PGQO00000011Bv4AI"
+        },
+        "Id": "0PGQO00000011Bv4AI",
+        "DeveloperName": "SalesUsers",
+        "MasterLabel": "SalesUsers",
+        "Status": "Updated"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSetGroup",
+          "url": "/services/data/v66.0/sobjects/PermissionSetGroup/0PGbb0000004fxRGAQ"
+        },
+        "Id": "0PGbb0000004fxRGAQ",
+        "DeveloperName": "SalesWorkspacePSG",
+        "MasterLabel": "SalesWorkspacePSG",
+        "Status": "Updated"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSetGroup",
+          "url": "/services/data/v66.0/sobjects/PermissionSetGroup/0PGfL0000004s9tWAA"
+        },
+        "Id": "0PGfL0000004s9tWAA",
+        "DeveloperName": "ScaleCenterUsers",
+        "MasterLabel": "ScaleCenterUsers",
+        "Status": "Updated"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSetGroup",
+          "url": "/services/data/v66.0/sobjects/PermissionSetGroup/0PGQO00000012mV4AQ"
+        },
+        "Id": "0PGQO00000012mV4AQ",
+        "DeveloperName": "Service_Delivery",
+        "MasterLabel": "Service Delivery",
+        "Status": "Updated"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSetGroup",
+          "url": "/services/data/v66.0/sobjects/PermissionSetGroup/0PGQO00000011Bt4AI"
+        },
+        "Id": "0PGQO00000011Bt4AI",
+        "DeveloperName": "ServiceUsers",
+        "MasterLabel": "ServiceUsers",
+        "Status": "Updated"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSetGroup",
+          "url": "/services/data/v66.0/sobjects/PermissionSetGroup/0PGfL000000B49xWAC"
+        },
+        "Id": "0PGfL000000B49xWAC",
+        "DeveloperName": "Social_Program_Management_Caseworker",
+        "MasterLabel": "Social_Program_Management_Caseworker",
+        "Status": "Updated"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSetGroup",
+          "url": "/services/data/v66.0/sobjects/PermissionSetGroup/0PGQO00000012mW4AQ"
+        },
+        "Id": "0PGQO00000012mW4AQ",
+        "DeveloperName": "Third_Party_Trainers",
+        "MasterLabel": "3rd Party Trainers",
+        "Status": "Updated"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSetGroup",
+          "url": "/services/data/v66.0/sobjects/PermissionSetGroup/0PGbb0000005acLGAQ"
+        },
+        "Id": "0PGbb0000005acLGAQ",
+        "DeveloperName": "Training_Coordinators",
+        "MasterLabel": "Training Coordinators",
+        "Status": "Updated"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSetGroup",
+          "url": "/services/data/v66.0/sobjects/PermissionSetGroup/0PGbb0000005dVNGAY"
+        },
+        "Id": "0PGbb0000005dVNGAY",
+        "DeveloperName": "UnifiedCatalogAdminPsl",
+        "MasterLabel": "UnifiedCatalogAdminPsl",
+        "Status": "Updated"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSetGroup",
+          "url": "/services/data/v66.0/sobjects/PermissionSetGroup/0PGbb0000005dVOGAY"
+        },
+        "Id": "0PGbb0000005dVOGAY",
+        "DeveloperName": "UnifiedCatalogAgentPsl",
+        "MasterLabel": "UnifiedCatalogAgentPsl",
+        "Status": "Updated"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSetGroup",
+          "url": "/services/data/v66.0/sobjects/PermissionSetGroup/0PGbb0000005dVPGAY"
+        },
+        "Id": "0PGbb0000005dVPGAY",
+        "DeveloperName": "UnifiedCatalogCommunityUserPsl",
+        "MasterLabel": "UnifiedCatalogCommunityUserPsl",
+        "Status": "Updated"
+      },
+      {
+        "attributes": {
+          "type": "PermissionSetGroup",
+          "url": "/services/data/v66.0/sobjects/PermissionSetGroup/0PGQO00000012mX4AQ"
+        },
+        "Id": "0PGQO00000012mX4AQ",
+        "DeveloperName": "View_All",
+        "MasterLabel": "View All",
+        "Status": "Updated"
+      }
+    ],
+    "totalSize": 47,
+    "done": true
+  },
+  "warnings": []
+}

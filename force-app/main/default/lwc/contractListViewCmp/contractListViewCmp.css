@@ -1,0 +1,16 @@
+.datatable-container {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+@media screen and (max-width: 768px) {
+    .datatable-container {
+        border: 1px solid #e5e5e5;
+        border-radius: 0.25rem;
+    }
+
+    lightning-datatable {
+        min-width: 600px;
+    }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>65.0</apiVersion>
+    <isExposed>true</isExposed>
+    <!-- Define where this component can be placed -->
+    <targets>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
+    </targets>
+    <!-- Configure properties when used on a Record Page -->
+    <targetConfigs>
+        <targetConfig targets="lightningCommunity__Default">
+            <!-- This property links the @api recordId in the JS file to the current record's ID -->
+            <property name="recordId" type="String" label="Record ID" />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>
