@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Field_Name__c</fullName>
+    <description>API name of the field to check on the target object.</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Enter the exact API Name of the Lead field to evaluate. For standard checks, it is the field being compared. For &apos;RelatedRecordExists&apos;, it must be the lookup field connecting the Lead to the child record (e.g., IndividualId).</inlineHelpText>
+    <label>Field Name</label>
+    <length>80</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

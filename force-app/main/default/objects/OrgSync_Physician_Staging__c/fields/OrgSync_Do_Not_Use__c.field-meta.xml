@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OrgSync_Do_Not_Use__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This field is used to indicate whether this Physician is working for the related Practice or not.</description>
+    <label>Do Not Use</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

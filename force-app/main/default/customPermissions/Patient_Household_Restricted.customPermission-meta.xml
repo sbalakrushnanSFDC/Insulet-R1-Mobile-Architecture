@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomPermission xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Block users with this permission from creating contact contact relationship record where PartyRoleRelation.RoleName = &quot;Patient&quot; and PartyRoleRelation.RelatedRoleName = &quot;Household&quot;</description>
+    <isLicensed>false</isLicensed>
+    <label>Patient Household Restricted</label>
+</CustomPermission>

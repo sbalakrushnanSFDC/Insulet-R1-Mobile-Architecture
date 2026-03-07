@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Condition_Field__c</fullName>
+    <description>API name of the field to check in the condition.</description>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Usage depends on Requirement Type. Standard rules (MustEqualValue,RequiredWhen etc.): Enter the Field API Name. RelatedRecordExists rules: Enter the SOQL filter criteria (e.g., Name = &apos;Transactional Email&apos; AND PrivacyConsentStatus = &apos;OptIn&apos;).</inlineHelpText>
+    <label>Condition Field</label>
+    <required>false</required>
+    <type>TextArea</type>
+</CustomField>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>OrgSync_Patient_Staging__c</label>
+    <protected>false</protected>
+    <values>
+        <field>Allow_Filtered_Stream__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>CrossObjectProcessor__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>ExternalIdFieldAPIName__c</field>
+        <value xsi:type="xsd:string">XCDC_ExternalId__c</value>
+    </values>
+    <values>
+        <field>ExternalIdObjectAPIName__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>FilterRuleCriteria__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Force_Sync_PeakLoad__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Generate_ExternalId__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>IsStateGenerationEnabled__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>LastModTimeRaceField__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>OriginSourceOrg__c</field>
+        <value xsi:type="xsd:string">NextGenOrg</value>
+    </values>
+    <values>
+        <field>PublishFieldList__c</field>
+        <value xsi:type="xsd:string">Name,OrgSync_Insurance_Type__c,OrgSync_ERP_Identifier__c,OrgSync_Date_of_Birth__c,OrgSync_Current_Therapy__c,OrgSync_FirstName__c,OrgSync_LastName__c,OrgSync_Sensor_Continuous_GlucoseMonitor__c,OrgSync_Guardian_1_Name__c,OrgSync_Guardian_1_First_Name__c,OrgSync_Guardian_1_Last_Name__c,OrgSync_Guardian_1_Email__c,OrgSync_Guardian_1_Home_Phone__c,OrgSync_Guardian_1_Mobile_Phone__c,OrgSync_Guardian_1_Work_Phone__c,OrgSync_Guardian_2_Name__c,OrgSync_Guardian_2_First_Name__c,OrgSync_Guardian_2_Last_Name__c,OrgSync_Guardian_2_Email__c,OrgSync_Guardian_2_Home_Phone__c,OrgSync_Guardian_2_Mobile_Phone__c,OrgSync_Guardian_2_Work_Phone__c,OrgSync_Shipping_Address__Street__s,OrgSync_Shipping_Address__City__s,OrgSync_Shipping_Address__PostalCode__s,OrgSync_Shipping_Address__StateCode__s,OrgSync_Billing_Address__Street__s,OrgSync_Billing_Address__City__s,OrgSync_Billing_Address__PostalCode__s,OrgSync_Billing_Address__StateCode__s,OrgSync_Email_1__c,OrgSync_Email_2__c,OrgSync_Home_Phone__c,OrgSync_Work_Phone__c,OrgSync_Mobile_Phone__c,OrgSync_Preferred_Phone_Number__c,OrgSync_Authorized_Callers__c,OrgSync_Practice__c,OrgSync_Fax__c,OrgSync_Preferred_Language__c,OrgSync_Phone__c,OrgSync_BillingStateCode__c,OrgSync_ShippingStateCode__c,OrgSync_Provider__c,XCDC_PublishSparkTime__c</value>
+    </values>
+    <values>
+        <field>RaceFieldList__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>SparkType__c</field>
+        <value xsi:type="xsd:string">true</value>
+    </values>
+    <values>
+        <field>StateFieldAPIName__c</field>
+        <value xsi:type="xsd:string">XCDC_StateField__c</value>
+    </values>
+    <values>
+        <field>StateFieldList__c</field>
+        <value xsi:type="xsd:string">OrgSync_BillingStateCode__c,OrgSync_ShippingStateCode__c,XCDC_ParentReferences__c</value>
+    </values>
+    <values>
+        <field>Stream_Index_Field__c</field>
+        <value xsi:type="xsd:string">XCDC_Stream_Index__c</value>
+    </values>
+</CustomMetadata>

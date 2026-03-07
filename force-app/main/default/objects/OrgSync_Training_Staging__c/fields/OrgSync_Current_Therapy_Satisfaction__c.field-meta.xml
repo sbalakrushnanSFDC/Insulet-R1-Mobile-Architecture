@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OrgSync_Current_Therapy_Satisfaction__c</fullName>
+    <label>Current Therapy Satisfaction</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not satisfied</fullName>
+                <default>false</default>
+                <label>Not satisfied</label>
+            </value>
+            <value>
+                <fullName>Average</fullName>
+                <default>false</default>
+                <label>Average</label>
+            </value>
+            <value>
+                <fullName>Satisfied</fullName>
+                <default>false</default>
+                <label>Satisfied</label>
+            </value>
+            <value>
+                <fullName>Very satisfied</fullName>
+                <default>false</default>
+                <label>Very satisfied</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

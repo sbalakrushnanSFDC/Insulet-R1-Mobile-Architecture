@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Contains a collection of permission sets for Inside Sales Quality Specialist persona with all necessary baseline permissions to assess and improve the quality and compliance of Inside Sales interactions.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Inside Sales Quality Specialist</label>
+    <permissionSets>Inside_Sales_Quality_Specialist_Access</permissionSets>
+    <permissionSets>Manage_Reports_and_List_View</permissionSets>
+    <permissionSets>Omnistudio_Standard_User</permissionSets>
+    <permissionSets>SSO_enabled</permissionSets>
+    <permissionSets>force__HealthCloudFoundation</permissionSets>
+    <permissionSets>force__OmniStudioExecution</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

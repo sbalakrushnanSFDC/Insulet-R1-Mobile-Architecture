@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OrgSync_Specialty__c</fullName>
+    <label>Specialty</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Diabetes</fullName>
+                <default>false</default>
+                <label>Diabetes</label>
+            </value>
+            <value>
+                <fullName>Endocrinology</fullName>
+                <default>false</default>
+                <label>Endocrinology</label>
+            </value>
+            <value>
+                <fullName>Family Medicine</fullName>
+                <default>false</default>
+                <label>Family Medicine</label>
+            </value>
+            <value>
+                <fullName>Family Practice</fullName>
+                <default>false</default>
+                <label>Family Practice</label>
+            </value>
+            <value>
+                <fullName>General Practice</fullName>
+                <default>false</default>
+                <label>General Practice</label>
+            </value>
+            <value>
+                <fullName>Internal Medicine</fullName>
+                <default>false</default>
+                <label>Internal Medicine</label>
+            </value>
+            <value>
+                <fullName>Nurse Practitioner</fullName>
+                <default>false</default>
+                <label>Nurse Practitioner</label>
+            </value>
+            <value>
+                <fullName>Pediatrics</fullName>
+                <default>false</default>
+                <label>Pediatrics</label>
+            </value>
+            <value>
+                <fullName>Physician Assistant</fullName>
+                <default>false</default>
+                <label>Physician Assistant</label>
+            </value>
+            <value>
+                <fullName>No default</fullName>
+                <default>false</default>
+                <label>No default</label>
+            </value>
+            <value>
+                <fullName>Obstetrics/Gynecology</fullName>
+                <default>false</default>
+                <label>Obstetrics/Gynecology</label>
+            </value>
+            <value>
+                <fullName>Pediatric Endocrinology</fullName>
+                <default>false</default>
+                <label>Pediatric Endocrinology</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

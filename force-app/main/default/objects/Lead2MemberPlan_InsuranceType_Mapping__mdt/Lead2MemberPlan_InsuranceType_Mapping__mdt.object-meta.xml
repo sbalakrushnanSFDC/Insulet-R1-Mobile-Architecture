@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>To define the mapping of Lead.Insurance_Type__c to MemberPlan.Insurance_Type__c</description>
+    <label>Lead2MemberPlan InsuranceType Mapping</label>
+    <pluralLabel>Lead2MemberPlan_InsuranceType_Mappings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Due_Date_Offset__c</fullName>
+    <description>Number of days from today to set as task due date.</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Enter number of days to add to today&apos;s date for task due date. Use 0 for today, 1 for tomorrow, etc. Negative values create past due dates.</inlineHelpText>
+    <label>Due Date Offset</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OrgSync_Insulin_Amount_Method__c</fullName>
+    <label>Insulin Amount Method</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>I use a sliding scale</fullName>
+                <default>false</default>
+                <label>I use a sliding scale</label>
+            </value>
+            <value>
+                <fullName>I have set amounts</fullName>
+                <default>false</default>
+                <label>I have set amounts</label>
+            </value>
+            <value>
+                <fullName>I count my carbohydrates</fullName>
+                <default>false</default>
+                <label>I count my carbohydrates</label>
+            </value>
+            <value>
+                <fullName>use ratios</fullName>
+                <default>false</default>
+                <label>use ratios</label>
+            </value>
+            <value>
+                <fullName>I do not know</fullName>
+                <default>false</default>
+                <label>I do not know</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

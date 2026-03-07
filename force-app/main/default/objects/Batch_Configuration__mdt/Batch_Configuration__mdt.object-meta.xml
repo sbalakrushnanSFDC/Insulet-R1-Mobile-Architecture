@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Custom Metadata Type to manage batch class configurations including batch size, scheduling, and execution parameters. Can be used by any batch class in the org for centralized configuration management.</description>
+    <label>Batch Configuration</label>
+    <pluralLabel>Batch Configurations</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

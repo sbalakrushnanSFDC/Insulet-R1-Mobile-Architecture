@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_Not_Trained_Reason</fullName>
+    <active>true</active>
+    <description>This rule ensures that a reason is provided when the training stage is marked as &apos;Not Trained&apos;. It prevents saving the record without a valid explanation, thereby maintaining data integrity and clarity in training documentation.</description>
+    <errorConditionFormula>AND(
+    NOT($Permission.Bypass_Validation_Rules),
+    $Profile.Name != &apos;Trainer Login Based&apos;,
+    RecordType.DeveloperName  = &apos;Live_Training&apos;,
+    ISPICKVAL(Training_Stage__c, &quot;Not Trained&quot;),
+    ISBLANK(TEXT(Not_Trained_Reason__c ))
+
+)</errorConditionFormula>
+    <errorDisplayField>Not_Trained_Reason__c</errorDisplayField>
+    <errorMessage>Please select a reason the customer was not trained.</errorMessage>
+</ValidationRule>

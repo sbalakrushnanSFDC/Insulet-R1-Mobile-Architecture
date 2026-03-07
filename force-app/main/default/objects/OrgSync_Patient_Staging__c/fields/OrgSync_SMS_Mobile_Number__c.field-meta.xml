@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OrgSync_SMS_Mobile_Number__c</fullName>
+    <description>This field is designed corresponding to SMS Mobile Number of classic org</description>
+    <encryptionScheme>None</encryptionScheme>
+    <label>SMS Mobile Number</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Phone</type>
+</CustomField>

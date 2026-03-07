@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Vendor Team member on the Product Support.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Product Support Vendor</label>
+    <permissionSets>Product_Support_Core_Access</permissionSets>
+    <permissionSets>SSO_enabled</permissionSets>
+    <permissionSets>force__HealthCloudFoundation</permissionSets>
+    <permissionSets>force__OmniStudioExecution</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Training__c</entityName>
+    <fieldName>Training_Stage__c</fieldName>
+    <masterLabel>Live Training Path</masterLabel>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Training Scheduled Date is needed before the Training moves to the Scheduled stage&lt;/p&gt;</info>
+        <picklistValueName>Scheduled</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>Live_Training</recordTypeName>
+</PathAssistant>

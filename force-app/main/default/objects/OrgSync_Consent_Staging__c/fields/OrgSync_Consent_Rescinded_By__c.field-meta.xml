@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OrgSync_Consent_Rescinded_By__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Consent Rescinded By</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Consent_Stagings</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

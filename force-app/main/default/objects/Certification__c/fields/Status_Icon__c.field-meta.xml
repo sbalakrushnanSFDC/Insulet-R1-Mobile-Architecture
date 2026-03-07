@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status_Icon__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+AND(
+Certification_Expiration_Date__c &lt; TODAY() + 60, 
+Certification_Expiration_Date__c &gt;= TODAY()
+),
+IMAGE(&quot;/img/msg_icons/warning24.png&quot;, &quot;Yellow&quot;),
+IF(
+Certification_Expiration_Date__c &lt; TODAY(),
+IMAGE(&quot;/img/msg_icons/error24.png&quot;, &quot;Red&quot;),
+&apos;&apos;
+)
+)</formula>
+    <label>Status Icon</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

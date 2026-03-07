@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OrgSync_Phone__c</fullName>
+    <complianceGroup>PII;HIPAA</complianceGroup>
+    <description>This field is designed to hold value of Phone__c corresponding to classic org</description>
+    <encryptionScheme>CaseInsensitiveDeterministicEncryption</encryptionScheme>
+    <label>Phone</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Phone</type>
+</CustomField>

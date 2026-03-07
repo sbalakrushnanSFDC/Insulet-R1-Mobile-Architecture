@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Contains a collection of permission sets for Reimbursement sub-persona users.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Reimbursement</label>
+    <permissionSets>Billing</permissionSets>
+    <permissionSets>SSO_enabled</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

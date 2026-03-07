@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_On_Hold_Comments</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+NOT($Permission.Bypass_Validation_Rules),
+RecordType.DeveloperName = &apos;Live_Training&apos;,
+ISPICKVAL(Training_Stage__c, &quot;On Hold&quot;),
+ISPICKVAL(On_Hold_Reason__c, &quot;Other&quot;),
+ISBLANK(On_Hold_Comments__c)
+)</errorConditionFormula>
+    <errorDisplayField>On_Hold_Comments__c</errorDisplayField>
+    <errorMessage>Please add On Hold Comments for selecting Other to save the record.</errorMessage>
+</ValidationRule>

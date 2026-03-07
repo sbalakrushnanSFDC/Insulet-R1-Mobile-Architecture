@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomPermission xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Restrict users with this permission from creating tasks. This is assigned to sales ops persona</description>
+    <isLicensed>false</isLicensed>
+    <label>TaskReadEditAccess</label>
+</CustomPermission>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Team Lead or Manager managing the Customer Care Team</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Customer Care Manager</label>
+    <permissionSets>Customer_Care_Core_Access</permissionSets>
+    <permissionSets>SSO_enabled</permissionSets>
+    <permissionSets>View_Survey</permissionSets>
+    <permissionSets>force__HealthCloudFoundation</permissionSets>
+    <permissionSets>force__OmniStudioExecution</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

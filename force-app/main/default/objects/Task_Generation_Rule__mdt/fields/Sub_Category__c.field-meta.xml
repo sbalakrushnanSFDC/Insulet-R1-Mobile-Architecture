@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Category__c</fullName>
+    <description>The Sub-category value to populate on generated tasks. Combination of Category and Sub-Category Used for duplicate Task creation  prevention.</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Enter the Task Sub-category. Combination of Category and Sub-Category Used for duplicate Task creation prevention.</inlineHelpText>
+    <label>Task Sub-Category</label>
+    <length>100</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

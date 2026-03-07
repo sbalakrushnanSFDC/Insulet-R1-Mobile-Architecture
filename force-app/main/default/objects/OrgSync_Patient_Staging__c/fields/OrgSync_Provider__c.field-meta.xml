@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OrgSync_Provider__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>This is used to store the related Provider Id.</description>
+    <label>Provider Stage</label>
+    <referenceTo>OrgSync_Physician_Staging__c</referenceTo>
+    <relationshipLabel>Patient Stages</relationshipLabel>
+    <relationshipName>Patient_Stages</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CertificationDate__c</fullName>
+    <description>Presents the date the certificate was earned in a standardized format.</description>
+    <externalId>false</externalId>
+    <formula>Text( MONTH(Certification_Date__c) ) + &apos;/&apos; + Text(DAY(Certification_Date__c)) + &apos;/&apos; +  Text(YEAR(Certification_Date__c))</formula>
+    <label>CertificationDate</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

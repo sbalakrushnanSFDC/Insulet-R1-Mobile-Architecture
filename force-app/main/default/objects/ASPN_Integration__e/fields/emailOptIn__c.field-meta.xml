@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>emailOptIn__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicates whether the patient has opted in to receive email communications.</description>
+    <isFilteringDisabled>false</isFilteringDisabled>
+    <isNameField>false</isNameField>
+    <isSortingDisabled>false</isSortingDisabled>
+    <label>emailOptIn</label>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Get_Pod_Status__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Get Status with Pod.</description>
+    <inlineHelpText>Check pod/system status and confirm connectivity.</inlineHelpText>
+    <label>Get Pod Status</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

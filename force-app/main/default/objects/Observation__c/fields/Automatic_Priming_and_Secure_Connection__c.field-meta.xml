@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Automatic_Priming_and_Secure_Connection__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Automatic priming/secure communications</description>
+    <inlineHelpText>Automated priming and secure pairing workflow.</inlineHelpText>
+    <label>Automatic Priming &amp; Secure Connection</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

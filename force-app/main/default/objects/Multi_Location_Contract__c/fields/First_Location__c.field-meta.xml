@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>First_Location__c</fullName>
+    <description>Name and Billing Address of the Practice to which the Contract is directly related.</description>
+    <externalId>false</externalId>
+    <formula>Contract__r.Account.FirstName&amp;&quot; &quot;&amp;Contract__r.Account.MiddleName&amp;&quot; &quot;&amp; Contract__r.Account.LastName&amp;BR()&amp;
+IF(ISBLANK(Contract__r.Account.BillingStreet), &quot;&quot;, Contract__r.Account.BillingStreet &amp;BR())&amp;
+IF(ISBLANK(Contract__r.Account.BillingCity), &quot;&quot;, Contract__r.Account.BillingCity &amp; &quot;, &quot;) &amp;
+Contract__r.Account.BillingState &amp; &quot; &quot; &amp;
+Contract__r.Account.BillingPostalCode &amp; BR() &amp;
+Contract__r.Account.BillingCountry</formula>
+    <label>First Location</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

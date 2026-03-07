@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Omnipod 5</fullName>
+        <default>false</default>
+        <label>Omnipod 5</label>
+    </customValue>
+    <customValue>
+        <fullName>DASH</fullName>
+        <default>false</default>
+        <label>DASH</label>
+    </customValue>
+    <description>Controller Type values for Tasks</description>
+    <masterLabel>Controller Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

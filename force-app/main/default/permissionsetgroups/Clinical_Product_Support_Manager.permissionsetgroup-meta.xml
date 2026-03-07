@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Managers overseeing the CPS Agents.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Clinical Product Support Manager</label>
+    <permissionSets>Product_Support_Core_Access</permissionSets>
+    <permissionSets>SSO_enabled</permissionSets>
+    <permissionSets>View_Survey</permissionSets>
+    <permissionSets>force__HealthCloudFoundation</permissionSets>
+    <permissionSets>force__OmniStudioExecution</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

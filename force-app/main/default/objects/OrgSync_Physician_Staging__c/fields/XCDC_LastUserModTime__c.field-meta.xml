@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>XCDC_LastUserModTime__c</fullName>
+    <description>Used to store the last modified time by customer to support the race condition functionality.</description>
+    <encryptionScheme>None</encryptionScheme>
+    <label>XCDC_LastUserModTime</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

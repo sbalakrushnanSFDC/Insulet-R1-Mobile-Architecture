@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Switch_Modes__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Switch Modes</description>
+    <inlineHelpText>Change between available modes safely.</inlineHelpText>
+    <label>Switch Modes</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Permission Set Group for Sales Ops Users</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Sales Ops</label>
+    <permissionSets>Manage_Territories</permissionSets>
+    <permissionSets>Omnistudio_Standard_User</permissionSets>
+    <permissionSets>SSO_enabled</permissionSets>
+    <permissionSets>Sales_Ops_Core_Access</permissionSets>
+    <permissionSets>force__HealthCloudFoundation</permissionSets>
+    <permissionSets>force__OmniStudioExecution</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

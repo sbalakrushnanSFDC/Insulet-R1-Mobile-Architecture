@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This would include all permission sets which are required for Field Sales Territory Manager and District Service Manager.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Field Sales TM DSM</label>
+    <permissionSets>Field_Sales_Core_Access</permissionSets>
+    <permissionSets>Field_Sales_Edit</permissionSets>
+    <permissionSets>Omnistudio_Standard_User</permissionSets>
+    <permissionSets>SSO_enabled</permissionSets>
+    <permissionSets>force__HealthCloudFoundation</permissionSets>
+    <permissionSets>force__OmniStudioExecution</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

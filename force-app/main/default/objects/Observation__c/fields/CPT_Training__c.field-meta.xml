@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CPT_Training__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>A reference to the Trainer&apos;s Training record.</description>
+    <inlineHelpText>Mark if the session is documented as a CPT training event.</inlineHelpText>
+    <label>CPT Training</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Training__c.RecordType.DeveloperName</field>
+            <operation>equals</operation>
+            <value>CPT_Training</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Training__c</referenceTo>
+    <relationshipLabel>Observations</relationshipLabel>
+    <relationshipName>Observations</relationshipName>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

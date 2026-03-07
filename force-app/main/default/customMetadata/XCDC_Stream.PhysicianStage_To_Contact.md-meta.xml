@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>PhysicianStage_To_Contact</label>
+    <protected>false</protected>
+    <values>
+        <field>Number_of_Streams__c</field>
+        <value xsi:type="xsd:double">1.0</value>
+    </values>
+    <values>
+        <field>Reassignment_Lockout_Time_Minutes__c</field>
+        <value xsi:type="xsd:double">0.0</value>
+    </values>
+    <values>
+        <field>Target_Org__c</field>
+        <value xsi:type="xsd:string">ClassicOrg</value>
+    </values>
+    <values>
+        <field>XCDC_Publish_Setting__c</field>
+        <value xsi:type="xsd:string">PhysicianStage_NG_TO_CL</value>
+    </values>
+</CustomMetadata>

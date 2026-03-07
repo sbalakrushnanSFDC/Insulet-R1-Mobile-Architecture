@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Information__c</fullName>
+    <description>Contains the main content or details of the knowledge article that provide information to the reader.</description>
+    <encryptionScheme>None</encryptionScheme>
+    <label>Information</label>
+    <length>32768</length>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>PhysicianSubscribeSetting</label>
+    <protected>false</protected>
+    <values>
+        <field>AllowFieldTruncation__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>ComitTimeTrackingField__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>ContentDocumentLinkMapping__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>DeleteParentFetchRecordField__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Delete_Fetch_Record_Field__c</field>
+        <value xsi:type="xsd:string">XCDC_ExternalId__c</value>
+    </values>
+    <values>
+        <field>ExternalIdObjectAPIName__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>FieldMappingProcessor__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>IsBidirectional__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>IsHardDeleteBatchEnabled__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>IsInsertWriteBackAllowed__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>IsRaceWinner__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>IsSyncEnabled__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>Is_DuplicateCheck_Enabled__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>Is_Hard_Delete_Active__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>PicklistValues__c</field>
+        <value xsi:type="xsd:string">{ }</value>
+    </values>
+    <values>
+        <field>RaceFields__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>RaceTimeIntervalInSeconds__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>RecordTypeValues__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>SoftDeleteFieldToBeUpdated__c</field>
+        <value xsi:type="xsd:string">XCDC_ExternalId__c</value>
+    </values>
+    <values>
+        <field>SourceExternalIdField__c</field>
+        <value xsi:type="xsd:string">XCDC_ExternalId__c</value>
+    </values>
+    <values>
+        <field>SourceRaceTrackingField__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>SourceSobjectApiName__c</field>
+        <value xsi:type="xsd:string">Contact</value>
+    </values>
+    <values>
+        <field>SourceTargetFieldMapping__c</field>
+        <value xsi:type="xsd:string">{
+&quot;Id&quot; : &quot;OrgSync_Legacy_Id__c,String,null,null,null&quot;,
+&quot;AssistantName&quot; : &quot;OrgSync_PersonAssistantName__c,String,null,null,null&quot;,
+&quot;AssistantPhone&quot; : &quot;OrgSync_PersonAssistantPhone__c,String,null,null,null&quot;,
+&quot;Phone&quot; : &quot;OrgSync_Phone__c,String,null,null,null&quot;,
+&quot;Birthdate&quot; : &quot;OrgSync_Date_of_Birth__c,Date,null,null,null&quot;,
+&quot;Description&quot; : &quot;OrgSync_Description__c,String,null,null,null&quot;,
+&quot;Department&quot; : &quot;OrgSync_PersonDepartment__c,String,null,null,null&quot;,
+&quot;DoNotCall&quot; : &quot;OrgSync_PersonDoNotCall__c,boolean,null,null,null&quot;,
+&quot;Email&quot; : &quot;OrgSync_PersonEmail__c,String,null,null,null&quot;,
+&quot;HasOptedOutOfEmail&quot; : &quot;OrgSync_PersonHasOptedOutOfEmail__c,boolean,null,null,null&quot;,
+&quot;Fax&quot; : &quot;OrgSync_Fax__c,String,null,null,null&quot;,
+&quot;HasOptedOutOfFax&quot; : &quot;OrgSync_PersonHasOptedOutOfFax__c,boolean,null,null,null&quot;,
+&quot;HomePhone&quot; : &quot;OrgSync_PersonHomePhone__c,String,null,null,null&quot;,
+&quot;MobilePhone&quot; : &quot;OrgSync_MobilePhone__c,String,null,null,null&quot;,
+&quot;OtherPhone&quot; : &quot;OrgSync_OtherPhone__c,String,null,null,null&quot;,
+&quot;Ship_to_State__c&quot; : &quot;OrgSync_Parent_Practice__c,String,null,null,null&quot;,
+&quot;Name&quot; : &quot;Name,Composite,null,null,null&quot;,
+&quot;Name.FirstName&quot; : &quot;OrgSync_FirstName__c,String,null,null,null&quot;,
+&quot;Name.LastName&quot; : &quot;OrgSync_LastName__c,String,null,null,null&quot;,
+&quot;Name.Salutation&quot; : &quot;OrgSync_Salutation__c,pickList,null,null,null&quot;,
+&quot;Segment__c&quot; : &quot;OrgSync_HCP_Target__c,pickList,null,null,null&quot;,
+&quot;LeadSource&quot; : &quot;OrgSync_PersonLeadSource__c,pickList,null,null,null&quot;,
+&quot;Degree_Description__c&quot; : &quot;OrgSync_Degree_Description__c,pickList,null,null,null&quot;,
+&quot;Practice_Type__c&quot; : &quot;OrgSync_Practice_Type__c,pickList,null,null,null&quot;,
+&quot;Specialty__c&quot; : &quot;OrgSync_Specialty__c,pickList,null,null,null&quot;,
+&quot;MailingAddress&quot; : &quot;OrgSync_Mailing_Address__c,Composite,null,null,null&quot;,
+&quot;MailingAddress.Street&quot; : &quot;OrgSync_Mailing_Address__Street__s,TextArea,null,null,null&quot;,
+&quot;MailingAddress.City&quot; : &quot;OrgSync_Mailing_Address__City__s,String,null,null,null&quot;,
+&quot;MailingAddress.State&quot; : &quot;OrgSync_Mailing_Address__StateCode__s,String,null,null,null&quot;,
+&quot;MailingAddress.PostalCode&quot; : &quot;OrgSync_Mailing_Address__PostalCode__s,String,null,null,null&quot;,
+&quot;MailingStreet&quot; : &quot;OrgSync_Mailing_Address__Street__s,TextArea,null,null,null&quot;,
+&quot;MailingCity&quot; : &quot;OrgSync_Mailing_Address__City__s,String,null,null,null&quot;,
+&quot;MailingState&quot; : &quot;OrgSync_Mailing_Address__StateCode__s,String,null,null,null&quot;,
+&quot;MailingPostalCode&quot; : &quot;OrgSync_Mailing_Address__PostalCode__s,String,null,null,null&quot;,
+&quot;OtherAddress&quot; : &quot;OrgSync_Other_Address__c,Composite,null,null,null&quot;,
+&quot;OtherAddress.Street&quot; : &quot;OrgSync_Other_Address__Street__s,TextArea,null,null,null&quot;,
+&quot;OtherAddress.City&quot; : &quot;OrgSync_Other_Address__City__s,String,null,null,null&quot;,
+&quot;OtherAddress.State&quot; : &quot;OrgSync_Other_Address__StateCode__s,String,null,null,null&quot;,
+&quot;OtherAddress.PostalCode&quot; : &quot;OrgSync_Other_Address__PostalCode__s,String,null,null,null&quot;,
+&quot;OtherStreet&quot; : &quot;OrgSync_Other_Address__Street__s,TextArea,null,null,null&quot;,
+&quot;OtherCity&quot; : &quot;OrgSync_Other_Address__City__s,String,null,null,null&quot;,
+&quot;OtherState&quot; : &quot;OrgSync_Other_Address__StateCode__s,String,null,null,null&quot;,
+&quot;OtherPostalCode&quot; : &quot;OrgSync_Other_Address__PostalCode__s,String,null,null,null&quot;,
+&quot;AccountId&quot; : &quot;OrgSync_Parent_Practice__c,Reference,Account,OrgSync_Parent_Practice__r,XCDC_ExternalId__c&quot;,
+&quot;Backup_Email__c&quot; : &quot;OrgSync_Backup_Email__c,String,null,null,null&quot;,
+&quot;Email_2__c&quot; : &quot;OrgSync_Email_2__c,String,null,null,null&quot;,
+&quot;Secondary_Backup_Email__c&quot; : &quot;OrgSync_Secondary_Backup_Email__c,String,null,null,null&quot;,
+&quot;Work_Email__c&quot; : &quot;OrgSync_Work_Email__c,String,null,null,null&quot;,
+&quot;Paperwork_Contact_Phone__c&quot; : &quot;OrgSync_Paperwork_Contact_Phone__c,String,null,null,null&quot;,
+&quot;Preferred_Phone_Number__c&quot; : &quot;OrgSync_Preferred_Phone_Number__c,pickList,null,null,null&quot;,
+&quot;Work_Phone__c&quot; : &quot;OrgSync_Work_Phone__c,String,null,null,null&quot;,
+&quot;NPI__c&quot; : &quot;OrgSync_NPI__c,String,null,null,null&quot;,
+&quot;Do_Not_Use__c&quot; : &quot;OrgSync_Do_Not_Use__c,Boolean,null,null,null&quot;,
+&quot;Reason_Code__c&quot; : &quot;OrgSync_Reason_Code__c,String,null,null,null&quot;,
+&quot;Other_Reason_Code__c&quot; : &quot;OrgSync_Other_Reason_Code__c,String,null,null,null&quot;,
+&quot;Title&quot; : &quot;OrgSync_PersonTitle__c,String,null,null,null&quot;
+}</value>
+    </values>
+    <values>
+        <field>SourceXreferenceField__c</field>
+        <value xsi:type="xsd:string">XCDC_ParentReferences__c</value>
+    </values>
+    <values>
+        <field>TargetExternalIdField__c</field>
+        <value xsi:type="xsd:string">XCDC_ExternalId__c</value>
+    </values>
+    <values>
+        <field>TargetRaceTrackingField__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>TargetSobjectApiName__c</field>
+        <value xsi:type="xsd:string">OrgSync_Physician_Staging__c</value>
+    </values>
+    <values>
+        <field>XCDC_Connection__c</field>
+        <value xsi:type="xsd:string">ClassicOrg_To_NextGen</value>
+    </values>
+</CustomMetadata>

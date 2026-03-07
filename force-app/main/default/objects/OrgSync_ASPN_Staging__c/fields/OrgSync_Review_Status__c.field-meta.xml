@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OrgSync_Review_Status__c</fullName>
+    <label>Review Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Open</fullName>
+                <default>false</default>
+                <label>Open</label>
+            </value>
+            <value>
+                <fullName>In_Progress</fullName>
+                <default>false</default>
+                <label>In Progress</label>
+            </value>
+            <value>
+                <fullName>Closed</fullName>
+                <default>false</default>
+                <label>Closed</label>
+            </value>
+            <value>
+                <fullName>Canceled</fullName>
+                <default>false</default>
+                <label>Canceled</label>
+            </value>
+            <value>
+                <fullName>System Error</fullName>
+                <default>false</default>
+                <label>System Error</label>
+            </value>
+            <value>
+                <fullName>Partial Matches</fullName>
+                <default>false</default>
+                <label>Partial Matches</label>
+            </value>
+            <value>
+                <fullName>Dupe Review - New</fullName>
+                <default>false</default>
+                <label>Dupe Review - New</label>
+            </value>
+            <value>
+                <fullName>System_Match</fullName>
+                <default>false</default>
+                <label>System Match</label>
+            </value>
+            <value>
+                <fullName>Dupe_Backlog</fullName>
+                <default>false</default>
+                <label>Dupe Backlog</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

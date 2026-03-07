@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Defines rules to control ContentDocument visibility based on the object type linked through ContentDocumentLink.</description>
+    <label>Content Document Visibility Config</label>
+    <pluralLabel>Content Documents Visibility Config</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

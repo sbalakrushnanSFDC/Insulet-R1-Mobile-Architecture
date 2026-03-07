@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Contains a collection of permission sets for Inside Sales Manager persona with all necessary baseline permissions to manage the performance &amp; operations of their Inside Sales Team.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Inside Sales Manager</label>
+    <permissionSets>Inside_Sales_Manager_Access</permissionSets>
+    <permissionSets>Manage_Reports_and_List_View</permissionSets>
+    <permissionSets>Omnistudio_Standard_User</permissionSets>
+    <permissionSets>SSO_enabled</permissionSets>
+    <permissionSets>force__HealthCloudFoundation</permissionSets>
+    <permissionSets>force__OmniStudioExecution</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

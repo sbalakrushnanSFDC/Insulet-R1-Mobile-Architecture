@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Atlantic Time Zone (AT)</fullName>
+        <default>false</default>
+        <label>Atlantic Time Zone (AT)</label>
+    </customValue>
+    <customValue>
+        <fullName>Eastern Time Zone (ET)</fullName>
+        <default>false</default>
+        <label>Eastern Time Zone (ET)</label>
+    </customValue>
+    <customValue>
+        <fullName>Central Time Zone (CT)</fullName>
+        <default>false</default>
+        <label>Central Time Zone (CT)</label>
+    </customValue>
+    <customValue>
+        <fullName>Mountain Time Zone (MT)</fullName>
+        <default>false</default>
+        <label>Mountain Time Zone (MT)</label>
+    </customValue>
+    <customValue>
+        <fullName>Pacific Time Zone (PT)</fullName>
+        <default>false</default>
+        <label>Pacific Time Zone (PT)</label>
+    </customValue>
+    <customValue>
+        <fullName>Hawaii Standard Time Zone (HST)</fullName>
+        <default>false</default>
+        <label>Hawaii Standard Time Zone (HST)</label>
+    </customValue>
+    <customValue>
+        <fullName>Alaska Time Zone (AKT)</fullName>
+        <default>false</default>
+        <label>Alaska Time Zone (AKT)</label>
+    </customValue>
+    <description>Standard list of North American time zones used for accurate scheduling and date/time calculations.</description>
+    <masterLabel>Time Zone</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

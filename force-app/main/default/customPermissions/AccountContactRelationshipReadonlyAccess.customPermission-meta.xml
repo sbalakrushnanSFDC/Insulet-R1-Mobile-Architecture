@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomPermission xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>User with this custom permission will not not be allowed to create or edit AccountContactRelationship records. Assigned to &apos;Field Sales Core Access&apos; pemission set</description>
+    <isLicensed>false</isLicensed>
+    <label>AccountContactRelationshipReadonlyAccess</label>
+</CustomPermission>

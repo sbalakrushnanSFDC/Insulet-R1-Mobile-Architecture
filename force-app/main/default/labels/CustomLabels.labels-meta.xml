@@ -1,0 +1,2239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>ASPN_DataCheckFailedErrorMessage</fullName>
+        <categories>UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Pre Requisite Data Check Failed Error Message</shortDescription>
+        <value>You cannot send this Patient to ASPN right now as it is missing the following Data Elements:</value>
+    </labels>
+    <labels>
+        <fullName>ASPN_DoctorBillingCity</fullName>
+        <categories>UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Send To ASPN Flow Doctor Billing City</shortDescription>
+        <value>Doctor Billing City</value>
+    </labels>
+    <labels>
+        <fullName>ASPN_DoctorBillingState</fullName>
+        <categories>UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Send To ASPN Flow Doctor Billing State / Province Code</shortDescription>
+        <value>Doctor Billing State / Province Code</value>
+    </labels>
+    <labels>
+        <fullName>ASPN_DoctorBillingStreet</fullName>
+        <categories>UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Send To ASPN Flow Doctor Billing Street</shortDescription>
+        <value>Doctor Billing Street</value>
+    </labels>
+    <labels>
+        <fullName>ASPN_DoctorFirstName</fullName>
+        <categories>UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Send To ASPN Flow Doctor First Name</shortDescription>
+        <value>Doctor First Name</value>
+    </labels>
+    <labels>
+        <fullName>ASPN_DoctorLastName</fullName>
+        <categories>UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Send To ASPN Flow Doctor Last Name</shortDescription>
+        <value>Doctor Last Name</value>
+    </labels>
+    <labels>
+        <fullName>ASPN_DoctorNPI</fullName>
+        <categories>UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Send To ASPN Flow Doctor NPI</shortDescription>
+        <value>Doctor NPI</value>
+    </labels>
+    <labels>
+        <fullName>ASPN_DoctorPhone</fullName>
+        <categories>UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Send To ASPN Flow Doctor Phone</shortDescription>
+        <value>Doctor Phone</value>
+    </labels>
+    <labels>
+        <fullName>ASPN_DoctorZipCode</fullName>
+        <categories>UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Send To ASPN Flow Doctor Billing Zip / Postal Code</shortDescription>
+        <value>Doctor Billing Zip / Postal Code</value>
+    </labels>
+    <labels>
+        <fullName>ASPN_ErrorCreatingOpportunity</fullName>
+        <categories>UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Send To ASPN Flow Error Creating Opportunity Record.</shortDescription>
+        <value>Error Creating Opportunity Record. Please Contact Salesforce Administrator.</value>
+    </labels>
+    <labels>
+        <fullName>ASPN_ErrorOpportunityProduct</fullName>
+        <categories>UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Send To ASPN Flow Error Creating Opportunity Product Record</shortDescription>
+        <value>Error Creating Opportunity Product Record. Please Contact Salesforce Administrator.</value>
+    </labels>
+    <labels>
+        <fullName>ASPN_ErrorUpdatingPatientRecord</fullName>
+        <categories>UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Send To ASPN Flow Error Updating Patient Record</shortDescription>
+        <value>Error Updating Patient Record. Please Contact Salesforce Administrator.</value>
+    </labels>
+    <labels>
+        <fullName>ASPN_PatientAddress</fullName>
+        <categories>UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Send To ASPN Flow Patient Address</shortDescription>
+        <value>Patient Address</value>
+    </labels>
+    <labels>
+        <fullName>ASPN_PatientCity</fullName>
+        <categories>UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Send To ASPN Flow Patient City</shortDescription>
+        <value>Patient City</value>
+    </labels>
+    <labels>
+        <fullName>ASPN_PatientCustomUniqueId</fullName>
+        <categories>UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Send To ASPN Flow PatientCustomUniqueId</shortDescription>
+        <value>Patient Custom Unique ID</value>
+    </labels>
+    <labels>
+        <fullName>ASPN_PatientDOB</fullName>
+        <categories>UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Send To ASPN Flow Patient Date of Birth</shortDescription>
+        <value>Patient Date of Birth</value>
+    </labels>
+    <labels>
+        <fullName>ASPN_PatientFirstName</fullName>
+        <categories>UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Send To ASPN Flow Patient First Name</shortDescription>
+        <value>Patient First Name</value>
+    </labels>
+    <labels>
+        <fullName>ASPN_PatientGenderIdentity</fullName>
+        <categories>UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Send To ASPN Flow Patient Gender Identity</shortDescription>
+        <value>Patient Gender Identity</value>
+    </labels>
+    <labels>
+        <fullName>ASPN_PatientHasOpenOpportunities</fullName>
+        <categories>UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Send To ASPN Flow Patient has Open Opportunities.</shortDescription>
+        <value>Patient &lt;&lt;patientName&gt;&gt; already has Open Opportunities.</value>
+    </labels>
+    <labels>
+        <fullName>ASPN_PatientLastName</fullName>
+        <categories>UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Send To ASPN Flow Patient Last Name</shortDescription>
+        <value>Patient Last Name</value>
+    </labels>
+    <labels>
+        <fullName>ASPN_PatientState</fullName>
+        <categories>UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Send To ASPN Flow Patient State</shortDescription>
+        <value>Patient State</value>
+    </labels>
+    <labels>
+        <fullName>ASPN_PatientTelephoneNumber</fullName>
+        <categories>UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Send To ASPN Flow Patient Telephone Number</shortDescription>
+        <value>Patient Telephone Number</value>
+    </labels>
+    <labels>
+        <fullName>ASPN_PatientTransactionalEmailConsent</fullName>
+        <categories>UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Send To ASPN Flow ASPN Patient Email Transactional Consent</shortDescription>
+        <value>Patient must have &apos;Transactional Email&apos; consent with &apos;Opt In&apos; status.</value>
+    </labels>
+    <labels>
+        <fullName>ASPN_PatientTypeofDiabetes</fullName>
+        <categories>UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Send To ASPN Flow Patient Type of Diabetes</shortDescription>
+        <value>Patient Type of Diabetes</value>
+    </labels>
+    <labels>
+        <fullName>ASPN_PatientZipCode</fullName>
+        <categories>UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Send To ASPN Flow Patient Zip / Postal Code</shortDescription>
+        <value>Patient Zip / Postal Code</value>
+    </labels>
+    <labels>
+        <fullName>Accept_Training</fullName>
+        <categories>UI Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Accept Training</shortDescription>
+        <value>Accept Training</value>
+    </labels>
+    <labels>
+        <fullName>Accept_Training_Confirmation</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Accept Training Confirmation</shortDescription>
+        <value>Do you want to accept this training?</value>
+    </labels>
+    <labels>
+        <fullName>Account_Name</fullName>
+        <categories>UI Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Account Name</shortDescription>
+        <value>Account Name</value>
+    </labels>
+    <labels>
+        <fullName>Assign_Other_Educator</fullName>
+        <categories>UI Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Assign Other Educator</shortDescription>
+        <value>Assign Other Educator</value>
+    </labels>
+    <labels>
+        <fullName>Assign_Territories_Title</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Assign Territories Title</shortDescription>
+        <value>Assign Territories</value>
+    </labels>
+    <labels>
+        <fullName>Button_Edit</fullName>
+        <categories>UI_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Button Edit</shortDescription>
+        <value>Edit</value>
+    </labels>
+    <labels>
+        <fullName>CSM_Name</fullName>
+        <categories>UI Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CSM Name</shortDescription>
+        <value>CSM Name</value>
+    </labels>
+    <labels>
+        <fullName>Cancel</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cancels the current action and closes the dialog without saving any changes.</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>Certificate_Expired_Message</fullName>
+        <categories>UI Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Certificate Expired Message</shortDescription>
+        <value>You have no active certification.</value>
+    </labels>
+    <labels>
+        <fullName>Certificate_Expiring_Message</fullName>
+        <categories>UI Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Certificate Expiring Message</shortDescription>
+        <value>Your certificate is about to expire in less than 60 days.</value>
+    </labels>
+    <labels>
+        <fullName>Certification_Result_Passed</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Certification Result Passed</shortDescription>
+        <value>Passed</value>
+    </labels>
+    <labels>
+        <fullName>Clinic_Contracts_Not_Found</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Clinic Contracts Not Found</shortDescription>
+        <value>No active clinic contracts to display</value>
+    </labels>
+    <labels>
+        <fullName>Clinic_Name</fullName>
+        <categories>UI Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Clinic Name</shortDescription>
+        <value>Clinic Name</value>
+    </labels>
+    <labels>
+        <fullName>Close</fullName>
+        <categories>UI Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Close</shortDescription>
+        <value>Close</value>
+    </labels>
+    <labels>
+        <fullName>Close_Label</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Close_Label</shortDescription>
+        <value>Close</value>
+    </labels>
+    <labels>
+        <fullName>Company_Signed_Date</fullName>
+        <categories>UI Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Company Signed Date</shortDescription>
+        <value>Company Signed Date</value>
+    </labels>
+    <labels>
+        <fullName>Completed</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Completed</shortDescription>
+        <value>Completed</value>
+    </labels>
+    <labels>
+        <fullName>Confirm_Accept_Training</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Confirm Accept Training</shortDescription>
+        <value>Confirm Accept Training</value>
+    </labels>
+    <labels>
+        <fullName>Conga_Certificate_Generation_Url</fullName>
+        <categories>URL</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Conga Certificate Generation Url</shortDescription>
+        <value>vforcesite/apex/APXTConga4__Conga_Composer?DS7=3&amp;id={recordId}&amp;DefaultPDF=1&amp;TemplateId={templateId}&amp;OFN={product}+Trainer+Certificate&amp;AbsoluteReturnPath={redirectPath}</value>
+    </labels>
+    <labels>
+        <fullName>Conga_Composer_Document_Generator_Portal_URL</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Conga Composer Document Generator Portal URL</shortDescription>
+        <value>/apex/APXTConga4__Conga_Composer?SolMgr=1&amp;serverUrl={partnerServerURL}&amp;Id={recordId}&amp;DefaultPDF=1&amp;CSVisible=1&amp;lg0=0&amp;lg1=Training forms have been generated.&amp;lg3=0&amp;lg4=1&amp;templateid={congaTemplateIdList}&amp;ds4=1&amp;ds7=3&amp;OFN={filename}</value>
+    </labels>
+    <labels>
+        <fullName>Conga_Composer_Document_Generator_URL</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Conga Composer Document Generator URL</shortDescription>
+        <value>/apex/APXTConga4__Conga_Composer?SolMgr=1
+&amp;serverUrl={partnerServerURL}
+&amp;Id={recordId}
+&amp;DefaultPDF=1
+&amp;CSVisible=1
+&amp;lg0=0
+&amp;lg1=Training+forms+have+been+generated1.
+&amp;lg3=0
+&amp;lg4=0
+&amp;templateid={congaTemplateIdList}
+&amp;ds7=3
+&amp;SF1=1
+&amp;FlattenPDFForms=0
+&amp;OFN={filename}</value>
+    </labels>
+    <labels>
+        <fullName>Consent_Name_Email</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Consent_Name_Email</shortDescription>
+        <value>Transactional Email</value>
+    </labels>
+    <labels>
+        <fullName>Consent_Name_Marketing_Email</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Consent Name Marketing Email</shortDescription>
+        <value>Marketing Email</value>
+    </labels>
+    <labels>
+        <fullName>Consent_Name_SMS</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Consent_Name_SMS</shortDescription>
+        <value>Transactional SMS</value>
+    </labels>
+    <labels>
+        <fullName>Continue</fullName>
+        <categories>UI TEXT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Continue</shortDescription>
+        <value>Continue</value>
+    </labels>
+    <labels>
+        <fullName>Contract_End_Date</fullName>
+        <categories>UI Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contract End Date</shortDescription>
+        <value>Contract End Date</value>
+    </labels>
+    <labels>
+        <fullName>Contract_Expired</fullName>
+        <categories>UI Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contract Expired</shortDescription>
+        <value>One or more Contract has expired.</value>
+    </labels>
+    <labels>
+        <fullName>Contract_Expiring</fullName>
+        <categories>UI Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contract Expiring</shortDescription>
+        <value>One or more Contracts are about to expire in less than 60 days.</value>
+    </labels>
+    <labels>
+        <fullName>Contract_Name</fullName>
+        <categories>UI Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contract Name</shortDescription>
+        <value>Name</value>
+    </labels>
+    <labels>
+        <fullName>Contract_Start_Date</fullName>
+        <categories>UI Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contract Start Date</shortDescription>
+        <value>Contract Start Date</value>
+    </labels>
+    <labels>
+        <fullName>Contract_Status</fullName>
+        <categories>UI Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contract Status</shortDescription>
+        <value>Contract Status</value>
+    </labels>
+    <labels>
+        <fullName>Contract_Type</fullName>
+        <categories>UI Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contract Type</shortDescription>
+        <value>Contract Type</value>
+    </labels>
+    <labels>
+        <fullName>Controller_Asset_Record_Type_Developer_Name</fullName>
+        <categories>Flow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Controller_Asset_Record_Type_Developer_Name</shortDescription>
+        <value>Controller</value>
+    </labels>
+    <labels>
+        <fullName>Custom_Unique_Id_Updation_Error</fullName>
+        <categories>UI Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Custom Unique Id Updation Error</shortDescription>
+        <value>Error Updating the Custom Unique Id on Account. Please contact System Administrator.</value>
+    </labels>
+    <labels>
+        <fullName>Customer_Signed_Date</fullName>
+        <categories>UI Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer Signed Date</shortDescription>
+        <value>Customer Signed Date</value>
+    </labels>
+    <labels>
+        <fullName>DOMPIFSiteURL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DOMPIFSiteURL</shortDescription>
+        <value>https://fake.com</value>
+    </labels>
+    <labels>
+        <fullName>Dash_Certificate_Template</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Dash Certificate Template</shortDescription>
+        <value>Dash Trainer Certificate</value>
+    </labels>
+    <labels>
+        <fullName>Dash_Product_Certification</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Dash Product Certification</shortDescription>
+        <value>DASH</value>
+    </labels>
+    <labels>
+        <fullName>Decline_Reason</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Decline Reason</shortDescription>
+        <value>Decline Reason</value>
+    </labels>
+    <labels>
+        <fullName>Decline_Training</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Decline Training</shortDescription>
+        <value>Decline Training</value>
+    </labels>
+    <labels>
+        <fullName>DeclinedSign</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DeclinedSign</shortDescription>
+        <value>Recipient has declined to sign</value>
+    </labels>
+    <labels>
+        <fullName>Delivered</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Delivered</shortDescription>
+        <value>Delivered</value>
+    </labels>
+    <labels>
+        <fullName>DocuSignTimelineError</fullName>
+        <categories>Error_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DocuSignTimelineError</shortDescription>
+        <value>DocuSign timeline needs a recordId. Add this component to a record page or pass recordId into it.</value>
+    </labels>
+    <labels>
+        <fullName>DocusignEnvelopeStatus</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DocusignEnvelopeStatus</shortDescription>
+        <value>Docusign Envelope Status</value>
+    </labels>
+    <labels>
+        <fullName>Download_Confirmation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Download Confirmation</shortDescription>
+        <value>Document downloaded successfully.</value>
+    </labels>
+    <labels>
+        <fullName>ESign_Confirmation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>E-Sign Confirmation</shortDescription>
+        <value>Document sent for e-signature.</value>
+    </labels>
+    <labels>
+        <fullName>EnvelopeCompleted</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EnvelopeCompleted</shortDescription>
+        <value>Envelope Completed</value>
+    </labels>
+    <labels>
+        <fullName>EnvelopeDeclined</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EnvelopeDeclined</shortDescription>
+        <value>Envelope Declined</value>
+    </labels>
+    <labels>
+        <fullName>EnvelopeSent</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EnvelopeSent</shortDescription>
+        <value>Envelope sent</value>
+    </labels>
+    <labels>
+        <fullName>Envelope_Viewed</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EnvelopeViewed</shortDescription>
+        <value>Envelope Viewed</value>
+    </labels>
+    <labels>
+        <fullName>Envelope_Voided</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Envelope Voided</shortDescription>
+        <value>Envelope Voided</value>
+    </labels>
+    <labels>
+        <fullName>Error_Message</fullName>
+        <categories>Error_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Message</shortDescription>
+        <value>Something Went Wrong. Please try again in some time.</value>
+    </labels>
+    <labels>
+        <fullName>Error_Message_Label</fullName>
+        <categories>Error_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Message Label</shortDescription>
+        <value>Something went wrong, please contact the admin.</value>
+    </labels>
+    <labels>
+        <fullName>Error_Title_Label</fullName>
+        <categories>Error_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Title Label</shortDescription>
+        <value>Error</value>
+    </labels>
+    <labels>
+        <fullName>Expired_Certification_Error</fullName>
+        <categories>Error_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Expired Certification Error</shortDescription>
+        <value>Trainer does not have an active {productName} certification. Please assign this Training to another Trainer.</value>
+    </labels>
+    <labels>
+        <fullName>Expired_Contract_Error</fullName>
+        <categories>Error_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Expired Contract Error</shortDescription>
+        <value>Trainer does not have an active Contract. Please assign this Training to another Trainer.</value>
+    </labels>
+    <labels>
+        <fullName>Expires</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Expires</shortDescription>
+        <value>Expires</value>
+    </labels>
+    <labels>
+        <fullName>Failed</fullName>
+        <categories>UI TEXT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Failed</shortDescription>
+        <value>Failed</value>
+    </labels>
+    <labels>
+        <fullName>File_Download</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>File Download</shortDescription>
+        <value>Download</value>
+    </labels>
+    <labels>
+        <fullName>File_Download_URL</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>File Download URL</shortDescription>
+        <value>/sfc/servlet.shepherd/version/download/</value>
+    </labels>
+    <labels>
+        <fullName>Files</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Files</shortDescription>
+        <value>Files</value>
+    </labels>
+    <labels>
+        <fullName>Files_Actions</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Files Actions</shortDescription>
+        <value>Actions</value>
+    </labels>
+    <labels>
+        <fullName>Files_LastModified</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Files LastModified</shortDescription>
+        <value>Last Modified</value>
+    </labels>
+    <labels>
+        <fullName>Files_Owner</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Files Owner</shortDescription>
+        <value>Owner</value>
+    </labels>
+    <labels>
+        <fullName>Files_Refresh_Message</fullName>
+        <categories>Success_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Files refreshed successfully</shortDescription>
+        <value>Files refreshed successfully</value>
+    </labels>
+    <labels>
+        <fullName>Files_Size</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Files Size</shortDescription>
+        <value>Size</value>
+    </labels>
+    <labels>
+        <fullName>Files_Title</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Files Title</shortDescription>
+        <value>Title</value>
+    </labels>
+    <labels>
+        <fullName>FreedomPifSiteURL</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FreedomPifSiteURL</shortDescription>
+        <value>https://fake.com</value>
+    </labels>
+    <labels>
+        <fullName>Get_Certificate_Button</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Get Certificate Button</shortDescription>
+        <value>Get Certificate</value>
+    </labels>
+    <labels>
+        <fullName>LCE_AlreadyConverted</fullName>
+        <categories>UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lead conversion error</shortDescription>
+        <value>Lead is already converted.</value>
+    </labels>
+    <labels>
+        <fullName>LCE_Failed</fullName>
+        <categories>UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lead conversion error</shortDescription>
+        <value>Error during lead conversion.</value>
+    </labels>
+    <labels>
+        <fullName>LCE_Header</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LCE_Header</shortDescription>
+        <value>Prerequisites Before Converting Lead</value>
+    </labels>
+    <labels>
+        <fullName>LCE_InsufficientAccess</fullName>
+        <categories>UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lead conversion error</shortDescription>
+        <value>Insufficient Privileges to perform this action.</value>
+    </labels>
+    <labels>
+        <fullName>LCE_MIssingData</fullName>
+        <categories>UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lead conversion error</shortDescription>
+        <value>&apos;Missing required data for conversion, please review</value>
+    </labels>
+    <labels>
+        <fullName>LCE_NoLeadRecord</fullName>
+        <categories>UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lead conversion error</shortDescription>
+        <value>No lead record found.</value>
+    </labels>
+    <labels>
+        <fullName>LCE_PracticeAlreadyExists</fullName>
+        <categories>UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LCE_PracticeAlreadyExists</shortDescription>
+        <value>Practice already exists. Select the practice in the Existing Practice-Provider section</value>
+    </labels>
+    <labels>
+        <fullName>LCE_PracticeNameRequired</fullName>
+        <categories>UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lead conversion error</shortDescription>
+        <value>Practice Name is required during lead conversion.</value>
+    </labels>
+    <labels>
+        <fullName>LCE_ProviderAlreadyExists</fullName>
+        <categories>UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LCE_ProviderAlreadyExists</shortDescription>
+        <value>Provider already exists. Select the provider in the Existing Practice-Provider section</value>
+    </labels>
+    <labels>
+        <fullName>LCE_ProviderPracticeAlreadyExist</fullName>
+        <categories>UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LCE_ProviderPracticeAlreadyExist</shortDescription>
+        <value>Provider and Practice already exist. Select the provider and practice in the Existing Practice-Provider section</value>
+    </labels>
+    <labels>
+        <fullName>LCE_RequiredPostalcode</fullName>
+        <categories>UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lead conversion error</shortDescription>
+        <value>Postal Code is required during lead conversion.</value>
+    </labels>
+    <labels>
+        <fullName>LDW_AccountDuplicates</fullName>
+        <categories>UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lead duplicate viewer duplicate accounts</shortDescription>
+        <value>Duplicate Accounts (&lt;&lt;accountDuplicatesCount&gt;&gt;)</value>
+    </labels>
+    <labels>
+        <fullName>LDW_AllDuplicates</fullName>
+        <categories>UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lead duplicate viewer all duplicates</shortDescription>
+        <value>All Duplicate Records (&lt;&lt;totalDuplicatesCount&gt;&gt;)</value>
+    </labels>
+    <labels>
+        <fullName>LDW_DuplicateLeads</fullName>
+        <categories>UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lead duplicate viewer duplicate leads</shortDescription>
+        <value>Duplicate Leads (&lt;&lt;leadDuplicateslcount&gt;&gt;)</value>
+    </labels>
+    <labels>
+        <fullName>LDW_ErrorClosingLead</fullName>
+        <categories>UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lead duplicate viewer error closing lead</shortDescription>
+        <value>An unexpected error occurred while closing leads as duplicates.</value>
+    </labels>
+    <labels>
+        <fullName>LDW_ErrorLoadingDuplicates</fullName>
+        <categories>UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lead duplicate viewer error loading duplicates</shortDescription>
+        <value>Error loading duplicate records</value>
+    </labels>
+    <labels>
+        <fullName>LDW_ErrorUnexpected</fullName>
+        <categories>UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lead duplicate viewer unexpected error</shortDescription>
+        <value>An unexpected error occurred while loading duplicate records.</value>
+    </labels>
+    <labels>
+        <fullName>LDW_LeadsClonedSuccess</fullName>
+        <categories>UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lead duplicate viewer leads cloned success message</shortDescription>
+        <value>Lead(s) closed as duplicate successfully</value>
+    </labels>
+    <labels>
+        <fullName>LDW_NoDuplicates</fullName>
+        <categories>UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lead duplicate viewer no duplicates message</shortDescription>
+        <value>No duplicate records found</value>
+    </labels>
+    <labels>
+        <fullName>LDW_NoPotentialDuplicates</fullName>
+        <categories>UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lead duplicate viewer no potential duplicates message</shortDescription>
+        <value>We found no potential duplicates of this Lead.</value>
+    </labels>
+    <labels>
+        <fullName>LDW_PotentialMatch</fullName>
+        <categories>UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lead duplicate viewer potential match</shortDescription>
+        <value>We found &lt;strong&gt;&lt;&lt;totalDuplicatesCount&gt;&gt; potential match&lt;&lt;pluralSuffix&gt;&gt;&lt;/strong&gt; to this Lead.</value>
+    </labels>
+    <labels>
+        <fullName>LDW_ReviewPotentialDuplicates</fullName>
+        <categories>UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>lead duplicate viewer review potential duplicates</shortDescription>
+        <value>Review all potential duplicate Leads and Accounts for this record</value>
+    </labels>
+    <labels>
+        <fullName>LastStatusUpdate</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LastStatusUpdate</shortDescription>
+        <value>Last Status Update</value>
+    </labels>
+    <labels>
+        <fullName>Line_Break</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Line Break</shortDescription>
+        <value>-
+-</value>
+    </labels>
+    <labels>
+        <fullName>Loading</fullName>
+        <categories>UI Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Loading</shortDescription>
+        <value>Loading</value>
+    </labels>
+    <labels>
+        <fullName>My_Clinic_Contracts</fullName>
+        <categories>UI Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>My Clinic Contracts</shortDescription>
+        <value>My Clinic Contracts</value>
+    </labels>
+    <labels>
+        <fullName>My_Contracts</fullName>
+        <categories>UI Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>My Contracts</shortDescription>
+        <value>My Contracts</value>
+    </labels>
+    <labels>
+        <fullName>My_Contracts_Not_Found</fullName>
+        <categories>UI Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>My Contracts Not Found</shortDescription>
+        <value>No active contracts to display</value>
+    </labels>
+    <labels>
+        <fullName>NCS_Opportunity_Record_Type_Developer_Name</fullName>
+        <categories>Flow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NCS Opportunity Record Type Developer Name</shortDescription>
+        <value>NCS_Opportunity</value>
+    </labels>
+    <labels>
+        <fullName>Next</fullName>
+        <categories>UI Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Next</shortDescription>
+        <value>Next</value>
+    </labels>
+    <labels>
+        <fullName>No</fullName>
+        <categories>UI Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No</shortDescription>
+        <value>No</value>
+    </labels>
+    <labels>
+        <fullName>No_Active_Certification</fullName>
+        <categories>Error_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No Active Certification</shortDescription>
+        <value>You don&apos;t have an active {product} certificate.</value>
+    </labels>
+    <labels>
+        <fullName>No_Active_Contract_CPT</fullName>
+        <categories>Error_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No Active Contract CPT</shortDescription>
+        <value>You don&apos;t have an active contract.</value>
+    </labels>
+    <labels>
+        <fullName>No_Active_Contract_Practice</fullName>
+        <categories>Error_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No Active Contract Practice</shortDescription>
+        <value>This clinic does not have an active contract.</value>
+    </labels>
+    <labels>
+        <fullName>No_Files</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No Files</shortDescription>
+        <value>No files</value>
+    </labels>
+    <labels>
+        <fullName>No_Files_Message</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No Files Message</shortDescription>
+        <value>There aren’t any files linked to this record yet.</value>
+    </labels>
+    <labels>
+        <fullName>Observation_Certificate_Error_Message</fullName>
+        <categories>UI_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Observation Certificate Error Message</shortDescription>
+        <value>Observation was conducted after certificate expiration date</value>
+    </labels>
+    <labels>
+        <fullName>Observation_Contract_Error_Message</fullName>
+        <categories>UI_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Observation Contract Error Message</shortDescription>
+        <value>Observation was conducted after contract expiration date</value>
+    </labels>
+    <labels>
+        <fullName>Omnipod_5_Certificate_Template</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Omnipod 5 Certificate Template</shortDescription>
+        <value>Omnipod 5 Trainer Certificate</value>
+    </labels>
+    <labels>
+        <fullName>Omnipod_5_Product_Certification</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Omnipod 5 Product Certification</shortDescription>
+        <value>Omnipod 5</value>
+    </labels>
+    <labels>
+        <fullName>Opportunity_Name_Prefix</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Opportunity Name Prefix</shortDescription>
+        <value>Benefits Investigation</value>
+    </labels>
+    <labels>
+        <fullName>PLC_AlreadyConverted</fullName>
+        <categories>UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>patient lead conversion already converted</shortDescription>
+        <value>This lead has already been converted.</value>
+    </labels>
+    <labels>
+        <fullName>PLC_Failed</fullName>
+        <categories>UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>patient lead conversion failed</shortDescription>
+        <value>Error during lead conversion.</value>
+    </labels>
+    <labels>
+        <fullName>PLC_InsufficientAccess</fullName>
+        <categories>UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>patient lead conversion insufficient previliges</shortDescription>
+        <value>Insufficient Privileges to perform this action.</value>
+    </labels>
+    <labels>
+        <fullName>PLC_MatchCriteriaNotMet</fullName>
+        <categories>UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>patient lead conversion not meeting matching criteria</shortDescription>
+        <value>Lead does not meet matching criteria for conversion.</value>
+    </labels>
+    <labels>
+        <fullName>PLC_Success</fullName>
+        <categories>UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>patient lead conversion success</shortDescription>
+        <value>Lead converted successfully!</value>
+    </labels>
+    <labels>
+        <fullName>PLC_UnexpectedError</fullName>
+        <categories>UI</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>patient lead conversion unexpected error</shortDescription>
+        <value>An unexpected error occurred</value>
+    </labels>
+    <labels>
+        <fullName>Page_Info</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Page Info</shortDescription>
+        <value>Page {currentPage} of {totalPages} - Total Records: {totalRecords}</value>
+    </labels>
+    <labels>
+        <fullName>Party_Consent_Creation_Error_Label</fullName>
+        <categories>Error_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Party Consent Creation Error Label</shortDescription>
+        <value>An error occurred while creating the Party Consent record. Please try again later.</value>
+    </labels>
+    <labels>
+        <fullName>Patient_Account_Missing_Individual_Label</fullName>
+        <categories>Error_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Patient Account Missing Individual Label</shortDescription>
+        <value>No Individual is associated with this Patient Account.</value>
+    </labels>
+    <labels>
+        <fullName>Patient_Account_Record_Type_Developer_Name</fullName>
+        <categories>Flow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Patient Account Record Type Developer Name</shortDescription>
+        <value>Patient</value>
+    </labels>
+    <labels>
+        <fullName>Patient_Delegate_Account_Record_Type_Developer_Name</fullName>
+        <categories>Flow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Patient_Delegate_Account_Record_Type_Developer_Name</shortDescription>
+        <value>Patient_Delegate</value>
+    </labels>
+    <labels>
+        <fullName>Patient_LegalGuardian_Party_Role_Relationship</fullName>
+        <categories>Flow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Patient_LegalGuardian_Party_Role_Relationship</shortDescription>
+        <value>Patient-Legal Guardian-CCR</value>
+    </labels>
+    <labels>
+        <fullName>Patient_Party_Role_Relationship</fullName>
+        <categories>Flow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Patient Party Role Relationship</shortDescription>
+        <value>Patient</value>
+    </labels>
+    <labels>
+        <fullName>Patient_Provider_Party_Role_Relationship</fullName>
+        <categories>Flow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Patient Provider Party Role Relationship</shortDescription>
+        <value>Patient-Provider-CCR</value>
+    </labels>
+    <labels>
+        <fullName>Patient_Record_Type_Label</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Patient Record Type Label</shortDescription>
+        <value>Patient</value>
+    </labels>
+    <labels>
+        <fullName>Pending</fullName>
+        <categories>UI TEXT</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Pending</shortDescription>
+        <value>Pending</value>
+    </labels>
+    <labels>
+        <fullName>Physician</fullName>
+        <categories>UI Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Physician</shortDescription>
+        <value>Physician</value>
+    </labels>
+    <labels>
+        <fullName>Portal_Available_Training</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Portal Available Training</shortDescription>
+        <value>My Available Trainings</value>
+    </labels>
+    <labels>
+        <fullName>Portal_Available_Training_For_Clinics</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Portal Available Training For Clinics</shortDescription>
+        <value>My Clinic’s Available Trainings</value>
+    </labels>
+    <labels>
+        <fullName>Portal_Available_Training_For_Clinics_No_Records</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Portal Available Training For Clinics No Records</shortDescription>
+        <value>No Trainings are available at this Clinic to accept</value>
+    </labels>
+    <labels>
+        <fullName>Portal_Available_Training_No_Records</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Portal Available Training No Records</shortDescription>
+        <value>No Trainings are available for you to accept</value>
+    </labels>
+    <labels>
+        <fullName>Portal_Training_Attempt_Summary</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Portal Training Attempt Summary</shortDescription>
+        <value>Your Attempt Summary</value>
+    </labels>
+    <labels>
+        <fullName>Portal_Training_Current_Score</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Portal Training Current Score</shortDescription>
+        <value>Current Score</value>
+    </labels>
+    <labels>
+        <fullName>Portal_Training_Failure_Sub_Header</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Portal Training Failure Sub Header</shortDescription>
+        <value>Please review the training material available in the portal, and please contact your CSM or schedule time for a follow-up meeting for next steps.</value>
+    </labels>
+    <labels>
+        <fullName>Portal_Training_ListView_ColumnNames</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Portal Training ListView ColumnNames</shortDescription>
+        <value>Account Name;accountName
+Stage;Training_Stage__c
+Training Type;Training_Type__c
+CSM Name;csmName</value>
+    </labels>
+    <labels>
+        <fullName>Portal_Training_ListView_Error_Header</fullName>
+        <categories>Error_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Portal Training ListView Error Header</shortDescription>
+        <value>No Trainings Found.</value>
+    </labels>
+    <labels>
+        <fullName>Portal_Training_ListView_Name</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Portal Training ListView Name</shortDescription>
+        <value>Available_Training</value>
+    </labels>
+    <labels>
+        <fullName>Portal_Training_Loading_SubHeader</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Portal Training Loading SubHeader</shortDescription>
+        <value>Please wait while we process your assessment</value>
+    </labels>
+    <labels>
+        <fullName>Portal_Training_On_Load</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Portal Training On Load</shortDescription>
+        <value>Calculating your results...</value>
+    </labels>
+    <labels>
+        <fullName>Portal_Training_Questions_Answered</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Portal Training Questions Answered</shortDescription>
+        <value>Questions Answered Correctly</value>
+    </labels>
+    <labels>
+        <fullName>Portal_Training_Success_Message</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Portal Training Success Message</shortDescription>
+        <value>Congratulations on passing your {result.certificationName} Certification Exam!</value>
+    </labels>
+    <labels>
+        <fullName>Portal_Training_Success_Sub_Header</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Portal Training Success Sub Header</shortDescription>
+        <value>Please Monitor your email in the next 24-48 hours for your CPT contract.</value>
+    </labels>
+    <labels>
+        <fullName>Practice</fullName>
+        <categories>UI Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Practice</shortDescription>
+        <value>Practice</value>
+    </labels>
+    <labels>
+        <fullName>Practice_Account_Record_Type_Developer_Name</fullName>
+        <categories>Flow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Practice_Account_Record_Type_Developer_Name</shortDescription>
+        <value>Practice</value>
+    </labels>
+    <labels>
+        <fullName>Practice_Hierarchy_Restriction_Error</fullName>
+        <categories>Error_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Practice Hierarchy Restriction Error</shortDescription>
+        <value>A child practice already exists for this practice. Creating a 3rd tier in the hierarchy is not permitted</value>
+    </labels>
+    <labels>
+        <fullName>Previous</fullName>
+        <categories>UI Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Previous</shortDescription>
+        <value>Previous</value>
+    </labels>
+    <labels>
+        <fullName>Primary_Price_Book_Name</fullName>
+        <categories>Flow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Primary_Price_Book_Name</shortDescription>
+        <value>Primary Price Book</value>
+    </labels>
+    <labels>
+        <fullName>Processing</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Processing</shortDescription>
+        <value>Processing...</value>
+    </labels>
+    <labels>
+        <fullName>Provider_Account_Record_Type_Developer_Name</fullName>
+        <categories>Flow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Provider Account Record Type Developer Name</shortDescription>
+        <value>Provider</value>
+    </labels>
+    <labels>
+        <fullName>Provider_Party_Role_Relationship</fullName>
+        <categories>Flow</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Provider Party Role Relationship</shortDescription>
+        <value>Provider</value>
+    </labels>
+    <labels>
+        <fullName>Reason</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reason</shortDescription>
+        <value>Reason</value>
+    </labels>
+    <labels>
+        <fullName>Refresh</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Refresh</shortDescription>
+        <value>Refresh</value>
+    </labels>
+    <labels>
+        <fullName>Reimbursement_Account</fullName>
+        <categories>UI_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reimbursement Account</shortDescription>
+        <value>Account</value>
+    </labels>
+    <labels>
+        <fullName>Reimbursement_Amount</fullName>
+        <categories>UI_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reimbursement Amount</shortDescription>
+        <value>Amount</value>
+    </labels>
+    <labels>
+        <fullName>Reimbursement_Available_Observations</fullName>
+        <categories>UI_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reimbursement Available Observations</shortDescription>
+        <value>Available Observations</value>
+    </labels>
+    <labels>
+        <fullName>Reimbursement_Available_Trainings</fullName>
+        <categories>UI_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reimbursement Available Trainings</shortDescription>
+        <value>Available Trainings</value>
+    </labels>
+    <labels>
+        <fullName>Reimbursement_CSM</fullName>
+        <categories>UI_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reimbursement CSM</shortDescription>
+        <value>CSM</value>
+    </labels>
+    <labels>
+        <fullName>Reimbursement_Calculated_Summary</fullName>
+        <categories>UI_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reimbursement Calculated Summary</shortDescription>
+        <value>Calculated Summary</value>
+    </labels>
+    <labels>
+        <fullName>Reimbursement_Cancel</fullName>
+        <categories>UI_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reimbursement Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>Reimbursement_Car_Rental</fullName>
+        <categories>UI_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reimbursement Car Rental</shortDescription>
+        <value>Car Rental</value>
+    </labels>
+    <labels>
+        <fullName>Reimbursement_Comments</fullName>
+        <categories>UI_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reimbursement Comments</shortDescription>
+        <value>Comments</value>
+    </labels>
+    <labels>
+        <fullName>Reimbursement_Contract_Level_Level_1</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reimbursement Contract Level Level 1</shortDescription>
+        <value>Level 1</value>
+    </labels>
+    <labels>
+        <fullName>Reimbursement_Contract_Level_Level_2</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reimbursement Contract Level Level 2</shortDescription>
+        <value>Level 2</value>
+    </labels>
+    <labels>
+        <fullName>Reimbursement_Contract_Level_Level_3</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reimbursement Contract Level Level 3</shortDescription>
+        <value>Level 3</value>
+    </labels>
+    <labels>
+        <fullName>Reimbursement_Educator_Type_CCT</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reimbursement Educator Type CCT</shortDescription>
+        <value>CCT</value>
+    </labels>
+    <labels>
+        <fullName>Reimbursement_Educator_Type_CPT</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reimbursement Educator Type CPT</shortDescription>
+        <value>CPT</value>
+    </labels>
+    <labels>
+        <fullName>Reimbursement_Enter_Expenses</fullName>
+        <categories>UI_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reimbursement Enter Expenses</shortDescription>
+        <value>Enter Expenses</value>
+    </labels>
+    <labels>
+        <fullName>Reimbursement_Grand_Total</fullName>
+        <categories>UI_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reimbursement Grand Total</shortDescription>
+        <value>Grand Total</value>
+    </labels>
+    <labels>
+        <fullName>Reimbursement_Hotels</fullName>
+        <categories>UI_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reimbursement Hotels</shortDescription>
+        <value>Hotels</value>
+    </labels>
+    <labels>
+        <fullName>Reimbursement_Hourly_Rate</fullName>
+        <categories>UI_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reimbursement Hourly Rate</shortDescription>
+        <value>Hourly Rate</value>
+    </labels>
+    <labels>
+        <fullName>Reimbursement_Hourly_Rate_Subtotal</fullName>
+        <categories>UI_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reimbursement Hourly Rate Subtotal</shortDescription>
+        <value>Hourly Rate Subtotal</value>
+    </labels>
+    <labels>
+        <fullName>Reimbursement_Meals</fullName>
+        <categories>UI_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reimbursement Meals</shortDescription>
+        <value>Meals</value>
+    </labels>
+    <labels>
+        <fullName>Reimbursement_Mileage_Rate</fullName>
+        <categories>UI_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reimbursement Mileage Rate</shortDescription>
+        <value>Mileage Rate</value>
+    </labels>
+    <labels>
+        <fullName>Reimbursement_Mileage_Subtotal</fullName>
+        <categories>UI_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reimbursement Mileage Subtotal</shortDescription>
+        <value>Mileage Subtotal</value>
+    </labels>
+    <labels>
+        <fullName>Reimbursement_Miles_Travelled</fullName>
+        <categories>UI_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reimbursement Miles Travelled</shortDescription>
+        <value>Miles Travelled</value>
+    </labels>
+    <labels>
+        <fullName>Reimbursement_Name</fullName>
+        <categories>UI_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reimbursement Name</shortDescription>
+        <value>Name</value>
+    </labels>
+    <labels>
+        <fullName>Reimbursement_Next</fullName>
+        <categories>UI_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reimbursement Next</shortDescription>
+        <value>Next</value>
+    </labels>
+    <labels>
+        <fullName>Reimbursement_No_Records</fullName>
+        <categories>UI Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reimbursement_No_Records</shortDescription>
+        <value>No Records Found</value>
+    </labels>
+    <labels>
+        <fullName>Reimbursement_Number_Of_Minutes</fullName>
+        <categories>UI_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reimbursement Number Of Minutes</shortDescription>
+        <value>Number of Minutes</value>
+    </labels>
+    <labels>
+        <fullName>Reimbursement_Observation</fullName>
+        <categories>UI_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reimbursement Observation</shortDescription>
+        <value>Observation</value>
+    </labels>
+    <labels>
+        <fullName>Reimbursement_Observation_Date</fullName>
+        <categories>UI_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reimbursement Observation Date</shortDescription>
+        <value>Observation Date</value>
+    </labels>
+    <labels>
+        <fullName>Reimbursement_Observation_Type</fullName>
+        <categories>UI_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reimbursement Observation Type</shortDescription>
+        <value>Observation Type</value>
+    </labels>
+    <labels>
+        <fullName>Reimbursement_Others</fullName>
+        <categories>UI_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reimbursement Others</shortDescription>
+        <value>Others</value>
+    </labels>
+    <labels>
+        <fullName>Reimbursement_Parking</fullName>
+        <categories>UI_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reimbursement Parking</shortDescription>
+        <value>Parking</value>
+    </labels>
+    <labels>
+        <fullName>Reimbursement_Parking_Tolls_Other</fullName>
+        <categories>UI_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reimbursement Parking Tolls Other</shortDescription>
+        <value>Parking/Tolls/Other</value>
+    </labels>
+    <labels>
+        <fullName>Reimbursement_Patient_Training</fullName>
+        <categories>UI_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reimbursement Patient Training</shortDescription>
+        <value>1:1 Patient Training</value>
+    </labels>
+    <labels>
+        <fullName>Reimbursement_Pre_Approved_Items</fullName>
+        <categories>UI_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reimbursement Pre Approved Items</shortDescription>
+        <value>Pre-Approved Items</value>
+    </labels>
+    <labels>
+        <fullName>Reimbursement_Rate_Applied</fullName>
+        <categories>UI_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reimbursement Rate Applied</shortDescription>
+        <value>Rate Applied</value>
+    </labels>
+    <labels>
+        <fullName>Reimbursement_Save_As_Draft</fullName>
+        <categories>UI_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reimbursement Save As Draft</shortDescription>
+        <value>Save as Draft</value>
+    </labels>
+    <labels>
+        <fullName>Reimbursement_Select_Observation</fullName>
+        <categories>UI_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reimbursement Select Observation</shortDescription>
+        <value>Select Observation</value>
+    </labels>
+    <labels>
+        <fullName>Reimbursement_Select_Training</fullName>
+        <categories>UI_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reimbursement Select Training</shortDescription>
+        <value>Select Training</value>
+    </labels>
+    <labels>
+        <fullName>Reimbursement_Select_Type</fullName>
+        <categories>UI_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reimbursement Select Type</shortDescription>
+        <value>Select Reimbursement Type</value>
+    </labels>
+    <labels>
+        <fullName>Reimbursement_Submit_For_Approval</fullName>
+        <categories>UI_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reimbursement Submit For Approval</shortDescription>
+        <value>Submit for Approval</value>
+    </labels>
+    <labels>
+        <fullName>Reimbursement_Submit_Success_Message</fullName>
+        <categories>UI_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reimbursement Submit Success Message</shortDescription>
+        <value>Reimbursement submitted for approval successfully</value>
+    </labels>
+    <labels>
+        <fullName>Reimbursement_Tolls</fullName>
+        <categories>UI_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reimbursement Tolls</shortDescription>
+        <value>Tolls</value>
+    </labels>
+    <labels>
+        <fullName>Reimbursement_Train_Bus_Airfare</fullName>
+        <categories>UI_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reimbursement Train Bus Airfare</shortDescription>
+        <value>Train/Bus/Airfare</value>
+    </labels>
+    <labels>
+        <fullName>Reimbursement_Trainer_Name</fullName>
+        <categories>UI_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reimbursement Trainer Name</shortDescription>
+        <value>Trainer Name</value>
+    </labels>
+    <labels>
+        <fullName>Reimbursement_Training_Completion_Date</fullName>
+        <categories>UI_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reimbursement Training Completion Date</shortDescription>
+        <value>Training Completion Date</value>
+    </labels>
+    <labels>
+        <fullName>Reimbursement_Training_Conducted_Date</fullName>
+        <categories>UI_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reimbursement Training Conducted Date</shortDescription>
+        <value>Training Conducted Date</value>
+    </labels>
+    <labels>
+        <fullName>Reimbursement_Training_Method</fullName>
+        <categories>UI_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reimbursement Training Method</shortDescription>
+        <value>Training Method</value>
+    </labels>
+    <labels>
+        <fullName>Reimbursement_Training_Number</fullName>
+        <categories>UI_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reimbursement Training Number</shortDescription>
+        <value>Training Number</value>
+    </labels>
+    <labels>
+        <fullName>Reimbursement_Training_Subtotal</fullName>
+        <categories>UI_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reimbursement Training Subtotal</shortDescription>
+        <value>Training Subtotal</value>
+    </labels>
+    <labels>
+        <fullName>Reimbursement_Training_Type</fullName>
+        <categories>UI_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reimbursement Training Type</shortDescription>
+        <value>Training Type</value>
+    </labels>
+    <labels>
+        <fullName>Related_Contact_Email</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Related Contact Email</shortDescription>
+        <value>Email</value>
+    </labels>
+    <labels>
+        <fullName>Related_Contact_Label</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Related Contact Label</shortDescription>
+        <value>Related Contact</value>
+    </labels>
+    <labels>
+        <fullName>Related_Contact_Name</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Related Contact Name</shortDescription>
+        <value>Name</value>
+    </labels>
+    <labels>
+        <fullName>Related_Contact_Phone</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Related Contact Phone</shortDescription>
+        <value>Phone</value>
+    </labels>
+    <labels>
+        <fullName>Related_Contact_Relationship</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Related Contact Relationship</shortDescription>
+        <value>Relationship</value>
+    </labels>
+    <labels>
+        <fullName>Related_Records_Not_Found_Text</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Related Records Not Found Text</shortDescription>
+        <value>No related records found.</value>
+    </labels>
+    <labels>
+        <fullName>Save</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Saves the entered information and completes the current action.</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>Search_this_list</fullName>
+        <categories>UI Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search this list</shortDescription>
+        <value>Search this list</value>
+    </labels>
+    <labels>
+        <fullName>See_Details</fullName>
+        <categories>UI Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>See Details</shortDescription>
+        <value>See Details</value>
+    </labels>
+    <labels>
+        <fullName>Sent</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sent</shortDescription>
+        <value>Sent</value>
+    </labels>
+    <labels>
+        <fullName>SentForSignature</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SentForSignature</shortDescription>
+        <value>Sent for Signature</value>
+    </labels>
+    <labels>
+        <fullName>Ship_Date</fullName>
+        <categories>UI Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ship Date</shortDescription>
+        <value>Ship Date</value>
+    </labels>
+    <labels>
+        <fullName>Signed</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Signed</shortDescription>
+        <value>Signed</value>
+    </labels>
+    <labels>
+        <fullName>Sort_By</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sort by</shortDescription>
+        <value>Sort by</value>
+    </labels>
+    <labels>
+        <fullName>Status</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Status</shortDescription>
+        <value>Status</value>
+    </labels>
+    <labels>
+        <fullName>Submit</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Submit</shortDescription>
+        <value>Submit</value>
+    </labels>
+    <labels>
+        <fullName>Submit_Decline</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Submit Decline</shortDescription>
+        <value>Submit Decline</value>
+    </labels>
+    <labels>
+        <fullName>Take_Exam_Label</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Take Exam Label</shortDescription>
+        <value>Take Exam</value>
+    </labels>
+    <labels>
+        <fullName>Template_Data_Missing_Error_Message_Screen</fullName>
+        <categories>Error_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Template Data Missing Error Message Screen</shortDescription>
+        <value>Unable to find the template record. Please reach out to admin for assistance.</value>
+    </labels>
+    <labels>
+        <fullName>Template_Metadata_Missing_Error_Message_Screen</fullName>
+        <categories>Error_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Template Metadata Missing Error Message Screen</shortDescription>
+        <value>Unable to select a template. Please reach out to admin for assistance.</value>
+    </labels>
+    <labels>
+        <fullName>Template_Not_Found_Error</fullName>
+        <categories>Error_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Template Not Found Error</shortDescription>
+        <value>Template not found</value>
+    </labels>
+    <labels>
+        <fullName>Territories_Assigned_Success</fullName>
+        <categories>Success_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Territories Assigned Success</shortDescription>
+        <value>Territories Assigned</value>
+    </labels>
+    <labels>
+        <fullName>Territories_Label</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Territories Label</shortDescription>
+        <value>Territories</value>
+    </labels>
+    <labels>
+        <fullName>Toast_Success</fullName>
+        <categories>UI_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Toast Success</shortDescription>
+        <value>Success</value>
+    </labels>
+    <labels>
+        <fullName>Total_Items</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Total Items</shortDescription>
+        <value>Total Items =</value>
+    </labels>
+    <labels>
+        <fullName>Trainer_Record_Type_Label</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Trainer Record Type_Label</shortDescription>
+        <value>Trainer</value>
+    </labels>
+    <labels>
+        <fullName>Trainer_Type_CC</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Trainer Type CC</shortDescription>
+        <value>Clinic Contract Trainer</value>
+    </labels>
+    <labels>
+        <fullName>Trainer_Type_CPT</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Trainer Type CPT</shortDescription>
+        <value>Certified Pod Trainer</value>
+    </labels>
+    <labels>
+        <fullName>Trainer_Type_CPT_CC</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Trainer Type CPT CC</shortDescription>
+        <value>Certified Pod &amp; Clinic Contract Trainer</value>
+    </labels>
+    <labels>
+        <fullName>Training_API_Name</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Training API Name</shortDescription>
+        <value>Training__c</value>
+    </labels>
+    <labels>
+        <fullName>Training_Accept_Header</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Training Accept Header</shortDescription>
+        <value>Confirm Accept Training</value>
+    </labels>
+    <labels>
+        <fullName>Training_Accept_SubHeader</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Training Accept SubHeader</shortDescription>
+        <value>Do you want to accept this training?</value>
+    </labels>
+    <labels>
+        <fullName>Training_Accept_Success</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Training Accept Success</shortDescription>
+        <value>Training accepted successfully.</value>
+    </labels>
+    <labels>
+        <fullName>Training_Accepted_Message</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Training Accepted Message</shortDescription>
+        <value>Training was already accepted earlier.</value>
+    </labels>
+    <labels>
+        <fullName>Training_Certificate_Error_Message</fullName>
+        <categories>UI_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Training Certificate Error Message</shortDescription>
+        <value>Training was conducted after certificate expiration date</value>
+    </labels>
+    <labels>
+        <fullName>Training_Contract_Error_Message</fullName>
+        <categories>UI_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Training Contract Error Message</shortDescription>
+        <value>Training was conducted after contract expiration date</value>
+    </labels>
+    <labels>
+        <fullName>Training_Decline_Comment_Label</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Training Decline Comment Label</shortDescription>
+        <value>Please specify the &quot;Other&quot; reason (Required)</value>
+    </labels>
+    <labels>
+        <fullName>Training_Decline_Comment_Label_Optional</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Training Decline Comment Label Optional</shortDescription>
+        <value>Decline Comments (Optional)</value>
+    </labels>
+    <labels>
+        <fullName>Training_Decline_Description_Error</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Training Decline Description Error</shortDescription>
+        <value>Please describe the reason for declining the training</value>
+    </labels>
+    <labels>
+        <fullName>Training_Decline_Reason_Error</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Training Decline Reason Error</shortDescription>
+        <value>Please select a reason for declining the training to save the record</value>
+    </labels>
+    <labels>
+        <fullName>Training_Decline_Success</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Training Decline Success</shortDescription>
+        <value>Training record declined successfully.</value>
+    </labels>
+    <labels>
+        <fullName>Training_Name</fullName>
+        <categories>UI_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Training Name</shortDescription>
+        <value>Training Name</value>
+    </labels>
+    <labels>
+        <fullName>Training_Product</fullName>
+        <categories>UI_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Training Product</shortDescription>
+        <value>Product</value>
+    </labels>
+    <labels>
+        <fullName>Training_ReAssign_Success</fullName>
+        <categories>Success_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Training ReAssign Success</shortDescription>
+        <value>Training re-assigned successfully</value>
+    </labels>
+    <labels>
+        <fullName>Training_Record_Creation_Date</fullName>
+        <categories>UI Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Training Record Creation Date</shortDescription>
+        <value>Training Record Creation Date</value>
+    </labels>
+    <labels>
+        <fullName>Training_Stage_Accepted</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Training Stage Accepted</shortDescription>
+        <value>Accepted</value>
+    </labels>
+    <labels>
+        <fullName>Training_Stage_Pending_Acceptance</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Training Stage Pending Acceptance</shortDescription>
+        <value>Pending Acceptance</value>
+    </labels>
+    <labels>
+        <fullName>Training_Title</fullName>
+        <categories>UI_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Training Title</shortDescription>
+        <value>Trainings</value>
+    </labels>
+    <labels>
+        <fullName>Unknown_Error_Message</fullName>
+        <categories>Error_Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Unknown Error Message</shortDescription>
+        <value>Unknown error occurred</value>
+    </labels>
+    <labels>
+        <fullName>Write_On_Console</fullName>
+        <categories>UI_Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Write On Console</shortDescription>
+        <value>TRUE</value>
+    </labels>
+    <labels>
+        <fullName>Yes</fullName>
+        <categories>UI Text</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Yes</shortDescription>
+        <value>Yes</value>
+    </labels>
+</CustomLabels>

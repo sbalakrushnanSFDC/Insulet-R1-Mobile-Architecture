@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Approval_Process_Val</fullName>
+    <active>true</active>
+    <description>Prevents CSM from populating the Delegate Observer field unless the  Approval status is set to &quot;Approved&quot;.</description>
+    <errorConditionFormula>AND(
+    NOT( $Permission.Bypass_Validation_Rules ),
+    NOT(ISBLANK(Delegate_Observer__c)),
+    NOT(ISPICKVAL( Delegate_Observer_Approval_Status__c , &quot;Approved&quot;))
+)</errorConditionFormula>
+    <errorDisplayField>Delegate_Observer__c</errorDisplayField>
+    <errorMessage>Cannot add a Delegate Observer without an approval</errorMessage>
+</ValidationRule>

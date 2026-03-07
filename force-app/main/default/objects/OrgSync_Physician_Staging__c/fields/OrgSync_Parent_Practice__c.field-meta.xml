@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OrgSync_Parent_Practice__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Links this account to a parent practice account (of type “Practice”) to represent hierarchical relationships between practices.</description>
+    <label>Parent Practice</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Account.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Practice</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Physician Stages</relationshipLabel>
+    <relationshipName>Physician_Stages</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

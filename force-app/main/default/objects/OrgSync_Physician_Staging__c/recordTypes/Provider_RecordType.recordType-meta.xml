@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Provider_RecordType</fullName>
+    <active>true</active>
+    <description>will be used a default rec type for physician staging</description>
+    <label>Provider RecordType</label>
+    <picklistValues>
+        <picklist>OrgSync_Degree_Description__c</picklist>
+        <values>
+            <fullName>CNS%2C BC-ADM%2C CDE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CPT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CPT CDE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Endo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Family Physician</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Independent CPT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pharmacist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RD CDE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RN CDE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retired</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>OrgSync_HCP_Target__c</picklist>
+        <values>
+            <fullName>A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No default</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nurture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Protect</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>OrgSync_PersonLeadSource__c</picklist>
+        <values>
+            <fullName>ASPN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Advertisement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Doctor Discussion Guide</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Empezar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>External Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Get Started</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Get Started - Check Benefits</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Get Started - Free Trial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Google AdWords</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Let%27s go</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PEK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Patient Lead</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone Intake</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchased List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request a Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade Show</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Webinar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Website</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>OrgSync_Practice_Type__c</picklist>
+        <values>
+            <fullName>Clinic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hospital-based</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Office-based</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Resident</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>OrgSync_Preferred_Phone_Number__c</picklist>
+        <values>
+            <fullName>Home</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mobile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Work</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>OrgSync_Salutation__c</picklist>
+        <values>
+            <fullName>Dr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mrs%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ms%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mx%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prof%2E</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>OrgSync_Specialty__c</picklist>
+        <values>
+            <fullName>Diabetes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Endocrinology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Family Medicine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Family Practice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Practice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internal Medicine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No default</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nurse Practitioner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Obstetrics%2FGynecology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pediatric Endocrinology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pediatrics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Physician Assistant</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

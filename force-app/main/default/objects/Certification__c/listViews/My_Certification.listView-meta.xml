@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Certification</fullName>
+    <columns>Status_Icon__c</columns>
+    <columns>NAME</columns>
+    <columns>Certification_Test_Name__c</columns>
+    <columns>CSM__c</columns>
+    <columns>Product__c</columns>
+    <columns>Completion_Status__c</columns>
+    <columns>Certification_Results__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Certification_Expiration_Date__c</columns>
+    <columns>Certification_Exam_Score__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>isRunningAccountUser__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>My Certification</label>
+</ListView>

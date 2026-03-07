@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>External_Delegate__c</fullName>
+    <description>Indicates whether the logged-in user is the external delegate observer for this record.</description>
+    <formula>AND(
+    NOT(ISBLANK(Delegate_Observer__c)),
+    $User.ContactId =  Delegate_Observer__r.PersonContactId
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Mark if the delegate observer is external to the org.</inlineHelpText>
+    <label>External Delegate?</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

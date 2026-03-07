@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Internal IT team persona who acts as Business analyst in production.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Functional Analyst</label>
+    <permissionSets>Functional_Analyst_Core_Access</permissionSets>
+    <permissionSets>SSO_enabled</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

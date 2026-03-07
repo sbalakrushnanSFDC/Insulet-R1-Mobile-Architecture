@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Service Delivery (non Salesforce team) team that creates Users in Salesforce</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Service Delivery</label>
+    <permissionSets>SSO_enabled</permissionSets>
+    <permissionSets>Service_Delivery_Core_Access</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

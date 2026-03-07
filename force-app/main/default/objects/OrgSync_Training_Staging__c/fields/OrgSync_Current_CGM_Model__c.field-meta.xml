@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OrgSync_Current_CGM_Model__c</fullName>
+    <label>Current CGM Model</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Medtronic Guardian™</fullName>
+                <default>false</default>
+                <label>Medtronic Guardian™</label>
+            </value>
+            <value>
+                <fullName>G6®</fullName>
+                <default>false</default>
+                <label>G6®</label>
+            </value>
+            <value>
+                <fullName>G7®</fullName>
+                <default>false</default>
+                <label>G7®</label>
+            </value>
+            <value>
+                <fullName>FreeStyle Libre 2 Sensor</fullName>
+                <default>false</default>
+                <label>FreeStyle Libre 2 Sensor</label>
+            </value>
+            <value>
+                <fullName>FreeStyle Libre 2 Plus Sensor</fullName>
+                <default>false</default>
+                <label>FreeStyle Libre 2 Plus Sensor</label>
+            </value>
+            <value>
+                <fullName>FreeStyle Libre 3 Sensor</fullName>
+                <default>false</default>
+                <label>FreeStyle Libre 3 Sensor</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

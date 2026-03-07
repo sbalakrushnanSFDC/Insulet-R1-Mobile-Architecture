@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This would include all permission sets which are required for Fields Sales General Manager and Regional Business Director.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Field Sales GM RBD</label>
+    <permissionSets>Field_Sales_Core_Access</permissionSets>
+    <permissionSets>SSO_enabled</permissionSets>
+    <permissionSets>force__HealthCloudFoundation</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

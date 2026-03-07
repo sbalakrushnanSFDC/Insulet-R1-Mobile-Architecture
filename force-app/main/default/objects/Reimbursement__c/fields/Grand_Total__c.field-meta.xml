@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Grand_Total__c</fullName>
+    <description>The final reimbursement amount.</description>
+    <formula>IF(
+    ISPICKVAL(Type__c, &quot;1:1 Patient Training&quot;),
+    Training_Subtotal__c,
+    Hourly_Rate_Subtotal__c 
+) + Parking_Tolls_Other_Subtotal__c + Mileage_Subtotal__c + Pre_Approved_Items_Subtotal__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Grand Total</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

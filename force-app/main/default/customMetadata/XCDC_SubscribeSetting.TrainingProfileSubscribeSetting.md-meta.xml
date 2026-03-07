@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>TrainingProfileSubscribeSetting</label>
+    <protected>false</protected>
+    <values>
+        <field>AllowFieldTruncation__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>ComitTimeTrackingField__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>ContentDocumentLinkMapping__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>DeleteParentFetchRecordField__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Delete_Fetch_Record_Field__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>ExternalIdObjectAPIName__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>FieldMappingProcessor__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>IsBidirectional__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>IsHardDeleteBatchEnabled__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>IsInsertWriteBackAllowed__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>IsRaceWinner__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>IsSyncEnabled__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>Is_DuplicateCheck_Enabled__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>Is_Hard_Delete_Active__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>PicklistValues__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>RaceFields__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>RaceTimeIntervalInSeconds__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>RecordTypeValues__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>SoftDeleteFieldToBeUpdated__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>SourceExternalIdField__c</field>
+        <value xsi:type="xsd:string">XCDC_ExternalId__c</value>
+    </values>
+    <values>
+        <field>SourceRaceTrackingField__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>SourceSobjectApiName__c</field>
+        <value xsi:type="xsd:string">Training_Preferences__c</value>
+    </values>
+    <values>
+        <field>SourceTargetFieldMapping__c</field>
+        <value xsi:type="xsd:string">{
+  &quot;Active__c&quot;: &quot;OrgSync_Active__c,Boolean,null,null,null&quot;,
+  &quot;Id&quot;: &quot;OrgSync_Legacy_Id__c,String,null,null,null&quot;,
+  &quot;Training_Type__c&quot;: &quot;OrgSync_Educator_Type__c,pickList,null,null,null&quot;,
+  &quot;Training_Method__c&quot;: &quot;OrgSync_Training_Method__c,pickList,null,null,null&quot;,
+  &quot;By_Pass_Validation__c&quot;: &quot;OrgSync_By_Pass_Validation__c,Boolean,null,null,null&quot;,
+  &quot;Compatible_CGM_Use_Planned__c&quot;: &quot;OrgSync_Compatible_CGM_Use_Planned__c,Boolean,null,null,null&quot;,
+  &quot;Confirmed_Training_Date__c&quot;: &quot;OrgSync_Confirmed_Training_Date__c,DateTime,null,null,null&quot;,
+  &quot;Consents_to_Virtual_Training__c&quot;: &quot;OrgSync_Consents_to_Virtual_Training__c,Boolean,null,null,null&quot;,
+  &quot;Current_CGM_Brand__c&quot;: &quot;OrgSync_Current_CGM_Brand__c,pickList,null,null,null&quot;,
+  &quot;Current_CGM_Model__c&quot;: &quot;OrgSync_Current_CGM_Model__c,pickList,null,null,null&quot;,
+  &quot;Current_Number_of_DASH_Assets__c&quot;: &quot;OrgSync_Current_Number_of_DASH_Assets__c,Double,null,null,null&quot;,
+  &quot;Current_Therapy_Satisfaction2__c&quot;: &quot;OrgSync_Current_Therapy_Satisfaction2__c,pickList,null,null,null&quot;,
+  &quot;Current_Therapy_Type2__c&quot;: &quot;OrgSync_Current_Therapy_Type2__c,pickList,null,null,null&quot;,
+  &quot;Is_Eligible_for_Self_Guided_Training__c&quot;: &quot;OrgSync_Eligible_Self_Guided_Training__c,Boolean,null,null,null&quot;,
+  &quot;Email_Confirmation_Sent__c&quot;: &quot;OrgSync_Email_Confirmation_Sent__c,Boolean,null,null,null&quot;,
+  &quot;Expected_Training_Date__c&quot;: &quot;OrgSync_Expected_Training_Date__c,DateTime,null,null,null&quot;,
+  &quot;Insulin_Amount_Method2__c&quot;: &quot;OrgSync_Insulin_Amount_Method2__c,pickList,null,null,null&quot;,
+  &quot;Insulin_Pump_Interaction_Frequency2__c&quot;: &quot;OrgSync_Insulin_Pump_Interact_Freq2__c,pickList,null,null,null&quot;,
+  &quot;Last_A1c_Result2__c&quot;: &quot;OrgSync_Last_A1c_Result2__c,pickList,null,null,null&quot;,
+  &quot;Onboarding_Completion_Date__c&quot;: &quot;OrgSync_Onboarding_Completion_Date__c,Date,null,null,null&quot;,
+  &quot;Onboarding_Status__c&quot;: &quot;OrgSync_Onboarding_Status__c,pickList,null,null,null&quot;,
+  &quot;Open_to_Group_Training__c&quot;: &quot;OrgSync_Open_to_Group_Training__c,pickList,null,null,null&quot;,
+  &quot;Operating_System__c&quot;: &quot;OrgSync_Operating_System__c,pickList,null,null,null&quot;,
+  &quot;Opts_out_of_Formal_Training__c&quot;: &quot;OrgSync_Opts_out_of_Formal_Training__c,Boolean,null,null,null&quot;,
+  &quot;Segment__c&quot;: &quot;OrgSync_Segment__c,String,null,null,null&quot;,
+  &quot;Severe_glucose_events_in_last_6_months2__c&quot;: &quot;OrgSync_Severe_Glucose_Events_6mo2__c,pickList,null,null,null&quot;,
+  &quot;Trained_Date__c&quot;: &quot;OrgSync_Trained_Date__c,Date,null,null,null&quot;,
+  &quot;Training_Doc__c&quot;: &quot;OrgSync_Training_Doc__c,String,null,null,null&quot;,
+  &quot;Type_of_Diabetes__c&quot;: &quot;OrgSync_Type_of_Diabetes__c,pickList,null,null,null&quot;,
+  &quot;Type_of_Pump2__c&quot;: &quot;OrgSync_Type_of_Pump2__c,pickList,null,null,null&quot;,
+  &quot;Clinical_Contract_Id__c&quot;: &quot;OrgSync_Clinical_Contract_Id__c,String,null,null,null&quot;,
+  &quot;Current_Therapy_Satisfaction__c&quot;: &quot;OrgSync_Current_Therapy_Satisfaction__c,String,null,null,null&quot;,
+  &quot;Current_Therapy_Type__c&quot;: &quot;OrgSync_Current_Therapy_Type__c,String,null,null,null&quot;,
+  &quot;Insulin_Amount_Method__c&quot;: &quot;OrgSync_Insulin_Amount_Method__c,String,null,null,null&quot;,
+  &quot;Insulin_Pump_Interaction_Frequency__c&quot;: &quot;OrgSync_Insulin_Pump_Interact_Frequency__c,String,null,null,null&quot;,
+  &quot;Last_A1c_Result__c&quot;: &quot;OrgSync_Last_A1c_Result__c,String,null,null,null&quot;,
+  &quot;New_Insulet_Patient__c&quot;: &quot;OrgSync_New_Insulet_Patient__c,Boolean,null,null,null&quot;,
+  &quot;Portal_Screen_View__c&quot;: &quot;OrgSync_Portal_Screen_View__c,String,null,null,null&quot;,
+  &quot;Severe_glucose_events_in_last_6_months__c&quot;: &quot;OrgSync_Severe_Glucose_Events_6mo__c,String,null,null,null&quot;,
+  &quot;Time_Trigger_05__c&quot;: &quot;OrgSync_Time_Trigger_05__c,DateTime,null,null,null&quot;,
+  &quot;Training_Completion_Date__c&quot;: &quot;OrgSync_Training_Completion_Date__c,Date,null,null,null&quot;,
+  &quot;Training_Scheduling_48hrs_Past_Due__c&quot;: &quot;OrgSync_Training_Scheduling_48hr_PastDue__c,Boolean,null,null,null&quot;,
+  &quot;Training_Status__c&quot;: &quot;OrgSync_Training_Status__c,String,null,null,null&quot;,
+  &quot;Type_of_Pump__c&quot;: &quot;OrgSync_Type_of_Pump__c,String,null,null,null&quot;,
+  &quot;Patient__c&quot;: &quot;OrgSync_Account__c,Reference,Account,OrgSync_Account__r,XCDC_ExternalId__c&quot;,
+  &quot;Physician_HCP__c&quot;: &quot;OrgSync_Physician_HCP__c,Reference,Account,OrgSync_Physician_HCP__r,XCDC_ExternalId__c&quot;,
+  &quot;Podder_User__c&quot;: &quot;OrgSync_Podder_User__c,Reference,Account,OrgSync_Podder_User__r,XCDC_ExternalId__c&quot;
+}</value>
+    </values>
+    <values>
+        <field>SourceXreferenceField__c</field>
+        <value xsi:type="xsd:string">XCDC_ParentReferences__c</value>
+    </values>
+    <values>
+        <field>TargetExternalIdField__c</field>
+        <value xsi:type="xsd:string">XCDC_ExternalId__c</value>
+    </values>
+    <values>
+        <field>TargetRaceTrackingField__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>TargetSobjectApiName__c</field>
+        <value xsi:type="xsd:string">OrgSync_Training_Profile_Staging__c</value>
+    </values>
+    <values>
+        <field>XCDC_Connection__c</field>
+        <value xsi:type="xsd:string">ClassicOrg_To_NextGen</value>
+    </values>
+</CustomMetadata>

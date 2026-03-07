@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_On_Hold_Reason</fullName>
+    <active>true</active>
+    <description>Hold Reason is required when Training Stage is On Hold</description>
+    <errorConditionFormula>AND(
+NOT($Permission.Bypass_Validation_Rules),
+RecordType.DeveloperName = &apos;Live_Training&apos;,
+ISPICKVAL(Training_Stage__c, &quot;On Hold&quot;),
+ISBLANK(TEXT(On_Hold_Reason__c ))
+)</errorConditionFormula>
+    <errorDisplayField>On_Hold_Reason__c</errorDisplayField>
+    <errorMessage>Please select On Hold Reason to save the record.</errorMessage>
+</ValidationRule>

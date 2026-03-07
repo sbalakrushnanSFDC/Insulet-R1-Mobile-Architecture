@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OrgSync_Guardian_1_Home_Phone__c</fullName>
+    <complianceGroup>PII;HIPAA</complianceGroup>
+    <description>Used in GSK integration.</description>
+    <encryptionScheme>CaseInsensitiveDeterministicEncryption</encryptionScheme>
+    <inlineHelpText>Primary parent/guardian&apos;s home phone number.</inlineHelpText>
+    <label>Guardian 1 Home Phone</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Phone</type>
+</CustomField>

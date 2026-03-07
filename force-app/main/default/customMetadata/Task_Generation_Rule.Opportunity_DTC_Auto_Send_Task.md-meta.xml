@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Opportunity DTC Auto Send Task</label>
+    <protected>false</protected>
+    <values>
+        <field>Active__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>Category__c</field>
+        <value xsi:type="xsd:string">Patient Outreach</value>
+    </values>
+    <values>
+        <field>Condition_Formula__c</field>
+        <value xsi:type="xsd:string">NOT(ISPICKVAL(LeadSource,&apos;ASPN&apos;))</value>
+    </values>
+    <values>
+        <field>Due_Date_Offset__c</field>
+        <value xsi:type="xsd:double">2.0</value>
+    </values>
+    <values>
+        <field>Object_Name__c</field>
+        <value xsi:type="xsd:string">Opportunity</value>
+    </values>
+    <values>
+        <field>Owner_Type__c</field>
+        <value xsi:type="xsd:string">DTC_Lead_Generation</value>
+    </values>
+    <values>
+        <field>Sub_Category__c</field>
+        <value xsi:type="xsd:string">DTC Auto Send</value>
+    </values>
+    <values>
+        <field>Subject__c</field>
+        <value xsi:type="xsd:string">Patient Outreach</value>
+    </values>
+    <values>
+        <field>Trigger_Event__c</field>
+        <value xsi:type="xsd:string">INSERT</value>
+    </values>
+</CustomMetadata>

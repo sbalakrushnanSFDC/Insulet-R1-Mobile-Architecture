@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>OrgSync_Training_Staging__c</label>
+    <protected>false</protected>
+    <values>
+        <field>Allow_Filtered_Stream__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>CrossObjectProcessor__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>ExternalIdFieldAPIName__c</field>
+        <value xsi:type="xsd:string">XCDC_ExternalId__c</value>
+    </values>
+    <values>
+        <field>ExternalIdObjectAPIName__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>FilterRuleCriteria__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Force_Sync_PeakLoad__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Generate_ExternalId__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>IsStateGenerationEnabled__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>LastModTimeRaceField__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>OriginSourceOrg__c</field>
+        <value xsi:type="xsd:string">NextGenOrg</value>
+    </values>
+    <values>
+        <field>PublishFieldList__c</field>
+        <value xsi:type="xsd:string">Id,OrgSync_Account__c,OrgSync_Last_Trainer_Notification__c,OrgSync_Follow_Up_Training_Date__c,OrgSync_Automated_Mode__c,OrgSync_Completion_Date__c,OrgSync_Consents_To_Virtual_Training__c,OrgSync_CPT_Usage_Reason__c,OrgSync_CSM__c,OrgSync_Current_CGM_Brand__c,OrgSync_Current_CGM_Model__c,OrgSync_Current_Therapy_Satisfaction__c,OrgSync_Current_Therapy_Type__c,OrgSync_Decline_Comments__c,OrgSync_Decline_Reason__c,OrgSync_Educator_Type__c,OrgSync_External_Trainer__c,OrgSync_Insulin_Amount_Method__c,OrgSync_Insulin_Pump_Interaction_Frequen__c,OrgSync_Internal_Trainer__c,OrgSync_Last_A1c_Result__c,OrgSync_Not_Trained_Comments__c,OrgSync_Not_Trained_Reason__c,OrgSync_Open_to_Group_Training__c,OrgSync_Operating_System__c,OrgSync_Legacy_Id__c,OrgSync_Other_CPT_Usage_Reason__c,OrgSync_Practice__c,OrgSync_Preferred_Day_Option_1__c,OrgSync_Preferred_Day_Option_2__c,OrgSync_Preferred_Day_Option_3__c,OrgSync_Preferred_Timing_Option_1__c,OrgSync_Preferred_Timing_Option_2__c,OrgSync_Preferred_Timing_Option_3__c,OrgSync_Product__c,OrgSync_Saline_Insulin_Start_Date__c,OrgSync_Severe_glucose_events_in_last_6__c,OrgSync_Trainer__c,OrgSync_TrainerNote__c,OrgSync_Training_Language__c,OrgSync_Training_Method__c,OrgSync_Training_Scheduled_Date__c,OrgSync_Training_Stage__c,OrgSync_Training_Time_Zone__c,OrgSync_Training_Type__c,OrgSync_Training_Type2__c,OrgSync_Type_of_Diabetes__c,OrgSync_Type_of_Pump__c,OrgSync_Pre_Pod_Training_Date__c, OrgSync_Pay_Date__c,RecordTypeId</value>
+    </values>
+    <values>
+        <field>RaceFieldList__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>SparkType__c</field>
+        <value xsi:type="xsd:string">true</value>
+    </values>
+    <values>
+        <field>StateFieldAPIName__c</field>
+        <value xsi:type="xsd:string">XCDC_StateField__c</value>
+    </values>
+    <values>
+        <field>StateFieldList__c</field>
+        <value xsi:type="xsd:string">XCDC_ParentReferences__c,RecordTypeId</value>
+    </values>
+    <values>
+        <field>Stream_Index_Field__c</field>
+        <value xsi:type="xsd:string">XCDC_Stream_Index__c</value>
+    </values>
+</CustomMetadata>

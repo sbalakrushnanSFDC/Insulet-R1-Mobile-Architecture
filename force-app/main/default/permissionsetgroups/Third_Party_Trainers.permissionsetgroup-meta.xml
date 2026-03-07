@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Contains a collection of permission sets for 3PT sub-persona users.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>3rd Party Trainers</label>
+    <permissionSets>APXTConga4__Composer_Salesforce_Community_User</permissionSets>
+    <permissionSets>External_Trainers</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>PatientSubscribeSetting</label>
+    <protected>false</protected>
+    <values>
+        <field>AllowFieldTruncation__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>ComitTimeTrackingField__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>ContentDocumentLinkMapping__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>DeleteParentFetchRecordField__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Delete_Fetch_Record_Field__c</field>
+        <value xsi:type="xsd:string">XCDC_ExternalId__c</value>
+    </values>
+    <values>
+        <field>ExternalIdObjectAPIName__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>FieldMappingProcessor__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>IsBidirectional__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>IsHardDeleteBatchEnabled__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>IsInsertWriteBackAllowed__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>IsRaceWinner__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>IsSyncEnabled__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>Is_DuplicateCheck_Enabled__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>Is_Hard_Delete_Active__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>PicklistValues__c</field>
+        <value xsi:type="xsd:string">{
+&quot;Sensor_CGM_Continuous_Glucose_Monitor__c&quot; : {
+&quot;Dexcom G6&quot; : &quot;Dexcom G6&quot;,
+&quot;Dexcom G7&quot; : &quot;Dexcom G7&quot;,
+&quot;Abbott Freestyle Libre 2&quot; : &quot;Freestyle Libre 2&quot;,
+&quot;Abbott Freestyle Libre 2 Plus&quot; : &quot;Freestyle Libre 2 Plus&quot;,
+&quot;Abbott Freestyle Libre 3&quot; : &quot;Freestyle Libre 3&quot;
+}
+}</value>
+    </values>
+    <values>
+        <field>RaceFields__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>RaceTimeIntervalInSeconds__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>RecordTypeValues__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>SoftDeleteFieldToBeUpdated__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>SourceExternalIdField__c</field>
+        <value xsi:type="xsd:string">XCDC_ExternalId__c</value>
+    </values>
+    <values>
+        <field>SourceRaceTrackingField__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>SourceSobjectApiName__c</field>
+        <value xsi:type="xsd:string">Patient__c</value>
+    </values>
+    <values>
+        <field>SourceTargetFieldMapping__c</field>
+        <value xsi:type="xsd:string">{
+    &quot;Id&quot; : &quot;OrgSync_Legacy_Id__c,String,null,null,null&quot;,
+    &quot;Actual_Testing_Timeframe__c&quot;: &quot;OrgSync_Insurance_Type__c,pickList,null,null,null&quot;,
+    &quot;AXID__c&quot;: &quot;OrgSync_ERP_Identifier__c,String,null,null,null&quot;,
+    &quot;Birthdate__c&quot;: &quot;OrgSync_Date_of_Birth__c,Date,null,null,null&quot;,
+    &quot;Current_diabetes_treatment__c&quot;: &quot;OrgSync_Current_Therapy__c,pickList,null,null,null&quot;,
+    &quot;Name&quot;: &quot;Name,String,null,null,null&quot;,
+    &quot;First_Name__c&quot;: &quot;OrgSync_FirstName__c,String,null,null,null&quot;,
+    &quot;Last_Name__c&quot;: &quot;OrgSync_LastName__c,String,null,null,null&quot;,
+    &quot;Gender__c&quot;: &quot;OrgSync_PersonGenderIdentity__c,pickList,null,null,null&quot;,
+    &quot;Sensor_CGM_Continuous_Glucose_Monitor__c&quot;: &quot;OrgSync_Sensor_Continuous_GlucoseMonitor__c,pickList,null,null,null&quot;,
+    &quot;Parent_Guardian_1_Name__c&quot;: &quot;OrgSync_Guardian_1_Name__c,String,null,null,null&quot;,
+    &quot;Parent_Guardian_1_First_Name__c&quot;: &quot;OrgSync_Guardian_1_First_Name__c,String,null,null,null&quot;,
+    &quot;Parent_Guardian_1_Last_Name__c&quot;: &quot;OrgSync_Guardian_1_Last_Name__c,String,null,null,null&quot;,
+    &quot;Parent_Guardian_1_Email__c&quot;: &quot;OrgSync_Guardian_1_Email__c,String,null,null,null&quot;,
+    &quot;Parent_Guardian_1_Home_Phone__c&quot;: &quot;OrgSync_Guardian_1_Home_Phone__c,String,null,null,null&quot;,
+    &quot;Parent_Guardian_1_Cell_Phone__c&quot;: &quot;OrgSync_Guardian_1_Mobile_Phone__c,String,null,null,null&quot;,
+    &quot;Parent_Guardian_1_Work_Phone__c&quot;: &quot;OrgSync_Guardian_1_Work_Phone__c,String,null,null,null&quot;,
+    &quot;Parent_Guardian_2_Name__c&quot;: &quot;OrgSync_Guardian_2_Name__c,String,null,null,null&quot;,
+    &quot;Parent_Guardian_2_First_Name__c&quot;: &quot;OrgSync_Guardian_2_First_Name__c,String,null,null,null&quot;,
+    &quot;Parent_Guardian_2_Last_Name__c&quot;: &quot;OrgSync_Guardian_2_Last_Name__c,String,null,null,null&quot;,
+    &quot;Parent_Guardian_2_Email__c&quot;: &quot;OrgSync_Guardian_2_Email__c,String,null,null,null&quot;,
+    &quot;Parent_Guardian_2_Home_Phone__c&quot;: &quot;OrgSync_Guardian_2_Home_Phone__c,String,null,null,null&quot;,
+    &quot;Parent_Guardian_2_Cell_Phone__c&quot;: &quot;OrgSync_Guardian_2_Mobile_Phone__c,String,null,null,null&quot;,
+    &quot;Parent_Guardian_2_Work_Phone__c&quot;: &quot;OrgSync_Guardian_2_Work_Phone__c,String,null,null,null&quot;,
+    &quot;Ship_to_Street__c&quot;: &quot;OrgSync_Shipping_Address__Street__s,TextArea,null,null,null&quot;,
+    &quot;Ship_to_City__c&quot;: &quot;OrgSync_Shipping_Address__City__s,String,null,null,null&quot;,
+    &quot;Ship_to_Zip_Code__c&quot;: &quot;OrgSync_Shipping_Address__PostalCode__s,String,null,null,null&quot;,
+    &quot;Ship_to_State__c&quot;: &quot;OrgSync_Shipping_Address__StateCode__s,String,null,null,null&quot;,
+    &quot;Street__c&quot;: &quot;OrgSync_Billing_Address__Street__s,TextArea,null,null,null&quot;,
+    &quot;City__c&quot;: &quot;OrgSync_Billing_Address__City__s,String,null,null,null&quot;,
+    &quot;Zip_Code__c&quot;: &quot;OrgSync_Billing_Address__PostalCode__s,String,null,null,null&quot;,
+    &quot;State__c&quot;: &quot;OrgSync_Billing_Address__StateCode__s,String,null,null,null&quot;,
+    &quot;Email__c&quot;: &quot;OrgSync_Email_1__c,String,null,null,null&quot;,
+    &quot;Email_2__c&quot;: &quot;OrgSync_Email_2__c,String,null,null,null&quot;,
+    &quot;Preferred_Phone_Number__c&quot;:&quot;OrgSync_Preferred_Phone_Number__c,pickList,null,null,null&quot;,
+    &quot;Home_Phone__c&quot;: &quot;OrgSync_Home_Phone__c,String,null,null,null&quot;,
+    &quot;Work_Phone__c&quot;: &quot;OrgSync_Work_Phone__c,String,null,null,null&quot;,
+    &quot;Cellular_Phone__c&quot;: &quot;OrgSync_Mobile_Phone__c,String,null,null,null&quot;,
+    &quot;Customer_ID__c&quot;: &quot;OrgSync_CustomerId__c,String,null,null,null&quot;,
+    &quot;PracticeId&quot; :&quot;OrgSync_Practice__c,Reference,Account,OrgSync_Practice__r,XCDC_ExternalId__c&quot;,
+    &quot;Fax__c&quot; : &quot;OrgSync_Fax__c,String,null,null,null&quot;,
+    &quot;Preferred_Language__c&quot; : &quot;OrgSync_Preferred_Language__c,pickList,null,null,null&quot;,
+    &quot;Phone__c&quot; : &quot;OrgSync_Phone__c,String,null,null,null&quot;,
+    &quot;ProviderId&quot; : &quot;OrgSync_Provider__c,Reference,OrgSync_Physician_Staging__c,OrgSync_Provider__r,XCDC_ExternalId__c&quot;
+}</value>
+    </values>
+    <values>
+        <field>SourceXreferenceField__c</field>
+        <value xsi:type="xsd:string">XCDC_ParentReferences__c</value>
+    </values>
+    <values>
+        <field>TargetExternalIdField__c</field>
+        <value xsi:type="xsd:string">XCDC_ExternalId__c</value>
+    </values>
+    <values>
+        <field>TargetRaceTrackingField__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>TargetSobjectApiName__c</field>
+        <value xsi:type="xsd:string">OrgSync_Patient_Staging__c</value>
+    </values>
+    <values>
+        <field>XCDC_Connection__c</field>
+        <value xsi:type="xsd:string">ClassicOrg_To_NextGen</value>
+    </values>
+</CustomMetadata>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Lead</entityName>
+    <fieldName>Status</fieldName>
+    <masterLabel>Patient Lead Path</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>Closed_Lost_Reasons__c</fieldNames>
+        <picklistValueName>Lost</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>Patient</recordTypeName>
+</PathAssistant>

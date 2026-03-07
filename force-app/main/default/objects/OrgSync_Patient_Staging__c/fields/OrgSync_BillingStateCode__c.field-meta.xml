@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OrgSync_BillingStateCode__c</fullName>
+    <description>This field is created to resolve issue of CountryCode_StateCode in cdc</description>
+    <externalId>false</externalId>
+    <formula>TEXT(OrgSync_Billing_Address__StateCode__s)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>BillingStateCode</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomPermission xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>To bypass the validation rule that prevent update of Legal Guardian and Capture Date on Contact Point Type Consent Object</description>
+    <isLicensed>false</isLicensed>
+    <label>By Pass Transactional Consent Update</label>
+</CustomPermission>

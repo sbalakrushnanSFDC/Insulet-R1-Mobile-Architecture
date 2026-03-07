@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Discover_Clinics</fullName>
+    <columns>NAME</columns>
+    <columns>ClinicGroupingStatus__c</columns>
+    <columns>Clinic_Grouping__c</columns>
+    <columns>Patient_Sharing_Status__c</columns>
+    <columns>Patient__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <label>Discover Clinics</label>
+    <sharedTo>
+        <role>Clinical_Services_Manager</role>
+        <role>Fields_Sales_TM_DSM</role>
+    </sharedTo>
+</ListView>

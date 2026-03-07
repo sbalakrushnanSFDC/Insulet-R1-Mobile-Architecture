@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Pod_Communication__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>No Pod Communication</description>
+    <inlineHelpText>Diagnose and resolve communication issues.</inlineHelpText>
+    <label>No Pod Communication</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Scheduled_Trainings</fullName>
+    <columns>NAME</columns>
+    <columns>Account__c</columns>
+    <columns>Training_Scheduled_Date__c</columns>
+    <columns>Physician__c</columns>
+    <columns>Practice__c</columns>
+    <columns>CSM__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Training_Stage__c</field>
+        <operation>equals</operation>
+        <value>Scheduled</value>
+    </filters>
+    <filters>
+        <field>isRunningUserATrainer__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>External_Trainer__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>My Scheduled Trainings</label>
+    <sharedTo>
+        <allCustomerPortalUsers></allCustomerPortalUsers>
+        <role>Clinical_Services_Manager</role>
+        <role>Clinical_Training_Specialist</role>
+    </sharedTo>
+</ListView>

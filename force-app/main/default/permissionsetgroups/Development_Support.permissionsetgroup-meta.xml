@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Internal IT team persona who helps debug, customize, review logs</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Development Support</label>
+    <permissionSets>Development_Support_Core_Access</permissionSets>
+    <permissionSets>IT_Modify_all</permissionSets>
+    <permissionSets>SSO_enabled</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

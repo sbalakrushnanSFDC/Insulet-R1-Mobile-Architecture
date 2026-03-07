@@ -1,0 +1,72 @@
+:root {
+    --insulet-btn-primary-bg-color: rgb(59, 0, 136);
+    --insulet-btn-primary-font-color: #FFFFFF;
+    --insulet-btn-secondary-font-color: rgb(59, 0, 136);
+    --insulet-btn-secondary-bg-color: #FFFFFF;
+    --insulet-btn-border-color: rgb(59, 0, 136);
+    --insulet-btn-padding: 1px 16px;
+    --insulet-btn-border-radius: 25px;
+    --insulet-btn-font-size: 14px;
+}
+
+.insulet-btn_primary {
+    background-color: var(--insulet-btn-primary-bg-color) !important;
+    color: var(--insulet-btn-primary-font-color) !important;
+    border-radius: var(--insulet-btn-border-radius) !important;
+    font-size: var(--insulet-btn-font-size) !important;
+    padding: var(--insulet-btn-padding) !important;
+    align-content: center;
+    border: 1px solid var(--insulet-btn-border-color) !important;
+}
+
+.insulet-btn_secondary {
+    background-color: var(--insulet-btn-secondary-bg-color) !important;
+    color: var(--insulet-btn-secondary-font-color) !important;
+    border-radius: var(--insulet-btn-border-radius) !important;
+    font-size: var(--insulet-btn-font-size) !important;
+    padding: var(--insulet-btn-padding) !important;
+    align-content: center;
+    border: 1px solid var(--insulet-btn-border-color) !important;
+}
+
+.file-upload-cmp .slds-form-element__label {
+    display: none;
+}
+.custom_btn .slds-button_success {
+    background-color: var(--insulet-btn-primary-bg-color) !important;
+    color: var(--insulet-btn-primary-font-color) !important;
+    border-radius: var(--insulet-btn-border-radius) !important;
+    font-size: var(--insulet-btn-font-size) !important;
+    padding: var(--insulet-btn-padding) !important;
+    align-content: center;
+    border: 1px solid var(--insulet-btn-border-color) !important;
+}
+
+.signed-stage.slds-timeline__item_expandable:before {
+    background-color: #2e844a !important;
+    left: 2.65rem !important;
+  }
+  
+  .declined-stage.slds-timeline__item_expandable:before {
+    background-color: #d83b3b !important;
+    left: 2.65rem !important;
+  }
+  
+  .sent-stage.slds-timeline__item_expandable:before {
+    background-color: #f3c14b !important;
+    left: 2.65rem !important;
+  }
+  
+  .void-stage.slds-timeline__item_expandable:before {
+    left: 2.65rem !important;
+}
+
+.cell-error .slds-icon-text-default {
+    fill: #d83b3b !important;
+    --slds-c-icon-color-foreground: #d83b3b !important;
+}
+
+.cell-warning .slds-icon-text-default {
+    fill: #f3a231 !important;
+    --slds-c-icon-color-foreground: #f3a231 !important;
+}

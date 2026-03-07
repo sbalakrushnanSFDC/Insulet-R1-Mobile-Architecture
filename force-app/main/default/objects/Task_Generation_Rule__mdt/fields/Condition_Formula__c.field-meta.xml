@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Condition_Formula__c</fullName>
+    <description>FormulaEval expression defining when a task should be created.</description>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Enter a Salesforce formula expression (e.g., AND(ISPICKVAL(Status,&apos;New&apos;), Rating__c &gt; 3)). Use standard formula functions like AND, OR, ISPICKVAL, ISBLANK. The formula evaluates against the triggering record.</inlineHelpText>
+    <label>Condition Formula</label>
+    <length>32768</length>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

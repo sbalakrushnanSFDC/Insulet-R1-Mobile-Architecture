@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OrgSync_CPT_Usage_Reason__c</fullName>
+    <label>CPT Usage Reason</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>HCP Choice</fullName>
+                <default>false</default>
+                <label>HCP Choice</label>
+            </value>
+            <value>
+                <fullName>CSM on ETO</fullName>
+                <default>false</default>
+                <label>CSM on ETO</label>
+            </value>
+            <value>
+                <fullName>CSM on LOA/Empty Territory</fullName>
+                <default>false</default>
+                <label>CSM on LOA/Empty Territory</label>
+            </value>
+            <value>
+                <fullName>CSM Schedule/ROI Conflict</fullName>
+                <default>false</default>
+                <label>CSM Schedule/ROI Conflict</label>
+            </value>
+            <value>
+                <fullName>Patient Request - Conflict</fullName>
+                <default>false</default>
+                <label>Patient Request - Conflict</label>
+            </value>
+            <value>
+                <fullName>Patient not in CSM Territory</fullName>
+                <default>false</default>
+                <label>Patient not in CSM Territory</label>
+            </value>
+            <value>
+                <fullName>Other Language Needed</fullName>
+                <default>false</default>
+                <label>Other Language Needed</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

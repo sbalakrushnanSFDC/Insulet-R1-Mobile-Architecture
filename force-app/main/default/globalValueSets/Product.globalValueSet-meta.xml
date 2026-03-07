@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>DASH</fullName>
+        <default>false</default>
+        <label>DASH</label>
+    </customValue>
+    <customValue>
+        <fullName>Omnipod 5</fullName>
+        <default>false</default>
+        <label>Omnipod 5</label>
+    </customValue>
+    <customValue>
+        <fullName>Omnipod 5 Dexcom</fullName>
+        <default>false</default>
+        <label>Omnipod 5 Dexcom</label>
+    </customValue>
+    <customValue>
+        <fullName>Omnipod 5 Libre</fullName>
+        <default>false</default>
+        <label>Omnipod 5 Libre</label>
+    </customValue>
+    <customValue>
+        <fullName>OP5+G6</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OP5+G6</label>
+    </customValue>
+    <customValue>
+        <fullName>Discover</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Discover</label>
+    </customValue>
+    <customValue>
+        <fullName>OP5+G7</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OP5+G7</label>
+    </customValue>
+    <customValue>
+        <fullName>OP5 + Libre 2+</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>OP5 + Libre 2+</label>
+    </customValue>
+    <customValue>
+        <fullName>DASH POD</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>DASH POD</label>
+    </customValue>
+    <description>This is a master list of all Insulet Products. These are used in multiple objects and their visibility is controlled via record types.</description>
+    <masterLabel>Master Product List</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

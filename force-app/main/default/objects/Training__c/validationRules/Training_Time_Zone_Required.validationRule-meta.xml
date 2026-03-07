@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Training_Time_Zone_Required</fullName>
+    <active>true</active>
+    <description>Time Zone can not be blank when Training Stage is scheduled.</description>
+    <errorConditionFormula>AND(
+    NOT($Permission.Bypass_Validation_Rules),
+    RecordType.DeveloperName = &apos;Live_Training&apos;,
+    ISPICKVAL(Training_Stage__c, &quot;Scheduled&quot;),
+    ISBLANK(TEXT(Training_Time_Zone__c))
+)</errorConditionFormula>
+    <errorDisplayField>Training_Time_Zone__c</errorDisplayField>
+    <errorMessage>Time Zone can not be blank when Training Stage is scheduled.</errorMessage>
+</ValidationRule>

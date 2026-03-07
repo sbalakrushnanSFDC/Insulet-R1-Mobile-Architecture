@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>isRunningUserATrainer__c</fullName>
+    <description>Indicates whether the logged-in user is a Trainer (Internal or External).</description>
+    <formula>($User.ContactId != null &amp;&amp;  External_Trainer__c != null &amp;&amp; $User.ContactId == External_Trainer__r.PersonContactId) || (Internal_Trainer__c != null &amp;&amp;  $User.Id ==  Internal_Trainer__r.Id)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>isRunningUserATrainer</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

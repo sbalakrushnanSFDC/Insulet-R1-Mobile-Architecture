@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>PracticeSubscribeSetting</label>
+    <protected>false</protected>
+    <values>
+        <field>AllowFieldTruncation__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>ComitTimeTrackingField__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>ContentDocumentLinkMapping__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>DeleteParentFetchRecordField__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Delete_Fetch_Record_Field__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>ExternalIdObjectAPIName__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>FieldMappingProcessor__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>IsBidirectional__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>IsHardDeleteBatchEnabled__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>IsInsertWriteBackAllowed__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>IsRaceWinner__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>IsSyncEnabled__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>Is_DuplicateCheck_Enabled__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>Is_Hard_Delete_Active__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>PicklistValues__c</field>
+        <value xsi:type="xsd:string">{ }</value>
+    </values>
+    <values>
+        <field>RaceFields__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>RaceTimeIntervalInSeconds__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>RecordTypeValues__c</field>
+        <value xsi:type="xsd:string">{
+  &quot;01250000000HfxJAAS&quot; : &quot;012QO000002tZK9YAM&quot;
+}</value>
+    </values>
+    <values>
+        <field>SoftDeleteFieldToBeUpdated__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>SourceExternalIdField__c</field>
+        <value xsi:type="xsd:string">XCDC_ExternalId__c</value>
+    </values>
+    <values>
+        <field>SourceRaceTrackingField__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>SourceSobjectApiName__c</field>
+        <value xsi:type="xsd:string">Account</value>
+    </values>
+    <values>
+        <field>SourceTargetFieldMapping__c</field>
+        <value xsi:type="xsd:string">{
+  &quot;Id&quot; : &quot;Legacy_Id__c,String,null,null,null&quot;,
+  &quot;Name&quot; : &quot;Name,String,null,null,null&quot;,
+  &quot;Type&quot; : &quot;Type,pickList,null,null,null&quot;,
+  &quot;RecordTypeId&quot; : &quot;RecordTypeId,RecordType,null,null,null&quot;,
+  &quot;ParentPracticeId&quot; : &quot;ParentId,Reference,Account,Parent,XCDC_ExternalId__c&quot;,
+  &quot;BillingAddress&quot; : &quot;BillingAddress,Composite,null,null,null&quot;,
+  &quot;BillingAddress.Street&quot; : &quot;BillingStreet,TextArea,null,null,null&quot;,
+  &quot;BillingAddress.City&quot; : &quot;BillingCity,String,null,null,null&quot;,
+  &quot;BillingAddress.State&quot; : &quot;BillingStateCode,String,null,null,null&quot;,
+  &quot;BillingAddress.PostalCode&quot; : &quot;BillingPostalCode,String,null,null,null&quot;,
+  &quot;BillingAddress.Country&quot; : &quot;BillingCountry,String,null,null,null&quot;,
+  &quot;ShippingAddress&quot; : &quot;ShippingAddress,Composite,null,null,null&quot;,
+  &quot;ShippingAddress.Street&quot; : &quot;ShippingStreet,TextArea,null,null,null&quot;,
+  &quot;ShippingAddress.City&quot; : &quot;ShippingCity,String,null,null,null&quot;,
+  &quot;ShippingAddress.State&quot; : &quot;ShippingStateCode,String,null,null,null&quot;,
+  &quot;ShippingAddress.PostalCode&quot; : &quot;ShippingPostalCode,String,null,null,null&quot;,
+  &quot;ShippingAddress.Country&quot; : &quot;ShippingCountry,String,null,null,null&quot;,
+  &quot;Phone&quot; : &quot;Phone,String,null,null,null&quot;,
+  &quot;Fax&quot; : &quot;Fax,String,null,null,null&quot;,
+  &quot;AccountNumber&quot; : &quot;AccountNumber,String,null,null,null&quot;,
+  &quot;Website&quot; : &quot;Website,String,null,null,null&quot;,
+  &quot;Sic&quot; : &quot;Sic,String,null,null,null&quot;,
+  &quot;Industry&quot; : &quot;Industry,pickList,null,null,null&quot;,
+  &quot;Ownership&quot; : &quot;Ownership,pickList,null,null,null&quot;,
+  &quot;Rating&quot; : &quot;Rating,pickList,null,null,null&quot;,
+  &quot;Site&quot; : &quot;Site,String,null,null,null&quot;,
+  &quot;IsActive&quot; : &quot;IsActive,Boolean,null,null,null&quot;,
+  &quot;IsCustomerPortal&quot; : &quot;IsCustomerPortal,Boolean,null,null,null&quot;,
+  &quot;ERP_Identifier__c&quot; : &quot;ERP_Identifier__c,String,null,null,null&quot;,
+  &quot;Description&quot; : &quot;Description,TextArea,null,null,null&quot;,
+  &quot;Practice_Specialty__c&quot; : &quot;Specialty__c,pickList,null,null,null&quot;,
+  &quot;Contract_Expiration_Date__c&quot; : &quot;Contract_Expiration_Date__c,Date,null,null,null&quot;
+}</value>
+    </values>
+    <values>
+        <field>SourceXreferenceField__c</field>
+        <value xsi:type="xsd:string">XCDC_ParentReferences__c</value>
+    </values>
+    <values>
+        <field>TargetExternalIdField__c</field>
+        <value xsi:type="xsd:string">XCDC_ExternalId__c</value>
+    </values>
+    <values>
+        <field>TargetRaceTrackingField__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>TargetSobjectApiName__c</field>
+        <value xsi:type="xsd:string">Account</value>
+    </values>
+    <values>
+        <field>XCDC_Connection__c</field>
+        <value xsi:type="xsd:string">ClassicOrg_To_NextGen</value>
+    </values>
+</CustomMetadata>

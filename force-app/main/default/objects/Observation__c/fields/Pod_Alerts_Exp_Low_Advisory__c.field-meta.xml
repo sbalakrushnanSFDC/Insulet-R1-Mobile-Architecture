@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pod_Alerts_Exp_Low_Advisory__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Alerts: Pod exp, low pod, advisory</description>
+    <inlineHelpText>Non-hazard alerts and recommended actions.</inlineHelpText>
+    <label>Pod Alerts (Exp/Low/Advisory)</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OrgSync_Not_Trained_Reason__c</fullName>
+    <complianceGroup>PII;HIPAA</complianceGroup>
+    <label>Not Trained Reason</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Written or verbal refusal</fullName>
+                <default>false</default>
+                <label>Written or verbal refusal</label>
+            </value>
+            <value>
+                <fullName>Written or verbal notification of self-start</fullName>
+                <default>false</default>
+                <label>Written or verbal notification of self-start</label>
+            </value>
+            <value>
+                <fullName>Unable to contact (3 attempts)</fullName>
+                <default>false</default>
+                <label>Unable to contact (3 attempts)</label>
+            </value>
+            <value>
+                <fullName>Previously on Product</fullName>
+                <default>false</default>
+                <label>Previously on Product</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Self Guided</fullName>
+                <default>false</default>
+                <label>Self Guided</label>
+            </value>
+            <value>
+                <fullName>Self Started with Phone Support</fullName>
+                <default>false</default>
+                <label>Self Started with Phone Support</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

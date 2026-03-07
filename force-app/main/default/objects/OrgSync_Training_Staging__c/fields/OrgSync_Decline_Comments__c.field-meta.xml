@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OrgSync_Decline_Comments__c</fullName>
+    <complianceGroup>PII;HIPAA</complianceGroup>
+    <description>Used to store Explanation field value from Classic</description>
+    <encryptionScheme>CaseSensitiveDeterministicEncryption</encryptionScheme>
+    <label>Decline Comments</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

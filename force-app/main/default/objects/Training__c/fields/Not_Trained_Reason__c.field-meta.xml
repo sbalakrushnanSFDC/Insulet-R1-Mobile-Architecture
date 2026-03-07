@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Not_Trained_Reason__c</fullName>
+    <description>Captures the reason for setting the Training&apos;s Stage to Not trained.</description>
+    <label>Not Trained Reason</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Compatibility/supply issue</fullName>
+                <default>false</default>
+                <label>Compatibility/supply issue</label>
+            </value>
+            <value>
+                <fullName>Insurance/cost concern</fullName>
+                <default>false</default>
+                <label>Insurance/cost concern</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Patient deceased</fullName>
+                <default>false</default>
+                <label>Patient deceased</label>
+            </value>
+            <value>
+                <fullName>Patient decided on different therapy</fullName>
+                <default>false</default>
+                <label>Patient decided on different therapy</label>
+            </value>
+            <value>
+                <fullName>Patient health status change</fullName>
+                <default>false</default>
+                <label>Patient health status change</label>
+            </value>
+            <value>
+                <fullName>Patient non-responsive</fullName>
+                <default>false</default>
+                <label>Patient non-responsive</label>
+            </value>
+            <value>
+                <fullName>Patient no-show</fullName>
+                <default>false</default>
+                <label>Patient no-show</label>
+            </value>
+            <value>
+                <fullName>Patient refused</fullName>
+                <default>false</default>
+                <label>Patient refused</label>
+            </value>
+            <value>
+                <fullName>PTOF not obtained/PCP refusal</fullName>
+                <default>false</default>
+                <label>PTOF not obtained/PCP refusal</label>
+            </value>
+            <value>
+                <fullName>Self Started</fullName>
+                <default>false</default>
+                <label>Self Started</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

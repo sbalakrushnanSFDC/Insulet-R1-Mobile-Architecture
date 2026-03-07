@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rejection_Reason__c</fullName>
+    <description>Captures the reason for rejecting the reimbursement request, providing clarity to the requester and supporting audit and review purposes.</description>
+    <label>Rejection Reason</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Missing/Incomplete training forms</fullName>
+                <default>false</default>
+                <label>Missing/Incomplete training forms</label>
+            </value>
+            <value>
+                <fullName>Missing/Incomplete expense forms</fullName>
+                <default>false</default>
+                <label>Missing/Incomplete expense forms</label>
+            </value>
+            <value>
+                <fullName>Reimbursement submitted after 30 days of Training complete</fullName>
+                <default>false</default>
+                <label>Reimbursement submitted after 30 days of Training complete</label>
+            </value>
+            <value>
+                <fullName>Contract/Certification expired</fullName>
+                <default>false</default>
+                <label>Contract/Certification expired</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

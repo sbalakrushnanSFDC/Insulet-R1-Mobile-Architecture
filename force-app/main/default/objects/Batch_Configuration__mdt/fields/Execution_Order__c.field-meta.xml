@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Execution_Order__c</fullName>
+    <description>Used when multiple batches need to run in a specific sequence. Lower numbers execute first.</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Optional. Specify execution order when chaining multiple batches (1, 2, 3, etc.). Leave blank if order doesn&apos;t matter.</inlineHelpText>
+    <label>Execution Order</label>
+    <precision>3</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

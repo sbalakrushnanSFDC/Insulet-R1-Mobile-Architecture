@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>In Process - ASPN Second Attempt Complet</label>
+    <protected>false</protected>
+    <values>
+        <field>Status__c</field>
+        <value xsi:type="xsd:string">In Process - ASPN</value>
+    </values>
+    <values>
+        <field>Substatus__c</field>
+        <value xsi:type="xsd:string">Second Attempt Completed - Schedule Delivery Manual State Call</value>
+    </values>
+</CustomMetadata>

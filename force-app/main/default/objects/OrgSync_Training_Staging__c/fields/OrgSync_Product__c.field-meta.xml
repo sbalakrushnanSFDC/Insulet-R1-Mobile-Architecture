@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OrgSync_Product__c</fullName>
+    <label>Product</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>UST400</fullName>
+                <default>false</default>
+                <label>UST400</label>
+            </value>
+            <value>
+                <fullName>UST200</fullName>
+                <default>false</default>
+                <label>UST200</label>
+            </value>
+            <value>
+                <fullName>DASH</fullName>
+                <default>false</default>
+                <label>DASH</label>
+            </value>
+            <value>
+                <fullName>ALL</fullName>
+                <default>false</default>
+                <label>ALL</label>
+            </value>
+            <value>
+                <fullName>CAT35E</fullName>
+                <default>false</default>
+                <label>CAT35E</label>
+            </value>
+            <value>
+                <fullName>CAT35F</fullName>
+                <default>false</default>
+                <label>CAT35F</label>
+            </value>
+            <value>
+                <fullName>CAT45E</fullName>
+                <default>false</default>
+                <label>CAT45E</label>
+            </value>
+            <value>
+                <fullName>CAT45F</fullName>
+                <default>false</default>
+                <label>CAT45F</label>
+            </value>
+            <value>
+                <fullName>OP5</fullName>
+                <default>false</default>
+                <label>OP5</label>
+            </value>
+            <value>
+                <fullName>OP5+G6</fullName>
+                <default>false</default>
+                <label>OP5+G6</label>
+            </value>
+            <value>
+                <fullName>OP5+G7</fullName>
+                <default>false</default>
+                <label>OP5+G7</label>
+            </value>
+            <value>
+                <fullName>OP5 + Libre 2+</fullName>
+                <default>false</default>
+                <label>OP5 + Libre 2+</label>
+            </value>
+            <value>
+                <fullName>DASH POD</fullName>
+                <default>false</default>
+                <label>DASH POD</label>
+            </value>
+            <value>
+                <fullName>DASH POD and PDM</fullName>
+                <default>false</default>
+                <label>DASH POD and PDM</label>
+            </value>
+            <value>
+                <fullName>Omnipod GO</fullName>
+                <default>false</default>
+                <label>Omnipod GO</label>
+            </value>
+            <value>
+                <fullName>Discover</fullName>
+                <default>false</default>
+                <label>Discover</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

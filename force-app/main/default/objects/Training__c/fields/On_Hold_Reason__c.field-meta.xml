@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>On_Hold_Reason__c</fullName>
+    <description>Captures the reason for putting the Training On Hold</description>
+    <label>On Hold Reason</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Waiting for HCP/Physician</fullName>
+                <default>false</default>
+                <label>Waiting for HCP/Physician</label>
+            </value>
+            <value>
+                <fullName>Waiting for PTOF</fullName>
+                <default>false</default>
+                <label>Waiting for PTOF</label>
+            </value>
+            <value>
+                <fullName>Waiting for supplies</fullName>
+                <default>false</default>
+                <label>Waiting for supplies</label>
+            </value>
+            <value>
+                <fullName>Waiting for insurance</fullName>
+                <default>false</default>
+                <label>Waiting for insurance</label>
+            </value>
+            <value>
+                <fullName>Waiting for patient</fullName>
+                <default>false</default>
+                <label>Waiting for patient</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

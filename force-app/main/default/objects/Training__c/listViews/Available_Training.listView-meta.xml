@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Available_Training</fullName>
+    <columns>NAME</columns>
+    <columns>Account__c</columns>
+    <columns>Training_Type__c</columns>
+    <columns>CSM__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Educator_Type__c</field>
+        <operation>equals</operation>
+        <value>CTS</value>
+    </filters>
+    <filters>
+        <field>Training_Stage__c</field>
+        <operation>equals</operation>
+        <value>Pending Acceptance</value>
+    </filters>
+    <label>Available Trainings</label>
+    <sharedTo>
+        <group>Spanish_Speaking_CTS</group>
+    </sharedTo>
+</ListView>

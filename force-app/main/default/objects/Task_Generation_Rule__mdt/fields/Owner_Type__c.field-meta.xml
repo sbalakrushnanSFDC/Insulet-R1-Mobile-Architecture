@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Owner_Type__c</fullName>
+    <description>Name of the Queue, User, or Role to assign as task owner.</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Enter the exact DeveloperName of a Queue (e.g., Partial Match Queue), User (FirstName LastName). System searches in order: Queue → User.</inlineHelpText>
+    <label>Owner Type</label>
+    <length>255</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

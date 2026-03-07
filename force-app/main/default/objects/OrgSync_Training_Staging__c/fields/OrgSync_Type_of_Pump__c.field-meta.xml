@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OrgSync_Type_of_Pump__c</fullName>
+    <label>Type of Pump</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Animas IR 1200/1250</fullName>
+                <default>false</default>
+                <label>Animas IR 1200/1250</label>
+            </value>
+            <value>
+                <fullName>Del Animas R/IR 1000</fullName>
+                <default>false</default>
+                <label>Del Animas R/IR 1000</label>
+            </value>
+            <value>
+                <fullName>Deltec Cozmo/Cozmore</fullName>
+                <default>false</default>
+                <label>Deltec Cozmo/Cozmore</label>
+            </value>
+            <value>
+                <fullName>Disetronic D-TRON/D-TRONplus</fullName>
+                <default>false</default>
+                <label>Disetronic D-TRON/D-TRONplus</label>
+            </value>
+            <value>
+                <fullName>Disetronic H-TRON/H-TRONplus</fullName>
+                <default>false</default>
+                <label>Disetronic H-TRON/H-TRONplus</label>
+            </value>
+            <value>
+                <fullName>Medtronic MiniMed 507/507c</fullName>
+                <default>false</default>
+                <label>Medtronic MiniMed 507/507c</label>
+            </value>
+            <value>
+                <fullName>Medtronic MiniMed 508</fullName>
+                <default>false</default>
+                <label>Medtronic MiniMed 508</label>
+            </value>
+            <value>
+                <fullName>Medtronic MiniMed™ 630G</fullName>
+                <default>false</default>
+                <label>Medtronic MiniMed™ 630G</label>
+            </value>
+            <value>
+                <fullName>Medtronic MiniMed™ 670G</fullName>
+                <default>false</default>
+                <label>Medtronic MiniMed™ 670G</label>
+            </value>
+            <value>
+                <fullName>Medtronic MiniMed™ 770G</fullName>
+                <default>false</default>
+                <label>Medtronic MiniMed™ 770G</label>
+            </value>
+            <value>
+                <fullName>Medtronic MiniMed™ 780G</fullName>
+                <default>false</default>
+                <label>Medtronic MiniMed™ 780G</label>
+            </value>
+            <value>
+                <fullName>Tandem t-slim X2 with Basal IQ</fullName>
+                <default>false</default>
+                <label>Tandem t-slim X2 with Basal IQ</label>
+            </value>
+            <value>
+                <fullName>Tandem t-slim X2 with Control IQ</fullName>
+                <default>false</default>
+                <label>Tandem t-slim X2 with Control IQ</label>
+            </value>
+            <value>
+                <fullName>Tandem Mobi</fullName>
+                <default>false</default>
+                <label>Tandem Mobi</label>
+            </value>
+            <value>
+                <fullName>BetaBionics iLet</fullName>
+                <default>false</default>
+                <label>BetaBionics iLet</label>
+            </value>
+            <value>
+                <fullName>Medtronic MiniMed Paradigm</fullName>
+                <default>false</default>
+                <label>Medtronic MiniMed Paradigm</label>
+            </value>
+            <value>
+                <fullName>Medtronic MiniMed Paradigm 511</fullName>
+                <default>false</default>
+                <label>Medtronic MiniMed Paradigm 511</label>
+            </value>
+            <value>
+                <fullName>Medtronic MiniMed Paradigm 512</fullName>
+                <default>false</default>
+                <label>Medtronic MiniMed Paradigm 512</label>
+            </value>
+            <value>
+                <fullName>Medtronic MiniMed Paradigm 515</fullName>
+                <default>false</default>
+                <label>Medtronic MiniMed Paradigm 515</label>
+            </value>
+            <value>
+                <fullName>Medtronic MiniMed Paradigm 712</fullName>
+                <default>false</default>
+                <label>Medtronic MiniMed Paradigm 712</label>
+            </value>
+            <value>
+                <fullName>Medtronic MiniMed Paradigm 715</fullName>
+                <default>false</default>
+                <label>Medtronic MiniMed Paradigm 715</label>
+            </value>
+            <value>
+                <fullName>Omnipod® System</fullName>
+                <default>false</default>
+                <label>Omnipod® System</label>
+            </value>
+            <value>
+                <fullName>Omnipod DASH®</fullName>
+                <default>false</default>
+                <label>Omnipod DASH®</label>
+            </value>
+            <value>
+                <fullName>Eros</fullName>
+                <default>false</default>
+                <label>Eros</label>
+            </value>
+            <value>
+                <fullName>Dash</fullName>
+                <default>false</default>
+                <label>Dash</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

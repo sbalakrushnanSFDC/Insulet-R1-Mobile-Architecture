@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Patient__c</fullName>
+    <description>It is a master-detail field that references the Patient object in Salesforce. This field is used to associate a specific patient with a record, allowing for easy identification and access to the patients&apos;s information. The value stored in this field is a Salesforce ID, which uniquely identifies the patient within the Salesforce system.</description>
+    <label>Patient</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Account.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Patient</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>Account</referenceTo>
+    <relationshipLabel>Patient Data Share</relationshipLabel>
+    <relationshipName>Patient_Data_Share</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>true</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OrgSync_Status__c</fullName>
+    <label>Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Seen</fullName>
+                <default>false</default>
+                <label>Not Seen</label>
+            </value>
+            <value>
+                <fullName>Pending</fullName>
+                <default>false</default>
+                <label>Pending</label>
+            </value>
+            <value>
+                <fullName>Linked</fullName>
+                <default>false</default>
+                <label>Linked</label>
+            </value>
+            <value>
+                <fullName>Revoked</fullName>
+                <default>false</default>
+                <label>Revoked</label>
+            </value>
+            <value>
+                <fullName>Deleted</fullName>
+                <default>false</default>
+                <label>Deleted</label>
+            </value>
+            <value>
+                <fullName>Revoke Requested</fullName>
+                <default>false</default>
+                <label>Revoke Requested</label>
+            </value>
+            <value>
+                <fullName>Error - Not Linked</fullName>
+                <default>false</default>
+                <label>Error - Not Linked</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OrgSync_Degree_Description__c</fullName>
+    <label>Degree Description</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>MD</fullName>
+                <default>false</default>
+                <label>MD</label>
+            </value>
+            <value>
+                <fullName>PA</fullName>
+                <default>false</default>
+                <label>PA</label>
+            </value>
+            <value>
+                <fullName>NP</fullName>
+                <default>false</default>
+                <label>NP</label>
+            </value>
+            <value>
+                <fullName>RN</fullName>
+                <default>false</default>
+                <label>RN</label>
+            </value>
+            <value>
+                <fullName>DO</fullName>
+                <default>false</default>
+                <label>DO</label>
+            </value>
+            <value>
+                <fullName>CNS, BC-ADM, CDE</fullName>
+                <default>false</default>
+                <label>CNS, BC-ADM, CDE</label>
+            </value>
+            <value>
+                <fullName>CPT</fullName>
+                <default>false</default>
+                <label>CPT</label>
+            </value>
+            <value>
+                <fullName>CPT CDE</fullName>
+                <default>false</default>
+                <label>CPT CDE</label>
+            </value>
+            <value>
+                <fullName>Endo</fullName>
+                <default>false</default>
+                <label>Endo</label>
+            </value>
+            <value>
+                <fullName>Family Physician</fullName>
+                <default>false</default>
+                <label>Family Physician</label>
+            </value>
+            <value>
+                <fullName>Independent CPT</fullName>
+                <default>false</default>
+                <label>Independent CPT</label>
+            </value>
+            <value>
+                <fullName>Pharmacist</fullName>
+                <default>false</default>
+                <label>Pharmacist</label>
+            </value>
+            <value>
+                <fullName>RD</fullName>
+                <default>false</default>
+                <label>RD</label>
+            </value>
+            <value>
+                <fullName>RD CDE</fullName>
+                <default>false</default>
+                <label>RD CDE</label>
+            </value>
+            <value>
+                <fullName>RN CDE</fullName>
+                <default>false</default>
+                <label>RN CDE</label>
+            </value>
+            <value>
+                <fullName>Retired</fullName>
+                <default>false</default>
+                <label>Retired</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

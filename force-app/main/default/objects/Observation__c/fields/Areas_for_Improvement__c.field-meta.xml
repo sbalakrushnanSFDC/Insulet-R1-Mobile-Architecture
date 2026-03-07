@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Areas_for_Improvement__c</fullName>
+    <description>Captures specific, actionable feedback for performance coaching and development.</description>
+    <encryptionScheme>ProbabilisticEncryption</encryptionScheme>
+    <inlineHelpText>Specific coaching points and next steps.</inlineHelpText>
+    <label>Areas for Improvement</label>
+    <length>32768</length>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>3</visibleLines>
+</CustomField>

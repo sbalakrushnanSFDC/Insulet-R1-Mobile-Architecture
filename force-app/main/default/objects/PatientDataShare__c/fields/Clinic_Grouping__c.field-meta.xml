@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Clinic_Grouping__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Indicates the current clinic grouping within the PDS system.</description>
+    <inlineHelpText>Displays the current Clinic Grouping the PDS record is associated with.</inlineHelpText>
+    <label>Clinic Grouping</label>
+    <referenceTo>Clinic_Grouping__c</referenceTo>
+    <relationshipLabel>Patient Data Share</relationshipLabel>
+    <relationshipName>Patient_Data_Share</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>
