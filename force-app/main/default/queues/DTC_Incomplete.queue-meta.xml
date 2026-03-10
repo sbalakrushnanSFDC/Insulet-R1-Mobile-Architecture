@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Lead Queue for Lead Assignment when the Lead Source is &apos;Get Started&apos;.</description>
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>DTC - Incomplete</name>
+    <queueMembers>
+        <publicGroups>
+            <publicGroup>Inside_Quality_Specialist</publicGroup>
+            <publicGroup>Inside_Sales_Manager</publicGroup>
+            <publicGroup>Inside_Sales_Rep</publicGroup>
+        </publicGroups>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Lead</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Task</sobjectType>
+    </queueSobject>
+</Queue>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Holds reimbursement requests submitted for approval and routes them to Training Coordinators for review, approval, or rejection.</description>
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <email>test@insulet.com.invalid</email>
+    <name>Reimbursement Approvers Queue</name>
+    <queueMembers>
+        <roles>
+            <role>Training_Coordinator</role>
+        </roles>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Reimbursement__c</sobjectType>
+    </queueSobject>
+</Queue>

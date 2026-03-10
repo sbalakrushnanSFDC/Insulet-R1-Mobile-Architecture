@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Share_Individual_Records</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Share individual records with all the Director of Sales and Subordinates personas</description>
+        <label>Share Individual Records</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Director_of_Sales</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>LastName</field>
+            <operation>notEqual</operation>
+            <value></value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+</SharingRules>

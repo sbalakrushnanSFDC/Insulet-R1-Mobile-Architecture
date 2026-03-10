@@ -1,0 +1,109 @@
+{
+  "status": 0,
+  "result": {
+    "records": [
+      {
+        "attributes": {
+          "type": "DuplicateRule",
+          "url": "/services/data/v66.0/sobjects/DuplicateRule/0BmfL000000K7tRSAS"
+        },
+        "Id": "0BmfL000000K7tRSAS",
+        "DeveloperName": "Standard_Account_Duplicate_Rule",
+        "MasterLabel": "Standard Account Duplicate Rule",
+        "IsActive": true,
+        "SobjectType": "Account"
+      },
+      {
+        "attributes": {
+          "type": "DuplicateRule",
+          "url": "/services/data/v66.0/sobjects/DuplicateRule/0BmfL000000K7tQSAS"
+        },
+        "Id": "0BmfL000000K7tQSAS",
+        "DeveloperName": "Standard_Contact_Duplicate_Rule",
+        "MasterLabel": "Standard Contact Duplicate Rule",
+        "IsActive": true,
+        "SobjectType": "Contact"
+      },
+      {
+        "attributes": {
+          "type": "DuplicateRule",
+          "url": "/services/data/v66.0/sobjects/DuplicateRule/0BmfL000000K7tNSAS"
+        },
+        "Id": "0BmfL000000K7tNSAS",
+        "DeveloperName": "Standard_Rule_for_Contacts_with_Duplicate_Leads",
+        "MasterLabel": "Standard Rule for Contacts with Duplicate Leads",
+        "IsActive": true,
+        "SobjectType": "Contact"
+      },
+      {
+        "attributes": {
+          "type": "DuplicateRule",
+          "url": "/services/data/v66.0/sobjects/DuplicateRule/0BmQO0000002zNZ0AY"
+        },
+        "Id": "0BmQO0000002zNZ0AY",
+        "DeveloperName": "X3rd_Party_Trainer_Duplicate_Lead_Rule",
+        "MasterLabel": "3rd Party Trainer Duplicate Lead Rule",
+        "IsActive": true,
+        "SobjectType": "Lead"
+      },
+      {
+        "attributes": {
+          "type": "DuplicateRule",
+          "url": "/services/data/v66.0/sobjects/DuplicateRule/0Bmbb000000FofdCAC"
+        },
+        "Id": "0Bmbb000000FofdCAC",
+        "DeveloperName": "Patient_Duplicate_Lead_Rule",
+        "MasterLabel": "Patient Duplicate Lead Rule",
+        "IsActive": false,
+        "SobjectType": "Lead"
+      },
+      {
+        "attributes": {
+          "type": "DuplicateRule",
+          "url": "/services/data/v66.0/sobjects/DuplicateRule/0BmfL000000K7tPSAS"
+        },
+        "Id": "0BmfL000000K7tPSAS",
+        "DeveloperName": "Standard_Lead_Duplicate_Rule",
+        "MasterLabel": "Standard Lead Duplicate Rule",
+        "IsActive": false,
+        "SobjectType": "Lead"
+      },
+      {
+        "attributes": {
+          "type": "DuplicateRule",
+          "url": "/services/data/v66.0/sobjects/DuplicateRule/0BmfL000000K7tOSAS"
+        },
+        "Id": "0BmfL000000K7tOSAS",
+        "DeveloperName": "Standard_Rule_for_Leads_with_Duplicate_Contacts",
+        "MasterLabel": "Standard Rule for Leads with Duplicate Contacts",
+        "IsActive": false,
+        "SobjectType": "Lead"
+      },
+      {
+        "attributes": {
+          "type": "DuplicateRule",
+          "url": "/services/data/v66.0/sobjects/DuplicateRule/0Bmbb000000FofeCAC"
+        },
+        "Id": "0Bmbb000000FofeCAC",
+        "DeveloperName": "Patient_Duplicate_Person_Account_Rule",
+        "MasterLabel": "Patient Duplicate Person Account Rule",
+        "IsActive": true,
+        "SobjectType": "Account"
+      },
+      {
+        "attributes": {
+          "type": "DuplicateRule",
+          "url": "/services/data/v66.0/sobjects/DuplicateRule/0BmQO0000002zH70AI"
+        },
+        "Id": "0BmQO0000002zH70AI",
+        "DeveloperName": "Standard_Person_Account_Duplicate_Rule",
+        "MasterLabel": "Standard Person Account Duplicate Rule",
+        "IsActive": false,
+        "SobjectType": "Account"
+      }
+    ],
+    "totalSize": 9,
+    "done": true
+  },
+  "warnings": []
+}

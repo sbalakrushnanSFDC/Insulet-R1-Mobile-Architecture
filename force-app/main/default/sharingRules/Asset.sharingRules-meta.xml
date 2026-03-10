@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Asset_Controller_to_InsideSales_RW</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Grants Read/Write access to &apos;Controller&apos; Asset record types to Inside Sales Managers and subordinates.</description>
+        <label>Asset: Controller to Inside Sales (RW)</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Inside_Sales_Manager</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Controller</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Asset_Controller_to_Sales_Ops_RW</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Asset: Controller to Sales Ops (RW)</label>
+        <sharedTo>
+            <role>Sales_Ops</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Controller</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Asset_Ctrl_Sensor_to_FieldSales_Read</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Grants Read Only access to &apos;Controller&apos; and &apos;Sensor Type&apos; Asset records for the Field Sales role hierarchy.</description>
+        <label>Asset: Controller/Sensor to Field Sales (Read)</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Field_Sales_GM_RBD</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Controller,Sensor Type</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+</SharingRules>

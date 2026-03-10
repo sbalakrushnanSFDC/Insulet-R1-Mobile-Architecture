@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Lead Generation Team</name>
+    <queueMembers>
+        <publicGroups>
+            <publicGroup>Inside_Quality_Specialist</publicGroup>
+            <publicGroup>Inside_Sales_Manager</publicGroup>
+            <publicGroup>Inside_Sales_Rep</publicGroup>
+        </publicGroups>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Lead</sobjectType>
+    </queueSobject>
+</Queue>

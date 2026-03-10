@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Model xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This is the Territory model we are creating for the Geography and paediatric Territory types</description>
+    <name>Insulet Territories</name>
+</Territory2Model>

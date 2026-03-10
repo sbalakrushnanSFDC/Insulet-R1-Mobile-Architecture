@@ -1,0 +1,301 @@
+{
+  "totalRules": 37,
+  "rules": [
+    {
+      "object": "Account",
+      "type": "C",
+      "name": "Clinical_Training_Specialist_Edit_Access",
+      "accessLevel": "Edit",
+      "sharedTo": "role:Clinical_Training_Specialist",
+      "criteria": "RecordTypeId=Patient"
+    },
+    {
+      "object": "Account",
+      "type": "C",
+      "name": "Field_Sales_GM_RBD",
+      "accessLevel": "Read",
+      "sharedTo": "roleAndSubordinatesInternal:Field_Sales_GM_RBD",
+      "criteria": "RecordTypeId=Practice,Trainer,Pharmacy,Provider"
+    },
+    {
+      "object": "Account",
+      "type": "C",
+      "name": "Field_Sales_TM_DSM",
+      "accessLevel": "Edit",
+      "sharedTo": "role:Fields_Sales_TM_DSM",
+      "criteria": "RecordTypeId=Patient Delegate"
+    },
+    {
+      "object": "Account",
+      "type": "C",
+      "name": "Inside_Sales_Group",
+      "accessLevel": "Edit",
+      "sharedTo": "roleAndSubordinatesInternal:Inside_Sales_Manager",
+      "criteria": "RecordTypeId=Practice,Patient,Patient Delegate,Provider"
+    },
+    {
+      "object": "Account",
+      "type": "C",
+      "name": "Sales_ops",
+      "accessLevel": "Edit",
+      "sharedTo": "role:Sales_Ops",
+      "criteria": "RecordTypeId=Practice,Patient,Trainer,Patient Delegate,Provider"
+    },
+    {
+      "object": "Account",
+      "type": "C",
+      "name": "Share_Patient_Delegate_Account_to_CSM",
+      "accessLevel": "Read",
+      "sharedTo": "role:Clinical_Services_Manager",
+      "criteria": "RecordTypeId=Patient Delegate"
+    },
+    {
+      "object": "Account",
+      "type": "C",
+      "name": "Share_Patient_to_CPS",
+      "accessLevel": "Edit",
+      "sharedTo": "role:Clinical_Product_Specialist",
+      "criteria": "RecordTypeId=Practice,Patient,Trainer,Patient Delegate"
+    },
+    {
+      "object": "Account",
+      "type": "C",
+      "name": "Trainer",
+      "accessLevel": "Read",
+      "sharedTo": "roleAndSubordinatesInternal:Director_of_Sales",
+      "criteria": "RecordTypeId=Trainer"
+    },
+    {
+      "object": "Account",
+      "type": "C",
+      "name": "Training_Coordinator_RW",
+      "accessLevel": "Edit",
+      "sharedTo": "role:Training_Coordinator",
+      "criteria": "RecordTypeId=Practice,Patient,Trainer,Patient Delegate"
+    },
+    {
+      "object": "Asset",
+      "type": "C",
+      "name": "Asset_Controller_to_InsideSales_RW",
+      "accessLevel": "Edit",
+      "sharedTo": "roleAndSubordinatesInternal:Inside_Sales_Manager",
+      "criteria": "RecordTypeId=Controller"
+    },
+    {
+      "object": "Asset",
+      "type": "C",
+      "name": "Asset_Controller_to_Sales_Ops_RW",
+      "accessLevel": "Edit",
+      "sharedTo": "role:Sales_Ops",
+      "criteria": "RecordTypeId=Controller"
+    },
+    {
+      "object": "Asset",
+      "type": "C",
+      "name": "Asset_Ctrl_Sensor_to_FieldSales_Read",
+      "accessLevel": "Read",
+      "sharedTo": "roleAndSubordinatesInternal:Field_Sales_GM_RBD",
+      "criteria": "RecordTypeId=Controller,Sensor Type"
+    },
+    {
+      "object": "Campaign",
+      "type": "O",
+      "name": "Campaign_Dir_Sales_to_Inside_Sales_Manager_ReadWrite",
+      "accessLevel": "Edit",
+      "sharedTo": "role:Inside_Sales_Manager",
+      "criteria": "owner-based"
+    },
+    {
+      "object": "Campaign",
+      "type": "O",
+      "name": "Campaign_Dir_Sales_to_Sales_Ops_Read",
+      "accessLevel": "Edit",
+      "sharedTo": "role:Sales_Ops",
+      "criteria": "owner-based"
+    },
+    {
+      "object": "Campaign",
+      "type": "O",
+      "name": "Campaign_Dir_of_Sales_to_Field_Sales_Read",
+      "accessLevel": "Read",
+      "sharedTo": "roleAndSubordinatesInternal:Field_Sales_GM_RBD",
+      "criteria": "owner-based"
+    },
+    {
+      "object": "Campaign",
+      "type": "O",
+      "name": "Campaign_Dir_of_Sales_to_Inside_Sales_Read",
+      "accessLevel": "Read",
+      "sharedTo": "roleAndSubordinatesInternal:Regional_Sales_Manager",
+      "criteria": "owner-based"
+    },
+    {
+      "object": "Case",
+      "type": "C",
+      "name": "Field_Sales",
+      "accessLevel": "Edit",
+      "sharedTo": "roleAndSubordinatesInternal:Field_Sales_GM_RBD",
+      "criteria": "RecordTypeId=HCP Update Request"
+    },
+    {
+      "object": "Case",
+      "type": "C",
+      "name": "Inside_Sales",
+      "accessLevel": "Edit",
+      "sharedTo": "roleAndSubordinatesInternal:Inside_Sales_Manager",
+      "criteria": "RecordTypeId=HCP Update Request"
+    },
+    {
+      "object": "Case",
+      "type": "C",
+      "name": "Sales_Ops",
+      "accessLevel": "Edit",
+      "sharedTo": "role:Sales_Ops",
+      "criteria": "RecordTypeId=HCP Update Request"
+    },
+    {
+      "object": "ContactContactRelation",
+      "type": "O",
+      "name": "ContactRel_Dir_of_Sales_to_Field_Sales_Read",
+      "accessLevel": "Edit",
+      "sharedTo": "roleAndSubordinatesInternal:Field_Sales_GM_RBD",
+      "criteria": "owner-based"
+    },
+    {
+      "object": "ContactContactRelation",
+      "type": "O",
+      "name": "ContactRel_Dir_of_Sales_to_Inside_Sales_RW",
+      "accessLevel": "Edit",
+      "sharedTo": "roleAndSubordinatesInternal:Inside_Sales_Manager",
+      "criteria": "owner-based"
+    },
+    {
+      "object": "ContactContactRelation",
+      "type": "O",
+      "name": "ContactRel_Dir_of_Sales_to_Sales_Ops_RW",
+      "accessLevel": "Edit",
+      "sharedTo": "role:Sales_Ops",
+      "criteria": "owner-based"
+    },
+    {
+      "object": "DataUsePurpose",
+      "type": "O",
+      "name": "DataUse_Dir_of_Sales_to_Field_Sales_Read",
+      "accessLevel": "Read",
+      "sharedTo": "roleAndSubordinatesInternal:Field_Sales_GM_RBD",
+      "criteria": "owner-based"
+    },
+    {
+      "object": "DataUsePurpose",
+      "type": "O",
+      "name": "DataUse_Dir_of_Sales_to_Inside_Sales_Read",
+      "accessLevel": "Read",
+      "sharedTo": "roleAndSubordinatesInternal:Inside_Sales_Manager",
+      "criteria": "owner-based"
+    },
+    {
+      "object": "DataUsePurpose",
+      "type": "O",
+      "name": "DataUse_Dir_of_Sales_to_Sales_Ops_RW",
+      "accessLevel": "Read",
+      "sharedTo": "role:Sales_Ops",
+      "criteria": "owner-based"
+    },
+    {
+      "object": "HealthcarePractitionerFacility",
+      "type": "O",
+      "name": "HCP_Facility_Dir_of_Sales_to_Field_Sales_Read",
+      "accessLevel": "Read",
+      "sharedTo": "roleAndSubordinatesInternal:Field_Sales_GM_RBD",
+      "criteria": "owner-based"
+    },
+    {
+      "object": "HealthcarePractitionerFacility",
+      "type": "O",
+      "name": "HCP_Facility_Dir_of_Sales_to_Inside_Sales_RW",
+      "accessLevel": "Edit",
+      "sharedTo": "roleAndSubordinatesInternal:Inside_Sales_Manager",
+      "criteria": "owner-based"
+    },
+    {
+      "object": "HealthcarePractitionerFacility",
+      "type": "O",
+      "name": "HCP_Facility_Dir_of_Sales_to_Sales_Ops_RW",
+      "accessLevel": "Edit",
+      "sharedTo": "role:Sales_Ops",
+      "criteria": "owner-based"
+    },
+    {
+      "object": "Individual",
+      "type": "C",
+      "name": "Share_Individual_Records",
+      "accessLevel": "Read",
+      "sharedTo": "roleAndSubordinatesInternal:Director_of_Sales",
+      "criteria": "LastName=None"
+    },
+    {
+      "object": "Lead",
+      "type": "C",
+      "name": "Inside_Sales_lead",
+      "accessLevel": "Edit",
+      "sharedTo": "roleAndSubordinatesInternal:Inside_Sales_Manager",
+      "criteria": "RecordTypeId=Patient,Provider-Practice Lead"
+    },
+    {
+      "object": "Lead",
+      "type": "C",
+      "name": "Patient_Sales_Ops",
+      "accessLevel": "Read",
+      "sharedTo": "role:Sales_Ops",
+      "criteria": "RecordTypeId=Patient"
+    },
+    {
+      "object": "Lead",
+      "type": "C",
+      "name": "Provider_Practice_Sales_Ops",
+      "accessLevel": "Edit",
+      "sharedTo": "role:Sales_Ops",
+      "criteria": "RecordTypeId=Provider-Practice Lead"
+    },
+    {
+      "object": "Lead",
+      "type": "C",
+      "name": "Trainer_Lead_RW",
+      "accessLevel": "Edit",
+      "sharedTo": "role:Training_Coordinator",
+      "criteria": "RecordTypeId=3rd Party Trainer"
+    },
+    {
+      "object": "Opportunity",
+      "type": "C",
+      "name": "Field_Sales_TM_DSM",
+      "accessLevel": "Edit",
+      "sharedTo": "role:Fields_Sales_TM_DSM",
+      "criteria": "RecordTypeId=NCS Opportunity"
+    },
+    {
+      "object": "PartyConsent",
+      "type": "O",
+      "name": "Party_Consent_Dir_of_Sales_to_Inside_Sales_RW",
+      "accessLevel": "Edit",
+      "sharedTo": "role:Inside_Sales_Rep",
+      "criteria": "owner-based"
+    },
+    {
+      "object": "PartyConsent",
+      "type": "O",
+      "name": "Share_with_Field_CSM",
+      "accessLevel": "Edit",
+      "sharedTo": "role:Clinical_Services_Manager",
+      "criteria": "owner-based"
+    },
+    {
+      "object": "PartyConsent",
+      "type": "O",
+      "name": "Share_with_Field_Sales_TM_DSM",
+      "accessLevel": "Edit",
+      "sharedTo": "role:Fields_Sales_TM_DSM",
+      "criteria": "owner-based"
+    }
+  ]
+}

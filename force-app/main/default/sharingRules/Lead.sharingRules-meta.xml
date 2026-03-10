@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Inside_Sales_lead</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Inside Sales lead</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Inside_Sales_Manager</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Patient,Provider-Practice Lead</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Patient_Sales_Ops</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Patient Sales Ops</label>
+        <sharedTo>
+            <role>Sales_Ops</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Patient</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Provider_Practice_Sales_Ops</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Provider-Practice Sales Ops</label>
+        <sharedTo>
+            <role>Sales_Ops</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Provider-Practice Lead</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Trainer_Lead_RW</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Training Lead RW</label>
+        <sharedTo>
+            <role>Training_Coordinator</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>3rd Party Trainer</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+</SharingRules>

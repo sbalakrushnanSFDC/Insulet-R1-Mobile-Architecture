@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Group xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>The public group is for the Sales ops and will be used to share the list view and other items</description>
+    <doesIncludeBosses>true</doesIncludeBosses>
+    <name>Sales Ops</name>
+</Group>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2Type xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This territory type is used to organise the territory based on the pediatric</description>
+    <name>Sales Pediatric</name>
+    <priority>1</priority>
+</Territory2Type>

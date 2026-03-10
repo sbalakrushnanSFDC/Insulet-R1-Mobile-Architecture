@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Field_Sales</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>this sharing Rule is to share Case recordtype-HCM Update Request</description>
+        <label>Field Sales</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Field_Sales_GM_RBD</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>HCP Update Request</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Inside_Sales</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>this sharing Rule is to share Case recordtype-HCM Update Request</description>
+        <label>Inside Sales</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Inside_Sales_Manager</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>HCP Update Request</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Sales_Ops</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Sales Ops</label>
+        <sharedTo>
+            <role>Sales_Ops</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>HCP Update Request</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+</SharingRules>

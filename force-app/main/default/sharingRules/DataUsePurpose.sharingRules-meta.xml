@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>DataUse_Dir_of_Sales_to_Field_Sales_Read</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>DataUse: Dir of Sales to Field Sales(Read)</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Field_Sales_GM_RBD</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Director_of_Sales</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>DataUse_Dir_of_Sales_to_Inside_Sales_Read</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Shares Data Use Purpose records owned by the Director of Sales with Inside Sales (Read Only).</description>
+        <label>DataUse: Dir of Sales to Inside Sales(Read)</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Inside_Sales_Manager</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Director_of_Sales</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>DataUse_Dir_of_Sales_to_Sales_Ops_RW</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>DataUse: Dir of Sales to Sales Ops(RW)</label>
+        <sharedTo>
+            <role>Sales_Ops</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Director_of_Sales</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

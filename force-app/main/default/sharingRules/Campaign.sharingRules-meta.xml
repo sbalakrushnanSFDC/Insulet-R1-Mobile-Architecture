@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>Campaign_Dir_Sales_to_Inside_Sales_Manager_ReadWrite</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Campaign: Dir Sales to Inside Sales Manager (ReadWrite)</label>
+        <sharedTo>
+            <role>Inside_Sales_Manager</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Director_of_Sales</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Campaign_Dir_Sales_to_Sales_Ops_Read</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Shares Campaign records owned by the Director of Sales with the Sales Ops group (Read Only).</description>
+        <label>Campaign: Dir Sales to Sales Ops (Read)</label>
+        <sharedTo>
+            <role>Sales_Ops</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Director_of_Sales</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Campaign_Dir_of_Sales_to_Field_Sales_Read</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Campaign: Dir of Sales to Field Sales(R)</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Field_Sales_GM_RBD</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Director_of_Sales</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Campaign_Dir_of_Sales_to_Inside_Sales_Read</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Shares Campaign records owned by the Director of Sales with the Inside Sales Manager role and subordinates with Read Only access.</description>
+        <label>Campaign: Dir of Sales to Inside Sales(R)</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Regional_Sales_Manager</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Director_of_Sales</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

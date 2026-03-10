@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>HCP_Facility_Dir_of_Sales_to_Field_Sales_Read</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Provides Read Only access to HCP Facility records owned by the Director of Sales to the Field Sales role.</description>
+        <label>HCP Facility: Dir of Sales to Field Sales(Read)</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Field_Sales_GM_RBD</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Director_of_Sales</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>HCP_Facility_Dir_of_Sales_to_Inside_Sales_RW</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Grants Read/Write access to HCP Facility records owned by the Director of Sales to the Inside Sales Manager and subordinates.</description>
+        <label>HCP Facility: Dir of Sales to Inside Sales(RW)</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Inside_Sales_Manager</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Director_of_Sales</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>HCP_Facility_Dir_of_Sales_to_Sales_Ops_RW</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Shares HCP Facility records owned by the Director of Sales with the Sales Ops public group (Read/Write).</description>
+        <label>HCP Facility: Dir of Sales to Sales Ops(RW)</label>
+        <sharedTo>
+            <role>Sales_Ops</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Director_of_Sales</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

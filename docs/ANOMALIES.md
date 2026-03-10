@@ -30,3 +30,24 @@ sObject type 'RemoteSiteSetting' is not supported. If you are
 2. For Tooling API query failures, check user permissions (System Administrator profile recommended).
 3. Consider retrieving Reports and Dashboards by listing public folders first, then retrieving per folder.
 4. For very large orgs, retrieve CustomObject per-object instead of wildcard.
+
+## Gap-Fill Run Anomalies — March 9, 2026
+
+### Retrieval Failures (Expected)
+- **SiteDotCom**: `Trainer_Portal.site` uses LWR "Build Your Own" template which does not support Metadata API retrieval. Community content accessible via ExperienceBundle.
+- **ConnectedApp (4 managed packages)**: Odaseva_for_Salesforce, DocuSign, Copado_DevOps_EMEA2, CPQIntegrationUserApp fail with "Metadata API received improper input" — managed package restriction, expected.
+
+### SOQL Query Failures (Fixed/Fallback Used)
+- **SharingCriteriaRule / SharingOwnerRule**: Not queryable via standard SOQL or Tooling API. Evidence obtained by parsing retrieved SharingRules XML directly.
+- **SharingSet**: Not queryable via SOQL. Evidence obtained from retrieved XML file.
+- **Territory2Rule**: Not separately queryable. No rules exist; assignment is entirely manual.
+- **DelegateGroup**: Not queryable via standard SOQL. Retrieved via Tooling API and metadata XML.
+- **LoginFlow**: Not queryable via Tooling API at API v66 in this org configuration. Not applicable.
+- **MutingPermissionSet**: Query fixed (removed invalid `Name` field); returns 0 records — confirmed none exist.
+- **TransactionSecurityPolicy**: Field names differ between API versions; obtained 0-record result via standard SOQL.
+
+### Confirmed Absences (Findings Closed)
+- **RestrictionRule**: 0 components retrieved — confirmed absent
+- **ScopingRule**: Not in 344-type org catalog — confirmed not supported/not in use at API v66
+- **MutingPermissionSet**: 0 records — confirmed no muting mechanism in use
+- **TransactionSecurityPolicy**: 0 records — governance gap (Finding F-017 in R2 assessment)

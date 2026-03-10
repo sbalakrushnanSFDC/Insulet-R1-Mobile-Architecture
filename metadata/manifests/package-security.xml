@@ -28,5 +28,44 @@
         <members>*</members>
         <name>Role</name>
     </types>
+    <types>
+        <members>*</members>
+        <name>SharingRules</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>Group</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>Queue</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>MutingPermissionSet</name>
+    </types>
+    <types>
+        <members>Insulet_Territories</members>
+        <members>Q3_2025</members>
+        <members>New_Territory_model</members>
+        <members>PHTEST</members>
+        <name>Territory2Model</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>Territory2Type</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>SharingSet</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>DelegateGroup</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>TransactionSecurityPolicy</name>
+    </types>
     <version>66.0</version>
 </Package>

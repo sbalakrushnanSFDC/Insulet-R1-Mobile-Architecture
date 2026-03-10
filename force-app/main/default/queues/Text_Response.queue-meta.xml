@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Task Queue Assignment when an Inbound Text Message is received via OrgSync as a Task.</description>
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Text Response</name>
+    <queueMembers>
+        <roles>
+            <role>Inside_Sales_Manager</role>
+            <role>Inside_Sales_Quality_Specialist</role>
+            <role>Inside_Sales_Rep</role>
+        </roles>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Task</sobjectType>
+    </queueSobject>
+</Queue>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>Automation Task Queue</name>
+    <queueMembers>
+        <users>
+            <user>stanjavur@insulet.com.billing</user>
+            <user>stanjavur@insulet.com.clinicalproductsupport</user>
+            <user>stanjavur@insulet.com.clinicalproductmanager</user>
+            <user>stanjavur@insulet.com.gpm</user>
+            <user>stanjavur@insulet.com.customercareagent</user>
+            <user>stanjavur@insulet.com.customercarehybrid</user>
+            <user>stanjavur@insulet.com.customercaremanager</user>
+            <user>stanjavur@insulet.com.csm</user>
+            <user>stanjavur@insulet.com.fieldsalestm</user>
+            <user>stanjavur@insulet.com.insidesalesmanager</user>
+            <user>stanjavur@insulet.com.insidesalesquality</user>
+            <user>stanjavur@insulet.com.insidesalesrep</user>
+            <user>stanjavur@insulet.com.productsupportagent</user>
+            <user>stanjavur@insulet.com.productsupportmanager</user>
+            <user>stanjavur@insulet.com.productsupportvendor</user>
+            <user>abhaskaran@insulet.com.insidesalesrep</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Task</sobjectType>
+    </queueSobject>
+</Queue>
