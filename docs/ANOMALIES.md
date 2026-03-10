@@ -50,4 +50,4 @@ sObject type 'RemoteSiteSetting' is not supported. If you are
 - **RestrictionRule**: 0 components retrieved — confirmed absent
 - **ScopingRule**: Not in 344-type org catalog — confirmed not supported/not in use at API v66
 - **MutingPermissionSet**: 0 records — confirmed no muting mechanism in use
-- **TransactionSecurityPolicy**: 0 records — governance gap (Finding F-017 in R2 assessment)
+- **TransactionSecurityPolicy**: 0 records — governance gap (Finding F-017 in R1v1.1 assessment)
