@@ -39,18 +39,16 @@ cd insulet-devint2-metadata-snapshot
 
 ### Metadata (force-app/)
 
-Retrieved via `sf project retrieve start` using 8 chunked manifests:
+Retrieved via `sf project retrieve start` using 6 chunked manifests:
 
 | Manifest | Contents |
 |----------|----------|
 | package-core.xml | CustomLabels, GlobalValueSets, StandardValueSets, Settings, StaticResources, Translations |
-| package-security.xml | Profiles, PermissionSets, PermissionSetGroups, AuthProviders, ConnectedApps, Roles, **SharingRules** (407 files), **Group**, **Queue**, Territory2Model, Territory2Type, SharingSet, DelegateGroup, MutingPermissionSet, TransactionSecurityPolicy |
+| package-security.xml | Profiles, PermissionSets, PermissionSetGroups, AuthProviders, ConnectedApps, Roles |
 | package-datamodel.xml | CustomObjects (with fields, record types, layouts, validation rules, compact layouts) |
 | package-automation.xml | ApexClasses, ApexTriggers, Flows, Workflow rules/field updates/alerts, ApexPages, PlatformEvents |
 | package-ui.xml | FlexiPages, LWC bundles, Aura bundles, CustomTabs, CustomApplications, QuickActions |
 | package-integration.xml | NamedCredentials, ExternalCredentials, RemoteSiteSettings, CustomMetadata, EmailTemplates |
-| package-community.xml | ExperienceBundle, Network, CustomSite, SiteDotCom, CspTrustedSite |
-| package-governance.xml | RestrictionRule, DuplicateRule, FlowDefinition, ApexEmailNotifications |
 
 ### Org Details (metadata/org-details/)
 
@@ -74,7 +72,6 @@ SOQL queries against standard and Tooling API:
 | `docs/ANOMALIES.md` | Retrieval failures, query errors, known gaps |
 | `docs/retrieval-report.md` | Per-chunk retrieval status |
 | `docs/org.json` | Raw sf org display output |
-| `docs/SHARING_ACCESS_ASSESSMENT.md` | Sharing, visibility & access-control assessment (R1v1.1) |
 
 ## Limitations
 
@@ -82,5 +79,3 @@ SOQL queries against standard and Tooling API:
 - Managed package metadata (from ISV packages) is read-only
 - Some metadata types may fail wildcard retrieval; fallback to per-type retrieve is automatic
 - This is a read-only snapshot; no changes are made to the org
-
-**Note:** Sharing rule XML definitions (407 files in `force-app/main/default/sharingRules/`) are included in the local metadata snapshot via package-security.xml.
